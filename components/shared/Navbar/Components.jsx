@@ -1,8 +1,4 @@
-"use client";
-
-import NavElements from "@/public/data/navbar-elements.json";
-import Hamburger from "./animated/hamburger";
-import { useState } from "react";
+import NavElements from "@/constants/navbar-elements.json";
 import { AnimatePresence, motion } from "framer-motion";
 import Link from "next/link";
 
@@ -14,7 +10,7 @@ const MobileNavElement = ({ className, name, link }) => {
   );
 };
 
-const MobileNavbar = ({ showNavbar }) => {
+export const MobileNavbar = ({ showNavbar }) => {
   const menuVariants = {
     initial: {
       scaleY: 0,
@@ -52,7 +48,7 @@ const MobileNavbar = ({ showNavbar }) => {
   );
 };
 
-const DesktopNavbar = ({ showNavbar }) => {
+export const DesktopNavbar = ({ showNavbar }) => {
   const menuVariants = {
     initial: {
       scaleX: 0,
@@ -89,23 +85,3 @@ const DesktopNavbar = ({ showNavbar }) => {
     </AnimatePresence>
   );
 };
-
-const Navbar = () => {
-  const [showNavbar, setShowNavbar] = useState(false);
-
-  return (
-    <nav className={`sticky ${showNavbar ? "rounded-lg" : "rounded-full"} p-5`}>
-      <div className="absolute z-20 top-0 right-0 p-5">
-        <Hamburger
-          onClick={(e) => {
-            setShowNavbar(!showNavbar);
-          }}
-        />
-      </div>
-      <MobileNavbar showNavbar={showNavbar} />
-      <DesktopNavbar showNavbar={showNavbar} />
-    </nav>
-  );
-};
-
-export default Navbar;

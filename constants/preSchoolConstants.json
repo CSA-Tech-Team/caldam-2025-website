@@ -1,32 +1,32 @@
 [
     {
-        "preConferenceSchoolEventName": "Indo-Slovenia Pre-Conference School ",
+        "preConferenceSchoolEventName": "Indo-Slovenia Pre-Conference School",
         "isOpen": false,
         "StartDate": "February 15th",
-        "navigateTo":"/"
+        "navigateTo": "/"
     },
     {
-        "preConferenceSchoolEventName": "Indo-Slovenia Pre-Conference School ",
+        "preConferenceSchoolEventName": "Indo-Slovenia Pre-Conference School",
         "isOpen": true,
         "StartDate": "February 15th",
-        "navigateTo":"/"
+        "navigateTo": "/"
     },
     {
-        "preConferenceSchoolEventName": "Indo-Slovenia Pre-Conference School ",
+        "preConferenceSchoolEventName": "Indo-Slovenia Pre-Conference School",
         "isOpen": true,
         "StartDate": "February 15th",
-        "navigateTo":"/"
+        "navigateTo": "/"
     },
     {
-        "preConferenceSchoolEventName": "Indo-Slovenia Pre-Conference School ",
+        "preConferenceSchoolEventName": "Indo-Slovenia Pre-Conference School",
         "isOpen": true,
         "StartDate": "February 15th",
-        "navigateTo":"/"
+        "navigateTo": "/"
     },
     {
-        "preConferenceSchoolEventName": "Indo-Slovenia Pre-Conference School ",
+        "preConferenceSchoolEventName": "Indo-Slovenia Pre-Conference School",
         "isOpen": true,
         "StartDate": "February 15th",
-        "navigateTo":"/"
+        "navigateTo": "/"
     }
 ]
