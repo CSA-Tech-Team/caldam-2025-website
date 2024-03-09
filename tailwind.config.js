@@ -68,7 +68,8 @@ module.exports = {
           800: "#e19fc7",
           900: "#f0cfe3",
         },
-        headingColor:"#081424"
+        headingColor:"#081424",
+        sponsersBgColor:"#C5D8D1"
       },
     },
   },
