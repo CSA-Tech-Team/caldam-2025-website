@@ -18,7 +18,7 @@ export default function PreConferenceSchoolLinksComponent() {
                             className="w-full p-4 mb-4 bg-white border border-gray-300 rounded-md shadow-md"
                         >
                             <div className="flex items-center">
-                                <div className="w-12 h-12 bg-headingColor rounded-full" />
+                                <div className="w-12 h-12 bg-headingColor" />
                                 <h2 className="ml-4 mr-8">
                                     {preConfSchool.preConferenceSchoolEventName}
                                 </h2>
@@ -55,13 +55,12 @@ export default function PreConferenceSchoolLinksComponent() {
             <div className=" max-md:hidden ">
                 <div className="flex flex-col items-center">
                     {preConfSchoolConstants.map((preConfSchool, index) => {
-                        console.log(preConfSchool);
                         return (
                             <div
                                 key={index}
                                 className="flex items-center justify-between w-full p-4 mb-4 bg-white border border-gray-300 rounded-md shadow-md"
                             >
-                                <div className="w-12 h-12 bg-headingColor rounded-full" />
+                                <div className="w-12 h-12 bg-headingColor" />
                                 <div className="flex items-center flex-1 ml-4">
                                     <h2 className="mr-4">
                                         {
