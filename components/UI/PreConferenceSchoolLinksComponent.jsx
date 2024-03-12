@@ -6,7 +6,7 @@ import Image from "next/image";
 
 export default function PreConferenceSchoolLinksComponent() {
     return (
-        <div className="mt-[10%] mb-[3%] flex flex-col items-center justify-center">
+        <div className=" max-lg:py-12 flex flex-col items-center justify-center">
             <div className="mb-4">
                 <h1 className="text-5xl font-bold">UPDATES</h1>
             </div>
@@ -23,7 +23,7 @@ export default function PreConferenceSchoolLinksComponent() {
                                     {preConfSchool.preConferenceSchoolEventName}
                                 </h2>
                             </div>
-                            <div className="flex items-center justify-between mt-2">
+                            <div className="flex items-center justify-between mt-2 border-l border-gray-300">
                                 <Image
                                     src={linkIcon}
                                     alt="Link Icon"

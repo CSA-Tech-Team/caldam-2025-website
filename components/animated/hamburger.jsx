@@ -1,7 +1,6 @@
 "use client";
 
 import { useRive, useStateMachineInput } from "@rive-app/react-canvas";
-import { useEffect } from "react";
 
 const Hamburger = ({ className, onClick }) => {
   const { rive, RiveComponent } = useRive({
@@ -17,8 +16,6 @@ const Hamburger = ({ className, onClick }) => {
       <RiveComponent
         onClick={() => {
           onClick();
-          console.log("Toggle");
-          console.log(toggle);
           toggle && toggle.fire();
         }}
       />

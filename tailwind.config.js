@@ -69,7 +69,8 @@ module.exports = {
           900: "#f0cfe3",
         },
         headingColor:"#081424",
-        sponsersBgColor:"#C5D8D1"
+        sponsersBgColor:"#C5D8D1",
+        navbg:"#102133"
       },
     },
   },

@@ -34,7 +34,7 @@ export const MobileNavbar = ({ showNavbar }) => {
           initial="initial"
           animate="animate"
           exit="exit"
-          className="lg:hidden absolute w-full flex flex-col origin-top top-0 left-0 rounded-lg bg-magenta p-3 z-10"
+          className="lg:hidden absolute w-full flex flex-col origin-top top-0 left-0 rounded-lg bg-[rbga(0,0,0,0.6)] p-3 z-10"
         >
           {NavElements &&
             NavElements.map((element, k) => (
