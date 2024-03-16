@@ -80,7 +80,7 @@ function Home() {
                     alt="College Image"
                     className="object-cover"
                 />
-                <div className="absolute inset-0 bg-gradient-to-r from-white to-transparent opacity-50"></div>
+                <div className="absolute inset-0 bg-gradient-to-r from-white via-white to-transparent opacity-50"></div>
             </div>
 
             {/* Background image for smaller screens (below lg breakpoint) */}

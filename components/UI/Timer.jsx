@@ -1,8 +1,9 @@
+"use client"
 import React, { useState, useEffect } from 'react';
 
 function Timer() {
   const calculateTimeLeft = () => {
-    const difference = +new Date('2024-12-31') - +new Date();
+    const difference = +new Date('2025-02-10') - +new Date();
     let timeLeft = {};
 
     if (difference > 0) {
@@ -33,7 +34,7 @@ function Timer() {
   const { days, hours, minutes } = timeLeft;
 
   return (
-    <div className="bg-sky-950 text-white text-center py-4 text-6xl h-28 pt-6 font-bold">
+    <div className="bg-[#102133] w-full z-50 relative text-white text-center py-4 text-6xl h-28 pt-6 font-bold">
       <div className="flex justify-center">
         {days > 0 && <span className="mr-2">{`${days}  :`}</span>}
         <span>{`${addLeadingZero(hours)} : ${addLeadingZero(minutes)}`}</span>

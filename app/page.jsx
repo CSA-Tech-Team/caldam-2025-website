@@ -5,7 +5,7 @@ import TimerComponent from "@/components/UI/Timer";
 
 export default function Home() {
     return (
-        <div className="">
+        <div className=" flex items-center flex-col ">
             <HomeComponent />
             <TimerComponent />
             <PreConferenceSchoolLinksComponent />

@@ -8,7 +8,7 @@ export default function Navbar() {
     const [showNavbar, setShowNavbar] = useState(false);
     return (
         <div className="py-3 px-6 z-50 bg-black text-white relative lg:absolute top-0 left-0 right-0">
-            <ul className="flex justify-between items-center">
+            <ul className="flex justify-between space-x-3 items-center">
                 <h1 className="text-2xl lg:text-3xl">
                     CALDAM <p className="text-center">2025</p>
                 </h1>
