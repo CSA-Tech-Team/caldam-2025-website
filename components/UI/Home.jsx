@@ -10,7 +10,6 @@ import { speakText } from "@/actions/textToSpeech";
 function Home() {
     return (
         <div id="home" className="flex lg:pt-[6%] xl:pt-[4%] items-center">
-            {/* Content (always visible) */}
             <main className="h-screen w-full px-3 z-20 flex flex-col items-center justify-evenly relative">
                 <div className="flex flex-row max-lg:flex-col lg:text-2xl items-center justify-center max-lg:space-y-4">
                     <i className="max-lg:text-4xl lapsize:text-6xl lg:text-8xl text-center w-full  font-extrabold">
