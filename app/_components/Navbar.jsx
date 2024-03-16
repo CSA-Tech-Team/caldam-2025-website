@@ -3,7 +3,7 @@
 import NavbarElements from "@/constants/navbar-elements.json";
 import Hamburger from "@/components/animated/hamburger";
 import { useState } from "react";
-import Link from "next/link"
+import Link from "next/link";
 export default function Navbar() {
     const [showNavbar, setShowNavbar] = useState(false);
     return (

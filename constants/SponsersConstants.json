@@ -1,22 +1,27 @@
 [
     {
-        "organizationName": "Google Inc",
-        "imageUrl": ""
+        "organizationName":"Google Inc",
+        "imageUrl":"",
+        "CompanyPageURL":""
     },
     {
-        "organizationName": "Google Inc",
-        "imageUrl": ""
+        "organizationName":"Springer",
+        "imageUrl":"",
+        "CompanyPageURL":""
     },
     {
-        "organizationName": "Google Inc",
-        "imageUrl": ""
+        "organizationName":"Google Inc",
+        "imageUrl":"",
+        "CompanyPageURL":""
     },
     {
-        "organizationName": "Google Inc",
-        "imageUrl": ""
+        "organizationName":"Google Inc",
+        "imageUrl":"",
+        "CompanyPageURL":""
     },
     {
-        "organizationName": "Google Inc",
-        "imageUrl": ""
+        "organizationName":"Google Inc",
+        "imageUrl":"",
+        "CompanyPageURL":""
     }
 ]

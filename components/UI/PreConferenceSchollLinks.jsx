@@ -3,99 +3,46 @@ import React from "react";
 import preConfSchoolConstants from "@/constants/preSchoolConstants.json";
 import linkIcon from "@/assets/link.svg";
 import Image from "next/image";
-
+import LineImage from "@/public/line.svg";
 export default function PreConferenceSchoolLinksComponent() {
     return (
-        <div className=" max-lg:py-12 flex z-30 relative  flex-col items-center justify-center">
-            <div className="flex flex-col py-3">
+        <div className=" p-4 max-lg:py-12 flex z-30 relative  flex-col items-center justify-center">
+            <div className="flex items-end py-3">
                 <h1 className="text-5xl font-bold">UPDATES</h1>
+                <Image
+                    src={LineImage}
+                    alt="Line Image"
+                    className=" max-xl:hidden  "
+                />
             </div>
-            <div className=" max-md:block hidden w-full md:w-3/4 lg:w-1/2">
+            <div
+            className=" lg:w-[60%] max-lapsize:w-full max-lg:w-[70%]  space-y-5 lg:text-lg max-lg:text-md max-md:text-sm font-semibold  "
+            >
                 {preConfSchoolConstants.map((preConfSchool, index) => {
                     return (
-                        <div
-                            key={index}
-                            className="w-full p-4 mb-4 bg-white border border-gray-300 rounded-md shadow-md"
+                        <div className=" border border-black-300 py-4 px-2 hover:scale-110 active:scale-110 rounded-md flex shadow-md justify-evenly items-center" key={index}
+                        style={{boxShadow:"0px 4px 4px 0px #FCA311"}}
                         >
-                            <div className="flex items-center">
-                                <div className="w-12 h-12 bg-headingColor" />
-                                <h2 className="ml-4 mr-8">
-                                    {preConfSchool.preConferenceSchoolEventName}
-                                </h2>
-                            </div>
-                            <div className="flex items-center justify-between mt-2 border-l border-gray-300">
-                                <Image
-                                    src={linkIcon}
-                                    alt="Link Icon"
-                                    className="w-8 h-8 cursor-pointer"
-                                    onClick={() => {
-                                        const anchorElement =
-                                            document.createElement("a");
-                                        anchorElement.href =
-                                            preConfSchool.navigateTo;
-                                        anchorElement.target = "_blank";
-                                        anchorElement.click();
-                                    }}
-                                />
-                                {!preConfSchool.isOpen ? (
-                                    <button className="bg-red-500 text-white px-4 py-2 rounded-md ml-4">
-                                        Closed
-                                    </button>
-                                ) : (
-                                    ""
-                                )}
-                                <span className="ml-2">
-                                    Starts On {preConfSchool.StartDate}
-                                </span>
-                            </div>
+                            <h1>
+                                {preConfSchool.preConferenceSchoolEventName}
+                            </h1>
+                            <Image
+                                src={linkIcon}
+                                alt="Link Icon"
+                                className="w-8 h-8 cursor-pointer"
+                                onClick={() => {
+                                    const anchorElement =
+                                        document.createElement("a");
+                                    anchorElement.href =
+                                        preConfSchool.navigateTo;
+                                    anchorElement.target = "_blank";
+                                    anchorElement.click();
+                                }}
+                            />{" "}
+                            <h1>{preConfSchool.StartDate}</h1>
                         </div>
                     );
                 })}
-            </div>
-            <div className=" max-md:hidden ">
-                <div className="flex flex-col items-center">
-                    {preConfSchoolConstants.map((preConfSchool, index) => {
-                        return (
-                            <div
-                                key={index}
-                                className="flex items-center justify-between w-full p-4 mb-4 bg-white border border-gray-300 rounded-md shadow-md"
-                                style={{boxShadow:"0px 4.187px 4.187px 0px #FCA31"}}
-                            >
-                                <div className="w-12 h-12 bg-headingColor" />
-                                <div className="flex items-center flex-1 ml-4">
-                                    <h2 className="mr-4">
-                                        {
-                                            preConfSchool.preConferenceSchoolEventName
-                                        }
-                                    </h2>
-                                    <Image
-                                        src={linkIcon}
-                                        alt="Link Icon"
-                                        className="w-8 h-8 cursor-pointer"
-                                        onClick={() => {
-                                            const anchorElement =
-                                                document.createElement("a");
-                                            anchorElement.href =
-                                                preConfSchool.navigateTo;
-                                            anchorElement.target = "_blank";
-                                            anchorElement.click();
-                                        }}
-                                    />
-                                    {!preConfSchool.isOpen ? (
-                                        <button className="bg-red-500 text-white px-4 py-2 rounded-md ml-4">
-                                            Closed
-                                        </button>
-                                    ) : (
-                                        ""
-                                    )}
-                                    <span className="ml-4">
-                                        Starts On {preConfSchool.StartDate}
-                                    </span>
-                                </div>
-                            </div>
-                        );
-                    })}
-                </div>
             </div>
         </div>
     );

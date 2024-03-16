@@ -10,8 +10,8 @@ export default function Home() {
       <Navbar/>
       <HomeComponent />
       <PreConferenceSchoolLinksComponent/>
-      {/* <Organizers/>
-      <Sponsers/> */}
+      {/* <Organizers/> */}
+      {/* <Sponsers/> */}
     </div>
   );
 }

@@ -1,6 +1,12 @@
 [
     {
-        "organizationName":"",
-        "imageUrl":""
+        "organizationName":"Google Inc",
+        "imageUrl":"",
+        "CompanyPageURL":""
+    },
+    {
+        "organizationName":"Springer Inc",
+        "imageUrl":"",
+        "CompanyPageURL":""
     }
 ]
