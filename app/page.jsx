@@ -1,6 +1,6 @@
 import HomeComponent from "@/components/UI/Home";
 import Navbar from "./_components/Navbar";
-import PreConferenceSchoolLinksComponent from "@/components/UI/PreConferenceSchoolLinksComponent";
+import PreConferenceSchoolLinksComponent from "@/components/UI/PreConferenceSchollLinks";
 import Organizers from "@/components/UI/Organizers";
 import Sponsers from "@/components/UI/Sponsers";
 
@@ -10,8 +10,8 @@ export default function Home() {
       <Navbar/>
       <HomeComponent />
       <PreConferenceSchoolLinksComponent/>
-      <Organizers/>
-      <Sponsers/>
+      {/* <Organizers/>
+      <Sponsers/> */}
     </div>
   );
 }

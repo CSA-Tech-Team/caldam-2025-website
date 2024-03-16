@@ -72,6 +72,9 @@ module.exports = {
         sponsersBgColor:"#C5D8D1",
         navbg:"#102133"
       },
+      screens:{
+        'lapsize':'677px'
+      }
     },
   },
   plugins: [],

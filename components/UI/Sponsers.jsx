@@ -12,12 +12,12 @@ export default function Sponsers() {
                 {SponsersOfCaldam.map((organizer, index) => (
                     <div
                         key={index}
-                        className="bg-sponsersBgColor w-full h-48 sm:w-72 sm:h-72 lg:w-80 lg:h-80 rounded-lg overflow-hidden relative"
+                        className="bg-sponsersBgColor  h-48 sm:w-72 sm:h-72 lg:w-80 lg:h-80 rounded-lg overflow-hidden relative"
                     >
                         <Image
                             src={organizer.imageUrl || ""}
                             alt={organizer.organizationName}
-                            className="w-full h-full object-cover"
+                            className=" h-full object-cover"
                         />
                         <div className="absolute inset-0 flex items-center justify-center">
                             <h1 className="text-black text-center">

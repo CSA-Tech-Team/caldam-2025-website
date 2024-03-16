@@ -6,8 +6,8 @@ import Image from "next/image";
 
 export default function PreConferenceSchoolLinksComponent() {
     return (
-        <div className=" max-lg:py-12 flex flex-col items-center justify-center">
-            <div className="mb-4">
+        <div className=" max-lg:py-12 flex z-30 relative  flex-col items-center justify-center">
+            <div className="flex flex-col py-3">
                 <h1 className="text-5xl font-bold">UPDATES</h1>
             </div>
             <div className=" max-md:block hidden w-full md:w-3/4 lg:w-1/2">
@@ -59,6 +59,7 @@ export default function PreConferenceSchoolLinksComponent() {
                             <div
                                 key={index}
                                 className="flex items-center justify-between w-full p-4 mb-4 bg-white border border-gray-300 rounded-md shadow-md"
+                                style={{boxShadow:"0px 4.187px 4.187px 0px #FCA31"}}
                             >
                                 <div className="w-12 h-12 bg-headingColor" />
                                 <div className="flex items-center flex-1 ml-4">

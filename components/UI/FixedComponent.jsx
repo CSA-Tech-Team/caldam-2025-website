@@ -12,7 +12,7 @@ export default function FixedComponent() {
     };
     return (
         <div className=" fixed right-0 bottom-0 z-30 flex items-center justify-center  ">
-            <div className="group cursor-pointer flex  ">
+            <div className="group cursor-pointer flex ">
                 <Image
                     src={calIcon}
                     alt="Calendar Icon"
