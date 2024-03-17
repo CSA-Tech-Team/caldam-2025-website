@@ -12,7 +12,7 @@ function Coordinator(){
                   Online registration will end on November 01, 2024.
                 </div>
                 <div className="p-10">
-                    <button className='px-4 py-2 bg-sky-950 rounded-lg text-white font-bold '>Register</button>
+                    <button className=' px-8 text-md lg:text-lg py-4 bg-navbg rounded-lg text-white font-bold '>Register {"➚"}</button>
                 </div>
 
             </div>

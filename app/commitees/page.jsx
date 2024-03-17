@@ -13,7 +13,10 @@ function Commitees() {
             </div>
             <div className="grid gap-4 lg:grid-cols-4 max-lg:grid-cols-2 max-md:grid-cols-1">
                 {steeringCommitee.map((steeringCommitee, index) => (
-                    <div key={index} className="w-full">
+                    <div
+                        key={index}
+                        className="max-lg:col-span-1 max-md:col-span-1"
+                    >
                         <CommiteeCard
                             name={steeringCommitee.name}
                             collegeName={steeringCommitee.collegeName}
