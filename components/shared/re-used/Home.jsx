@@ -16,7 +16,7 @@ function Home({ title, shortInfo, BriefInfo }) {
             <main className="h-screen w-full px-3 z-20 flex flex-col items-center justify-evenly relative">
                 <div className="flex flex-row max-lg:flex-col lg:text-2xl items-center justify-center max-lg:space-y-4">
                     <div className="flex h-full w-full">
-                        <i className="max-lg:text-4xl lapsize:text-6xl lg:text-7xl text-center w-full  font-extrabold ">
+                        <i className="max-lg:text-4xl shadow-sm lapsize:text-6xl lg:text-7xl text-center w-full  font-extrabold ">
                             {title}
                         </i>
                         <h1 className=" lg:font-bold lg:text-6xl lg:h-full lg:flex lg:items-center justify-center  hidden">
