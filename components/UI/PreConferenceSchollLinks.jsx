@@ -20,7 +20,7 @@ export default function PreConferenceSchoolLinksComponent() {
             >
                 {preConfSchoolConstants.map((preConfSchool, index) => {
                     return (
-                        <div className=" border border-black-300 py-4 px-2 hover:scale-110 active:scale-110 rounded-md flex shadow-md justify-evenly items-center" key={index}
+                        <div className=" border border-black-300 py-4 px-2 hover:scale-110 active:scale-110 rounded-md flex shadow-sm justify-evenly items-center transition-all ease-in-out" key={index}
                         style={{boxShadow:"0px 4px 4px 0px #FCA311"}}
                         >
                             <h1>
