@@ -1,7 +1,7 @@
 import { Inter, Noto_Sans } from "next/font/google";
 import "./globals.css";
-import Navbar from "./_components/Navbar";
-import Footer from "@/components/UI/Footer";
+import Navbar from "../components/shared/re-used/Navbar";
+import Footer from "@/components/shared/re-used/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
 const notoSans = Noto_Sans({ subsets: ["latin"] });

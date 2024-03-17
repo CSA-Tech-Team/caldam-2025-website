@@ -17,7 +17,7 @@ export default function AcceptedPapers() {
                 <h1 className="font-extrabold text-xl lg:text-4xl">
                     Accepted Papers
                 </h1>
-                <div className="grid  gap-4 lg:grid-cols-4 max-lg:grid-cols-2 max-md:grid-cols-1">
+                <div className="grid gap-4 lg:grid-cols-4 max-lg:grid-cols-2 max-md:grid-cols-1">
                     {acceptedPapers.map((acceptedPaper, index) => (
                         <div key={index} className="w-full">
                             <Card

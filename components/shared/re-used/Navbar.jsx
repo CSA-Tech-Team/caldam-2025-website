@@ -12,7 +12,7 @@ export default function Navbar() {
                 <h1 className="text-2xl lg:text-3xl">
                     CALDAM <p className="text-center">2025</p>
                 </h1>
-                <div className="max-lg:hidden flex space-x-4 text-sm xl:text-lg">
+                <div className="max-lg:hidden flex items-center justify-between space-x-5 text-sm xl:text-lg text-center">
                     {NavbarElements.map((elem, index) => {
                         return (
                             <Link prefetch key={index} href={elem.link}>

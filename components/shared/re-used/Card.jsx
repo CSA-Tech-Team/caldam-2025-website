@@ -1,5 +1,5 @@
 import React from "react";
-import Link from "./Link";
+import Linker from "./Linker";
 
 export default function Card({ title, speakers, researchResourceLink }) {
     return (
@@ -10,7 +10,7 @@ export default function Card({ title, speakers, researchResourceLink }) {
                     return <li key={index}>{speaker}</li>;
                 })}
             </ul>
-            <Link href={researchResourceLink}>Resources</Link>
+            <Linker href={researchResourceLink}>Resources</Linker>
         </div>
     );
 }

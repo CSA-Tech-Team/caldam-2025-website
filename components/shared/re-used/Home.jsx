@@ -4,45 +4,46 @@ import locIcon from "@/assets/locationIconLogo.svg";
 import Image from "next/image";
 import PSGImage from "@/public/image.png";
 import speakerIcon from "@/public/spekerIcon.svg";
-import Button from "@/components/UI/Button";
+import Button from "@/components/shared/re-used/Button";
 import { speakText } from "@/actions/textToSpeech";
 
-function Home() {
+function Home({ title, shortInfo, BriefInfo }) {
     return (
-        <div id="home" className="flex lg:pt-[6%] xl:pt-[4%] items-center">
+        <div
+            id="home"
+            className="flex max-lg:pt-[2%] lg:pt-[6%] xl:pt-[4%] items-center"
+        >
             <main className="h-screen w-full px-3 z-20 flex flex-col items-center justify-evenly relative">
                 <div className="flex flex-row max-lg:flex-col lg:text-2xl items-center justify-center max-lg:space-y-4">
-                    <i className="max-lg:text-4xl lapsize:text-6xl lg:text-8xl text-center w-full  font-extrabold">
-                        CALDAM 2025
-                        <span className="lg:inline hidden"> / </span>
-                    </i>
-                    <h1 className="max-lg:text-xl lg:text-3xl font-semibold text-center">
-                        11th Annual International Conference on Algorithms and
-                        Discrete Applied Mathematics
+                    <div className="flex h-full w-full">
+                        <i className="max-lg:text-4xl lapsize:text-6xl lg:text-7xl text-center w-full  font-extrabold ">
+                            {title}
+                        </i>
+                        <h1 className=" lg:font-bold lg:text-6xl lg:h-full lg:flex lg:items-center justify-center  hidden">
+                            {" "}
+                            /{" "}
+                        </h1>
+                    </div>
+
+                    <h1 className="max-lg:text-xl  lg:text-3xl font-semibold text-center">
+                        {shortInfo}
                     </h1>
                 </div>
-                <div className="flex lg:w-full px-4 lg:text-2xl">
-                    <h1>[ siː-eɪ-ɛl-diː-eɪ-ɛm ]</h1>
-                    <button onClick={speakText}>
-                        <Image
-                            src={speakerIcon}
-                            alt="Speaker Icon"
-                            className="bg-gray-100 bg-transparent rounded-full shadow-2xl"
-                        />
-                    </button>
-                </div>
+                {title !== "PRE-CONFERENCE SCHOOL" && (
+                    <div className="flex lg:w-full px-4 lg:text-2xl">
+                        <h1>[ {"siː-eɪ-ɛl-diː-eɪ-ɛm "}]</h1>
+                        <button onClick={speakText}>
+                            <Image
+                                src={speakerIcon}
+                                alt="Speaker Icon"
+                                className="bg-gray-100 bg-transparent rounded-full shadow-2xl"
+                            />
+                        </button>
+                    </div>
+                )}
                 <div className="px-3">
                     <p className="max-md:text-sm lapsize:text-lg max-lg:text-xl max-lg:leading-10 max-md:leading-6 lg:text-xl lg:leading-8 font-semibold">
-                        The International Conference on Algorithms and Discrete
-                        Applied Mathematics (CALDAM), held under the aegis of
-                        the Association of Computer Science, is intended to
-                        bring together researchers working in the areas of
-                        algorithms and applied discrete mathematics and provide
-                        a high-quality forum for the dissemination and
-                        discussion of research results in these broad areas.
-                        CALDAM has originated from the ongoing efforts for
-                        promoting research in Algorithms and Discrete
-                        Mathematics.
+                        {BriefInfo}
                     </p>
                 </div>
                 <div className="flex lg:w-full space-x-5 py-4 max-lg:justify-center items-center lg:gap-14 lg:justify-start">
@@ -73,7 +74,7 @@ function Home() {
             </main>
 
             {/* Background image on larger screens (lg breakpoint and above) */}
-            <div className="hidden lg:block absolute inset-y-0 right-0 w-1/2 h-full overflow-hidden">
+            <div className="hidden lg:block absolute inset-y-0 right-0 w-1/2 h-full after:absolute after:w-full after:h-full after:bg-gradient-to-r after:from-white after:to-transparent after:content-[''] after:top-0 after:right-0 overflow-hidden">
                 <Image
                     src={PSGImage}
                     layout="fill"
@@ -84,15 +85,13 @@ function Home() {
             </div>
 
             {/* Background image for smaller screens (below lg breakpoint) */}
-            <div className="max-lg:fixed inset-y-0 right-0 w-full h-full overflow-hidden lg:hidden">
-                {/* Fixed positioning */}
+            <div className="lg:hidden -z-10 after:absolute after:w-full after:h-full after:bg-gradient-to-r after:from-white after:to-transparent after:content-[''] after:top-0 after:right-0 fixed inset-y-0 right-0 w-full h-full">
                 <Image
                     src={PSGImage}
-                    layout="fill"
+                    layout="fill" // Ensures image fills container
                     alt="College Image"
                     className="object-cover"
                 />
-                <div className="absolute inset-0 bg-gradient-to-r from-white to-transparent opacity-50"></div>
             </div>
         </div>
     );

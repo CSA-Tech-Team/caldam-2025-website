@@ -1,11 +1,11 @@
 [
     {
         "name": "Home",
-        "link": ""
+        "link": "/"
     },
     {
-        "name": "Communities",
-        "link": ""
+        "name": "Committees",
+        "link": "/commitees"
     },
     {
         "name": "Invited Speakers",
@@ -20,8 +20,16 @@
         "link": ""
     },
     {
+        "name": "Call For Papers",
+        "link": "/callForPapers"
+    },
+    {
+        "name": "Accepted Papers",
+        "link": "/acceptedPapers"
+    },
+    {
         "name": "Pre-Conference School",
-        "link": ""
+        "link": "/preConferenceSchool"
     },
     {
         "name": "DAM Special Issue of CALDAM 2024",
