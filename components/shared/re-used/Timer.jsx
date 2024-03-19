@@ -1,9 +1,9 @@
-"use client"
-import React, { useState, useEffect } from 'react';
+"use client";
+import React, { useState, useEffect } from "react";
 
-function Timer() {
+const Timer = ({ endTime }) => {
   const calculateTimeLeft = () => {
-    const difference = +new Date('2025-02-10') - +new Date();
+    const difference = +new Date(endTime) - +new Date();
     let timeLeft = {};
 
     if (difference > 0) {
@@ -34,13 +34,11 @@ function Timer() {
   const { days, hours, minutes } = timeLeft;
 
   return (
-    <div className="bg-[#102133] w-full z-50 relative text-white text-center py-4 text-6xl h-28 pt-6 font-bold">
-      <div className="flex justify-center">
-        {days > 0 && <span className="mr-2">{`${days}  :`}</span>}
-        <span>{`${addLeadingZero(hours)} : ${addLeadingZero(minutes)}`}</span>
-      </div>
+    <div className="bg-black text-white px-8 py-2 text-4xl lg:text-7xl  lg:py-4 xl:text-9xl lg:px-14 font-bold">
+      {days > 0 && <span className="mr-2">{`${days}  :`}</span>}
+      <span>{`${addLeadingZero(hours)} : ${addLeadingZero(minutes)}`}</span>
     </div>
   );
-}
+};
 
 export default Timer;

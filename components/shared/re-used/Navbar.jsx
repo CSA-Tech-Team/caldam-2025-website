@@ -4,31 +4,69 @@ import NavbarElements from "@/constants/navbar-elements.json";
 import Hamburger from "@/components/animated/hamburger";
 import { useState } from "react";
 import Link from "next/link";
+import { AnimatePresence, motion } from "framer-motion";
+
 export default function Navbar() {
-    const [showNavbar, setShowNavbar] = useState(false);
-    return (
-        <div className="py-3 px-6 z-50 bg-black text-white relative lg:absolute top-0 left-0 right-0">
-            <ul className="flex justify-between space-x-3 items-center">
-                <h1 className="text-2xl lg:text-3xl">
-                    CALDAM <p className="text-center">2025</p>
-                </h1>
-                <div className="max-lg:hidden flex items-center justify-between space-x-5 text-sm xl:text-lg text-center">
-                    {NavbarElements.map((elem, index) => {
-                        return (
-                            <Link prefetch key={index} href={elem.link}>
-                                {elem.name}
-                            </Link>
-                        );
-                    })}
-                </div>
-                <div className="lg:hidden max-lg:block">
-                    <Hamburger
-                        onClick={(e) => {
-                            setShowNavbar(!showNavbar);
-                        }}
-                    />
-                </div>
-            </ul>
+  const mobileNavbarVariants = {
+    initial: {
+      scaleY: 0,
+    },
+    animate: {
+      scaleY: 1,
+    },
+    exit: {
+      scaleY: 0,
+    },
+  };
+
+  const [openNavbar, setOpenNavbar] = useState(false);
+
+  return (
+    <div className="bg-black text-white sticky top-0 left-0 z-30">
+      <div className="px-5 py-2 flex justify-between items-center relative">
+        <h1 className="text-2xl mr-10">
+          CALDAM <p className="text-sm text-center">2025</p>
+        </h1>
+        <div className="hidden lg:flex items-center justify-between space-x-5">
+          {NavbarElements.map((elem, index) => {
+            return (
+              <div key={index} className="py-4 text-white">
+                <Link prefetch href={elem.link}>
+                  {elem.name}
+                </Link>
+              </div>
+            );
+          })}
         </div>
-    );
+        <div className="lg:hidden">
+          <Hamburger
+            onClick={(e) => {
+              setOpenNavbar(!openNavbar);
+            }}
+          />
+        </div>
+        <AnimatePresence>
+          {openNavbar && (
+            <motion.div
+              variants={mobileNavbarVariants}
+              initial="initial"
+              animate="animate"
+              exit="exit"
+              className="lg:hidden absolute top-full left-0 w-full bg-black text-right p-5 origin-top"
+            >
+              {NavbarElements.map((elem, index) => {
+                return (
+                  <div key={index} className="py-4 text-white">
+                    <Link prefetch href={elem.link}>
+                      {elem.name}
+                    </Link>
+                  </div>
+                );
+              })}
+            </motion.div>
+          )}
+        </AnimatePresence>
+      </div>
+    </div>
+  );
 }

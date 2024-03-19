@@ -1,100 +1,93 @@
+"use client";
+
 import React from "react";
-import calIcon from "@/assets/calenderIconLogo.svg";
-import locIcon from "@/assets/locationIconLogo.svg";
+import { Triangle, Navigation, Calendar } from "react-feather";
+import { AnimatePresence, motion } from "framer-motion";
+import BackgroundImage from "@/public/image.png";
 import Image from "next/image";
-import PSGImage from "@/public/image.png";
-import speakerIcon from "@/public/spekerIcon.svg";
-import Button from "@/components/shared/re-used/Button";
-import { speakText } from "@/actions/textToSpeech";
+import TextContraction from "../TextContraction";
+import Marquee from "../Marquee";
 
-function Home({ title, shortInfo, BriefInfo }) {
-    return (
-        <div
-            id="home"
-            className="flex max-lg:pt-[2%] lg:pt-[6%] xl:pt-[4%] items-center"
-        >
-            <main className="h-screen w-full px-3 z-20 flex flex-col items-center justify-evenly relative">
-                <div className="flex flex-row max-lg:flex-col lg:text-2xl items-center justify-center max-lg:space-y-4">
-                    <div className="flex h-full w-full">
-                        <i className="max-lg:text-4xl shadow-sm lapsize:text-6xl lg:text-7xl text-center w-full  font-extrabold ">
-                            {title}
-                        </i>
-                        <h1 className=" lg:font-bold lg:text-6xl lg:h-full lg:flex lg:items-center justify-center  hidden">
-                            {" "}
-                            /{" "}
-                        </h1>
-                    </div>
-
-                    <h1 className="max-lg:text-xl  lg:text-3xl font-semibold text-center">
-                        {shortInfo}
-                    </h1>
-                </div>
-                {title !== "PRE-CONFERENCE SCHOOL" && (
-                    <div className="flex lg:w-full px-4 lg:text-2xl">
-                        <h1>[ {"siː-eɪ-ɛl-diː-eɪ-ɛm "}]</h1>
-                        <button onClick={speakText}>
-                            <Image
-                                src={speakerIcon}
-                                alt="Speaker Icon"
-                                className="bg-gray-100 bg-transparent rounded-full shadow-2xl"
-                            />
-                        </button>
-                    </div>
-                )}
-                <div className="px-3">
-                    <p className="max-md:text-sm lapsize:text-lg max-lg:text-xl max-lg:leading-10 max-md:leading-6 lg:text-xl lg:leading-8 font-semibold">
-                        {BriefInfo}
-                    </p>
-                </div>
-                <div className="flex lg:w-full space-x-5 py-4 max-lg:justify-center items-center lg:gap-14 lg:justify-start">
-                    <Button>Call for Papers</Button>
-                    <Button>Accepted Papers</Button>
-                </div>
-                <div className="flex w-full justify-evenly lg:justify-start lg:text-2xl items-center space-x-5">
-                    <div className="flex max-lg:items-start items-center space-x-4">
-                        <Image
-                            src={calIcon}
-                            alt="Calendar Icon"
-                            className="top-[50%]" // Center vertically
-                        />
-                        <div>
-                            <h1>15 - 17 February</h1>
-                            <p>2025</p>
-                        </div>
-                    </div>
-                    <div className="w-1 h-full bg-black-300" />
-                    <div className="flex max-lg:items-start justify-around space-x-6">
-                        <Image src={locIcon} alt="Calendar Icon" />
-                        <div>
-                            <h1>PSG College of Technology</h1>
-                            <span>Coimbatore, Tamilnadu, India</span>
-                        </div>
-                    </div>
-                </div>
-            </main>
-
-            {/* Background image on larger screens (lg breakpoint and above) */}
-            <div className="hidden lg:block absolute inset-y-0 right-0 w-1/2 h-full after:absolute after:w-full after:h-full after:bg-gradient-to-r after:from-white after:to-transparent after:content-[''] after:top-0 after:right-0 overflow-hidden">
-                <Image
-                    src={PSGImage}
-                    layout="fill"
-                    alt="College Image"
-                    className="object-cover"
-                />
-                <div className="absolute inset-0 bg-gradient-to-r from-white via-white to-transparent opacity-50"></div>
+function Home() {
+  return (
+    <div
+      className="min-h-fit bg-cover bg-center lg:bg-left-top"
+      style={{
+        backgroundImage: `url(${BackgroundImage.src})`,
+      }}
+    >
+      <div className="bg-gradient-to-r from-white max-lg:from-20% lg:via-white to-transparent w-full min-h-fit p-8 lg:p-14">
+        <div className="space-y-4 mb-8 lg:mb-14">
+          <div className="lg:flex lg:flex-row lg:justify-start lg:space-x-8 lg:items-stretch mb-8">
+            <h1 className="text-6xl font-semibold lg:text-7xl xl:text-8xl 2xl:text-9xl max-lg:mr-6 italic">
+              CALDAM 2025
+            </h1>
+            <div className="hidden lg:block w-2 bg-black -skew-x-[16deg]"></div>
+            <div className="hidden lg:block text-lg xl:text-xl 2xl:text-2xl my-auto">
+              11th Annual International <br /> Conference on Algorithms and
+              <br />
+              Discrete Applied Mathematics
             </div>
-
-            {/* Background image for smaller screens (below lg breakpoint) */}
-            <div className="lg:hidden -z-10 after:absolute after:w-full after:h-full after:bg-gradient-to-r after:from-white after:to-transparent after:content-[''] after:top-0 after:right-0 fixed inset-y-0 right-0 w-full h-full">
-                <Image
-                    src={PSGImage}
-                    layout="fill" // Ensures image fills container
-                    alt="College Image"
-                    className="object-cover"
-                />
-            </div>
+          </div>
+          <div>
+            <p className="inline relative before:absolute before:h-1 before:bg-yellow-400 before:bottom-0 before:-top-[100%] before:w-full">
+              [ siː-eɪ-ɛl-diː-eɪ-ɛm ]
+            </p>
+          </div>
+          <p className="lg:hidden text-xl md:text-2xl font-medium">
+            11th Annual International Conference on Algorithms and Discrete
+            Applied Mathematics
+          </p>
         </div>
-    );
+        <div className="hidden lg:block lg:text-base xl:text-xl mb-14 max-w-[65%] font-medium">
+          The International Conference on Algorithms and Discrete Applied
+          Mathematics (CALDAM), held under aegis of the Association of Computer
+          Science is intended to bring together researchers working in the areas
+          of algorithms and applied discrete mathematics and provide a
+          high-quality forum for the dissemination and discussion of research
+          results in these broad areas. CALDAM has originated from the ongoing
+          efforts for promoting research in Algorithms and Discrete Mathematics.
+        </div>
+        <div className="text-lg flex flex-col lg:flex-row lg:justify-start lg:space-x-4 max-lg:justify-center max-lg:space-y-2 mb-8 lg:mb-14">
+          <button className="px-6 py-2 bg-yellow-400 rounded-lg">
+            Call for Papers
+          </button>
+          <button className="px-6 py-2 bg-yellow-400 rounded-lg">
+            Accepted Papers
+          </button>
+        </div>
+        <TextContraction
+          className="mb-8 lg:hidden font-semibold"
+          contentStart="The International Conference on Algorithms and Discrete Applied
+          Mathematics (CALDAM),"
+          contentRemaining="held under aegis of the Association of Computer
+          Science is intended to bring together researchers working in the areas
+          of algorithms and applied discrete mathematics and provide a
+          high-quality forum for the dissemination and discussion of research
+          results in these broad areas. CALDAM has originated from the ongoing
+          efforts for promoting research in Algorithms and Discrete Mathematics."
+        />
+        <div className="flex max-lg:flex-col lg:flex-row max-lg:justify-center max-lg:space-y-4 lg:space-x-10 font-medium lg:items-center">
+          <div className="text-2xl flex flex-row items-center">
+            <Calendar className="inline mr-4" size={30} />
+            <div className="inline">
+              <p>15 - 17 Feburary </p>
+              <p className="text-sm">2025</p>
+            </div>
+          </div>
+          <div className="hidden lg:block w-1 h-9 bg-black rounded-full"></div>
+          <div className="text-2xl flex flex-row items-center">
+            <Navigation className="inline mr-4" size={30} />
+            <div className="inline">
+              <p>PSG College of Technology </p>
+              <p className="text-sm">Coimbatore, Tamilnadu, India</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <Marquee />
+    </div>
+  );
 }
 
 export default Home;
