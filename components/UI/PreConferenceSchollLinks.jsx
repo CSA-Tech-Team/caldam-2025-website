@@ -20,19 +20,29 @@ export default function UpdatesComponent() {
               key={index}
               style={{ boxShadow: "0px 4px 4px 0px #FCA311" }}
             >
-              <h1>{preConfSchool.preConferenceSchoolEventName}</h1>
-              <Image
-                src={linkIcon}
-                alt="Link Icon"
-                className="w-8 h-8 cursor-pointer"
-                onClick={() => {
-                  const anchorElement = document.createElement("a");
-                  anchorElement.href = preConfSchool.navigateTo;
-                  anchorElement.target = "_blank";
-                  anchorElement.click();
-                }}
-              />{" "}
-              <h1>{preConfSchool.StartDate}</h1>
+              {preConfSchoolConstants.map((preConfSchool, index) => {
+                return (
+                  <div
+                    className=" border border-black-300 py-4 px-2 hover:scale-110 active:scale-110 rounded-md flex shadow-sm justify-evenly items-center transition-all ease-in-out"
+                    key={index}
+                    style={{ boxShadow: "0px 4px 4px 0px #FCA311" }}
+                  >
+                    <h1>{preConfSchool.preConferenceSchoolEventName}</h1>
+                    <Image
+                      src={linkIcon}
+                      alt="Link Icon"
+                      className="w-8 h-8 cursor-pointer"
+                      onClick={() => {
+                        const anchorElement = document.createElement("a");
+                        anchorElement.href = preConfSchool.navigateTo;
+                        anchorElement.target = "_blank";
+                        anchorElement.click();
+                      }}
+                    />{" "}
+                    <h1>{preConfSchool.StartDate}</h1>
+                  </div>
+                );
+              })}
             </div>
           );
         })}
