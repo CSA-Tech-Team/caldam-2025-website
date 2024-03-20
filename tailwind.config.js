@@ -68,14 +68,14 @@ module.exports = {
           800: "#e19fc7",
           900: "#f0cfe3",
         },
-        headingColor:"#081424",
-        sponsersBgColor:"#C5D8D1",
-        navbg:"#102133"
+        headingColor: "#081424",
+        sponsersBgColor: "#C5D8D1",
+        navbg: "#102133",
       },
-      screens:{
-        'lapsize':'677px'
-      }
+      screens: {
+        lapsize: "677px",
+      },
     },
   },
-  plugins: [],
+  plugins: ["prettier-plugin-tailwindcss"],
 };

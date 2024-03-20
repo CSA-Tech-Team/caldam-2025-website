@@ -1,5 +1,5 @@
 import HomeComponent from "@/components/shared/re-used/Home";
-import UpdatesComponent from "@/components/UI/PreConferenceSchollLinks";
+import UpdatesComponent from "@/components/UI/UpdatesComponent";
 import TimerComponent from "@/components/shared/re-used/Timer";
 
 export default function Home() {
