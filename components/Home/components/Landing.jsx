@@ -23,7 +23,7 @@ function Landing() {
                 initial: {},
                 animate: {
                   transition: {
-                    staggerChildren: 0.35,
+                    staggerChildren: 0.3,
                   },
                 },
               }}
@@ -56,18 +56,53 @@ function Landing() {
               <div className="hidden lg:block text-lg xl:text-xl 2xl:text-2xl my-auto overflow-hidden font-medium">
                 <motion.div
                   variants={{
-                    initial: { translateX: -500 },
+                    initial: {},
                     animate: {
-                      translateX: 0,
                       transition: {
-                        ease: [0.47, 0.0, 0.745, 0.715],
+                        staggerChildren: 0.1,
                       },
                     },
                   }}
                 >
-                  11th Annual International <br /> Conference on Algorithms and
-                  <br />
-                  Discrete Applied Mathematics
+                  <motion.p
+                    variants={{
+                      initial: { translateX: -500 },
+                      animate: {
+                        translateX: 0,
+                        transition: {
+                          ease: [0.47, 0.0, 0.745, 0.715],
+                        },
+                      },
+                    }}
+                  >
+                    11th Annual International
+                  </motion.p>
+                  <motion.p
+                    variants={{
+                      initial: { translateX: -500 },
+                      animate: {
+                        translateX: 0,
+                        transition: {
+                          ease: [0.47, 0.0, 0.745, 0.715],
+                        },
+                      },
+                    }}
+                  >
+                    Conference on Algorithms and
+                  </motion.p>
+                  <motion.p
+                    variants={{
+                      initial: { translateX: -500 },
+                      animate: {
+                        translateX: 0,
+                        transition: {
+                          ease: [0.47, 0.0, 0.745, 0.715],
+                        },
+                      },
+                    }}
+                  >
+                    Discrete Applied Mathematics{" "}
+                  </motion.p>
                 </motion.div>
               </div>
             </motion.div>

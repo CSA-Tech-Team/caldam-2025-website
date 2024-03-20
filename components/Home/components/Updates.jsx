@@ -21,6 +21,7 @@ export default function Updates() {
           }}
           initial="initial"
           whileInView="animate"
+          viewport={{ once: true }}
           className="h-full max-w-fit flex flex-col justify-center -space-y-6"
         >
           {UPDATES_LETTERS.map((t, index) => (
