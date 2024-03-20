@@ -23,7 +23,7 @@ export default function Updates() {
             initial="initial"
             whileInView="animate"
             viewport={{ once: true }}
-            className="h-full max-w-fit flex flex-col  justify-center -space-y-6"
+            className="h-full max-w-fit flex flex-col items-center justify-center -space-y-6"
           >
             {UPDATES_LETTERS.map((t, index) => (
               <div key={index} className="overflow-hidden">
@@ -62,6 +62,7 @@ export default function Updates() {
               },
             },
           }}
+          viewport={{ once: true }}
           initial="initial"
           whileInView="animate"
           className="flex-1 lg:p-10 space-y-8 overflow-y-auto overflow-x-hidden"
