@@ -8,7 +8,7 @@ export default function Updates() {
   const UPDATES_LETTERS = "UPDATES".split("").reverse();
 
   return (
-    <>
+    <div className=" flex items-center  ">
       <div className="hidden p-14 lg:block">
         <motion.div
           variants={{
@@ -22,7 +22,7 @@ export default function Updates() {
           initial="initial"
           whileInView="animate"
           viewport={{ once: true }}
-          className="h-full max-w-fit flex flex-col justify-center -space-y-6"
+          className="h-full max-w-fit flex flex-col  justify-center -space-y-6"
         >
           {UPDATES_LETTERS.map((t, index) => (
             <div key={index} className="overflow-hidden">
@@ -47,21 +47,22 @@ export default function Updates() {
             </div>
           ))}
         </motion.div>
-        <div>
-          <div className=" py-4 ">
-            <div className=" flex">
-              <p className=" w-24 h-24 ">Feb 15th</p>
-              <div className=" flex items-end border border-black ">
-                <p>{"Indo-Slovenia Pre-Conference School"}</p>
-                <BiDownload />
-              </div>
-            </div>
-          </div>
-        </div>
+        <div></div>
       </div>
       <div className="lg:hidden p-8">
         <h1 className="text-4xl font-bold">UPDATES</h1>
       </div>
-    </>
+      <div className="py-4 px-3">
+        <div className="flex flex-row items-center relative">
+          <p className="w-24 h-24 text-2xl text-center p-3 bg-orange rounded-md absolute top-0 left-0 z-10">
+            15th Feb
+          </p>
+          <div className="flex shadow-xl items-center rounded-lg relative border lg:p-4 max-lg:p-2 border-black">
+            <p className="text-xl">{"Indo-Slovenia Pre-Conference School"}</p>
+            <BiDownload className="size-10" />
+          </div>
+        </div>
+      </div>
+    </div>
   );
 }
