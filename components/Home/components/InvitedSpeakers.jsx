@@ -5,7 +5,7 @@ function InvitedSpeaker() {
   return (
     <div className="bg-bluecolor p-8 lg:p-14">
       <h1 className="text-4xl font-bold text-white uppercase mb-10">
-        Invited Speaker
+        Invited Speakers
       </h1>
       <div className="text-white grid grid-cols-3 max-lg:grid-cols-2 max-md:grid-cols-1 gap-5">
         {invitedspeakers.map((invitedSpeaker, index) => {

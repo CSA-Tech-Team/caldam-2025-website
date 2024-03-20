@@ -1,11 +1,13 @@
 "use client";
 
-import React from "react";
+import React, { useEffect, useMemo, useState } from "react";
 import { BiSolidNavigation } from "react-icons/bi";
 import { FaCalendar } from "react-icons/fa";
 import { AnimatePresence, motion } from "framer-motion";
 import BackgroundImage from "@/public/image.png";
 import TextContraction from "./TextContraction";
+import { HiSpeakerWave } from "react-icons/hi2";
+import speak from "@/components/actions/speak";
 
 function Landing() {
   return (
@@ -107,8 +109,17 @@ function Landing() {
               </div>
             </motion.div>
             <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }}>
-              <p className="inline relative before:absolute before:h-1 before:bg-yellow-400 before:bottom-0 before:-top-[100%] before:w-full">
+              <p className="inline relative before:absolute before:h-1 before:bg-orange before:bottom-0 before:-top-[100%] before:w-full">
                 [ siː-eɪ-ɛl-diː-eɪ-ɛm ]
+                <button
+                  className="ml-2"
+                  onClick={(e) => {
+                    e.preventDefault();
+                    speak("CALDAM");
+                  }}
+                >
+                  <HiSpeakerWave className="inline" />
+                </button>
               </p>
             </motion.div>
             <p className="lg:hidden text-xl md:text-2xl font-medium">
@@ -135,10 +146,10 @@ function Landing() {
             whileInView={{ opacity: 1 }}
             className="text-lg flex flex-col lg:flex-row lg:justify-start lg:space-x-4 max-lg:justify-center max-lg:space-y-2 mb-8 lg:mb-14"
           >
-            <button className="px-6 py-2 bg-yellow-400 rounded-lg">
+            <button className="px-6 py-2 bg-orange rounded-lg">
               Call for Papers
             </button>
-            <button className="px-6 py-2 bg-yellow-400 rounded-lg">
+            <button className="px-6 py-2 bg-orange rounded-lg">
               Accepted Papers
             </button>
           </motion.div>
