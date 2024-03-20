@@ -5,7 +5,6 @@ import { BiSolidNavigation } from "react-icons/bi";
 import { FaCalendar } from "react-icons/fa";
 import { AnimatePresence, motion } from "framer-motion";
 import BackgroundImage from "@/public/image.png";
-import Image from "next/image";
 import TextContraction from "../TextContraction";
 import Marquee from "../Marquee";
 

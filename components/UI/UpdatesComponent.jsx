@@ -1,11 +1,10 @@
-"use client";
-
 import React from "react";
 import preConfSchoolConstants from "@/constants/preSchoolConstants.json";
 import linkIcon from "@/assets/link.svg";
 import Image from "next/image";
 import LineImage from "@/public/line.svg";
 import { motion } from "framer-motion";
+import { BiDownload } from "react-icons/bi";
 
 export default function UpdatesComponent() {
   const UPDATES_LETTERS = ["S", "E", "T", "A", "D", "P", "U"];
@@ -49,6 +48,17 @@ export default function UpdatesComponent() {
             </div>
           ))}
         </motion.div>
+        <div>
+          <div className=" py-4 ">
+            <div className=" flex">
+              <p className=" w-24 h-24 ">Feb 15th</p>
+              <div className=" flex items-end border border-black ">
+                <p>{"Indo-Slovenia Pre-Conference School"}</p>
+                <BiDownload />
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
       <div className="lg:hidden p-8">
         <h1 className="text-4xl font-bold">UPDATES</h1>
