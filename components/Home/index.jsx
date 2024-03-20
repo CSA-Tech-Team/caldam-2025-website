@@ -12,8 +12,8 @@ const HomePage = () => {
       <LinksMarquee />
       <Timer endTime={"2025-02-17"} />
       <Updates />
-      <Timeline />
       <InvitedSpeaker />
+      <Timeline />
     </>
   );
 };

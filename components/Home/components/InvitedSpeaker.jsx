@@ -3,24 +3,24 @@ import invitedspeakers from "@/constants/invited-speakers.json";
 
 function InvitedSpeaker() {
   return (
-    <div>
-      <h1 className=" px-10 py-5 text-3xl lg:text-4xl font-bold text-bluecolor ">
+    <div className="bg-bluecolor p-8 lg:p-14">
+      <h1 className="text-4xl font-bold text-white uppercase mb-10">
         Invited Speaker
       </h1>
-      <div className=" text-white grid grid-cols-3 max-lg:grid-cols-2 max-md:grid-cols-1 gap-5 py-4 px-6 lg:px-40   ">
+      <div className="text-white grid grid-cols-3 max-lg:grid-cols-2 max-md:grid-cols-1 gap-5">
         {invitedspeakers.map((invitedSpeaker, index) => {
           return (
             <div
               key={index}
-              className=" bg-bluecolor px-6 rounded-lg py-4 space-y-5 flex flex-col items-center justify-center "
+              className="bg-white px-6 rounded-lg py-6 space-y-5 flex flex-col items-center justify-center text-black"
             >
-              <h1 className="text-lg lg:text-3xl font-bold">
+              <h1 className="text-2xl lg:text-3xl font-bold">
                 {invitedSpeaker.name}
               </h1>
               <h1 className=" text-md lg:text-lg">
                 {invitedSpeaker.collegeName}
               </h1>
-              <div className=" border w-full h-0.5 border-b-2 border-white " />
+              <div className=" border w-full h-0.5 border-b-2 border-black " />
               <h1 className="text-lg lg:text-2xl">
                 Topic:{invitedSpeaker.topic}
               </h1>
