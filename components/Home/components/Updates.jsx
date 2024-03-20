@@ -8,7 +8,7 @@ export default function Updates() {
     const UPDATES_LETTERS = "UPDATES".split("").reverse();
 
     return (
-        <div className=" flex items-center  ">
+        <div className=" flex items-center max-lg:flex-col ">
             <div className="hidden p-14 lg:block">
                 <motion.div
                     variants={{
