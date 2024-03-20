@@ -1,13 +1,9 @@
-import HomeComponent from "@/components/shared/re-used/Home";
-import UpdatesComponent from "@/components/UI/UpdatesComponent";
-import TimerComponent from "@/components/shared/re-used/Timer";
+import HomePage from "@/components/Home";
 
-export default function Home() {
+export default function Page() {
   return (
     <>
-      <HomeComponent />
-      <TimerComponent endTime={"2025-02-17"} />
-      <UpdatesComponent />
+      <HomePage />
     </>
   );
 }

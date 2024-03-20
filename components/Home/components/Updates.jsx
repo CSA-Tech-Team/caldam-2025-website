@@ -1,13 +1,11 @@
+"use client";
+
 import React from "react";
-import preConfSchoolConstants from "@/constants/preSchoolConstants.json";
-import linkIcon from "@/assets/link.svg";
-import Image from "next/image";
-import LineImage from "@/public/line.svg";
 import { motion } from "framer-motion";
 import { BiDownload } from "react-icons/bi";
 
-export default function UpdatesComponent() {
-  const UPDATES_LETTERS = ["S", "E", "T", "A", "D", "P", "U"];
+export default function Updates() {
+  const UPDATES_LETTERS = "UPDATES".split("").reverse();
 
   return (
     <>
