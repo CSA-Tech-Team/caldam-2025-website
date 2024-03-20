@@ -70,7 +70,8 @@ module.exports = {
         },
         headingColor: "#081424",
         sponsersBgColor: "#C5D8D1",
-        navbg: "#102133",
+        bluecolor: "#102133",
+        orange:"#FCA311"
       },
       screens: {
         lapsize: "677px",

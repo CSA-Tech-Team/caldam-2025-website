@@ -1,11 +1,20 @@
-"use client";
-
 import React from "react";
-import preConfSchoolConstants from "@/constants/preSchoolConstants.json";
-import linkIcon from "@/assets/link.svg";
-import Image from "next/image";
-import LineImage from "@/public/line.svg";
-
+import updates from "@/constants/updates.json";
+import { BiDownload } from "react-icons/bi";
 export default function UpdatesComponent() {
-  return <div></div>;
+    return (
+        <div className=" py-4 ">
+            <div className=" flex">
+                <p
+                className=" w-24 h-24 "
+                >Feb 15th</p>
+
+                <div className=" flex items-end border border-black ">
+                    <p>{"Indo-Slovenia Pre-Conference School"}</p>
+
+                    <BiDownload />
+                </div>
+            </div>
+        </div>
+    );
 }
