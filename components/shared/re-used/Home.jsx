@@ -32,33 +32,27 @@ function Home() {
             animate="animate"
             className="lg:flex lg:flex-row lg:justify-start lg:space-x-14 lg:items-stretch mb-8"
           >
-            <motion.h1
-              variants={{
-                initial: { translateY: "50%", opacity: "0%" },
-                animate: {
-                  translateY: 0,
-                  opacity: "100%",
-                  transition: {
-                    duration: 0.1,
+            <div className="overflow-hidden pr-4">
+              <motion.h1
+                variants={{
+                  initial: { translateX: 1000, opacity: "0%" },
+                  animate: {
+                    translateX: 0,
+                    opacity: "100%",
+                    transition: {
+                      duration: 0.1,
+                    },
                   },
-                },
-              }}
-              className="text-6xl font-semibold lg:text-7xl xl:text-8xl 2xl:text-9xl max-lg:mr-6 italic"
-            >
-              CALDAM 2025
-            </motion.h1>
+                }}
+                className="text-6xl font-semibold lg:text-7xl xl:text-8xl 2xl:text-9xl max-lg:mr-6 italic"
+              >
+                CALDAM 2025
+              </motion.h1>
+            </div>
             <motion.div
-              variants={{
-                initial: { translateX: -2000, skew: "0deg" },
-                animate: {
-                  translateX: 0,
-                  skew: "-16deg",
-                  transition: {
-                    ease: [0.47, 0.0, 0.745, 0.715],
-                  },
-                },
-              }}
-              className="hidden lg:block w-2 bg-black"
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              className="hidden lg:block w-2 bg-black -skew-x-[16deg]"
             ></motion.div>
             <div className="hidden lg:block text-lg xl:text-xl 2xl:text-2xl my-auto overflow-hidden font-medium">
               <motion.div
@@ -90,7 +84,7 @@ function Home() {
         </div>
         <motion.div
           initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
+          whileInView={{ opacity: 1 }}
           className="hidden lg:block lg:text-base xl:text-xl mb-14 max-w-[65%] font-medium"
         >
           The International Conference on Algorithms and Discrete Applied
@@ -103,7 +97,7 @@ function Home() {
         </motion.div>
         <motion.div
           initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
+          whileInView={{ opacity: 1 }}
           className="text-lg flex flex-col lg:flex-row lg:justify-start lg:space-x-4 max-lg:justify-center max-lg:space-y-2 mb-8 lg:mb-14"
         >
           <button className="px-6 py-2 bg-yellow-400 rounded-lg">
@@ -126,7 +120,7 @@ function Home() {
         />
         <motion.div
           initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
+          whileInView={{ opacity: 1 }}
           className="flex max-lg:flex-col lg:flex-row max-lg:justify-center max-lg:space-y-4 lg:space-x-10 font-medium lg:items-center"
         >
           <div className="text-2xl flex flex-row items-center">
