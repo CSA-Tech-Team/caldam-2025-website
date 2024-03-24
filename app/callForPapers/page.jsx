@@ -21,7 +21,7 @@ export default function Page() {
                 key={index}
                 className="lg:w-1/2 mx-auto  max-lg:space-y-4 flex max-lg:flex-col lg:space-x-5 "
               >
-                <p className="py-4 p-2 text-center hover:scale-105 active:scale-110 lg:w-1/2 shadow-md bg-navbg rounded-xl flex-1 text-white">
+                <p className="py-4 p-2 text-center hover:scale-105 active:scale-110 lg:w-1/2 shadow-md bg-bluecolor rounded-xl flex-1 text-white">
                   {importantDate.event}
                 </p>
                 <p className="py-4 p-2 lg:w-1/2 text-center hover:scale-105 active:scale-110 bg-yellow-400 font-semibold rounded-lg ">

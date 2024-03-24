@@ -2,31 +2,36 @@
     {
         "preConferenceSchoolEventName": "Indo-Slovenia Pre-Conference School",
         "isOpen": false,
-        "StartDate": "Feb 15th",
+        "startMonth": "Feb",
+        "StartDate": "15th",
         "navigateTo": "/"
     },
     {
         "preConferenceSchoolEventName": "Indo-Slovenia Pre-Conference School",
-        "isOpen": true,
-        "StartDate": "Feb 15th",
+        "isOpen": false,
+        "startMonth": "Feb",
+        "StartDate": "15th",
         "navigateTo": "/"
     },
     {
         "preConferenceSchoolEventName": "Indo-Slovenia Pre-Conference School",
-        "isOpen": true,
-        "StartDate": "Feb 15th",
+        "isOpen": false,
+        "startMonth": "Feb",
+        "StartDate": "15th",
         "navigateTo": "/"
     },
     {
         "preConferenceSchoolEventName": "Indo-Slovenia Pre-Conference School",
-        "isOpen": true,
-        "StartDate": "Feb 15th",
+        "isOpen": false,
+        "startMonth": "Feb",
+        "StartDate": "15th",
         "navigateTo": "/"
     },
     {
         "preConferenceSchoolEventName": "Indo-Slovenia Pre-Conference School",
-        "isOpen": true,
-        "StartDate": "Feb 15th",
+        "isOpen": false,
+        "startMonth": "Feb",
+        "StartDate": "15th",
         "navigateTo": "/"
     }
 ]
