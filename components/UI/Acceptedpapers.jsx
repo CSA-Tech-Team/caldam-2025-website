@@ -1,6 +1,5 @@
 import React from "react";
 import Acceptedpaper from "@/constants/AcceptedPapers.json";
-
 import Card from './Cards.jsx'
 function Acceptedpapers(){
     return(
