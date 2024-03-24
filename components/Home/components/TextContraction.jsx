@@ -1,52 +1,55 @@
 "use client";
 import { useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
-import { Triangle } from "react-feather";
+import { IoMdArrowDroprightCircle } from "react-icons/io";
 
 const TextContraction = ({ className, contentStart, contentRemaining }) => {
   const [expand, setExpand] = useState(false);
+  const [removeExpandButton, setRemoveExpandButton] = useState(false);
 
   const variants = {
     initial: {
-      scaleY: 0,
+      opacity: 0,
     },
     animate: {
-      scaleY: 1,
+      opacity: 1,
     },
     exit: {
-      scaleY: 0,
+      opacity: 0,
     },
   };
 
   return (
     <div className={`${className}`}>
       {contentStart}{" "}
-      {!expand && (
+      {!removeExpandButton && (
         <>
-          ...{" "}
           <button
-            className="rotate-90 focus:rotate-180 transition-all"
+            className="relative"
             onClick={(e) => {
+              setExpand(true);
               setTimeout(() => {
-                setExpand(!expand);
-              }, 200);
+                setRemoveExpandButton(true);
+              }, 1000);
             }}
           >
-            <Triangle size={15} />
+            <IoMdArrowDroprightCircle
+              className={`${expand && "translate-x-10  opacity-0"} transition-all text-xl absolute -top-4 left-0`}
+            />
           </button>
         </>
       )}
       <AnimatePresence>
         {expand && (
-          <motion.div
-            className="inline"
+          <motion.span
+            className="origin-top"
             variants={variants}
             initial="initial"
             animate="animate"
             exit="exit"
           >
             {contentRemaining}
-          </motion.div>
+          </motion.span>
         )}
       </AnimatePresence>
     </div>

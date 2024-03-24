@@ -8,7 +8,8 @@ export default function Sponsers() {
             <div className="mb-10">
                 <h1 className="font-bold text-5xl">Sponsers</h1>
             </div>
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-3 gap-8 justify-center">
+            <div
+                className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-3 gap-8 justify-center">
                 {SponsersOfCaldam.map((organizer, index) => (
                     <div
                         key={index}
