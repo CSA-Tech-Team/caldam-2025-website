@@ -18,8 +18,6 @@ const Timeline = () => {
     setCurrentDay(index);
   });
 
-  console.log(triggerCallbacks);
-
   return (
     <AnimatePresence>
       <div className="flex max-lg:flex-col p-8 lg:p-14 h-[700px]">
