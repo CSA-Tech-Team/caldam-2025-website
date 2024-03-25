@@ -13,8 +13,8 @@ export default function Proceedings() {
             <div className=" px-4 font-semibold text-xl max-lg:text-md ">
                 Click on the banner below to access the proceedings of the conference.
             </div>
-            <div className=" px-4 py-4 flex w-full justify-center ">
-                <Image src={Banner} alt="Banner" className=" max-md:h-48 " />
+            <div className=" px-4 py-4 flex w-full items-center justify-center ">
+                <Image src={Banner} alt="Banner" className=" max-md:h-48  w-full" />
             </div>
         </div>
         
