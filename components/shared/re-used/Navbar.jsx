@@ -52,12 +52,12 @@ export default function Navbar() {
               initial="initial"
               animate="animate"
               exit="exit"
-              className="lg:hidden absolute top-full left-0 w-full bg-black text-right p-5 origin-top"
+              className="lg:hidden absolute top-full left-0 w-full  bg-black flex flex-col items-end justify-between  p-5 origin-top"
             >
               {NavbarElements.map((elem, index) => {
                 return (
                   <div key={index} className="py-4 text-white">
-                    <Link prefetch href={elem.link}>
+                    <Link prefetch href={elem.link} onClick={()=>setOpenNavbar(!openNavbar)}>
                       {elem.name}
                     </Link>
                   </div>
