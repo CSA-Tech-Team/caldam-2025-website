@@ -4,7 +4,7 @@ import Marquee from "react-fast-marquee";
 
 const Sponsors = () => {
   return (
-    <div className="bg-white p-8 lg:p-14 w-screen">
+    <div className="bg-white p-8 lg:p-14">
       <h1 className="text-4xl font-bold text-bluecolor uppercase mb-10">
         Sponsors
       </h1>

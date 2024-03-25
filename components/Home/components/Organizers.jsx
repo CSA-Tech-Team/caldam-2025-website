@@ -4,7 +4,7 @@ import Marquee from "react-fast-marquee";
 
 const Organizers = () => {
   return (
-    <div className="bg-bluecolor p-8 lg:p-14 w-screen">
+    <div className="bg-bluecolor p-8 lg:p-14">
       <h1 className="text-4xl font-bold text-white uppercase mb-10">
         Organizers
       </h1>

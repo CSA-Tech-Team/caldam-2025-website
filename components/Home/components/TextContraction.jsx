@@ -20,7 +20,11 @@ const TextContraction = ({ className, contentStart, contentRemaining }) => {
   };
 
   return (
-    <div className={`${className}`}>
+    <motion.div
+      initial={{ opacity: 0 }}
+      whileInView={{ opacity: 1 }}
+      className={`${className}`}
+    >
       {contentStart}{" "}
       {!removeExpandButton && (
         <>
@@ -52,7 +56,7 @@ const TextContraction = ({ className, contentStart, contentRemaining }) => {
           </motion.span>
         )}
       </AnimatePresence>
-    </div>
+    </motion.div>
   );
 };
 

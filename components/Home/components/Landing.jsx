@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useEffect, useMemo, useState } from "react";
+import React from "react";
 import { BiSolidNavigation } from "react-icons/bi";
 import { FaCalendar } from "react-icons/fa";
 import { AnimatePresence, motion } from "framer-motion";
@@ -122,10 +122,14 @@ function Landing() {
                 </button>
               </p>
             </motion.div>
-            <p className="lg:hidden text-xl md:text-2xl font-medium">
+            <motion.p
+              initial={{ opacity: 0 }}
+              whileInView={{ opacity: 1 }}
+              className="lg:hidden text-xl md:text-2xl font-medium"
+            >
               11th Annual International Conference on Algorithms and Discrete
               Applied Mathematics
-            </p>
+            </motion.p>
           </div>
           <motion.div
             initial={{ opacity: 0 }}

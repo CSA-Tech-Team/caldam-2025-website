@@ -22,7 +22,6 @@ const TimelineCard = ({
 
   useEffect(() => {
     if (isVisible && isTrigger) {
-      console.log("triggering");
       triggerCallback();
     }
   }, [isVisible, isTrigger, triggerCallback]);
