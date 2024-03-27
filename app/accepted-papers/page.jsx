@@ -1,6 +1,6 @@
 import React from "react";
-import Proceedings from "@/components/UI/Proceedings";
-import Acceptedpapers from "@/components/UI/Acceptedpapers";
+import Proceedings from "@/components/accepted-papers/components/Proceedings";
+import Acceptedpapers from "@/components/accepted-papers/components/Acceptedpapers";
 
 export default function AcceptedPapers() {
     return (
