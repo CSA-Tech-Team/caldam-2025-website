@@ -10,7 +10,7 @@ function Acceptedpapers(){
                     <div className="border-b-2 border-yellow-500 w-full"></div>
                 </div>
             </div>
-            <div className=" px-10 grid gap-5 grid-cols-2 max-md:grid-cols-1">
+            <div className=" px-10 lg:px-20 grid gap-5 grid-cols-2 max-md:grid-cols-1">
                     {Acceptedpaper.map((item, index) => (
                         <div key={index} className="w-full">
                             <Card
