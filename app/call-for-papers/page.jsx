@@ -3,106 +3,167 @@ import importantDates from "@/constants/importantDates.json";
 import LineImage from "@/public/line.svg";
 import Image from "next/image";
 import Linker from "@/components/shared/re-used/Linker";
-import caldamTopics from "@/constants/caldamTopics.json";
+import CaldamTopics from "@/constants/caldamTopics.json";
 export default function Page() {
+
   return (
-    <div className="p-2 max-lg:pt-[2%] lg:pt-[9%] xl:pt-[7%] justify-center">
-      <i className="lg:text-4xl max-lg:text-2xl font-extrabold xl:text-6xl">
-        Call for Paper
-      </i>
-      <div className="p-10 w-full">
-        <h1 className=" text-xl lg:text-2xl py-3 font-extrabold xl:text-4xl">
-          Important Dates
+    <main>
+      
+      <div className="bg-bluecolor min-h-[45vh] max-h-fit py-12 flex flex-col px-20">
+        <h1 className="lg:text-[36px] max-md:text-[30px] max-sm:text-[24px] text-white font-semibold ">
+          SUBMISSION DETAILS
         </h1>
-        <ul className="flex flex-col w-full mx-auto space-y-5 ">
-          {importantDates.map((importantDate, index) => {
-            return (
-              <li
-                key={index}
-                className="lg:w-1/2 mx-auto  max-lg:space-y-4 flex max-lg:flex-col lg:space-x-5 "
-              >
-                <p className="py-4 p-2 text-center hover:scale-105 active:scale-110 lg:w-1/2 shadow-md bg-bluecolor rounded-xl flex-1 text-white">
-                  {importantDate.event}
-                </p>
-                <p className="py-4 p-2 lg:w-1/2 text-center hover:scale-105 active:scale-110 bg-yellow-400 font-semibold rounded-lg ">
-                  {importantDate.lastDate}
-                </p>
-              </li>
-            );
-          })}
-        </ul>
-        <div className=" flex items-center space-x-6 py-5 ">
-          <h1 className=" text-lg lg:text-xl font-bold ">
-            Submit your papers at
-          </h1>
-          <Linker href={""}>Paper Submission {"➚"}</Linker>
-        </div>
-        <div className=" flex items-center space-x-6 py-5 ">
-          <h1 className=" text-lg lg:text-xl font-bold ">
-            For any query please contact the conference chair at
-          </h1>
-          <Linker href={""}>Conference Chair {"➚"}</Linker>
-        </div>
-        <div className="flex items-end py-5">
-          <h1 className=" text-3xl lg:text-5xl font-bold">Scope</h1>
-          <Image
-            src={LineImage}
-            alt="Line Image"
-            className=" max-lg:hidden  "
-          />
-        </div>
-        <p className=" text-2xl max-lg:text-lg ">
-          CALDAM 2024 invites papers describing original research in the areas
-          of design, analysis and experimental evaluation of algorithms and in
-          discrete applied mathematics. An indicative list of sub-areas are
-          given below. 
-          <span className=" font-bold ">
-            Papers must be typeset using LaTeX/LaTeX2e and may not exceed 12
-            pages in LNCS style, including bibliographic references
-          </span>
-          . Further details may be included in a clearly marked appendix that
-          will be read at the discretion of the program committee. Only
-          electronic submission is allowed. Submitted papers must describe
-          previously unpublished work and may not be submitted concurrently to
-          another conference with refereed proceedings or to a refereed journal.
-          Please find the guidelines for authors on{" "}
-          <a
-            target="_blank"
-            href="https://www.springer.com/in"
-            className=" hover:underline "
-          >
-            Springer
-          </a>{" "}
-          website.
-        </p>
-        <div className=" py-3 space-y-4">
-          <h1 className="text-3xl lg:text-5xl font-bold">CALDAM TOPICS</h1>
-          <div className="grid gap-5 lg:grid-cols-4 max-lg:grid-cols-2 max-md:grid-cols-1">
-            {caldamTopics.map((caldamTopic, index) => (
-              <div key={index} className="max-lg:col-span-1 max-md:col-span-1">
-                <p className="p-5 bg-[#E5E5E5] hover:scale-110 active:scale-110 hover:bg-orange-500 active:bg-orange-500 rounded-2xl font-bold">
-                  {caldamTopic}
-                </p>
+        <div className="lg:flex max-md:flex max-md:flex-col w-full justify-between lg:px-12 max-md:px-8 max-sm:px-0 py-8">
+          <div className="lg:flex max-md:flex md:flex max-sm:flex lg:w-[45%] md:w-[100%] sm:w-[100%] h-fit py-3 flex-col gap-y-5 md:gap-y-5 max-sm:gap-y-5">
+            <div className="w-[100%] bg-white flex items-center rounded-xl justify-between pr-3  text-sm font-extralight">
+              <div className="flex items-center gap-x-5  ">
+                <svg width="49" height="53" className="bg-[#FCA311] rounded-l-xl p-2 " viewBox="0 0 49 49" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <rect x="0.789062" y="0.799988" width="48" height="48" />
+                  <path d="M15.9221 4.1239C15.3034 4.2739 14.7034 4.55515 14.2159 4.92078C13.6721 5.31453 8.82524 11.3801 8.46899 12.102C8.30961 12.4114 8.15024 12.8895 8.09399 13.1708C8.03774 13.4895 8.00024 18.7489 8.00024 27.8427C8.00024 43.2833 7.97211 42.4864 8.52524 43.5739C8.86274 44.2395 9.67836 45.0645 10.3346 45.4208C11.469 46.0208 10.719 45.9927 24.5002 45.9927C35.4409 45.9927 37.0909 45.9739 37.5784 45.852C39.1909 45.4302 40.4377 44.1739 40.8596 42.552C41.0752 41.7458 41.0752 8.23952 40.8596 7.43328C40.4377 5.8114 39.1909 4.55515 37.5784 4.13328C37.0909 4.0114 35.6846 3.99265 26.7034 4.00203C18.8565 4.00203 16.2784 4.03953 15.9221 4.1239ZM37.3065 7.2364C37.4471 7.33953 37.6534 7.54578 37.7565 7.6864L37.9534 7.93953V24.9927V42.0458L37.7565 42.2989C37.6534 42.4395 37.4471 42.6458 37.3065 42.7489C37.0534 42.9458 37.0252 42.9458 24.5002 42.9458C11.9752 42.9458 11.9471 42.9458 11.694 42.7489C11.5534 42.6458 11.3471 42.4395 11.244 42.2989C11.0471 42.0458 11.0471 42.0177 11.019 27.8895C11.0002 14.9239 11.0096 13.7145 11.1502 13.4333C11.2346 13.2645 12.3502 11.8208 13.6346 10.227C15.2096 8.23952 16.0534 7.26453 16.269 7.1614C16.5502 7.02077 17.4409 7.00203 26.8159 7.02077C36.9877 7.03953 37.0534 7.03953 37.3065 7.2364Z" fill="#102133" />
+                  <path d="M23.8905 16.1239C23.7405 16.1989 22.4842 17.3895 21.1061 18.7676C18.4155 21.4864 18.3874 21.5145 18.5467 22.3395C18.6311 22.7989 19.1936 23.3614 19.653 23.4458C20.3936 23.5864 20.6186 23.4645 21.8467 22.2458L22.9905 21.1208L23.0186 24.8333C23.0467 28.4145 23.0561 28.5551 23.2436 28.7989C23.6092 29.2958 23.9092 29.4458 24.4999 29.4458C25.0905 29.4458 25.3905 29.2958 25.7561 28.7989C25.9436 28.5551 25.953 28.4145 25.9811 24.8333L26.0092 21.1208L27.153 22.2458C28.3811 23.4645 28.6061 23.5864 29.3467 23.4458C29.8061 23.3614 30.3686 22.7989 30.453 22.3395C30.6124 21.5145 30.5842 21.4864 27.8936 18.7676C26.5155 17.3895 25.2592 16.1989 25.0905 16.1239C24.7155 15.9645 24.2561 15.9645 23.8905 16.1239Z" fill="#102133" />
+                  <path d="M16.3909 31.1239C15.7628 31.3958 15.4065 32.1176 15.5378 32.8208C15.6222 33.2614 16.0909 33.777 16.5128 33.8989C16.7472 33.9739 19.3722 33.9926 24.7065 33.9739C32.4597 33.9458 32.5534 33.9458 32.8065 33.7489C33.3034 33.3833 33.4534 33.0833 33.4534 32.4926C33.4534 31.902 33.3034 31.602 32.8065 31.2364C32.5534 31.0395 32.469 31.0395 24.6128 31.0208C18.1534 31.002 16.6159 31.0208 16.3909 31.1239Z" fill="#102133" />
+                </svg>
+                <span>
+                  Submission of Papers - EasyChair Smart CFP
+                </span>
               </div>
-            ))}
+              <i>
+                <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g clip-path="url(#clip0_838_942)">
+                    <path d="M19.7891 19.8H5.78906V5.79999H12.7891V3.79999H5.78906C4.67906 3.79999 3.78906 4.69999 3.78906 5.79999V19.8C3.78906 20.9 4.67906 21.8 5.78906 21.8H19.7891C20.8891 21.8 21.7891 20.9 21.7891 19.8V12.8H19.7891V19.8ZM14.7891 3.79999V5.79999H18.3791L8.54906 15.63L9.95906 17.04L19.7891 7.20999V10.8H21.7891V3.79999H14.7891Z" fill="#102133" />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_838_942">
+                      <rect width="24" height="24" fill="white" transform="translate(0.789062 0.799988)" />
+                    </clipPath>
+                  </defs>
+                </svg>
+              </i>
+            </div>
+            <div className="w-[100%] bg-white flex items-center rounded-xl justify-between pr-3  text-sm font-extralight">
+              <div className="flex items-center gap-x-5 ">
+                {/* <svg width="49" height="53" className="bg-[#FCA311] rounded-l-xl p-2 " viewBox="0 0 49 49" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <rect x="0.789062" y="0.799988" width="48" height="48" />
+                  <path d="M15.9221 4.1239C15.3034 4.2739 14.7034 4.55515 14.2159 4.92078C13.6721 5.31453 8.82524 11.3801 8.46899 12.102C8.30961 12.4114 8.15024 12.8895 8.09399 13.1708C8.03774 13.4895 8.00024 18.7489 8.00024 27.8427C8.00024 43.2833 7.97211 42.4864 8.52524 43.5739C8.86274 44.2395 9.67836 45.0645 10.3346 45.4208C11.469 46.0208 10.719 45.9927 24.5002 45.9927C35.4409 45.9927 37.0909 45.9739 37.5784 45.852C39.1909 45.4302 40.4377 44.1739 40.8596 42.552C41.0752 41.7458 41.0752 8.23952 40.8596 7.43328C40.4377 5.8114 39.1909 4.55515 37.5784 4.13328C37.0909 4.0114 35.6846 3.99265 26.7034 4.00203C18.8565 4.00203 16.2784 4.03953 15.9221 4.1239ZM37.3065 7.2364C37.4471 7.33953 37.6534 7.54578 37.7565 7.6864L37.9534 7.93953V24.9927V42.0458L37.7565 42.2989C37.6534 42.4395 37.4471 42.6458 37.3065 42.7489C37.0534 42.9458 37.0252 42.9458 24.5002 42.9458C11.9752 42.9458 11.9471 42.9458 11.694 42.7489C11.5534 42.6458 11.3471 42.4395 11.244 42.2989C11.0471 42.0458 11.0471 42.0177 11.019 27.8895C11.0002 14.9239 11.0096 13.7145 11.1502 13.4333C11.2346 13.2645 12.3502 11.8208 13.6346 10.227C15.2096 8.23952 16.0534 7.26453 16.269 7.1614C16.5502 7.02077 17.4409 7.00203 26.8159 7.02077C36.9877 7.03953 37.0534 7.03953 37.3065 7.2364Z" fill="#102133" />
+                  <path d="M23.8905 16.1239C23.7405 16.1989 22.4842 17.3895 21.1061 18.7676C18.4155 21.4864 18.3874 21.5145 18.5467 22.3395C18.6311 22.7989 19.1936 23.3614 19.653 23.4458C20.3936 23.5864 20.6186 23.4645 21.8467 22.2458L22.9905 21.1208L23.0186 24.8333C23.0467 28.4145 23.0561 28.5551 23.2436 28.7989C23.6092 29.2958 23.9092 29.4458 24.4999 29.4458C25.0905 29.4458 25.3905 29.2958 25.7561 28.7989C25.9436 28.5551 25.953 28.4145 25.9811 24.8333L26.0092 21.1208L27.153 22.2458C28.3811 23.4645 28.6061 23.5864 29.3467 23.4458C29.8061 23.3614 30.3686 22.7989 30.453 22.3395C30.6124 21.5145 30.5842 21.4864 27.8936 18.7676C26.5155 17.3895 25.2592 16.1989 25.0905 16.1239C24.7155 15.9645 24.2561 15.9645 23.8905 16.1239Z" fill="#102133" />
+                  <path d="M16.3909 31.1239C15.7628 31.3958 15.4065 32.1176 15.5378 32.8208C15.6222 33.2614 16.0909 33.777 16.5128 33.8989C16.7472 33.9739 19.3722 33.9926 24.7065 33.9739C32.4597 33.9458 32.5534 33.9458 32.8065 33.7489C33.3034 33.3833 33.4534 33.0833 33.4534 32.4926C33.4534 31.902 33.3034 31.602 32.8065 31.2364C32.5534 31.0395 32.469 31.0395 24.6128 31.0208C18.1534 31.002 16.6159 31.0208 16.3909 31.1239Z" fill="#102133" />
+                </svg> */}
+                <svg width="49" height="50" viewBox="0 0 35 45" className="bg-[#FCA311] rounded-l-xl p-2 flex justify-center" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M16.2564 15.2706C12.0462 15.2706 8.62109 11.8455 8.62109 7.6353C8.62109 3.42513 12.0462 0 16.2564 0C20.4666 0 23.8917 3.42513 23.8917 7.6353C23.8917 11.8455 20.4666 15.2706 16.2564 15.2706ZM16.2564 3.07344C13.741 3.07344 11.6945 5.11991 11.6945 7.6353C11.6945 10.1507 13.741 12.1972 16.2564 12.1972C18.7718 12.1972 20.8182 10.1507 20.8182 7.6353C20.8182 5.11991 18.7718 3.07344 16.2564 3.07344Z" fill="#102133" />
+                  <path d="M5.53672 39.5156C4.68801 39.5156 4 38.8276 4 37.9789V27.1147C4 22.2236 7.97922 18.2444 12.8704 18.2444H19.6438C22.6821 18.2444 25.4789 19.7833 27.125 22.3606C27.6009 23.1061 27.961 23.9144 28.1954 24.7627C28.422 25.5802 27.9421 26.4272 27.1241 26.6533C26.3075 26.8812 25.4596 26.4004 25.2335 25.582C25.0803 25.0296 24.8454 24.5023 24.5341 24.0154C23.4557 22.3263 21.6275 21.3182 19.6438 21.3182H12.8704C9.67401 21.3182 7.07344 23.9188 7.07344 27.1152V37.9789C7.07344 38.8276 6.38543 39.5156 5.53672 39.5156Z" fill="#102133" />
+                  <path d="M26.9771 39.5156C26.1284 39.5156 25.4404 38.8276 25.4404 37.9789V36.9972C25.4404 36.1485 26.1284 35.4604 26.9771 35.4604C27.8259 35.4604 28.5139 36.1485 28.5139 36.9972V37.9789C28.5139 38.8276 27.8254 39.5156 26.9771 39.5156Z" fill="#102133" />
+                  <path d="M15.1703 30.1816L18.9089 26.443C19.5091 25.8428 20.4816 25.8428 21.0818 26.443C21.682 27.0427 21.682 28.0161 21.0818 28.6159L19.9666 29.7311H34.7599C35.6086 29.7311 36.2966 30.4191 36.2966 31.2678C36.2966 32.1165 35.6086 32.8046 34.7599 32.8046H19.9661L21.0818 33.9202C21.682 34.5204 21.682 35.4934 21.0818 36.0931C20.7815 36.3934 20.3885 36.5432 19.9951 36.5432C19.6017 36.5432 19.2083 36.393 18.9084 36.0931L15.1698 32.3541C14.5696 31.7543 14.5696 30.7814 15.1703 30.1816Z" fill="#102133" />
+                </svg>
+
+                <span>
+                  Log into EasyChair for CALDAM 2025
+                </span>
+              </div>
+              <i>
+                <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g clip-path="url(#clip0_838_942)">
+                    <path d="M19.7891 19.8H5.78906V5.79999H12.7891V3.79999H5.78906C4.67906 3.79999 3.78906 4.69999 3.78906 5.79999V19.8C3.78906 20.9 4.67906 21.8 5.78906 21.8H19.7891C20.8891 21.8 21.7891 20.9 21.7891 19.8V12.8H19.7891V19.8ZM14.7891 3.79999V5.79999H18.3791L8.54906 15.63L9.95906 17.04L19.7891 7.20999V10.8H21.7891V3.79999H14.7891Z" fill="#102133" />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_838_942">
+                      <rect width="24" height="24" fill="white" transform="translate(0.789062 0.799988)" />
+                    </clipPath>
+                  </defs>
+                </svg>
+              </i>
+            </div>
+          </div>
+          <div className="lg:flex md:flex max-md:flex max-sm:flex lg:w-[45%] md:w-[100%] max-md:w-[100%] h-fit py-3 gap-x-4">
+            <div>
+              <svg width="32" height="0" viewBox="0 0 32 174" fill="none" className="lg:h-[125px] max-lg:h-[200px] md:h-[174px] max-md:h-[125px] max-sm:h-[125px] " xmlns="http://www.w3.org/2000/svg">
+                <rect x="3" y="3" width="26" height="27" rx="3" fill="#FCA311" />
+                <path d="M16 2H5C3.34315 2 2 3.34315 2 5V27C2 28.6569 3.34315 30 5 30H11" stroke="white" stroke-width="3" stroke-linecap="round" />
+                <path d="M16 2H27C28.6569 2 30 3.34315 30 5V27C30 28.6569 28.6569 30 27 30H21" stroke="white" stroke-width="3" stroke-linecap="round" />
+                <path d="M16 28L16 74" stroke="white" stroke-width="3" stroke-linecap="round" />
+                <path d="M16 99L16 145" stroke="white" stroke-width="3" stroke-linecap="round" />
+                <path d="M20 72H27C28.6569 72 30 73.3431 30 75V97C30 98.6569 28.6569 100 27 100H21" stroke="white" stroke-width="3" stroke-linecap="round" />
+                <path d="M12 72H5C3.34315 72 2 73.3431 2 75V97C2 98.6569 3.34315 100 5 100H11" stroke="white" stroke-width="3" stroke-linecap="round" />
+                <path d="M16 172H5C3.34315 172 2 170.657 2 169V147C2 145.343 3.34315 144 5 144H11" stroke="white" stroke-width="3" stroke-linecap="round" />
+                <path d="M16 172H27C28.6569 172 30 170.657 30 169V147C30 145.343 28.6569 144 27 144H21" stroke="white" stroke-width="3" stroke-linecap="round" />
+              </svg>
+            </div>
+            <div className="text-white max-w-fit lg:truncate font-extralight lg:gap-y-6 md:gap-y-12 max-md:gap-y-6 max-md:animate-marquee max-md:truncate max-sm:gap-y-6  flex flex-col "
+            >
+              <span className="px-1">
+                Last date for Paper Submission - October 03, 2023, AoE
+              </span>
+              <span className="px-1">
+                Notification of Acceptance - November 12, 2023, AoE
+              </span>
+              <span className="px-1">
+                Camera-ready Version - November 22, 2023, AoE
+              </span>
+            </div>
           </div>
         </div>
-        <div className="flex items-end py-3">
-          <h1 className=" text-3xl lg:text-5xl font-bold">Proceedings</h1>
-          <Image
-            src={LineImage}
-            alt="Line Image"
-            className=" max-lg:hidden  "
-          />
-        </div>
-        <p className=" py-2 text-2xl max-lg:text-lg ">
-          As in earlier CALDAMs, the proceedings of accepted papers of CALDAM
-          2024 will be published in the Lecture Notes in Computer Science by
-          Springer. Also, selected papers of CALDAM 2024 are likely to be
-          published in a special issue of Discrete Applied Mathematics (DAM)
-          journal of Elsevier.
-        </p>
+
       </div>
-    </div>
+      <div className="min-h-[40vh] max-h-fit py-12 px-20 gap-y-8 flex flex-col">
+        <h1 className="text-[36px] font-medium" >
+          Scope
+        </h1>
+        <span className="lg:px-12 font-extralight">
+          CALDAM 2024 invites papers describing original research in the areas of design, analysis and experimental evaluation of algorithms and in discrete applied mathematics. An indicative list of sub-areas are given below. Papers must be typeset using LaTeX/LaTeX2e and may not exceed 12 pages in LNCS style, including bibliographic references. Further details may be included in a clearly marked appendix that will be read at the discretion of the program committee. Only electronic submission is allowed. Submitted papers must describe previously unpublished work and may not be submitted concurrently to another conference with refereed proceedings or to a refereed journal. Please find the guidelines for authors on Springer website.
+        </span>
+      </div>
+      <div className=" h-fit bg-bluecolor py-12 px-20">
+        <h1 className=" lg:text-[36px] max-md:text-[30px] max-sm:text-[24px] max-sm:flex max-sm:justify-center text-white font-semibold ">
+          CALDAM TOPICS
+        </h1>
+        <div className="px-16 pt-8 text-white">
+          <ul className="text-black flex flex-col gap-y-3">
+            {
+              CaldamTopics.map((val, index) => (
+                index % 7 == 0 ?
+                  <div className="lg:flex md:flex min-md:flex-col max-md:flex max-sm:flex-col justify-center gap-x-4 max-sm:gap-y-3 text-center max-sm:items-center">
+                    <div className="p-3 bg-white flex justify-center font-semibold rounded-3xl w-[19vw] max-md:w-[40%] max-sm:w-[76vw]">
+                      <span>
+                        {CaldamTopics[index]}
+                      </span>
+                    </div>
+                    <div className="p-3 bg-white flex justify-center font-semibold rounded-3xl w-[19vw] max-md:w-[40%] max-sm:w-[76vw]">
+                      <span>
+                        {CaldamTopics[index + 1]}
+                      </span>
+                    </div>
+                    <div className="p-3 bg-white flex justify-center font-semibold rounded-3xl w-[19vw] max-md:w-[40%] max-sm:w-[76vw]">
+                      <span>
+                        {CaldamTopics[index + 2]}
+                      </span>
+                    </div>
+                    <div className="p-3 bg-white flex justify-center font-semibold rounded-3xl w-[19vw] max-md:w-[40vw] max-sm:w-[76vw]">
+                      <span>
+                        {CaldamTopics[index + 3]}
+                      </span>
+                    </div>
+                  </div> : index % 7 == 4 ? 
+                    <div className="lg:flex md:flex max-md:flex max-sm:flex-col justify-center gap-x-4 max-sm:gap-y-3 text-center max-sm:items-center">
+                      <div className="p-3 bg-white flex justify-center items-center  font-semibold rounded-3xl max-md:w-[40vw] max-sm:w-[76vw]">
+                        <span>
+                          {CaldamTopics[index]}
+                        </span>
+                      </div>
+                      <div className="p-3 bg-white flex justify-center items-center font-semibold rounded-3xl w-[19vw] max-md:w-[40vw]  max-sm:w-[76vw]">
+                        <span>
+                          {CaldamTopics[index + 1]}
+                        </span>
+                      </div>
+                      <div className="p-3 bg-white flex justify-center items-center font-semibold rounded-3xl w-[19vw] max-md:w-[40vw] max-sm:w-[76vw]">
+                        <span>
+                          {CaldamTopics[index + 2]}
+                        </span>
+                      </div>
+                    </div> : null
+              ))
+            }
+          </ul>
+        </div>
+      </div>
+    </main>
   );
 }
