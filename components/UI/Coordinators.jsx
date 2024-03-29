@@ -5,7 +5,7 @@ function Coordinator() {
   return (
     <div>
       <div>
-        <div className="text-sky-950 text-4xl font-bold mb-4 pl-10 pb-4 pt-10 pr-10">
+        <div className="mb-4 pb-4 pl-10 pr-10 pt-10 text-4xl font-bold text-sky-950">
           REGISTRATION
         </div>
         <div className="pl-10  pr-10">
@@ -17,23 +17,23 @@ function Coordinator() {
           will end on November 01, 2024.
         </div>
         <div className="p-10">
-          <button className=" px-8 text-md lg:text-lg py-4 bg-navbg rounded-lg text-white font-bold ">
+          <button className=" text-md bg-navbg rounded-lg px-8 py-4 font-bold text-white lg:text-lg ">
             Register {"➚"}
           </button>
         </div>
       </div>
       <div>
-        <h1 className="text-3xl font-bold mb-4 pl-10 pb-6 pt-10 pr-10">
+        <h1 className="mb-4 pb-6 pl-10 pr-10 pt-10 text-3xl font-bold">
           COORDINATORS
         </h1>
-        <div className="flex flex-wrap m-5">
+        <div className="m-5 flex flex-wrap">
           {Coordinators.map((item, index) => (
             <div
               key={index}
-              className="w-full sm:w-1/2 md:w-1/2 lg:w-1/4 xl:w-1/4 p-4 rounded-3xl"
+              className="w-full rounded-3xl p-4 sm:w-1/2 md:w-1/2 lg:w-1/4 xl:w-1/4"
             >
-              <div className="bg-gray-200 p-6 rounded-md">
-                <div className="text-3xl font-semibold mb-2">{item.name}</div>
+              <div className="rounded-md bg-gray-200 p-6">
+                <div className="mb-2 text-3xl font-semibold">{item.name}</div>
                 <div className="text-1g">{item.institute}</div>
               </div>
             </div>
@@ -42,10 +42,10 @@ function Coordinator() {
       </div>
 
       <div>
-        <div className="text-sky-950 text-4xl p-10 font-bold">
+        <div className="p-10 text-4xl font-bold text-sky-950">
           {`YOUNG RESEARCHER'S FORUM`}
         </div>
-        <div className="pt-5 pl-10  pr-10">
+        <div className="pl-10 pr-10  pt-5">
           Young Researchers Forum (YRF 2024) is part of CALDAM Pre-Conference
           School and is the third in the series of CALDAM conferences. YRF is a
           unique opportunity as an open discussion session for ambitious young
@@ -58,12 +58,12 @@ function Coordinator() {
           participants of the Pre-Conference School. YRF will be taking place on
           Day 1 of CALDAM Pre-Conference School.
         </div>
-        <div className="text-black font-semibold p-10">
+        <div className="p-10 font-semibold text-black">
           All selected participants of the School are expected to do a short
           presentation for 5 minutes followed by a Question & Answer session for
           2 minutes.
         </div>
-        <div className="text-black pr-10  pl-10 pb-10 font-semibold">
+        <div className="pb-10 pl-10  pr-10 font-semibold text-black">
           Learn more
         </div>
       </div>

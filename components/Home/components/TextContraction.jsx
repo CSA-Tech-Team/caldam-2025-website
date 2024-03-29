@@ -38,7 +38,7 @@ const TextContraction = ({ className, contentStart, contentRemaining }) => {
             }}
           >
             <IoMdArrowDroprightCircle
-              className={`${expand && "translate-x-10  opacity-0"} transition-all text-xl absolute -top-4 left-0`}
+              className={`${expand && "translate-x-10  opacity-0"} absolute -top-4 left-0 text-xl transition-all`}
             />
           </button>
         </>

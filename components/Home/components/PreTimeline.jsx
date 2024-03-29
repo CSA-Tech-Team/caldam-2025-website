@@ -35,7 +35,7 @@ const PreTimeline = () => {
 
   return (
     <AnimatePresence>
-      <div className="flex max-lg:flex-col p-8 lg:p-14 h-[500px] lg:h-[700px]">
+      <div className="flex h-[500px] p-8 max-lg:flex-col lg:h-[700px] lg:p-14">
         <div className="hidden lg:block">
           <motion.div
             variants={{
@@ -49,7 +49,7 @@ const PreTimeline = () => {
             initial="initial"
             whileInView="animate"
             viewport={{ once: true }}
-            className="h-full max-w-fit flex flex-col items-center justify-center -space-y-6 text-bluecolor"
+            className="flex h-full max-w-fit flex-col items-center justify-center -space-y-6 text-bluecolor"
           >
             {TIMELINE_LETTERS.map((t, index) => (
               <div key={index} className="overflow-hidden">
@@ -67,7 +67,7 @@ const PreTimeline = () => {
                       },
                     },
                   }}
-                  className="text-8xl -rotate-90 origin-center max-w-fit font-bold px-5"
+                  className="max-w-fit origin-center -rotate-90 px-5 text-8xl font-bold"
                 >
                   {t}
                 </motion.h1>
@@ -75,98 +75,98 @@ const PreTimeline = () => {
             ))}
           </motion.div>
         </div>
-        <div className="lg:hidden py-4 text-bluecolor">
+        <div className="py-4 text-bluecolor lg:hidden">
           <h1 className="text-4xl font-bold">TIMELINE</h1>
         </div>
         <div className="w-full overflow-y-auto text-white">
           <div className="flex flex-row items-stretch justify-between">
-            <div className="flex flex-col items-end flex-1 px-5 max-lg:hidden">
-              <div className="w-60 flex flex-col -space-y-2">
-                <div className="bg-orange rounded-lg px-4 py-2 w-fit ml-3 z-10 text-black">
+            <div className="flex flex-1 flex-col items-end px-5 max-lg:hidden">
+              <div className="flex w-60 flex-col -space-y-2">
+                <div className="z-10 ml-3 w-fit rounded-lg bg-orange px-4 py-2 text-black">
                   <p className="text-sm">7:30PM - 9:30PM</p>
                 </div>
-                <div className="bg-bluecolor rounded-md px-4 py-2">
+                <div className="rounded-md bg-bluecolor px-4 py-2">
                   <p className="text-2xl">Welcome Dinner</p>
                 </div>
               </div>
-              <div className="w-60 flex flex-col -space-y-2 mt-20">
-                <div className="bg-orange rounded-lg px-4 py-2 w-fit ml-3 z-10 text-black">
+              <div className="mt-20 flex w-60 flex-col -space-y-2">
+                <div className="z-10 ml-3 w-fit rounded-lg bg-orange px-4 py-2 text-black">
                   <p className="text-sm">7:30PM - 9:30PM</p>
                 </div>
-                <div className="bg-bluecolor rounded-md px-4 py-2">
+                <div className="rounded-md bg-bluecolor px-4 py-2">
                   <p className="text-2xl">Welcome Dinner</p>
                 </div>
               </div>
             </div>
-            <div className="w-1 bg-bluecolor rounded-full"></div>
-            <div className="flex flex-col flex-1 px-5">
+            <div className="w-1 rounded-full bg-bluecolor"></div>
+            <div className="flex flex-1 flex-col px-5">
               <div
-                className="w-60 flex flex-col -space-y-2 mt-20 relative"
+                className="relative mt-20 flex w-60 flex-col -space-y-2"
                 ref={dayZeroTrigger}
               >
-                <div className="bg-orange rounded-lg px-4 py-2 w-fit ml-3 z-10 text-black">
+                <div className="z-10 ml-3 w-fit rounded-lg bg-orange px-4 py-2 text-black">
                   <p className="text-sm">7:30PM - 9:30PM</p>
                 </div>
-                <div className="bg-bluecolor rounded-md px-4 py-2">
+                <div className="rounded-md bg-bluecolor px-4 py-2">
                   <p className="text-2xl">Welcome Dinner</p>
                 </div>
               </div>
-              <div className="w-60 flex flex-col -space-y-2 mt-20">
-                <div className="bg-orange rounded-lg px-4 py-2 w-fit ml-3 z-10 text-black">
+              <div className="mt-20 flex w-60 flex-col -space-y-2">
+                <div className="z-10 ml-3 w-fit rounded-lg bg-orange px-4 py-2 text-black">
                   <p className="text-sm">7:30PM - 9:30PM</p>
                 </div>
-                <div className="bg-bluecolor rounded-md px-4 py-2">
+                <div className="rounded-md bg-bluecolor px-4 py-2">
                   <p className="text-2xl">Welcome Dinner</p>
                 </div>
               </div>
-              <div className="w-60 flex flex-col -space-y-2 mt-20">
-                <div className="bg-orange rounded-lg px-4 py-2 w-fit ml-3 z-10 text-black">
+              <div className="mt-20 flex w-60 flex-col -space-y-2">
+                <div className="z-10 ml-3 w-fit rounded-lg bg-orange px-4 py-2 text-black">
                   <p className="text-sm">7:30PM - 9:30PM</p>
                 </div>
-                <div className="bg-bluecolor rounded-md px-4 py-2">
+                <div className="rounded-md bg-bluecolor px-4 py-2">
                   <p className="text-2xl">Welcome Dinner</p>
                 </div>
               </div>
-              <div className="w-60 flex flex-col -space-y-2 mt-20">
-                <div className="bg-orange rounded-lg px-4 py-2 w-fit ml-3 z-10 text-black">
+              <div className="mt-20 flex w-60 flex-col -space-y-2">
+                <div className="z-10 ml-3 w-fit rounded-lg bg-orange px-4 py-2 text-black">
                   <p className="text-sm">7:30PM - 9:30PM</p>
                 </div>
-                <div className="bg-bluecolor rounded-md px-4 py-2">
+                <div className="rounded-md bg-bluecolor px-4 py-2">
                   <p className="text-2xl">Welcome Dinner</p>
                 </div>
               </div>
-              <div className="w-60 flex flex-col -space-y-2 mt-20">
-                <div className="bg-orange rounded-lg px-4 py-2 w-fit ml-3 z-10 text-black">
+              <div className="mt-20 flex w-60 flex-col -space-y-2">
+                <div className="z-10 ml-3 w-fit rounded-lg bg-orange px-4 py-2 text-black">
                   <p className="text-sm">7:30PM - 9:30PM</p>
                 </div>
-                <div className="bg-bluecolor rounded-md px-4 py-2">
+                <div className="rounded-md bg-bluecolor px-4 py-2">
                   <p className="text-2xl">Welcome Dinner</p>
                 </div>
               </div>
-              <div className="w-60 flex flex-col -space-y-2 mt-20">
-                <div className="bg-orange rounded-lg px-4 py-2 w-fit ml-3 z-10 text-black">
+              <div className="mt-20 flex w-60 flex-col -space-y-2">
+                <div className="z-10 ml-3 w-fit rounded-lg bg-orange px-4 py-2 text-black">
                   <p className="text-sm">7:30PM - 9:30PM</p>
                 </div>
-                <div className="bg-bluecolor rounded-md px-4 py-2">
+                <div className="rounded-md bg-bluecolor px-4 py-2">
                   <p className="text-2xl">Welcome Dinner</p>
                 </div>
               </div>
-              <div className="w-60 flex flex-col -space-y-2 mt-20">
-                <div className="bg-orange rounded-lg px-4 py-2 w-fit ml-3 z-10 text-black">
+              <div className="mt-20 flex w-60 flex-col -space-y-2">
+                <div className="z-10 ml-3 w-fit rounded-lg bg-orange px-4 py-2 text-black">
                   <p className="text-sm">7:30PM - 9:30PM</p>
                 </div>
-                <div className="bg-bluecolor rounded-md px-4 py-2">
+                <div className="rounded-md bg-bluecolor px-4 py-2">
                   <p className="text-2xl">Welcome Dinner</p>
                 </div>
               </div>
               <div
-                className="w-60 flex flex-col -space-y-2 mt-20"
+                className="mt-20 flex w-60 flex-col -space-y-2"
                 ref={dayOneTrigger}
               >
-                <div className="bg-orange rounded-lg px-4 py-2 w-fit ml-3 z-10 text-black">
+                <div className="z-10 ml-3 w-fit rounded-lg bg-orange px-4 py-2 text-black">
                   <p className="text-sm">7:30PM - 9:30PM</p>
                 </div>
-                <div className="bg-bluecolor rounded-md px-4 py-2">
+                <div className="rounded-md bg-bluecolor px-4 py-2">
                   <p className="text-2xl">Welcome Dinner</p>
                 </div>
               </div>
@@ -186,7 +186,7 @@ const PreTimeline = () => {
             initial="initial"
             whileInView="animate"
             viewport={{ once: true }}
-            className="h-full max-w-fit flex flex-col items-center justify-center -space-y-6 text-bluecolor"
+            className="flex h-full max-w-fit flex-col items-center justify-center -space-y-6 text-bluecolor"
           >
             {DAYS[currentDay].map((t, index) => (
               <div key={index} className="overflow-hidden">
@@ -204,7 +204,7 @@ const PreTimeline = () => {
                       },
                     },
                   }}
-                  className="text-8xl origin-center max-w-fit font-bold px-5"
+                  className="max-w-fit origin-center px-5 text-8xl font-bold"
                 >
                   {t}
                 </motion.h1>

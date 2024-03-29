@@ -1,17 +1,12 @@
 [
     {
-        "name": "Google Inc",
+        "organizationName": "Google Inc",
         "imageURL": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Google_logo_%282013-2015%29.svg",
-        "CompanyPageURL": ""
+        "companyPageURL": ""
     },
     {
-        "name": "Springer Inc",
-        "imageURL": "",
-        "CompanyPageURL": ""
-    },
-    {
-        "name": "Springer Inc",
-        "imageURL": "",
-        "CompanyPageURL": ""
+        "organizationName": "Springer",
+        "imageURL": "https://www.springer.com/public/images/springer-logo.svg",
+        "companyPageURL": ""
     }
 ]

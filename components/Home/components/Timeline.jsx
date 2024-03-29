@@ -20,7 +20,7 @@ const Timeline = () => {
 
   return (
     <AnimatePresence>
-      <div className="flex max-lg:flex-col p-8 lg:p-14 h-[700px]">
+      <div className="flex h-[700px] p-8 max-lg:flex-col lg:p-14">
         <div className="hidden lg:block">
           <motion.div
             variants={{
@@ -34,7 +34,7 @@ const Timeline = () => {
             initial="initial"
             whileInView="animate"
             viewport={{ once: true }}
-            className="h-full max-w-fit flex flex-col items-center justify-center -space-y-6 text-bluecolor"
+            className="flex h-full max-w-fit flex-col items-center justify-center -space-y-6 text-bluecolor"
           >
             {TIMELINE_LETTERS.map((t, index) => (
               <div key={index} className="overflow-hidden px-5">
@@ -52,7 +52,7 @@ const Timeline = () => {
                       },
                     },
                   }}
-                  className="text-8xl origin-center max-w-fit font-bold"
+                  className="max-w-fit origin-center text-8xl font-bold"
                 >
                   {t}
                 </motion.h1>
@@ -60,20 +60,20 @@ const Timeline = () => {
             ))}
           </motion.div>
         </div>
-        <div className="lg:hidden mt-4 text-bluecolor">
+        <div className="mt-4 text-bluecolor lg:hidden">
           <h1 className="text-4xl font-bold">TIMELINE</h1>
         </div>
-        <div className="lg:hidden my-4 text-bluecolor">
+        <div className="my-4 text-bluecolor lg:hidden">
           <h1 className="text-2xl font-bold text-bluecolor">
             {DAYS[currentDay]}
           </h1>
         </div>
         <div
-          className="lg:hidden overflow-y-auto overflow-x-hidden flex-1 text-white"
+          className="flex-1 overflow-y-auto overflow-x-hidden text-white lg:hidden"
           id="scrollbar-none"
         >
           <div className="flex flex-row items-stretch justify-between">
-            <div className="w-1 bg-bluecolor rounded-full"></div>
+            <div className="w-1 rounded-full bg-bluecolor"></div>
             <motion.div
               variants={{
                 initial: {},
@@ -135,7 +135,7 @@ const Timeline = () => {
           </div>
         </div>
         <div
-          className="max-lg:hidden overflow-y-auto overflow-x-hidden flex-1 text-white"
+          className="flex-1 overflow-y-auto overflow-x-hidden text-white max-lg:hidden"
           id="scrollbar-none"
         >
           <div className="flex flex-row items-stretch">
@@ -151,7 +151,7 @@ const Timeline = () => {
               viewport={{ once: true }}
               initial="initial"
               whileInView="animate"
-              className="flex-1 px-5 flex flex-col items-stretch"
+              className="flex flex-1 flex-col items-stretch px-5"
             >
               {TimelineData.map((d, index) => {
                 if (index % 2 == 0) {
@@ -199,7 +199,7 @@ const Timeline = () => {
                 }
               })}
             </motion.div>
-            <div className="w-1 bg-bluecolor rounded-full"></div>
+            <div className="w-1 rounded-full bg-bluecolor"></div>
             <motion.div
               variants={{
                 initial: {},
@@ -275,7 +275,7 @@ const Timeline = () => {
             initial="initial"
             whileInView="animate"
             viewport={{ once: true }}
-            className="h-full max-w-fit flex flex-col items-center justify-center -space-y-6 bg-gradient-to-b from-bluecolor to-darkblue bg-clip-text text-transparent"
+            className="flex h-full max-w-fit flex-col items-center justify-center -space-y-6 bg-gradient-to-b from-bluecolor to-darkblue bg-clip-text text-transparent"
           >
             {DAYS_DESKTOP[currentDay].map((t, index) => (
               <div key={index} className="overflow-hidden">
@@ -293,7 +293,7 @@ const Timeline = () => {
                       },
                     },
                   }}
-                  className="text-8xl -rotate-90 origin-center max-w-fit font-bold px-5"
+                  className="max-w-fit origin-center px-5 text-8xl font-bold"
                 >
                   {t}
                 </motion.h1>

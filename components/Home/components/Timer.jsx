@@ -34,7 +34,7 @@ const Timer = ({ endTime }) => {
   const { days, hours, minutes } = timeLeft;
 
   return (
-    <div className="bg-black text-white px-8 py-2 text-4xl lg:text-7xl  lg:py-4 xl:text-9xl lg:px-14 font-bold">
+    <div className="bg-bluecolor px-8 py-2 text-4xl font-bold text-white  lg:px-14 lg:py-4 lg:text-7xl xl:text-9xl">
       {days > 0 && <span className="mr-2">{`${days}  :`}</span>}
       <span>{`${addLeadingZero(hours)} : ${addLeadingZero(minutes)}`}</span>
     </div>

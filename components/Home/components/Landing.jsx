@@ -18,8 +18,8 @@ function Landing() {
       }}
     >
       <AnimatePresence>
-        <div className="bg-gradient-to-r from-white max-lg:from-20% lg:via-white to-transparent w-full min-h-fit p-8 lg:p-14 transition-all">
-          <div className="space-y-4 mb-8 lg:mb-14 overflow-hidden">
+        <div className="min-h-fit w-full bg-gradient-to-r from-white to-transparent p-8 transition-all max-lg:from-20% lg:via-white lg:p-14">
+          <div className="mb-8 space-y-4 overflow-hidden lg:mb-14">
             <motion.div
               variants={{
                 initial: {},
@@ -31,7 +31,7 @@ function Landing() {
               }}
               initial="initial"
               animate="animate"
-              className="lg:flex lg:flex-row lg:justify-start lg:space-x-14 lg:items-stretch mb-8"
+              className="mb-8 lg:flex lg:flex-row lg:items-stretch lg:justify-start lg:space-x-14"
             >
               <div className="overflow-hidden pr-4">
                 <motion.h1
@@ -45,7 +45,7 @@ function Landing() {
                       },
                     },
                   }}
-                  className="text-6xl font-semibold lg:text-7xl xl:text-8xl 2xl:text-9xl max-lg:mr-6 italic"
+                  className="text-6xl font-semibold italic max-lg:mr-6 lg:text-7xl xl:text-8xl 2xl:text-9xl"
                 >
                   CALDAM 2025
                 </motion.h1>
@@ -53,9 +53,9 @@ function Landing() {
               <motion.div
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
-                className="hidden lg:block w-2 bg-black -skew-x-[16deg]"
+                className="hidden w-2 -skew-x-[16deg] bg-black lg:block"
               ></motion.div>
-              <div className="hidden lg:block text-lg xl:text-xl 2xl:text-2xl my-auto overflow-hidden font-medium">
+              <div className="my-auto hidden overflow-hidden text-lg font-medium lg:block xl:text-xl 2xl:text-2xl">
                 <motion.div
                   variants={{
                     initial: {},
@@ -109,7 +109,7 @@ function Landing() {
               </div>
             </motion.div>
             <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }}>
-              <p className="inline relative before:absolute before:h-1 before:bg-orange before:bottom-0 before:-top-[100%] before:w-full">
+              <p className="relative inline before:absolute before:-top-[100%] before:bottom-0 before:h-1 before:w-full before:bg-orange">
                 [ siː-eɪ-ɛl-diː-eɪ-ɛm ]
                 <button
                   className="ml-2"
@@ -125,7 +125,7 @@ function Landing() {
             <motion.p
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}
-              className="lg:hidden text-xl md:text-2xl font-medium"
+              className="text-xl font-medium md:text-2xl lg:hidden"
             >
               11th Annual International Conference on Algorithms and Discrete
               Applied Mathematics
@@ -134,7 +134,7 @@ function Landing() {
           <motion.div
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
-            className="hidden lg:block lg:text-base xl:text-xl mb-14 max-w-[65%] font-medium"
+            className="mb-14 hidden max-w-[65%] font-medium lg:block lg:text-base xl:text-xl"
           >
             The International Conference on Algorithms and Discrete Applied
             Mathematics (CALDAM), held under aegis of the Association of
@@ -148,17 +148,38 @@ function Landing() {
           <motion.div
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
-            className="text-lg flex flex-col lg:flex-row lg:justify-start lg:space-x-4 max-lg:justify-center max-lg:space-y-2 mb-8 lg:mb-14"
+            className="mb-8 flex font-medium max-lg:flex-col max-lg:justify-center max-lg:space-y-4 lg:mb-14 lg:flex-row lg:items-center lg:space-x-10"
           >
-            <button className="px-6 py-2 bg-orange rounded-lg">
+            <div className="flex flex-row items-center text-2xl">
+              <FaCalendar className="mr-4 inline text-2xl lg:text-4xl" />
+              <div className="inline">
+                <p>15 - 17 Feburary </p>
+                <p className="text-sm">2025</p>
+              </div>
+            </div>
+            <div className="hidden h-9 w-1 rounded-full bg-bluecolor lg:block"></div>
+            <div className="flex flex-row items-center text-2xl">
+              <BiSolidNavigation className="mr-4 inline text-2xl lg:text-4xl" />
+              <div className="inline">
+                <p>PSG College of Technology </p>
+                <p className="text-sm">Coimbatore, Tamilnadu, India</p>
+              </div>
+            </div>
+          </motion.div>
+          <motion.div
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            className="flex flex-col text-lg max-lg:mb-8 max-lg:justify-center max-lg:space-y-2 lg:flex-row lg:justify-start lg:space-x-4"
+          >
+            <button className="rounded-lg bg-orange px-6 py-2">
               Call for Papers
             </button>
-            <button className="px-6 py-2 bg-orange rounded-lg">
+            <button className="rounded-lg bg-orange px-6 py-2">
               Accepted Papers
             </button>
           </motion.div>
           <TextContraction
-            className="mb-8 lg:hidden font-medium"
+            className="mb-8 font-medium lg:hidden"
             contentStart="The International Conference on Algorithms and Discrete Applied
           Mathematics (CALDAM),"
             contentRemaining="held under aegis of the Association of Computer
@@ -168,27 +189,6 @@ function Landing() {
           results in these broad areas. CALDAM has originated from the ongoing
           efforts for promoting research in Algorithms and Discrete Mathematics."
           />
-          <motion.div
-            initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1 }}
-            className="flex max-lg:flex-col lg:flex-row max-lg:justify-center max-lg:space-y-4 lg:space-x-10 font-medium lg:items-center"
-          >
-            <div className="text-2xl flex flex-row items-center">
-              <FaCalendar className="inline mr-4 text-2xl lg:text-4xl" />
-              <div className="inline">
-                <p>15 - 17 Feburary </p>
-                <p className="text-sm">2025</p>
-              </div>
-            </div>
-            <div className="hidden lg:block w-1 h-9 bg-black rounded-full"></div>
-            <div className="text-2xl flex flex-row items-center">
-              <BiSolidNavigation className="inline mr-4 text-2xl lg:text-4xl" />
-              <div className="inline">
-                <p>PSG College of Technology </p>
-                <p className="text-sm">Coimbatore, Tamilnadu, India</p>
-              </div>
-            </div>
-          </motion.div>
         </div>
       </AnimatePresence>
     </div>

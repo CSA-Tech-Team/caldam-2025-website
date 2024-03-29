@@ -31,10 +31,10 @@ const TimelineCard = ({
       ref={element}
       className={`flex flex-col -space-y-2 ${index != 0 && (isDesktop ? "mt-20" : "mt-10")}`}
     >
-      <div className="bg-orange rounded-lg px-4 py-2 w-fit ml-3 z-10 text-black">
+      <div className="z-10 ml-3 w-fit rounded-lg bg-orange px-4 py-2 text-black">
         <p className="text-sm lg:text-base">{time}</p>
       </div>
-      <div className="bg-bluecolor rounded-md p-4">
+      <div className="rounded-md bg-bluecolor p-4">
         <div className="flex justify-between space-x-10">
           <p className="text-xl lg:text-2xl">{title}</p>
           {isExpandable && (
@@ -63,7 +63,7 @@ const TimelineCard = ({
               initial="initial"
               animate="animate"
               exit="initial"
-              className="mt-5 whitespace-pre-line origin-top text-base lg:text-lg"
+              className="mt-5 origin-top whitespace-pre-line text-base lg:text-lg"
             >
               {expandHTMLContent}
             </motion.div>

@@ -4,12 +4,12 @@ import Marquee from "react-fast-marquee";
 const LinksMarquee = () => {
   return (
     <Marquee
-      className="bg-black text-white text-sm lg:text-xl mb-2"
+      className="mb-2 bg-bluecolor text-sm text-white lg:text-xl"
       pauseOnHover={true}
       pauseOnClick={true}
       autoFill={true}
     >
-      <div className="flex flex-row p-3 space-x-4 items-stretch">
+      <div className="flex flex-row items-stretch space-x-4 p-3">
         <Link href={"http://www.google.com"}>Previous Year CALDAMS</Link>
         <div className="w-px bg-white"></div>
         <Link href={"http://www.google.com"}>Previous Year CALDAMS</Link>

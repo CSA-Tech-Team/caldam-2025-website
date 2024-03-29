@@ -12,7 +12,7 @@ const Hamburger = ({ className, onClick }) => {
   const toggle = useStateMachineInput(rive, "OnClick", "Switch");
 
   return (
-    <div className={`w-8 aspect-square cursor-pointer ${className}`}>
+    <div className={`aspect-square w-8 cursor-pointer ${className}`}>
       <RiveComponent
         onClick={() => {
           onClick();

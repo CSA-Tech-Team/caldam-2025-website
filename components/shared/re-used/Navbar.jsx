@@ -22,12 +22,12 @@ export default function Navbar() {
   const [openNavbar, setOpenNavbar] = useState(false);
 
   return (
-    <div className="bg-black text-white sticky top-0 left-0 z-30">
-      <div className="px-5 py-2 flex justify-between items-center relative">
-        <h1 className="text-2xl mr-10">
-          CALDAM <p className="text-sm text-center">2025</p>
+    <div className="sticky left-0 top-0 z-30 bg-black text-white">
+      <div className="relative flex items-center justify-between px-5 py-2">
+        <h1 className="mr-10 text-2xl">
+          CALDAM <p className="text-center text-sm">2025</p>
         </h1>
-        <div className="hidden lg:flex items-center justify-between space-x-5">
+        <div className="hidden items-center justify-between space-x-5 lg:flex">
           {NavbarElements.map((elem, index) => {
             return (
               <div key={index} className="py-4 text-white">
@@ -52,12 +52,16 @@ export default function Navbar() {
               initial="initial"
               animate="animate"
               exit="exit"
-              className="lg:hidden absolute top-full left-0 w-full  bg-black flex flex-col items-end justify-between  p-5 origin-top"
+              className="absolute left-0 top-full flex w-full  origin-top flex-col items-end justify-between bg-black  p-5 lg:hidden"
             >
               {NavbarElements.map((elem, index) => {
                 return (
                   <div key={index} className="py-4 text-white">
-                    <Link prefetch href={elem.link} onClick={()=>setOpenNavbar(!openNavbar)}>
+                    <Link
+                      prefetch
+                      href={elem.link}
+                      onClick={() => setOpenNavbar(!openNavbar)}
+                    >
                       {elem.name}
                     </Link>
                   </div>

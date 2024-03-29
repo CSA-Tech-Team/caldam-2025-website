@@ -9,12 +9,12 @@ export const useIntersection = (element, rootMargin) => {
       ([entry]) => {
         setState(entry.isIntersecting);
       },
-      { rootMargin }
+      { rootMargin },
     );
     current && observer?.observe(current);
 
     return () => current && observer.unobserve(current);
-  }, []);
+  }, [element, rootMargin]);
 
   return isVisible;
 };

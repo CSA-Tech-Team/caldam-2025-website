@@ -3,7 +3,7 @@ import ProgramCommitee from "@/components/commitees/components/ProgramCommitee";
 
 function Commitees() {
     return (
-        <div className=" pt-10 ">
+        <div className="pt-10">
             <SteeringCommitee />
             <ProgramCommitee />
         </div>

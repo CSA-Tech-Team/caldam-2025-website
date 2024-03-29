@@ -1,13 +1,11 @@
-import React from 'react'
+import React from "react";
 
-function Button({children}) {
+function Button({ children }) {
   return (
-    <button
-    className=' max-lg:py-2 lg:py-3 max-lg:px-4 lg:px-6 bg-[#FCA311] rounded-md text-black font-bold '
-    >
-        {children}
+    <button className=" rounded-md bg-[#FCA311] font-bold text-black max-lg:px-4 max-lg:py-2 lg:px-6 lg:py-3 ">
+      {children}
     </button>
-  )
+  );
 }
 
-export default Button
+export default Button;
