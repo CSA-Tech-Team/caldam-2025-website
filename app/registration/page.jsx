@@ -182,10 +182,10 @@ export default function Page() {
         <div className="lg:mx-[151px] lg:px-20 max-sm:mx-10 max-lg:pl-32 max-sm:pl-12 py-4 ">
           <span className="text-white font-extralight">
             After payment, please send the transaction receipt and details to
-            caldam2024@iitbhilai.ac.in Those who register as students are
+            caldam2024@psgtech.ac.in Those who register as students are
             directed to submit a soft copy of a certificate stating that (s)he
             is a bonafide student, from their respective supervising guide/HoD
-            to caldam2024@iitbhilai.ac.in
+            to caldam2024@psgtech.ac.in
           </span>
         </div>
       </div>

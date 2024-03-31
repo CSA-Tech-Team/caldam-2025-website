@@ -23,3 +23,11 @@
   border-radius: 10px;
   -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
 }
+
+::selection {
+  background: #FCA311;
+}
+
+::-moz-selection {
+  background: #FCA311;
+}
