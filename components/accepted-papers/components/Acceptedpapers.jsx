@@ -1,5 +1,5 @@
 import React from "react";
-import Acceptedpaper from "@/constants/AcceptedPapers.json";
+import Acceptedpaper from "@/constants/Acceptedpapers.json";
 import Card from "./Cards.jsx";
 function Acceptedpapers() {
   return (
