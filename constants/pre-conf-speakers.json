@@ -1,0 +1,37 @@
+[
+    {
+        "name": "Aida Abiad",
+        "collegeName": "Eindhoven University of Technology, The Netherlands",
+        "link": "https://aidaabiad.win.tue.nl/"
+    },
+    {
+        "name": "Sergio Cabello",
+        "collegeName": "University of Ljubljana, Slovenia",
+        "link": "https://users.fmf.uni-lj.si/cabello/"
+    },
+    {
+        "name": "Kolja Knauer",
+        "collegeName": "Universitat de Barcelona, Spain",
+        "link": "https://pageperso.lis-lab.fr/~kolja.knauer/"
+    },
+    {
+        "name": "Abhranil Chatterjee",
+        "collegeName": "Indian Statistical Institute, Kolkata, India",
+        "link": "https://cabhranil.bitbucket.io/"
+    },
+    {
+        "name": "Prajakta Nimbhorkar",
+        "collegeName": "Chennai Mathematical Institute, Chennai, India",
+        "link": "https://www.cmi.ac.in/~prajakta/"
+    },
+    {
+        "name": "Sudeshna Kolay",
+        "collegeName": "Indian Institute of Technology Kharagpur, Kharagpur, India",
+        "link": "https://cse.iitkgp.ac.in/~skolay/"
+    },
+    {
+        "name": "Simeon Ball",
+        "collegeName": "Universitat Politècnica de Catalunya, Spain",
+        "link": "https://web.mat.upc.edu/simeon.michael.ball/"
+    }
+]

@@ -5,7 +5,7 @@ import { BiSolidNavigation } from "react-icons/bi";
 import { FaCalendar } from "react-icons/fa";
 import { AnimatePresence, motion } from "framer-motion";
 import BackgroundImage from "@/public/image.png";
-import TextContraction from "./TextContraction";
+import TextContraction from "@/components/Home/components/TextContraction";
 import { HiSpeakerWave } from "react-icons/hi2";
 import speak from "@/components/actions/speak";
 
@@ -45,9 +45,9 @@ function Landing() {
                       },
                     },
                   }}
-                  className="text-6xl font-semibold italic max-lg:mr-6 lg:text-7xl xl:text-8xl 2xl:text-9xl"
+                  className="text-balance text-6xl max-lg:text-4xl text-center font-semibold italic max-lg:mr-6 lg:text-8xl "
                 >
-                  CALDAM 2025
+                  PRE-CONFERENCE SCHOOL 2025
                 </motion.h1>
               </div>
               <motion.div
@@ -55,7 +55,7 @@ function Landing() {
                 animate={{ opacity: 1 }}
                 className="hidden w-2 -skew-x-[16deg] bg-black lg:block"
               ></motion.div>
-              <div className="my-auto hidden overflow-hidden text-lg font-medium lg:block xl:text-xl 2xl:text-2xl">
+              <div className="my-auto hidden overflow-hidden text-balance text-lg font-medium lg:block xl:text-xl 2xl:text-3xl">
                 <motion.div
                   variants={{
                     initial: {},
@@ -77,7 +77,7 @@ function Landing() {
                       },
                     }}
                   >
-                    11th Annual International
+                    Indo-Slovenia Pre-Conference
                   </motion.p>
                   <motion.p
                     variants={{
@@ -90,7 +90,7 @@ function Landing() {
                       },
                     }}
                   >
-                    Conference on Algorithms and
+                    School on Algorithms and{" "}
                   </motion.p>
                   <motion.p
                     variants={{
@@ -103,32 +103,19 @@ function Landing() {
                       },
                     }}
                   >
-                    Discrete Applied Mathematics{" "}
+                    Combinatorics{" "}
                   </motion.p>
                 </motion.div>
               </div>
             </motion.div>
-            <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }}>
-              <p className="relative inline before:absolute before:-top-[100%] before:bottom-0 before:h-1 before:w-full before:bg-orange">
-                [ siː-eɪ-ɛl-diː-eɪ-ɛm ]
-                <button
-                  className="ml-2"
-                  onClick={(e) => {
-                    e.preventDefault();
-                    speak("CALDAM");
-                  }}
-                >
-                  <HiSpeakerWave className="inline" />
-                </button>
-              </p>
-            </motion.div>
+
             <motion.p
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}
               className="text-xl font-medium md:text-2xl lg:hidden"
             >
-              11th Annual International Conference on Algorithms and Discrete
-              Applied Mathematics
+              Indo-Slovenia Pre-Conference School on Algorithms and
+              Combinatorics { " "}
             </motion.p>
           </div>
           <motion.div
@@ -138,9 +125,8 @@ function Landing() {
           >
             <TextContraction
               className="mb-8 font-medium max-lg:hidden"
-              contentStart="The International Conference on Algorithms and Discrete Applied
-          Mathematics (CALDAM)"
-              contentRemaining=",held under the aegis of the Association of Computer Science, is intended to bring together researchers working in the areas of Algorithms and Applied Discrete Mathematics and provide a high-quality forum for the dissemination and discussion of research results in these broad areas. CALDAM has originated from the ongoing efforts to promote research in Algorithms and Discrete Mathematics. As in the previous editions of CALDAM, the proceedings of accepted papers of this edition will be published in Lecture Notes in Computer Science by Springer. Also, selected papers are being published as a special issue of the journal Discrete Applied Mathematics (DAM). In all the previous CALDAMs, Springer has sponsored awards for the best student presentations."
+              contentStart="The school is being organized for PhD students and teachers in computer science and discrete mathematics during February 10 - 11, 2025 by Department of Applied Mathematics and Computational Sciences, PSG College of Technology, India. The school is aimed at fulfilling two purposes"
+              contentRemaining="(i) as a pre-conference school for CALDAM 2025, (ii) as an Indo-Spanish School"
             />
           </motion.div>
           <motion.div
@@ -151,7 +137,7 @@ function Landing() {
             <div className="flex flex-row items-center text-2xl">
               <FaCalendar className="mr-4 inline text-2xl lg:text-4xl" />
               <div className="inline">
-                <p> 13-15 February  </p>
+                <p>February 10 - 11 </p>
                 <p className="text-sm">2025</p>
               </div>
             </div>
@@ -164,28 +150,11 @@ function Landing() {
               </div>
             </div>
           </motion.div>
-          <motion.div
-            initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1 }}
-            className="flex flex-col text-lg max-lg:mb-8 max-lg:justify-center max-lg:space-y-2 lg:flex-row lg:justify-start lg:space-x-4"
-          >
-            <button className="rounded-lg bg-orange px-6 py-2">
-              Call for Papers
-            </button>
-            <button className="rounded-lg bg-orange px-6 py-2">
-              Accepted Papers
-            </button>
-          </motion.div>
+          
           <TextContraction
             className="mb-8 font-medium lg:hidden"
-            contentStart="The International Conference on Algorithms and Discrete Applied
-          Mathematics (CALDAM),"
-            contentRemaining="held under aegis of the Association of Computer
-          Science is intended to bring together researchers working in the areas
-          of algorithms and applied discrete mathematics and provide a
-          high-quality forum for the dissemination and discussion of research
-          results in these broad areas. CALDAM has originated from the ongoing
-          efforts for promoting research in Algorithms and Discrete Mathematics."
+            contentStart="The school is being organized for PhD students and teachers in computer science and discrete mathematics during February 10 - 11, 2025 by Department of Applied Mathematics and Computational Sciences, PSG College of Technology, India. The school is aimed at fulfilling two purposes"
+            contentRemaining="(i) as a pre-conference school for CALDAM 2025, (ii) as an Indo-Spanish School"
           />
         </div>
       </AnimatePresence>
