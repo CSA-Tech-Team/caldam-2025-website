@@ -17,7 +17,7 @@ export default function SteeringCommitee() {
             <Card
               title={steeringCommitee.collegeName}
               speakers={steeringCommitee.name}
-              researchResourceLink={""}
+              researchResourceLink={steeringCommitee.link}
             />
           </div>
         ))}

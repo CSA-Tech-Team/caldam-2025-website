@@ -136,14 +136,12 @@ function Landing() {
             whileInView={{ opacity: 1 }}
             className="mb-14 hidden max-w-[65%] font-medium lg:block lg:text-base xl:text-xl"
           >
-            The International Conference on Algorithms and Discrete Applied
-            Mathematics (CALDAM), held under aegis of the Association of
-            Computer Science is intended to bring together researchers working
-            in the areas of algorithms and applied discrete mathematics and
-            provide a high-quality forum for the dissemination and discussion of
-            research results in these broad areas. CALDAM has originated from
-            the ongoing efforts for promoting research in Algorithms and
-            Discrete Mathematics.
+            <TextContraction
+              className="mb-8 font-medium max-lg:hidden"
+              contentStart="The International Conference on Algorithms and Discrete Applied
+          Mathematics (CALDAM),"
+              contentRemaining="held under the aegis of the Association of Computer Science, is intended to bring together researchers working in the areas of Algorithms and Applied Discrete Mathematics and provide a high-quality forum for the dissemination and discussion of research results in these broad areas. CALDAM has originated from the ongoing efforts to promote research in Algorithms and Discrete Mathematics. As in the previous editions of CALDAM, the proceedings of accepted papers of this edition will be published in Lecture Notes in Computer Science by Springer. Also, selected papers are being published as a special issue of the journal Discrete Applied Mathematics (DAM). In all the previous CALDAMs, Springer has sponsored awards for the best student presentations."
+            />
           </motion.div>
           <motion.div
             initial={{ opacity: 0 }}

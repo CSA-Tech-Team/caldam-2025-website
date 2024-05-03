@@ -1,4 +1,5 @@
 import Pricing from "@/components/registration/components/Pricing";
+import Link from "next/link";
 import React from "react";
 
 export default function Page() {
@@ -6,65 +7,65 @@ export default function Page() {
     <main>
       <div>
         <div className="p-8 lg:p-14">
-          <h1 className="text-3xl lg:text-4xl font-semibold max-lg:text-center mb-8">
+          <h1 className="mb-8 text-3xl font-semibold max-lg:text-center lg:text-4xl">
             REGISTRATION
           </h1>
-          <div className="flex max-lg:flex-col max-lg:space-y-4 mb-8 lg:items-stretch lg:space-x-4">
+          <div className="mb-8 flex max-lg:flex-col max-lg:space-y-4 lg:items-stretch lg:space-x-4">
             <div className="flex-1">
               <div className="rounded-lg border border-bluecolor">
-                <div className="px-4 py-3 bg-bluecolor rounded-t-md text-white text-lg">
+                <div className="rounded-t-md bg-bluecolor px-4 py-3 text-lg text-white">
                   <h1>Indian Participants</h1>
                 </div>
-                <div className="flex max-md:flex-col justify-stretch">
+                <div className="flex justify-stretch max-md:flex-col">
                   <Pricing
-                    className="border max-md:border-b-bluecolor md:border-r-bluecolor max-lg:py-8 max-xl:px-5 lg:py-5 xl:p-8 flex-1"
+                    className="flex-1 border max-xl:px-5 max-lg:py-8 max-md:border-b-bluecolor md:border-r-bluecolor lg:py-5 xl:p-8"
                     title="Regular"
                     subTitle="with proceedings"
-                    isEarlyBird={false}
-                    regularPrice="₹ 7500"
-                    earlyBirdPrice="₹ 3000"
+                    isEarlyBird={true}
+                    regularPrice="₹ 8500"
+                    earlyBirdPrice="₹ 7500"
                   />
                   <Pricing
-                    className="max-lg:py-8 max-xl:px-5 lg:py-5 xl:p-8 flex-1"
+                    className="flex-1 max-xl:px-5 max-lg:py-8 lg:py-5 xl:p-8"
                     title="Student"
                     subTitle="without proceedings"
                     isEarlyBird={true}
-                    regularPrice="₹ 7500"
-                    earlyBirdPrice="₹ 3000"
+                    regularPrice="₹ 4500"
+                    earlyBirdPrice="₹ 4000"
                   />
                 </div>
               </div>
             </div>
             <div className="flex-1">
               <div className="rounded-lg border border-bluecolor">
-                <div className="px-4 py-3 bg-bluecolor rounded-t-md text-white text-lg">
+                <div className="rounded-t-md bg-bluecolor px-4 py-3 text-lg text-white">
                   <h1>Foreign Participants</h1>
                 </div>
-                <div className="flex max-md:flex-col justify-stretch">
+                <div className="flex justify-stretch max-md:flex-col">
                   <Pricing
-                    className="border max-md:border-b-bluecolor md:border-r-bluecolor max-lg:py-8 max-xl:px-5 lg:py-5 xl:p-8 flex-1"
+                    className="flex-1 border max-xl:px-5 max-lg:py-8 max-md:border-b-bluecolor md:border-r-bluecolor lg:py-5 xl:p-8"
                     title="Regular"
                     subTitle="with proceedings"
-                    isEarlyBird={false}
-                    regularPrice="₹ 7500"
-                    earlyBirdPrice="₹ 3000"
+                    isEarlyBird={true}
+                    regularPrice="$450"
+                    earlyBirdPrice="$425"
                   />
                   <Pricing
-                    className="max-lg:py-8 max-xl:px-5 lg:py-5 xl:p-8 flex-1"
+                    className="flex-1 max-xl:px-5 max-lg:py-8 lg:py-5 xl:p-8"
                     title="Student"
                     subTitle="without proceedings"
                     isEarlyBird={true}
-                    regularPrice="₹ 7500"
-                    earlyBirdPrice="₹ 3000"
+                    regularPrice="$250"
+                    earlyBirdPrice="$225"
                   />
                 </div>
               </div>
             </div>
           </div>
-          <div className="font-light italic text-sm xl:text-base space-y-3">
+          <div className="space-y-3 text-sm font-light italic xl:text-base">
             <p>
-              * Early bird registration is till 31 December 2023. Registration
-              done on or after 1 January 2024 will be considered late
+              * Early bird registration is till 31 December 2024. Registration
+              done on or after 1 January 2025 will be considered late.
             </p>
             <p>
               * At least one author of each accepted paper must register (by the
@@ -78,11 +79,11 @@ export default function Page() {
           </div>
         </div>
       </div>
-      <div className=" max-h-fit py-4 bg-bluecolor flex flex-col ">
-        <div className="lg:text-[30px] max-sm:text-[18px] max-lg:text-[24px] lg:px-20 max-sm:px-4 max-lg:px-4">
-          <h1 className="p-4 text-white uppercase">Steps for registration</h1>
+      <div className=" flex max-h-fit flex-col bg-bluecolor py-4 ">
+        <div className="max-lg:px-4 max-lg:text-[24px] max-sm:px-4 max-sm:text-[18px] lg:px-20 lg:text-[30px]">
+          <h1 className="p-4 uppercase text-white">Steps for registration</h1>
         </div>
-        <div className="flex lg:px-32 max-sm:px-4 max-lg:pl-8 pt-4 items-center gap-x-3 lg:text-2xl max-sm:text-[20px] text-white font-medium">
+        <div className="flex items-center gap-x-3 pt-4 font-medium text-white max-lg:pl-8 max-sm:px-4 max-sm:text-[20px] lg:px-32 lg:text-2xl">
           <div>
             <svg
               width="54"
@@ -100,44 +101,37 @@ export default function Page() {
           </div>
           <div>TRANSFER REGISTRATION FEE</div>
         </div>
-        <div className="border-l-8 lg:mx-[151px] max-lg:mx-14 lg:px-20 max-lg:px-20 max-sm:mx-10 max-sm:pl-12 py-4 border-orange text-orange">
+        <div className="border-l-8 border-orange py-4 text-orange max-lg:mx-14 max-lg:px-20 max-sm:mx-10 max-sm:pl-12 lg:mx-[151px] lg:px-20">
           <li className="">
-            <div className="text-white font-extralight">
-              Using SBI Collect (For Participant Category A & B)
+            <div className="font-extralight text-white">
+              After payment, please send the transaction receipt and details to{" "}
+              <span className=" bg-gradient-to-r from-violet-500 via-pink-400 to-green-300 bg-clip-text font-bold text-transparent ">
+                <Link
+                  target="_blank"
+                  href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=caldam2025@psgtech.ac.in"
+                >
+                  caldam2025@psgtech.ac.in{" "}
+                </Link>{" "}
+              </span>
             </div>
           </li>
           <li className="">
-            <div className="text-white font-extralight">
-              Visit SBI Collect page for IIT Bhilai by clicking here.
-            </div>
-          </li>
-          <li className="">
-            <div className="text-white font-extralight">
-              Select “Registration Fee for CALDAM 2024” in “Payment Category”.
-            </div>
-          </li>
-          <li className="">
-            <div className="text-white font-extralight">
-              Fill up the necessary details and click “Next”.
-            </div>
-          </li>
-          <li className="">
-            <div className="text-white font-extralight">
-              Choose your preferred payment option and make payment.
-            </div>
-          </li>
-          <li className="">
-            <div className="text-white font-extralight">
-              Using NEFT/ Wire Transfer (For All Participant Categories)
-            </div>
-          </li>
-          <li className="">
-            <div className="text-white font-extralight">
-              For NEFT/Wire Transfer, please use the following details.
+            <div className="font-extralight text-white">
+              Those who register as students are directed to submit a soft copy
+              of a certificate stating that (s)he is a bonafide student, from
+              their respective supervising guide/HoD to{" "}
+              <span className=" bg-gradient-to-r from-violet-500 via-pink-400 to-green-300 bg-clip-text font-bold text-transparent ">
+                <Link
+                  target="_blank"
+                  href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=caldam2025@psgtech.ac.in"
+                >
+                  caldam2025@psgtech.ac.in{" "}
+                </Link>{" "}
+              </span>
             </div>
           </li>
         </div>
-        <div className="flex lg:px-32 max-sm:px-4 max-lg:px-8 items-center gap-x-3 lg:text-2xl max-sm:text-[20px] text-white font-medium">
+        <div className="flex items-center gap-x-3 font-medium text-white max-lg:px-8 max-sm:px-4 max-sm:text-[20px] lg:px-32 lg:text-2xl">
           <div>
             <svg
               width="54"
@@ -155,13 +149,17 @@ export default function Page() {
           </div>
           <div>REGISTRATION</div>
         </div>
-        <div className="border-l-8 lg:mx-[151px] max-lg:mx-14 lg:px-20 max-lg:pl-16 max-sm:mx-10 max-sm:pl-12 py-4 border-orange text-orange">
-          <span className="text-white font-extralight">
-            After transferring the registration fee, please fill the Conference
-            Registration Form .{" "}
-          </span>
+        <div className="border-l-8 border-orange py-4 text-orange max-lg:mx-14 max-lg:pl-16 max-sm:mx-10 max-sm:pl-12 lg:mx-[151px] lg:px-20">
+          <div className=" font-extralight text-white">
+            After transferring the registration fee, please fill the{" "}
+            <span className=" bg-gradient-to-r from-violet-500 via-pink-400 to-green-300 bg-clip-text font-bold text-transparent ">
+              <Link prefetch href={""}>
+                Conference Registration Form
+              </Link>
+            </span>
+          </div>
         </div>
-        <div className="flex lg:px-32 max-sm:px-4 max-lg:px-8 items-center gap-x-3 lg:text-2xl max-sm:text-[20px] text-white font-medium">
+        <div className="flex items-center gap-x-3 font-medium text-white max-lg:px-8 max-sm:px-4 max-sm:text-[20px] lg:px-32 lg:text-2xl">
           <div>
             <svg
               width="54"
@@ -179,13 +177,28 @@ export default function Page() {
           </div>
           <div>FINAL STEPS</div>
         </div>
-        <div className="lg:mx-[151px] lg:px-20 max-sm:mx-10 max-lg:pl-32 max-sm:pl-12 py-4 ">
-          <span className="text-white font-extralight">
-            After payment, please send the transaction receipt and details to
-            caldam2024@psgtech.ac.in Those who register as students are
-            directed to submit a soft copy of a certificate stating that (s)he
-            is a bonafide student, from their respective supervising guide/HoD
-            to caldam2024@psgtech.ac.in
+        <div className="py-4 max-lg:pl-32 max-sm:mx-10 max-sm:pl-12 lg:mx-[151px] lg:px-20 ">
+          <span className="font-extralight text-white">
+            After payment, please send the transaction receipt and details to { " "}
+            <span>
+              <Link
+                target="_blank"
+                href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=caldam2025@psgtech.ac.in"
+              >
+                caldam2025@psgtech.ac.in
+              </Link>
+            </span>{" "}
+            Those who register as students are directed to submit a soft copy of
+            a certificate stating that (s)he is a bonafide student, from their
+            respective supervising guide/HoD to { "   "}
+            <span>
+              <Link
+                target="_blank"
+                href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=caldam2025@psgtech.ac.in"
+              >
+                caldam2025@psgtech.ac.in
+              </Link>
+            </span>
           </span>
         </div>
       </div>

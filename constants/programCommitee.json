@@ -1,62 +1,32 @@
 [
-    {
-        "name": "Subir Kumar Ghosh",
-        "collegeName": "Ramakrishna Mission Vivekananda Educational and Research Institute, India (Chair)"
-    },
-    {
-        "name": "Subir Kumar Ghosh",
-        "collegeName": "Ramakrishna Mission Vivekananda Educational and Research Institute, India (Chair)"
-    },
-    {
-        "name": "Subir Kumar Ghosh",
-        "collegeName": "Ramakrishna Mission Vivekananda Educational and Research Institute, India (Chair)"
-    },
-    {
-        "name": "Subir Kumar Ghosh",
-        "collegeName": "Ramakrishna Mission Vivekananda Educational and Research Institute, India (Chair)"
-    },
-    {
-        "name": "Subir Kumar Ghosh",
-        "collegeName": "Ramakrishna Mission Vivekananda Educational and Research Institute, India (Chair)"
-    },
-    {
-        "name": "Subir Kumar Ghosh",
-        "collegeName": "Ramakrishna Mission Vivekananda Educational and Research Institute, India (Chair)"
-    },
-    {
-        "name": "Subir Kumar Ghosh",
-        "collegeName": "Ramakrishna Mission Vivekananda Educational and Research Institute, India (Chair)"
-    },
-    {
-        "name": "Subir Kumar Ghosh",
-        "collegeName": "Ramakrishna Mission Vivekananda Educational and Research Institute, India (Chair)"
-    },
-    {
-        "name": "Subir Kumar Ghosh",
-        "collegeName": "Ramakrishna Mission Vivekananda Educational and Research Institute, India (Chair)"
-    },
-    {
-        "name": "Subir Kumar Ghosh",
-        "collegeName": "Ramakrishna Mission Vivekananda Educational and Research Institute, India (Chair)"
-    },
-    {
-        "name": "Subir Kumar Ghosh",
-        "collegeName": "Ramakrishna Mission Vivekananda Educational and Research Institute, India (Chair)"
-    },
-    {
-        "name": "Subir Kumar Ghosh",
-        "collegeName": "Ramakrishna Mission Vivekananda Educational and Research Institute, India (Chair)"
-    },
-    {
-        "name": "Subir Kumar Ghosh",
-        "collegeName": "Ramakrishna Mission Vivekananda Educational and Research Institute, India (Chair)"
-    },
-    {
-        "name": "Subir Kumar Ghosh",
-        "collegeName": "Ramakrishna Mission Vivekananda Educational and Research Institute, India (Chair)"
-    },
-    {
-        "name": "Subir Kumar Ghosh",
-        "collegeName": "Ramakrishna Mission Vivekananda Educational and Research Institute, India (Chair)"
-    }
+  {
+    "name": "Daya Gaur",
+    "collegeName": "University of Lethbridge, Canada (PC co-chair)",
+    "link": "http://www.cs.uleth.ca/~gaur/"
+  },
+  {
+    "name": "Rogers Mathew",
+    "collegeName": "Indian Institute of Technology Hyderabad, India (PC co-chair)",
+    "link": "https://iith.ac.in/~rogers/"
+  },
+  {
+    "name": "Sandip Das",
+    "collegeName": "Indian Statistical Institute Kolkata, India",
+    "link": "https://www.isical.ac.in/~sandipdas/"
+  },
+  {
+    "name": "Anil Maheshwari",
+    "collegeName": "Carleton University, Canada",
+    "link": "http://people.scs.carleton.ca/~maheshwa/"
+  },
+  {
+    "name": "Subrahmanyam Kalyanasundaram",
+    "collegeName": "Indian Institute of Technology Hyderabad, India",
+    "link": "https://people.iith.ac.in/subruk/"
+  },
+  {
+    "name": "Manoj Changat",
+    "collegeName": "University of Kerala, India",
+    "link": "http://www.keralauniversity.ac.in/future/faculty_details.html?id=83"
+  }
 ]

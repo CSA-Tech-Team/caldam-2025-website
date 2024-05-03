@@ -4,6 +4,7 @@ import LineImage from "@/public/line.svg";
 import Image from "next/image";
 import Linker from "@/components/shared/re-used/Linker";
 import CaldamTopics from "@/constants/caldamTopics.json";
+import Link from "next/link";
 export default function Page() {
   return (
     <main>
@@ -39,7 +40,11 @@ export default function Page() {
                 </svg>
                 <span>Submission of Papers - EasyChair Smart CFP</span>
               </div>
-              <i>
+              <Link
+                target="_blank"
+                href={"https://easychair.org/conferences/?conf=caldam2025"}
+                prefetch
+              >
                 <svg
                   width="25"
                   height="25"
@@ -64,7 +69,7 @@ export default function Page() {
                     </clipPath>
                   </defs>
                 </svg>
-              </i>
+              </Link>
             </div>
             <div className="flex w-[100%] items-center justify-between rounded-xl bg-white pr-3  text-sm font-extralight">
               <div className="flex items-center gap-x-5 ">
@@ -102,7 +107,7 @@ export default function Page() {
 
                 <span>Log into EasyChair for CALDAM 2025</span>
               </div>
-              <i>
+              <Link prefetch target="_blank" href={"https://easychair.org/"}>
                 <svg
                   width="25"
                   height="25"
@@ -127,7 +132,7 @@ export default function Page() {
                     </clipPath>
                   </defs>
                 </svg>
-              </i>
+              </Link>
             </div>
           </div>
           <div className="h-fit gap-x-4 py-3 max-md:flex max-md:w-[100%] max-sm:flex md:flex md:w-[100%] lg:flex lg:w-[45%]">
@@ -200,13 +205,13 @@ export default function Page() {
             </div>
             <div className="max-md:animate-marquee flex max-w-fit flex-col font-extralight text-white max-md:gap-y-6 max-md:truncate max-sm:gap-y-6 md:gap-y-12  lg:gap-y-6 lg:truncate ">
               <span className="px-1">
-                Last date for Paper Submission - October 03, 2023, AoE
+                Last date for Paper Submission - October 03, 2024, AoE{" "}
               </span>
               <span className="px-1">
-                Notification of Acceptance - November 12, 2023, AoE
+                Notification of Acceptance - November 12, 2024, AoE{" "}
               </span>
               <span className="px-1">
-                Camera-ready Version - November 22, 2023, AoE
+                Camera-ready Version - November 22, 2024, AoE{" "}
               </span>
             </div>
           </div>

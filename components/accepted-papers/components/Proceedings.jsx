@@ -1,6 +1,7 @@
 import React from "react";
 import Banner from "@/assets/banner.png";
 import Image from "next/image";
+import Link from "next/link";
 export default function Proceedings() {
   return (
     <div>
@@ -14,7 +15,14 @@ export default function Proceedings() {
         Click on the banner below to access the proceedings of the conference.
       </div>
       <div className=" w-full px-4 py-4  ">
-        <Image src={Banner} alt="Banner" className=" w-full  max-md:h-48" />
+        <Link
+          prefetch
+          target="_blank"
+          rel="external"
+          href="https://link.springer.com/book/10.1007/978-3-031-52213-0"
+        >
+          <Image src={Banner} alt="Banner" className=" w-full  max-md:h-48" />
+        </Link>
       </div>
     </div>
   );

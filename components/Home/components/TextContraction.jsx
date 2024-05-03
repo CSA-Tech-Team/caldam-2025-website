@@ -31,6 +31,7 @@ const TextContraction = ({ className, contentStart, contentRemaining }) => {
           <button
             className="relative"
             onClick={(e) => {
+              e.preventDefault();
               setExpand(true);
               setTimeout(() => {
                 setRemoveExpandButton(true);

@@ -10,7 +10,7 @@ export default function ProgramCommitee() {
             <Card
               title={programCommmitee.collegeName}
               speakers={programCommmitee.name}
-              researchResourceLink={""}
+              researchResourceLink={programCommmitee.link}
             />
           </div>
         ))}

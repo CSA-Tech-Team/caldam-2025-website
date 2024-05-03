@@ -1,26 +1,27 @@
 [
-    {
-        "name": "Subir Kumar Ghosh",
-        "collegeName": "Ramakrishna Mission Vivekananda Educational and Research Institute, India (Chair)"
-    },
-    {
-        "name": "Subir Kumar Ghosh",
-        "collegeName": "Ramakrishna Mission Vivekananda Educational and Research Institute, India (Chair)"
-    },
-    {
-        "name": "Subir Kumar Ghosh",
-        "collegeName": "Ramakrishna Mission Vivekananda Educational and Research Institute, India (Chair)"
-    },
-    {
-        "name": "Subir Kumar Ghosh",
-        "collegeName": "Ramakrishna Mission Vivekananda Educational and Research Institute, India (Chair)"
-    },
-    {
-        "name": "Subir Kumar Ghosh",
-        "collegeName": "Ramakrishna Mission Vivekananda Educational and Research Institute, India (Chair)"
-    },
-    {
-        "name": "Subir Kumar Ghosh",
-        "collegeName": "Ramakrishna Mission Vivekananda Educational and Research Institute, India (Chair)"
-    }
+  {
+    "name": "Subir Kumar Ghosh",
+    "collegeName": "Ramakrishna Mission Vivekananda Educational and Research Institute, India (Chair)",
+    "link": "http://cs.rkmvu.ac.in/~sghosh/"
+  },
+  {
+    "name": "Gyula O. H. Katona",
+    "collegeName": "Alfréd Rényi Institute of Mathematics, Hungarian Academy of Sciences, Hungary",
+    "link": "https://users.renyi.hu/~ohkatona/"
+  },
+  {
+    "name": "János Pach",
+    "collegeName": "École Polytechnique Fédérale De Lausanne (EPFL), Lausanne, Switzerland",
+    "link": "http://people.epfl.ch/janos.pach"
+  },
+  {
+    "name": "Swami Sarvattomananda",
+    "collegeName": "Ramakrishna Mission Vivekananda Educational and Research Institute, India (Chair)",
+    "link": "http://cs.rkmvu.ac.in/~shreesh/"
+  },
+  {
+    "name": "Chee Yap",
+    "collegeName": "Courant Institute of Mathematical Sciences, New York University, USA",
+    "link": "http://cs.nyu.edu/yap/"
+  }
 ]
