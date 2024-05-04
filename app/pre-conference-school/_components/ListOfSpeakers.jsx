@@ -12,9 +12,9 @@ export default function ListOfSpeakers() {
         {speakers.map((speaker, index) => (
           <div key={index} className="w-full">
             <PeopleCard
-              title={speaker.collegeName}
-              speakers={speaker.name}
-              researchResourceLink={speaker.link}
+              institute={speaker.collegeName}
+              name={speaker.name}
+              link={speaker.link}
             />
           </div>
         ))}

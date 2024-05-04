@@ -1,6 +1,6 @@
 import React from "react";
 import Acceptedpaper from "@/constants/Acceptedpapers.json";
-import PeopleCard from "../../shared/re-used/PeopleCard.jsx";
+import PeopleCard from "@/components/shared/re-used/PeopleCard.jsx";
 
 function Acceptedpapers() {
   return (
@@ -14,9 +14,9 @@ function Acceptedpapers() {
         {Acceptedpaper.map((item, index) => (
           <div key={index} className="w-full">
             <PeopleCard
-              title={item.title}
-              speakers={item.speakers}
-              researchResourceLink={item.resourceLink}
+              institute={item.title}
+              name={item.speakers.join(", ")}
+              link={item.resourceLink}
             />
           </div>
         ))}

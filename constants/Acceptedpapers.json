@@ -1,10 +1,9 @@
 [
-    
     {
         "title": "An efficient interior point method for linear optimization using modified Newton method",
         "speakers": [
             "Sajad Fathi Hafshejani",
-            "Daya Gaur ",
+            "Daya Gaur",
             "Robert Benkoczi"
         ],
         "resourceLink": ""
@@ -13,7 +12,7 @@
         "title": "An efficient interior point method for linear optimization using modified Newton method",
         "speakers": [
             "Sajad Fathi Hafshejani",
-            "Daya Gaur ",
+            "Daya Gaur",
             "Robert Benkoczi"
         ],
         "resourceLink": ""
@@ -54,5 +53,4 @@
         ],
         "resourceLink": ""
     }
-
 ]

@@ -22,13 +22,15 @@ export default function PeopleCard({
         </div>
         <p className="text-lg lg:h-[100px] lg:text-xl">{institute}</p>
       </div>
-      <div className="absolute bottom-0 right-0">
-        <Link target="_blank" prefetch href={link}>
-          <VscLinkExternal
-            className={`size-10 rounded-br-lg rounded-tl-lg bg-bluecolor px-3 text-white`}
-          />
-        </Link>
-      </div>
+      {link && (
+        <div className="absolute bottom-0 right-0">
+          <Link target="_blank" prefetch href={link}>
+            <VscLinkExternal
+              className={`size-10 rounded-br-lg rounded-tl-lg bg-bluecolor px-3 text-white`}
+            />
+          </Link>
+        </div>
+      )}
     </div>
   );
 }
