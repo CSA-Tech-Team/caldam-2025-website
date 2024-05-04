@@ -33,9 +33,17 @@ function Footer() {
           <div
             className={`mb-8 text-lg ${path === "/call-for-papers" && "flex h-full flex-col items-end justify-between"} `}
           >
-            <h1 className="text-2xl font-bold">CONTACT</h1>
-            <p>{footerData["contactEmail"]}</p>
-            <p>{footerData["contactMobile"]}</p>
+            <div className="flex justify-start">
+              <h1 className="text-2xl font-bold">CONTACT</h1>
+            </div>
+            <div className="flex-col">
+              <div className="flex justify-start">
+                <p>{footerData["contactEmail"]}</p>
+              </div>
+              <div className="flex justify-start">
+                <p>{footerData["contactMobile"]}</p>
+              </div>
+            </div>
           </div>
           {path !== "/call-for-papers" && (
             <div className="text-lg">
