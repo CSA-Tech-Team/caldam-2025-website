@@ -31,9 +31,9 @@ function Landing() {
               }}
               initial="initial"
               animate="animate"
-              className="mb-8 lg:flex lg:flex-row lg:items-stretch lg:justify-start lg:space-x-14"
+              className="mb-8 lg:flex lg:flex-row lg:items-stretch lg:justify-start lg:space-x-10"
             >
-              <div className="overflow-hidden pr-4">
+              <div className="overflow-hidden ">
                 <motion.h1
                   variants={{
                     initial: { translateX: 1000, opacity: "0%" },
@@ -45,7 +45,7 @@ function Landing() {
                       },
                     },
                   }}
-                  className="text-balance text-6xl max-lg:text-4xl text-center font-semibold italic max-lg:mr-6 lg:text-8xl "
+                  className=" text-left text-6xl max-lg:text-4xl  font-semibold italic max-lg:mr-6 lg:text-6xl "
                 >
                   PRE-CONFERENCE SCHOOL 2025
                 </motion.h1>

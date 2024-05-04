@@ -6,7 +6,7 @@ function Coordinators() {
       <h1 className=" px-10 py-5 text-3xl font-bold text-bluecolor lg:text-4xl ">
         COORDINATORS
       </h1>
-      <div className=" grid grid-cols-4  gap-5 px-10 lg:px-20 py-4 text-white max-lg:grid-cols-2 max-md:grid-cols-1 ">
+      <div className=" grid grid-cols-4  gap-5 px-10 lg:px-20 py-10 text-white max-lg:grid-cols-2 max-md:grid-cols-1 ">
         {coordinators.map((coordinator, index) => {
           return (
             <div

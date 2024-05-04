@@ -7,7 +7,9 @@ export default function Card({ title, speakers, researchResourceLink }) {
       <h1 className=" text-xl font-bold max-lg:text-lg ">{title}</h1>
       <ul className=" max-lg:text-md text-lg ">
         {speakers.map((speaker, index) => {
-          return <li key={index}>{speaker}</li>;
+          return <li key={index}
+          className=" text-lg lg:text-xl "
+          >{speaker}</li>;
         })}
       </ul>
       <Linker href={researchResourceLink}>Resources</Linker>

@@ -5,10 +5,11 @@ import Image from "next/image";
 import Linker from "@/components/shared/re-used/Linker";
 import CaldamTopics from "@/constants/caldamTopics.json";
 import Link from "next/link";
+import TextContraction from "@/components/Home/components/TextContraction";
 export default function Page() {
   return (
     <main>
-      <div className="flex max-h-fit min-h-[45vh] flex-col bg-bluecolor px-20 py-12">
+      <div className="flex max-h-fit min-h-[45vh] flex-col bg-bluecolor px-10 lg:px-20 py-10 ">
         <h1 className="font-semibold text-white max-md:text-[30px] max-sm:text-[24px] lg:text-[36px] ">
           SUBMISSION DETAILS
         </h1>
@@ -19,7 +20,7 @@ export default function Page() {
                 <svg
                   width="49"
                   height="53"
-                  className="rounded-l-xl bg-[#FCA311] p-2 "
+                  className="rounded-l-xl bg-[#FCA311]  "
                   viewBox="0 0 49 49"
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
@@ -38,7 +39,7 @@ export default function Page() {
                     fill="#102133"
                   />
                 </svg>
-                <span>Submission of Papers - EasyChair Smart CFP</span>
+                <h1  >Submission of Papers - EasyChair Smart CFP</h1>
               </div>
               <Link
                 target="_blank"
@@ -203,13 +204,13 @@ export default function Page() {
                 />
               </svg>
             </div>
-            <div className="max-md:animate-marquee flex max-w-fit flex-col font-extralight text-white max-md:gap-y-6 max-md:truncate max-sm:gap-y-6 md:gap-y-12  lg:gap-y-6 lg:truncate ">
-              <span className="px-1">
+            <div className="max-md:animate-marquee flex flex-col text-white text-left items-stretch justify-stretch ">
+              <h1 className="px-1">
                 Last date for Paper Submission - October 03, 2024, AoE{" "}
-              </span>
-              <span className="px-1">
+              </h1>
+              <h1 className="px-1">
                 Notification of Acceptance - November 12, 2024, AoE{" "}
-              </span>
+              </h1>
               <span className="px-1">
                 Camera-ready Version - November 22, 2024, AoE{" "}
               </span>
@@ -217,28 +218,50 @@ export default function Page() {
           </div>
         </div>
       </div>
-      <div className="flex max-h-fit min-h-[40vh] flex-col gap-y-8 px-20 py-12">
-        <h1 className="text-[36px] font-medium">Scope</h1>
-        <span className="font-extralight lg:px-12">
-          CALDAM 2024 invites papers describing original research in the areas
-          of design, analysis and experimental evaluation of algorithms and in
-          discrete applied mathematics. An indicative list of sub-areas are
-          given below. Papers must be typeset using LaTeX/LaTeX2e and may not
-          exceed 12 pages in LNCS style, including bibliographic
-          references. Further details may be included in a clearly marked
-          appendix that will be read at the discretion of the program committee.
-          Only electronic submission is allowed. Submitted papers must describe
-          previously unpublished work and may not be submitted concurrently to
-          another conference with refereed proceedings or to a refereed journal.
-          Please find the guidelines for authors on Springer website.
-        </span>
+      <div className=" px-10 py-12 lg:px-14 lg:py-16 ">
+        <h1 className="text-[36px] font-medium">SCOPE</h1>
+        <div
+        className=" py-4 "
+        >
+          <span className=" text-lg font-semibold max-lg:hidden ">CALDAM 2024 {"  "}</span>
+          <span className=" text-lg max-lg:hidden leading-6 ">
+            invites papers describing original research in the areas of design,
+            analysis and experimental evaluation of algorithms and in discrete
+            applied mathematics. An indicative list of sub-areas are given
+            below. Papers must be typeset using LaTeX/LaTeX2e and may not exceed
+            12 pages in LNCS style, including bibliographic references. Further
+            details may be included in a clearly marked appendix that will be
+            read at the discretion of the program committee. Only electronic
+            submission is allowed. Submitted papers must describe previously
+            unpublished work and may not be submitted concurrently to another
+            conference with refereed proceedings or to a refereed journal.
+            Please find the guidelines for authors on Springer website.
+          </span>
+        </div>
+        <TextContraction
+          className={` lg:hidden lg:text-lg  `}
+          contentStart={` CALDAM 2024 invites papers describing original research
+          in the areas of design, analysis and experimental evaluation of
+          algorithms and in discrete applied mathematics. An indicative list of
+          sub-areas are given below. Papers must be typeset using LaTeX/LaTeX2e
+          and may not exceed 12 pages in LNCS style, including bibliographic
+          references. `}
+          contentRemaining={`
+          Further details may be included in a clearly marked appendix that will
+          be read at the discretion of the program committee. Only electronic
+          submission is allowed. Submitted papers must describe previously
+          unpublished work and may not be submitted concurrently to another
+          conference with refereed proceedings or to a refereed journal. Please
+          find the guidelines for authors on Springer website.
+          `}
+        />
       </div>
-      <div className=" h-fit bg-bluecolor px-20 py-12">
-        <h1 className=" font-semibold text-white max-md:text-[30px] max-sm:flex max-sm:justify-center max-sm:text-[24px] lg:text-[36px] ">
+      <div className=" h-fit w-auto space-y-5 bg-bluecolor py-5 ">
+        <h1 className=" text-center font-semibold text-white max-md:text-[30px] max-sm:flex max-sm:justify-center max-sm:text-[24px] lg:text-[36px] ">
           CALDAM TOPICS
         </h1>
-        <div className="px-16 pt-8 text-white">
-          <ul className="flex flex-col gap-y-3 text-black">
+        <div className=" text-white">
+          <ul className="flex flex-col gap-y-3 overflow-y-auto text-black  max-lg:h-[50vh] max-lg:rounded-xl">
             {CaldamTopics.map((val, index) =>
               index % 7 == 0 ? (
                 <div
