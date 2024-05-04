@@ -7,9 +7,7 @@ export default function Page() {
     <main>
       <div>
         <div className="p-8 lg:p-14">
-          <h1 className="mb-8 text-3xl font-semibold max-lg:text-center lg:text-4xl">
-            REGISTRATION
-          </h1>
+          <h1 className="mb-8 text-4xl font-semibold">REGISTRATION</h1>
           <div className="mb-8 flex max-lg:flex-col max-lg:space-y-4 lg:items-stretch lg:space-x-4">
             <div className="flex-1">
               <div className="rounded-lg border border-bluecolor">
@@ -79,163 +77,149 @@ export default function Page() {
           </div>
         </div>
       </div>
-      <div className=" flex max-h-fit flex-col bg-bluecolor py-4 ">
-        <div className="max-lg:px-4 max-lg:text-[24px] max-sm:px-4 max-sm:text-[18px] lg:px-20 lg:text-[30px]">
-          <h1 className="p-4 uppercase text-white">Steps for registration</h1>
-        </div>
-        <div className="px-8 py-4 text-lg leading-tight text-white lg:px-24">
-          <ul className=" space-y-4 lg:space-y-6 ">
-            <li className="before:content-[' '] relative px-6 before:absolute before:inset-0 before:h-4 before:w-4  before:bg-orange">
-              The registration fee includes 18% GST.
-            </li>
-            <li className="before:content-[' '] relative px-6 before:absolute before:inset-0 before:h-4 before:w-4  before:bg-orange">
-              At least one author of each accepted paper must register (by the
-              deadline of the camera ready version) in the appropriate category
-              in order for the paper to be included in the conference
-              proceedings. If an author has two papers, then one different
-              author for every paper must register.
-            </li>
-            <li className="before:content-[' '] relative px-6 before:absolute before:inset-0 before:h-4 before:w-4  before:bg-orange">
-              Registration (regular or student) includes admission to all
-              technical sessions, lunches, tea/coffee and banquet dinner.
-            </li>
-          </ul>
-        </div>
-        <div className="flex items-center  gap-x-3 pt-4 font-medium text-white max-lg:pl-8 max-sm:px-4 max-sm:text-[20px] lg:px-32 lg:text-2xl">
-          <div>
-            <svg
-              width="54"
-              height="54"
-              viewBox="0 0 54 54"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <circle cx="27" cy="27" r="27" fill="#FCA311" />
-              <path
-                d="M25.292 40V16.96L27.812 19.48H20.252V14.8H31.124V40H25.292Z"
-                fill="white"
-              />
-            </svg>
+      <div className="bg-bluecolor p-8 lg:p-14">
+        <div className=" flex max-h-fit flex-col  py-4 ">
+          <h1 className="mb-8 text-4xl font-semibold uppercase text-white lg:text-4xl">
+            Steps for registration
+          </h1>
+          <div className="mb-10 text-white">
+            <ul className="space-y-2 text-lg font-light leading-tight text-white lg:text-xl">
+              <li className="before:content-[' '] relative pl-6 before:absolute before:left-0 before:top-[5px] before:m-auto before:h-2 before:w-2 before:rounded-full before:bg-orange">
+                The registration fee includes 18% GST.
+              </li>
+              <li className="before:content-[' '] relative pl-6 before:absolute before:left-0 before:top-[5px] before:m-auto before:h-2 before:w-2 before:rounded-full before:bg-orange">
+                At least one author of each accepted paper must register (by the
+                deadline of the camera ready version) in the appropriate
+                category in order for the paper to be included in the conference
+                proceedings. If an author has two papers, then one different
+                author for every paper must register.
+              </li>
+              <li className="before:content-[' '] relative pl-6 before:absolute before:left-0 before:top-[5px] before:m-auto before:h-2 before:w-2 before:rounded-full before:bg-orange">
+                Registration (regular or student) includes admission to all
+                technical sessions, lunches, tea/coffee and banquet dinner.
+              </li>
+            </ul>
           </div>
-          <div>TRANSFER REGISTRATION FEE</div>
-        </div>
-        <div className="border-l-8 border-orange py-4 text-orange max-lg:mx-14 max-lg:px-20 max-sm:mx-10 max-sm:pl-12 lg:mx-[151px] lg:px-20">
-          <ul className="before:content-[' '] relative px-6 before:absolute before:inset-0 before:h-4 before:w-4  before:bg-orange">
-            <div className="font-extralight  text-white">
-              <span className=" lg:text-lg ">
+          <div className="flex items-center gap-x-3 text-2xl font-medium text-white">
+            <div>
+              <svg
+                width="54"
+                height="54"
+                viewBox="0 0 54 54"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <circle cx="27" cy="27" r="27" fill="#FCA311" />
+                <path
+                  d="M25.292 40V16.96L27.812 19.48H20.252V14.8H31.124V40H25.292Z"
+                  fill="white"
+                />
+              </svg>
+            </div>
+            <div>TRANSFER REGISTRATION FEE</div>
+          </div>
+          <div className="ml-6 border-l-8 border-orange py-4 pl-5">
+            <ul className="space-y-2 text-lg font-light leading-tight text-white lg:text-xl">
+              <li className="before:content-[' '] relative pl-6 before:absolute before:left-0 before:top-[5px] before:m-auto before:h-2 before:w-2 before:rounded-full before:bg-orange">
+                Transfer the respective registration fee as per the above table
+                using the steps mentioned below (Will be updated with the steps)
+              </li>
+              <li className="before:content-[' '] relative pl-6 before:absolute before:left-0 before:top-[5px] before:m-auto before:h-2 before:w-2 before:rounded-full before:bg-orange">
                 After payment, please send the transaction receipt and details
                 to{" "}
-              </span>
-              <span className=" bg-gradient-to-r from-violet-500 via-pink-400 to-green-300 bg-clip-text font-bold text-transparent ">
-                <Link
-                  target="_blank"
-                  href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=caldam2025@psgtech.ac.in"
-                  className=" lg:text-lg "
-                  prefetch
-                >
-                  caldam2025@psgtech.ac.in{" "}
-                </Link>{" "}
-              </span>
+                <span className=" text-orange">
+                  <Link
+                    target="_blank"
+                    href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=caldam2025@psgtech.ac.in"
+                    className=" lg:text-lg "
+                    prefetch
+                  >
+                    caldam2025@psgtech.ac.in
+                  </Link>
+                </span>
+              </li>
+            </ul>
+          </div>
+          <div className="flex items-center gap-x-3 text-2xl font-medium text-white">
+            <div>
+              <svg
+                width="54"
+                height="54"
+                viewBox="0 0 54 54"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <circle cx="27" cy="27" r="27" fill="#FCA311" />
+                <path
+                  d="M17.188 40V36.22L26.908 27.04C27.676 26.344 28.24 25.72 28.6 25.168C28.96 24.616 29.2 24.112 29.32 23.656C29.464 23.2 29.536 22.78 29.536 22.396C29.536 21.388 29.188 20.62 28.492 20.092C27.82 19.54 26.824 19.264 25.504 19.264C24.448 19.264 23.464 19.468 22.552 19.876C21.664 20.284 20.908 20.92 20.284 21.784L16.036 19.048C16.996 17.608 18.34 16.468 20.068 15.628C21.796 14.788 23.788 14.368 26.044 14.368C27.916 14.368 29.548 14.68 30.94 15.304C32.356 15.904 33.448 16.756 34.216 17.86C35.008 18.964 35.404 20.284 35.404 21.82C35.404 22.636 35.296 23.452 35.08 24.268C34.888 25.06 34.48 25.9 33.856 26.788C33.256 27.676 32.368 28.672 31.192 29.776L23.128 37.372L22.012 35.248H36.232V40H17.188Z"
+                  fill="white"
+                />
+              </svg>
             </div>
-          </ul>
-          <ul className=" py-5 ">
-            <div className="font-extralight text-white">
-              <span className=" before:content-[' '] relative px-6 before:absolute before:inset-0 before:h-4 before:w-4 before:bg-orange  lg:text-lg ">
+            <div>REGISTRATION</div>
+          </div>
+          <div className="ml-6 border-l-8 border-orange py-4 pl-5">
+            <ul className="space-y-2 text-lg font-light leading-tight text-white lg:text-xl">
+              <li className="before:content-[' '] relative pl-6 before:absolute before:left-0 before:top-[5px] before:m-auto before:h-2 before:w-2 before:rounded-full before:bg-orange">
+                After transferring the registration fee, please fill the{" "}
+                <span className=" text-orange">
+                  <Link
+                    target="_blank"
+                    href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=caldam2025@psgtech.ac.in"
+                    className=" lg:text-lg "
+                    prefetch
+                  >
+                    Conference Registration Form
+                  </Link>
+                </span>
+              </li>
+              <li className="before:content-[' '] relative pl-6 before:absolute before:left-0 before:top-[5px] before:m-auto before:h-2 before:w-2 before:rounded-full before:bg-orange">
                 Those who register as students are directed to submit a soft
                 copy of a certificate stating that (s)he is a bonafide student,
                 from their respective supervising guide/HoD to{" "}
-              </span>
-              <span className=" bg-gradient-to-r from-violet-500 via-pink-400 to-green-300 bg-clip-text font-bold text-transparent ">
-                <Link
-                  target="_blank"
-                  href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=caldam2025@psgtech.ac.in"
-                  className=" lg:text-lg "
-                  prefetch
-                >
-                  caldam2025@psgtech.ac.in{" "}
-                </Link>{" "}
-              </span>
-            </div>
-          </ul>
-        </div>
-        <div className="flex items-center gap-x-3 font-medium text-white max-lg:px-8 max-sm:px-4 max-sm:text-[20px] lg:px-32 lg:text-2xl">
-          <div>
-            <svg
-              width="54"
-              height="54"
-              viewBox="0 0 54 54"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <circle cx="27" cy="27" r="27" fill="#FCA311" />
-              <path
-                d="M17.188 40V36.22L26.908 27.04C27.676 26.344 28.24 25.72 28.6 25.168C28.96 24.616 29.2 24.112 29.32 23.656C29.464 23.2 29.536 22.78 29.536 22.396C29.536 21.388 29.188 20.62 28.492 20.092C27.82 19.54 26.824 19.264 25.504 19.264C24.448 19.264 23.464 19.468 22.552 19.876C21.664 20.284 20.908 20.92 20.284 21.784L16.036 19.048C16.996 17.608 18.34 16.468 20.068 15.628C21.796 14.788 23.788 14.368 26.044 14.368C27.916 14.368 29.548 14.68 30.94 15.304C32.356 15.904 33.448 16.756 34.216 17.86C35.008 18.964 35.404 20.284 35.404 21.82C35.404 22.636 35.296 23.452 35.08 24.268C34.888 25.06 34.48 25.9 33.856 26.788C33.256 27.676 32.368 28.672 31.192 29.776L23.128 37.372L22.012 35.248H36.232V40H17.188Z"
-                fill="white"
-              />
-            </svg>
-          </div>
-          <div>REGISTRATION</div>
-        </div>
-        <div className="border-l-8 border-orange py-4 text-orange max-lg:mx-14 max-lg:pl-16 max-sm:mx-10 max-sm:pl-12 lg:mx-[151px] lg:px-20">
-          <div className=" font-extralight text-white">
-            <span className=" before:content-[' '] relative px-6 before:absolute before:inset-0 before:h-4 before:w-4 before:bg-orange  lg:text-lg ">
-              After transferring the registration fee, please fill the{" "}
-              <Link className=" lg:text-lg " prefetch href={""}>
-                <span className=" bg-gradient-to-r from-violet-500 via-pink-400 to-green-300 bg-clip-text font-bold text-transparent ">
-                  Conference Registration Form
+                <span className=" text-orange">
+                  <Link
+                    target="_blank"
+                    href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=caldam2025@psgtech.ac.in"
+                    className=" lg:text-lg "
+                    prefetch
+                  >
+                    caldam2025@psgtech.ac.in
+                  </Link>
                 </span>
-              </Link>
-            </span>
+              </li>
+            </ul>
           </div>
-        </div>
-        <div className="flex items-center gap-x-3 font-medium text-white max-lg:px-8 max-sm:px-4 max-sm:text-[20px] lg:px-32 lg:text-2xl">
-          <div>
-            <svg
-              width="54"
-              height="54"
-              viewBox="0 0 54 54"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <circle cx="27" cy="27" r="27" fill="#FCA311" />
-              <path
-                d="M25.576 40.432C23.824 40.432 22.084 40.204 20.356 39.748C18.628 39.268 17.164 38.596 15.964 37.732L18.232 33.268C19.192 33.964 20.308 34.516 21.58 34.924C22.852 35.332 24.136 35.536 25.432 35.536C26.896 35.536 28.048 35.248 28.888 34.672C29.728 34.096 30.148 33.304 30.148 32.296C30.148 31.336 29.776 30.58 29.032 30.028C28.288 29.476 27.088 29.2 25.432 29.2H22.768V25.348L29.788 17.392L30.436 19.48H17.224V14.8H34.864V18.58L27.88 26.536L24.928 24.844H26.62C29.716 24.844 32.056 25.54 33.64 26.932C35.224 28.324 36.016 30.112 36.016 32.296C36.016 33.712 35.644 35.044 34.9 36.292C34.156 37.516 33.016 38.512 31.48 39.28C29.944 40.048 27.976 40.432 25.576 40.432Z"
-                fill="white"
-              />
-            </svg>
-          </div>
-          <div>FINAL STEPS</div>
-        </div>
-        <div className="py-4 max-lg:pl-32 max-sm:mx-10 max-sm:pl-12 lg:mx-[151px] lg:px-20 ">
-          <span className="font-extralight text-white">
-            <span className=" before:content-[' '] relative px-6 before:absolute before:inset-0 before:h-4 before:w-4 before:bg-orange  lg:text-lg ">
-              {" "}
-              After payment, please send the transaction receipt and details to{" "}
-              <Link
-                target="_blank"
-                href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=caldam2025@psgtech.ac.in"
-                className=" lg:text-lg "
-                prefetch
+          <div className="flex items-center gap-x-3 text-2xl font-medium text-white">
+            <div>
+              <svg
+                width="54"
+                height="54"
+                viewBox="0 0 54 54"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
               >
-                caldam2025@psgtech.ac.in.
-              </Link>
-              <span className=" lg:text-lg ">
-                Those who register as students are directed to submit a soft
-                copy of a certificate stating that (s)he is a bonafide student,
-                from their respective supervising guide/HoD to {"   "}
-              </span>
-              <span>
-                <Link
-                  target="_blank"
-                  href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=caldam2025@psgtech.ac.in"
-                  className=" lg:text-lg "
-                  prefetch
-                >
-                  caldam2025@psgtech.ac.in
-                </Link>
-              </span>
-            </span>
-          </span>
+                <circle cx="27" cy="27" r="27" fill="#FCA311" />
+                <path
+                  d="M25.576 40.432C23.824 40.432 22.084 40.204 20.356 39.748C18.628 39.268 17.164 38.596 15.964 37.732L18.232 33.268C19.192 33.964 20.308 34.516 21.58 34.924C22.852 35.332 24.136 35.536 25.432 35.536C26.896 35.536 28.048 35.248 28.888 34.672C29.728 34.096 30.148 33.304 30.148 32.296C30.148 31.336 29.776 30.58 29.032 30.028C28.288 29.476 27.088 29.2 25.432 29.2H22.768V25.348L29.788 17.392L30.436 19.48H17.224V14.8H34.864V18.58L27.88 26.536L24.928 24.844H26.62C29.716 24.844 32.056 25.54 33.64 26.932C35.224 28.324 36.016 30.112 36.016 32.296C36.016 33.712 35.644 35.044 34.9 36.292C34.156 37.516 33.016 38.512 31.48 39.28C29.944 40.048 27.976 40.432 25.576 40.432Z"
+                  fill="white"
+                />
+              </svg>
+            </div>
+            <div>FINAL STEPS</div>
+          </div>
+          <div className="ml-6 py-4 pl-5">
+            <ul className="space-y-2 text-lg font-light leading-tight text-white lg:text-xl">
+              <li className="before:content-[' '] relative pl-6 before:absolute before:left-0 before:top-[5px] before:m-auto before:h-2 before:w-2 before:rounded-full before:bg-orange">
+                Thank you for registering for CALDAM 2025
+              </li>
+              <li className="before:content-[' '] relative pl-6 before:absolute before:left-0 before:top-[5px] before:m-auto before:h-2 before:w-2 before:rounded-full before:bg-orange">
+                Kindly go over the steps once to confirm the steps on your end.
+                You should be receiving a confirmation mail for the registration
+                shortly
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </main>
