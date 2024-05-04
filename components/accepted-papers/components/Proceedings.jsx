@@ -7,8 +7,7 @@ export default function Proceedings() {
     <div>
       <div className="flex justify-start">
         <div className="px-3 pb-4 pt-10 text-3xl font-bold text-black">
-          <i>PROCEEDINGS</i>
-          <div className="w-full border-b-2 border-yellow-500"></div>
+          <h1>PROCEEDINGS</h1>
         </div>
       </div>
       <div className=" max-lg:text-md px-4 text-xl font-semibold ">
