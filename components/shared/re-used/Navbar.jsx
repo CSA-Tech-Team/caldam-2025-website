@@ -5,6 +5,7 @@ import Hamburger from "@/components/animated/hamburger";
 import { useState } from "react";
 import Link from "next/link";
 import { AnimatePresence, motion } from "framer-motion";
+import { useRouter } from "next/navigation";
 
 export default function Navbar() {
   const mobileNavbarVariants = {
@@ -18,13 +19,19 @@ export default function Navbar() {
       scaleY: 0,
     },
   };
-
+  const router = useRouter();
   const [openNavbar, setOpenNavbar] = useState(false);
 
   return (
     <div className="sticky left-0 top-0 z-30 bg-black text-white">
       <div className="relative flex items-center justify-between px-5 py-2">
-        <h1 className="mr-10 text-2xl">
+        <h1
+          onClick={(e) => {
+            e.preventDefault();
+            router.push("/");
+          }}
+          className="mr-10 text-2xl cursor-pointer "
+        >
           CALDAM <p className="text-center text-sm">2025</p>
         </h1>
         <div className="hidden items-center justify-between space-x-5 lg:flex">

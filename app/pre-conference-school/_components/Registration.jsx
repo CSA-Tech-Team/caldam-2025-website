@@ -3,7 +3,7 @@ import React from "react";
 
 export default function Registration() {
   return (
-    <div className=" space-y-5 bg-bluecolor px-8 py-7 text-white lg:px-12 ">
+    <div className=" space-y-5 bg-bluecolor px-9 py-7 text-white lg:px-12 ">
       <h1 className=" text-2xl font-bold xl:text-3xl 2xl:text-4xl ">
         Registration
       </h1>

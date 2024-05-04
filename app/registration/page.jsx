@@ -83,7 +83,25 @@ export default function Page() {
         <div className="max-lg:px-4 max-lg:text-[24px] max-sm:px-4 max-sm:text-[18px] lg:px-20 lg:text-[30px]">
           <h1 className="p-4 uppercase text-white">Steps for registration</h1>
         </div>
-        <div className="flex items-center gap-x-3 pt-4 font-medium text-white max-lg:pl-8 max-sm:px-4 max-sm:text-[20px] lg:px-32 lg:text-2xl">
+        <div className="px-8 py-4 text-lg leading-tight text-white lg:px-24">
+          <ul className=" space-y-4 lg:space-y-6 ">
+            <li className="before:content-[' '] relative px-6 before:absolute before:inset-0 before:h-4 before:w-4  before:bg-orange">
+              The registration fee includes 18% GST.
+            </li>
+            <li className="before:content-[' '] relative px-6 before:absolute before:inset-0 before:h-4 before:w-4  before:bg-orange">
+              At least one author of each accepted paper must register (by the
+              deadline of the camera ready version) in the appropriate category
+              in order for the paper to be included in the conference
+              proceedings. If an author has two papers, then one different
+              author for every paper must register.
+            </li>
+            <li className="before:content-[' '] relative px-6 before:absolute before:inset-0 before:h-4 before:w-4  before:bg-orange">
+              Registration (regular or student) includes admission to all
+              technical sessions, lunches, tea/coffee and banquet dinner.
+            </li>
+          </ul>
+        </div>
+        <div className="flex items-center  gap-x-3 pt-4 font-medium text-white max-lg:pl-8 max-sm:px-4 max-sm:text-[20px] lg:px-32 lg:text-2xl">
           <div>
             <svg
               width="54"
@@ -102,34 +120,43 @@ export default function Page() {
           <div>TRANSFER REGISTRATION FEE</div>
         </div>
         <div className="border-l-8 border-orange py-4 text-orange max-lg:mx-14 max-lg:px-20 max-sm:mx-10 max-sm:pl-12 lg:mx-[151px] lg:px-20">
-          <li className="">
-            <div className="font-extralight text-white">
-              After payment, please send the transaction receipt and details to{" "}
+          <ul className="before:content-[' '] relative px-6 before:absolute before:inset-0 before:h-4 before:w-4  before:bg-orange">
+            <div className="font-extralight  text-white">
+              <span className=" lg:text-lg ">
+                After payment, please send the transaction receipt and details
+                to{" "}
+              </span>
               <span className=" bg-gradient-to-r from-violet-500 via-pink-400 to-green-300 bg-clip-text font-bold text-transparent ">
                 <Link
                   target="_blank"
                   href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=caldam2025@psgtech.ac.in"
+                  className=" lg:text-lg "
+                  prefetch
                 >
                   caldam2025@psgtech.ac.in{" "}
                 </Link>{" "}
               </span>
             </div>
-          </li>
-          <li className="">
+          </ul>
+          <ul className=" py-5 ">
             <div className="font-extralight text-white">
-              Those who register as students are directed to submit a soft copy
-              of a certificate stating that (s)he is a bonafide student, from
-              their respective supervising guide/HoD to{" "}
+              <span className=" before:content-[' '] relative px-6 before:absolute before:inset-0 before:h-4 before:w-4 before:bg-orange  lg:text-lg ">
+                Those who register as students are directed to submit a soft
+                copy of a certificate stating that (s)he is a bonafide student,
+                from their respective supervising guide/HoD to{" "}
+              </span>
               <span className=" bg-gradient-to-r from-violet-500 via-pink-400 to-green-300 bg-clip-text font-bold text-transparent ">
                 <Link
                   target="_blank"
                   href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=caldam2025@psgtech.ac.in"
+                  className=" lg:text-lg "
+                  prefetch
                 >
                   caldam2025@psgtech.ac.in{" "}
                 </Link>{" "}
               </span>
             </div>
-          </li>
+          </ul>
         </div>
         <div className="flex items-center gap-x-3 font-medium text-white max-lg:px-8 max-sm:px-4 max-sm:text-[20px] lg:px-32 lg:text-2xl">
           <div>
@@ -151,10 +178,12 @@ export default function Page() {
         </div>
         <div className="border-l-8 border-orange py-4 text-orange max-lg:mx-14 max-lg:pl-16 max-sm:mx-10 max-sm:pl-12 lg:mx-[151px] lg:px-20">
           <div className=" font-extralight text-white">
-            After transferring the registration fee, please fill the{" "}
-            <span className=" bg-gradient-to-r from-violet-500 via-pink-400 to-green-300 bg-clip-text font-bold text-transparent ">
-              <Link prefetch href={""}>
-                Conference Registration Form
+            <span className=" before:content-[' '] relative px-6 before:absolute before:inset-0 before:h-4 before:w-4 before:bg-orange  lg:text-lg ">
+              After transferring the registration fee, please fill the{" "}
+              <Link className=" lg:text-lg " prefetch href={""}>
+                <span className=" bg-gradient-to-r from-violet-500 via-pink-400 to-green-300 bg-clip-text font-bold text-transparent ">
+                  Conference Registration Form
+                </span>
               </Link>
             </span>
           </div>
@@ -179,25 +208,32 @@ export default function Page() {
         </div>
         <div className="py-4 max-lg:pl-32 max-sm:mx-10 max-sm:pl-12 lg:mx-[151px] lg:px-20 ">
           <span className="font-extralight text-white">
-            After payment, please send the transaction receipt and details to { " "}
-            <span>
+            <span className=" before:content-[' '] relative px-6 before:absolute before:inset-0 before:h-4 before:w-4 before:bg-orange  lg:text-lg ">
+              {" "}
+              After payment, please send the transaction receipt and details to{" "}
               <Link
                 target="_blank"
                 href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=caldam2025@psgtech.ac.in"
+                className=" lg:text-lg "
+                prefetch
               >
-                caldam2025@psgtech.ac.in
+                caldam2025@psgtech.ac.in.
               </Link>
-            </span>{" "}
-            Those who register as students are directed to submit a soft copy of
-            a certificate stating that (s)he is a bonafide student, from their
-            respective supervising guide/HoD to { "   "}
-            <span>
-              <Link
-                target="_blank"
-                href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=caldam2025@psgtech.ac.in"
-              >
-                caldam2025@psgtech.ac.in
-              </Link>
+              <span className=" lg:text-lg ">
+                Those who register as students are directed to submit a soft
+                copy of a certificate stating that (s)he is a bonafide student,
+                from their respective supervising guide/HoD to {"   "}
+              </span>
+              <span>
+                <Link
+                  target="_blank"
+                  href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=caldam2025@psgtech.ac.in"
+                  className=" lg:text-lg "
+                  prefetch
+                >
+                  caldam2025@psgtech.ac.in
+                </Link>
+              </span>
             </span>
           </span>
         </div>
