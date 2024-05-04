@@ -1,8 +1,9 @@
 [
   {
     "name": "Subir Kumar Ghosh",
-    "collegeName": "Ramakrishna Mission Vivekananda Educational and Research Institute, India (Chair)",
-    "link": "http://cs.rkmvu.ac.in/~sghosh/"
+    "collegeName": "Ramakrishna Mission Vivekananda Educational and Research Institute, India",
+    "link": "http://cs.rkmvu.ac.in/~sghosh/",
+    "conferenceTitle": "Chair"
   },
   {
     "name": "Gyula O. H. Katona",
@@ -16,7 +17,7 @@
   },
   {
     "name": "Swami Sarvattomananda",
-    "collegeName": "Ramakrishna Mission Vivekananda Educational and Research Institute, India (Chair)",
+    "collegeName": "Ramakrishna Mission Vivekananda Educational and Research Institute, India",
     "link": "http://cs.rkmvu.ac.in/~shreesh/"
   },
   {

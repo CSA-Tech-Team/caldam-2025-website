@@ -4,7 +4,7 @@ import OrganizingCommitee from "@/components/commitees/components/OrganizingComm
 
 function Commitees() {
   return (
-    <div className="pt-10">
+    <div className="space-y-10">
       <SteeringCommitee />
       <ProgramCommitee />
       <OrganizingCommitee />

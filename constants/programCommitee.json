@@ -1,13 +1,15 @@
 [
   {
     "name": "Daya Gaur",
-    "collegeName": "University of Lethbridge, Canada (PC co-chair)",
-    "link": "http://www.cs.uleth.ca/~gaur/"
+    "collegeName": "University of Lethbridge, Canada",
+    "link": "http://www.cs.uleth.ca/~gaur/",
+    "conferenceTitle": "PC Co-Chair"
   },
   {
     "name": "Rogers Mathew",
-    "collegeName": "Indian Institute of Technology Hyderabad, India (PC co-chair)",
-    "link": "https://iith.ac.in/~rogers/"
+    "collegeName": "Indian Institute of Technology Hyderabad, India",
+    "link": "https://iith.ac.in/~rogers/",
+    "conferenceTitle": "PC Co-Chair"
   },
   {
     "name": "Sandip Das",

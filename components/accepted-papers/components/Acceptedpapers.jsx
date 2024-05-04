@@ -1,6 +1,7 @@
 import React from "react";
 import Acceptedpaper from "@/constants/Acceptedpapers.json";
-import Card from "./Cards.jsx";
+import PeopleCard from "../../shared/re-used/PeopleCard.jsx";
+
 function Acceptedpapers() {
   return (
     <div className="pb-10">
@@ -12,7 +13,7 @@ function Acceptedpapers() {
       <div className=" grid grid-cols-2 gap-5 px-10 max-md:grid-cols-1 lg:px-20">
         {Acceptedpaper.map((item, index) => (
           <div key={index} className="w-full">
-            <Card
+            <PeopleCard
               title={item.title}
               speakers={item.speakers}
               researchResourceLink={item.resourceLink}

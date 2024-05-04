@@ -1,20 +1,14 @@
 import programCommmitee from "@/constants/programCommitee.json";
-import Card from "@/components/accepted-papers/components/Cards";
+import PeopleCard from "@/components/shared/re-used/PeopleCard";
+import CardGrid from "./CardGrid";
 
 export default function ProgramCommitee() {
   return (
-    <div>
-      <div className=" grid gap-4 px-10 py-10 max-lg:grid-cols-2 max-md:grid-cols-1 lg:grid-cols-3">
-        {programCommmitee.map((programCommmitee, index) => (
-          <div key={index} className="w-full">
-            <Card
-              title={programCommmitee.collegeName}
-              speakers={programCommmitee.name}
-              researchResourceLink={programCommmitee.link}
-            />
-          </div>
-        ))}
-      </div>
+    <div className="bg-bluecolor p-8 lg:p-14">
+      <p className="mb-10 text-4xl font-bold uppercase text-white lg:text-5xl">
+        Programme Committee
+      </p>
+      <CardGrid data={programCommmitee} darkVariant={true} />
     </div>
   );
 }

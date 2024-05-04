@@ -135,28 +135,8 @@ function Landing() {
           <motion.div
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
-            className="mb-14 hidden max-w-[65%] font-medium lg:block lg:text-base xl:text-xl"
-          >
-            <TextContraction
-              className="mb-8 font-medium max-lg:hidden"
-              contentStart="The International Conference on Algorithms and Discrete Applied
-          Mathematics (CALDAM)"
-              contentRemaining=",held under the aegis of the Association of Computer Science, is intended to bring together researchers working in the areas of Algorithms and Applied Discrete Mathematics and provide a high-quality forum for the dissemination and discussion of research results in these broad areas. CALDAM has originated from the ongoing efforts to promote research in Algorithms and Discrete Mathematics. As in the previous editions of CALDAM, the proceedings of accepted papers of this edition will be published in Lecture Notes in Computer Science by Springer. Also, selected papers are being published as a special issue of the journal Discrete Applied Mathematics (DAM). In all the previous CALDAMs, Springer has sponsored awards for the best student presentations."
-            />
-          </motion.div>
-          <motion.div
-            initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1 }}
             className="mb-8 flex font-medium max-lg:flex-col max-lg:justify-center max-lg:space-y-4 lg:mb-14 lg:flex-row lg:items-center lg:space-x-10"
           >
-            <div className="flex flex-row items-center text-2xl">
-              <FaCalendar className="mr-4 inline text-2xl lg:text-4xl" />
-              <div className="inline">
-                <p> 13-15 February </p>
-                <p className="text-sm">2025</p>
-              </div>
-            </div>
-            <div className="hidden h-9 w-1 rounded-full bg-bluecolor lg:block"></div>
             <div className="flex flex-row items-center text-2xl">
               <BiSolidNavigation className="mr-4 inline text-2xl lg:text-4xl" />
               <div className="inline">
@@ -164,7 +144,28 @@ function Landing() {
                 <p className="text-sm">Coimbatore, Tamilnadu, India</p>
               </div>
             </div>
+            <div className="hidden h-9 w-1 rounded-full bg-bluecolor lg:block"></div>
+            <div className="flex flex-row items-center text-2xl">
+              <FaCalendar className="mr-4 inline text-2xl lg:text-4xl" />
+              <div className="inline">
+                <p> 13-15 February </p>
+                <p className="text-sm">2025</p>
+              </div>
+            </div>
           </motion.div>
+          <motion.div
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            className="mb-14 hidden max-w-[65%] font-medium lg:block lg:text-base xl:text-xl"
+          >
+            <TextContraction
+              className="mb-8 font-medium max-lg:hidden"
+              contentStart="The International Conference on Algorithms and Discrete Applied
+          Mathematics (CALDAM), held under the aegis of the Association of Computer Science, is intended to bring together researchers working in the areas of Algorithms and Applied Discrete Mathematics and provide a high-quality forum for the dissemination and discussion of research results in these broad areas."
+              contentRemaining=" CALDAM has originated from the ongoing efforts to promote research in Algorithms and Discrete Mathematics. As in the previous editions of CALDAM, the proceedings of accepted papers of this edition will be published in Lecture Notes in Computer Science by Springer. Also, selected papers are being published as a special issue of the journal Discrete Applied Mathematics (DAM). In all the previous CALDAMs, Springer has sponsored awards for the best student presentations."
+            />
+          </motion.div>
+
           <motion.div
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
