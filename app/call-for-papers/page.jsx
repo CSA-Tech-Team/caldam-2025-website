@@ -204,7 +204,7 @@ export default function Page() {
                 />
               </svg>
             </div>
-            <div className="max-md:animate-marquee flex flex-col text-white text-left items-stretch justify-stretch ">
+            <div className="max-md:animate-marquee lg:space-y-7 flex flex-col text-white text-left items-stretch justify-stretch ">
               <h1 className="px-1">
                 Last date for Paper Submission - October 03, 2024, AoE{" "}
               </h1>
