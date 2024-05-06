@@ -4,7 +4,7 @@ import PeopleCard from "@/components/shared/re-used/PeopleCard";
 
 export default function ListOfSpeakers() {
   return (
-    <div className=" px-12 py-6 ">
+    <div className=" px-8 lg:px-12 py-6 ">
       <h1 className=" text-2xl font-bold max-lg:text-3xl lg:text-5xl ">
         List Of Speakers
       </h1>

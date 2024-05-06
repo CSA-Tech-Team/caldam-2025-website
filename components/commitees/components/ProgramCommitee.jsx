@@ -1,5 +1,4 @@
 import programCommmitee from "@/constants/programCommitee.json";
-import PeopleCard from "@/components/shared/re-used/PeopleCard";
 import CardGrid from "./CardGrid";
 
 export default function ProgramCommitee() {

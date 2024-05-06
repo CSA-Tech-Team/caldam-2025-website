@@ -5,7 +5,7 @@ import React from "react";
 export default function YoungResearchersForum() {
   return (
     <div className=" space-y-4 bg-bluecolor px-12 py-10 text-white  ">
-      <h1 className=" text-2xl font-bold capitalize xl:text-3xl 2xl:text-4xl ">
+      <h1 className=" text-3xl font-bold capitalize xl:text-3xl 2xl:text-4xl ">
         Young Researcher’s Forum{" "}
       </h1>
       <p className=" lg:text-lg max-lg:hidden ">
@@ -42,7 +42,7 @@ export default function YoungResearchersForum() {
         minutes.
       </p>
       <button className="rounded-2xl bg-[#FCA311] px-5  py-3 font-semibold text-black  ">
-        <Link href={""} prefetch>
+        <Link href={"/pre-conference-school/youngResearchersforum"} prefetch>
           Learn More
         </Link>
       </button>

@@ -1,6 +1,5 @@
 import React from "react";
 import steeringCommitee from "@/constants/steeringCommitee.json";
-import PeopleCard from "@/components/shared/re-used/PeopleCard";
 import CardGrid from "./CardGrid";
 
 export default function SteeringCommitee() {
