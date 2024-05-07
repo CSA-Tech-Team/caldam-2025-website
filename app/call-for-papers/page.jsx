@@ -295,12 +295,12 @@ export default function Page() {
                 </div>
               ) : null,
             )} */}
-            <div className="grid grid-cols-2 max-md:grid-cols-1 lg:grid-cols-4 p-4 space-x-5 space-y-4  ">
+            <div className="grid grid-cols-2 max-md:grid-cols-1 lg:grid-cols-4 p-4 ">
               {CaldamTopics.map((topic, i) => {
                 return (
                   <div
                     key={i}
-                    className={`rounded-lg flex items-center justify-center text-center  bg-white p-4 text-lg font-semibold lg:text-xl `}
+                    className={`rounded-xl mx-5 my-3 flex items-center justify-center text-center  bg-white p-4 text-lg font-semibold lg:text-xl `}
                   >
                     <p value={topic}>{topic}</p>
                   </div>
