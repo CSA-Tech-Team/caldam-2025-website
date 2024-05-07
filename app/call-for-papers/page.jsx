@@ -228,14 +228,15 @@ export default function Page() {
             invites papers describing original research in the areas of design,
             analysis and experimental evaluation of algorithms and in discrete
             applied mathematics. An indicative list of sub-areas are given
-            below. Papers must be typeset using LaTeX/LaTeX2e and may not exceed
-            12 pages in LNCS style, including bibliographic references. Further
+            below. Papers must be typeset using LaTeX/LaTeX2e and may not exceed
+            12 pages in LNCS style, including bibliographic references. Further
             details may be included in a clearly marked appendix that will be
             read at the discretion of the program committee. Only electronic
             submission is allowed. Submitted papers must describe previously
             unpublished work and may not be submitted concurrently to another
             conference with refereed proceedings or to a refereed journal.
-            Please find the guidelines for authors on Springer website.
+            {/*Please find the guidelines for authors on Springer website.*/}
+            {/* Hide above text until further intimation. */}
           </span>
         </div>
         <TextContraction

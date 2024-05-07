@@ -3,7 +3,7 @@ import eligiblities from "@/constants/yrfeligiblity.json"
 export default function Eligiblity() {
   return (
     <div className='px-10 py-4 lg:px-16'>
-      <h1 className='text-3xl lg:text-4xl 2xl:text-5xl italic font-bold'>
+      <h1 className='text-3xl lg:text-4xl 2xl:text-5xl font-bold'>
         Eligiblity
       </h1>
       <ul className='leading-tight space-y-5 px-3 py-5 '>

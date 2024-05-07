@@ -65,7 +65,7 @@ export default function Page() {
               * Early bird registration is till 31 December 2024. Registration
               done on or after 1 January 2025 will be considered late.
             </p>
-            <p>* includes 18% GST</p>
+            <p>* All prices are inclusive of 18% GST.</p>
             <p>
               * At least one author of each accepted paper must register (by the
               deadline of the camera ready version) in the appropriate category
@@ -123,7 +123,7 @@ export default function Page() {
             <ul className="space-y-2 text-lg font-light leading-tight text-white lg:text-xl">
               <li className="before:content-[' '] relative pl-6 before:absolute before:left-0 before:top-[5px] before:m-auto before:h-2 before:w-2 before:rounded-full before:bg-orange">
                 Transfer the respective registration fee as per the above table
-                using the steps mentioned below (Will be updated with the steps)
+                using the steps mentioned below (will be updated with the steps)
               </li>
               <li className="before:content-[' '] relative pl-6 before:absolute before:left-0 before:top-[5px] before:m-auto before:h-2 before:w-2 before:rounded-full before:bg-orange">
                 After payment, please send the transaction receipt and details
