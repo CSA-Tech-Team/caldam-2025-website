@@ -1,37 +1,37 @@
 [
     {
-        "preConferenceSchoolEventName": "Indo-Slovenia Pre-Conference School",
+        "preConferenceSchoolEventName": "Last date for Paper Submission",
+        "isOpen": true,
+        "startMonth": "Sep",
+        "StartDate": "27th",
+        "navigateTo": "/call-for-papers"
+    },
+    {
+        "preConferenceSchoolEventName": "Notification of Acceptance",
+        "isOpen": true,
+        "startMonth": "Nov",
+        "StartDate": "12th",
+        "navigateTo": "/call-for-papers"
+    },
+    {
+        "preConferenceSchoolEventName": "Camera-ready Version",
         "isOpen": false,
-        "startMonth": "Feb",
-        "StartDate": "15th",
-        "navigateTo": "/"
+        "startMonth": "Nov",
+        "StartDate": "22nd",
+        "navigateTo": "/call-for-papers"
+    },
+    {
+        "preConferenceSchoolEventName": "Early bird Registration",
+        "isOpen": true,
+        "startMonth": "Dec",
+        "StartDate": "31st",
+        "navigateTo": "/registration"
     },
     {
         "preConferenceSchoolEventName": "Indo-Slovenia Pre-Conference School",
         "isOpen": false,
         "startMonth": "Feb",
-        "StartDate": "15th",
-        "navigateTo": "/"
-    },
-    {
-        "preConferenceSchoolEventName": "Indo-Slovenia Pre-Conference School",
-        "isOpen": false,
-        "startMonth": "Feb",
-        "StartDate": "15th",
-        "navigateTo": "/"
-    },
-    {
-        "preConferenceSchoolEventName": "Indo-Slovenia Pre-Conference School",
-        "isOpen": false,
-        "startMonth": "Feb",
-        "StartDate": "15th",
-        "navigateTo": "/"
-    },
-    {
-        "preConferenceSchoolEventName": "Indo-Slovenia Pre-Conference School",
-        "isOpen": false,
-        "startMonth": "Feb",
-        "StartDate": "15th",
-        "navigateTo": "/"
+        "StartDate": "10th",
+        "navigateTo": "/pre-conference-school"
     }
 ]
