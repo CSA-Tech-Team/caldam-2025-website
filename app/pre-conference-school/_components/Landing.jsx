@@ -77,7 +77,7 @@ function Landing() {
                       },
                     }}
                   >
-                    Indo-Slovenia Pre-Conference
+                    Indo-Spanish Pre-Conference
                   </motion.p>
                   <motion.p
                     variants={{
@@ -114,7 +114,7 @@ function Landing() {
               whileInView={{ opacity: 1 }}
               className="text-xl font-medium md:text-2xl lg:hidden"
             >
-              Indo-Slovenia Pre-Conference School on Algorithms and
+              Indo-Spanish Pre-Conference School on Algorithms and
               Combinatorics { " "}
             </motion.p>
           </div>

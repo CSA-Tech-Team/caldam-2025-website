@@ -8,7 +8,13 @@
   {
     "name": "K. Prakasan",
     "collegeName": "Principal, PSG College of Technology",
-    "link": "",
+    "link": "https://www.psgtech.edu/principal.php",
     "conferenceTitle": "Patron"
+  },
+  {
+    "name": "Shina Sheen",
+    "collegeName": "Applied Mathematics and Computational Sciences, PSG Tech",
+    "link": "https://psgtech.irins.org/profile/103372",
+    "conferenceTitle": "Convener"
   }
 ]

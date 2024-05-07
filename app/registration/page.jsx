@@ -65,6 +65,7 @@ export default function Page() {
               * Early bird registration is till 31 December 2024. Registration
               done on or after 1 January 2025 will be considered late.
             </p>
+            <p>* includes 18% GST</p>
             <p>
               * At least one author of each accepted paper must register (by the
               deadline of the camera ready version) in the appropriate category
@@ -214,7 +215,6 @@ export default function Page() {
                 Thank you for registering for CALDAM 2025
               </li>
               <li className="before:content-[' '] relative pl-6 before:absolute before:left-0 before:top-[5px] before:m-auto before:h-2 before:w-2 before:rounded-full before:bg-orange">
-                Kindly go over the steps once to confirm the steps on your end.
                 You should be receiving a confirmation mail for the registration
                 shortly
               </li>

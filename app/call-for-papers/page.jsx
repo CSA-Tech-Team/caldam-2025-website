@@ -9,7 +9,7 @@ import TextContraction from "@/components/Home/components/TextContraction";
 export default function Page() {
   return (
     <main>
-      <div className="flex max-h-fit min-h-[45vh] flex-col bg-bluecolor px-10 lg:px-20 py-10 ">
+      <div className="flex max-h-fit min-h-[45vh] flex-col bg-bluecolor px-10 py-10 lg:px-20 ">
         <h1 className="font-semibold text-white max-md:text-[30px] max-sm:text-[24px] lg:text-[36px] ">
           SUBMISSION DETAILS
         </h1>
@@ -39,7 +39,7 @@ export default function Page() {
                     fill="#102133"
                   />
                 </svg>
-                <h1  >Submission of Papers - EasyChair Smart CFP</h1>
+                <h1>Submission of Papers - EasyChair Smart CFP</h1>
               </div>
               <Link
                 target="_blank"
@@ -204,7 +204,7 @@ export default function Page() {
                 />
               </svg>
             </div>
-            <div className="max-md:animate-marquee lg:space-y-7 flex flex-col text-white text-left items-stretch justify-stretch ">
+            <div className="max-md:animate-marquee flex flex-col items-stretch justify-stretch text-left text-white lg:space-y-7 ">
               <h1 className="px-1">
                 Last date for Paper Submission - October 03, 2024, AoE{" "}
               </h1>
@@ -220,11 +220,11 @@ export default function Page() {
       </div>
       <div className=" px-10 py-12 lg:px-14 lg:py-16 ">
         <h1 className="text-[36px] font-medium">SCOPE</h1>
-        <div
-        className=" py-4 "
-        >
-          <span className=" text-lg font-semibold max-lg:hidden ">CALDAM 2024 {"  "}</span>
-          <span className=" text-lg max-lg:hidden leading-6 ">
+        <div className=" py-4 ">
+          <span className=" text-lg font-semibold max-lg:hidden ">
+            CALDAM 2025 {"  "}
+          </span>
+          <span className=" text-lg leading-6 max-lg:hidden ">
             invites papers describing original research in the areas of design,
             analysis and experimental evaluation of algorithms and in discrete
             applied mathematics. An indicative list of sub-areas are given
@@ -240,7 +240,7 @@ export default function Page() {
         </div>
         <TextContraction
           className={` lg:hidden lg:text-lg  `}
-          contentStart={` CALDAM 2024 invites papers describing original research
+          contentStart={` CALDAM 2025 invites papers describing original research
           in the areas of design, analysis and experimental evaluation of
           algorithms and in discrete applied mathematics. An indicative list of
           sub-areas are given below. Papers must be typeset using LaTeX/LaTeX2e
@@ -257,12 +257,12 @@ export default function Page() {
         />
       </div>
       <div className=" h-fit w-auto space-y-5 bg-bluecolor py-5 ">
-        <h1 className=" text-center font-semibold text-white max-md:text-[30px] max-sm:flex max-sm:justify-center max-sm:text-[24px] lg:text-[36px] ">
+        <h1 className=" text-center font-semibold text-white max-md:text-[30px] max-sm:flex max-sm:justify-center max-sm:text-[30px] lg:text-[36px] ">
           CALDAM TOPICS
         </h1>
         <div className=" text-white">
           <ul className="flex flex-col gap-y-3 overflow-y-auto text-black  max-lg:h-[50vh] max-lg:rounded-xl">
-            {CaldamTopics.map((val, index) =>
+            {/* {CaldamTopics.map((val, index) =>
               index % 7 == 0 ? (
                 <div
                   key={index}
@@ -294,7 +294,19 @@ export default function Page() {
                   </div>
                 </div>
               ) : null,
-            )}
+            )} */}
+            <div className="grid grid-cols-2 max-md:grid-cols-1 lg:grid-cols-4 p-4 space-x-5 space-y-4  ">
+              {CaldamTopics.map((topic, i) => {
+                return (
+                  <div
+                    key={i}
+                    className={`rounded-lg flex items-center justify-center text-center  bg-white p-4 text-lg font-semibold lg:text-xl `}
+                  >
+                    <p value={topic}>{topic}</p>
+                  </div>
+                );
+              })}
+            </div>
           </ul>
         </div>
       </div>

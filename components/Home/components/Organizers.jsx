@@ -8,7 +8,7 @@ const Organizers = () => {
       <h1 className="mb-10 text-4xl font-bold uppercase text-white">
         Organizers
       </h1>
-      <Marquee
+      {/* <Marquee
         className="flex flex-row overflow-x-auto text-white"
         autoFill={true}
         pauseOnClick={true}
@@ -29,7 +29,27 @@ const Organizers = () => {
             />
           </div>
         ))}
-      </Marquee>
+      </Marquee> */}
+      <div
+      className=" flex items-center max-lg:flex-col max-lg:space-y-4 justify-evenly "
+      >
+      {organizersData.map((org, i) => {
+        return (
+          <div key={i}
+          className="mx-2 aspect-square w-64 rounded-lg bg-white p-8 max-lg:w-60"
+          >
+            <Image
+              src={org.imageURL}
+              alt={org.organizationName}
+              width={0}
+              height={0}
+              sizes="1vw"
+              className="h-full w-full object-contain"
+            />
+          </div>
+        );
+      })}
+      </div>
     </div>
   );
 };

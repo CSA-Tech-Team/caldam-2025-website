@@ -20,7 +20,8 @@ export default function Proceedings() {
           rel="external"
           href="https://link.springer.com/book/10.1007/978-3-031-52213-0"
         >
-          <Image src={Banner} alt="Banner" className=" w-full  max-md:h-48" />
+          {/* <Image src={Banner} alt="Banner" className=" w-full  max-md:h-48" /> */}  
+          <div className=" aspect-square lg:h-[20vw] bg-bluecolor w-full " />
         </Link>
       </div>
     </div>

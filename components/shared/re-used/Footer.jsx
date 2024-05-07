@@ -48,8 +48,7 @@ function Footer() {
             Technology
           </p>
           <p>
-            <FaCode className="inline" /> with{" "}
-            <FaHeart className="inline text-red-600" /> CSA Tech Team
+            CSA Tech Team
           </p>
         </div>
       </div>

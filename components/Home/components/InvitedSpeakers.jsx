@@ -24,9 +24,9 @@ function InvitedSpeaker() {
               <h1 className="text-lg lg:text-2xl">
                 Topic:{invitedSpeaker.topic}
               </h1>
-              <button className=" rounded-md bg-orange px-8 py-3 font-semibold text-black ">
+              {/* <button className=" rounded-md bg-orange px-8 py-3 font-semibold text-black ">
                 Go to Slides {"> >"}
-              </button>
+              </button> */}
             </div>
           );
         })}

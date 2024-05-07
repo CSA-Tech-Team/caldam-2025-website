@@ -35,7 +35,6 @@ const Pricing = ({
             </span>
           )}
         </div>
-        <p className="font-light italic">*includes 18% GST</p>
       </div>
       <div className="w-full rounded-lg bg-bluecolor px-4 py-3 text-center text-lg font-medium text-white">
         <Link href={registerUrl ?? ""}>Register</Link>
