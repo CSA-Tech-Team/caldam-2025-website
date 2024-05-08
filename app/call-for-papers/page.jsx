@@ -263,8 +263,8 @@ export default function Page() {
         </h1>
         <div className=" text-white">
           <ul className="flex flex-col gap-y-3 overflow-y-auto text-black  max-lg:h-[50vh] max-lg:rounded-xl">
-            {/* {CaldamTopics.map((val, index) =>
-              index % 7 == 0 ? (
+             {CaldamTopics.map((val, index) =>
+              index % 7 === 0 ? (
                 <div
                   key={index}
                   className="min-md:flex-col justify-center gap-x-4 text-center max-md:flex max-sm:flex-col max-sm:items-center max-sm:gap-y-3 md:flex lg:flex"
@@ -282,7 +282,7 @@ export default function Page() {
                     <span>{CaldamTopics[index + 3]}</span>
                   </div>
                 </div>
-              ) : index % 7 == 4 ? (
+              ) : index % 7 === 4 ? (
                 <div className="justify-center gap-x-4 text-center max-md:flex max-sm:flex-col max-sm:items-center max-sm:gap-y-3 md:flex lg:flex">
                   <div className="flex items-center justify-center rounded-3xl bg-white  p-3 font-semibold max-md:w-[40vw] max-sm:w-[76vw]">
                     <span>{CaldamTopics[index]}</span>
@@ -295,19 +295,19 @@ export default function Page() {
                   </div>
                 </div>
               ) : null,
-            )} */}
-            <div className="grid grid-cols-2 max-md:grid-cols-1 lg:grid-cols-4 p-4 ">
-              {CaldamTopics.map((topic, i) => {
-                return (
-                  <div
-                    key={i}
-                    className={`rounded-xl mx-5 my-3 flex items-center justify-center text-center  bg-white p-4 text-lg font-semibold lg:text-xl `}
-                  >
-                    <p value={topic}>{topic}</p>
-                  </div>
-                );
-              })}
-            </div>
+            )}
+            {/*<div className="grid grid-cols-2 max-md:grid-cols-1 lg:grid-cols-4 p-4 ">*/}
+            {/*  {CaldamTopics.map((topic, i) => {*/}
+            {/*    return i % 3 === 0 && (*/}
+            {/*      <div*/}
+            {/*        key={i}*/}
+            {/*        className={`rounded-full mx-5 my-3 flex items-center justify-center text-center bg-white p-4 text-lg font-semibold lg:text-xl `}*/}
+            {/*      >*/}
+            {/*        <p value={topic}>{topic}</p>*/}
+            {/*      </div>*/}
+            {/*    );*/}
+            {/*  })}*/}
+            {/*</div>*/}
           </ul>
         </div>
       </div>

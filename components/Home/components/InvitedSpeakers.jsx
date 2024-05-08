@@ -7,8 +7,11 @@ function InvitedSpeaker() {
       <h1 className="mb-10 text-4xl font-bold uppercase text-white">
         Invited Speakers
       </h1>
-      <div className="grid grid-cols-3 gap-5 text-white max-lg:grid-cols-2 max-md:grid-cols-1">
-        {invitedspeakers.map((invitedSpeaker, index) => {
+      <div className="w-full flex justify-center items-center">
+        <h2 className="text-2xl text-white font-semibold"> TBA </h2>
+      </div>
+      {/* <div className="grid grid-cols-3 gap-5 text-white max-lg:grid-cols-2 max-md:grid-cols-1">
+         {invitedspeakers.map((invitedSpeaker, index) => {
           return (
             <div
               key={index}
@@ -24,13 +27,14 @@ function InvitedSpeaker() {
               <h1 className="text-lg lg:text-2xl">
                 Topic:{invitedSpeaker.topic}
               </h1>
-              {/* <button className=" rounded-md bg-orange px-8 py-3 font-semibold text-black ">
-                Go to Slides {"> >"}
-              </button> */}
+              // following single line comments are OPTIONAL!
+              //  <button className=" rounded-md bg-orange px-8 py-3 font-semibold text-black ">
+              //   Go to Slides {"> >"}
+              // </button> }
             </div>
           );
         })}
-      </div>
+      </div> */}
     </div>
   );
 }

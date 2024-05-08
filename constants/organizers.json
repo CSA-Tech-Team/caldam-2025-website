@@ -1,12 +1,12 @@
 [
     {
-        "organizationName": "Google Inc",
-        "imageURL": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Google_logo_%282013-2015%29.svg",
+        "organizationName": "PSG College of Technology",
+        "imageURL": "psg-tech-logo.png",
         "companyPageURL": ""
     },
     {
-        "organizationName": "Springer",
-        "imageURL": "https://www.springer.com/public/images/springer-logo.svg",
+        "organizationName": "Association for Computer Science and Discrete Mathematics",
+        "imageURL": "ACSDM.png",
         "companyPageURL": ""
     }
 ]

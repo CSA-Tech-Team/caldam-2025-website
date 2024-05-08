@@ -21,14 +21,14 @@
         "navigateTo": "/call-for-papers"
     },
     {
-        "preConferenceSchoolEventName": " Last Date For Early bird Registration",
+        "preConferenceSchoolEventName": " Last Date For Early Bird Registration",
         "isOpen": true,
         "startMonth": "Dec",
         "StartDate": "31st",
         "navigateTo": "/registration"
     },
     {
-        "preConferenceSchoolEventName": "Indo-Slovenia Pre-Conference School",
+        "preConferenceSchoolEventName": "Indo-Spanish Pre-Conference School",
         "isOpen": false,
         "startMonth": "Feb",
         "StartDate": "10th",

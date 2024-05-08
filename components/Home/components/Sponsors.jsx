@@ -39,7 +39,7 @@ const Sponsors = () => {
       <div
       className=" flex items-center justify-evenly max-lg:flex-col max-lg:space-y-4 "
       >
-      {sponsorsData.map((d, index) => (
+        {/*{sponsorsData.map((d, index) => (
         <div
           key={index}
           className="mx-2 flex items-center justify-center aspect-square w-64 rounded-lg border-2 border-bluecolor p-8 max-lg:w-60"
@@ -48,7 +48,8 @@ const Sponsors = () => {
             TBA
           </h1>
         </div>
-      ))}
+      ))} */}
+        <p className="text-2xl font-semibold">TBA</p>
       </div>
     </div>
   );
