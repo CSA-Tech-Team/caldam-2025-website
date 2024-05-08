@@ -4,6 +4,7 @@
         "isOpen": true,
         "startMonth": "Sep",
         "StartDate": "27th",
+        "year":"2024",
         "navigateTo": "/call-for-papers"
     },
     {
@@ -11,6 +12,7 @@
         "isOpen": true,
         "startMonth": "Nov",
         "StartDate": "12th",
+        "year":"2024",
         "navigateTo": "/call-for-papers"
     },
     {
@@ -18,6 +20,7 @@
         "isOpen": false,
         "startMonth": "Nov",
         "StartDate": "22nd",
+        "year":"2024",
         "navigateTo": "/call-for-papers"
     },
     {
@@ -25,6 +28,7 @@
         "isOpen": true,
         "startMonth": "Dec",
         "StartDate": "31st",
+        "year":"2024",
         "navigateTo": "/registration"
     },
     {
@@ -32,6 +36,7 @@
         "isOpen": false,
         "startMonth": "Feb",
         "StartDate": "10th",
+        "year":"2025",
         "navigateTo": "/pre-conference-school"
     }
 ]

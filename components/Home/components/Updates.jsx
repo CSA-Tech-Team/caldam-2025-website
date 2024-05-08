@@ -87,6 +87,7 @@ export default function Updates() {
                     <p>
                       <span className="font-semibold">{update.StartDate}</span>{" "}
                       {update.startMonth}
+                      <p>{update.year}</p>
                     </p>
                   </div>
                   <div className="flex w-full flex-row items-center justify-between rounded-lg border border-black px-8 py-4">

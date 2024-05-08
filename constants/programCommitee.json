@@ -30,5 +30,96 @@
     "name": "Manoj Changat",
     "collegeName": "University of Kerala, India",
     "link": "http://www.keralauniversity.ac.in/future/faculty_details.html?id=83"
+  },
+  {
+    "name": "Arti Pandey",
+    "collegeName": "IIT Ropar",
+    "conferenceTitle": "ordinary PC member",
+    "link": ""
+  },
+  {
+    "name": "Sayan Bandyapadhyay",
+    "collegeName": "Department of Computer Science, Portland State University",
+    "conferenceTitle": "ordinary PC member",
+    "link": ""
+  },
+  {
+    "name": "Sathish Govindarajan",
+    "collegeName": "Indian Institute of Science",
+    "conferenceTitle": "ordinary PC member",
+    "link": ""
+  },
+  {
+    "name": "Palash Dey",
+    "collegeName": "Indian Institute of Technology Kharagpur",
+    "conferenceTitle": "ordinary PC member",
+
+    "link": ""
+  },
+  {
+    "name": "Rishi Ranjan Singh",
+    "collegeName": "Indian Institute of Technology Bhilai",
+    "conferenceTitle": "ordinary PC member",
+    "link": ""
+  },
+  {
+    "name": "Aritra Banik",
+    "collegeName": "Indian Institute of Technology Jodhpur",
+    "conferenceTitle": "ordinary PC member",
+    "link": ""
+  },
+  {
+    "name": "Niranjan Balachandran",
+    "collegeName": "Indian Institute of Technology Bombay",
+    "conferenceTitle": "ordinary PC member",
+    "link": ""
+  },
+  {
+    "name": "Akanksha Agrawal",
+    "collegeName": "Indian Institute of Technology Madras",
+    "conferenceTitle": "ordinary PC member",
+    "link": ""
+  },
+  {
+    "name": "Iztok Peterin",
+    "collegeName": "University of Maribor, FEECS",
+    "conferenceTitle": "ordinary PC member",
+    "link": ""
+  },
+  {
+    "name": "Monika Pilśniak",
+    "collegeName": "",
+    "conferenceTitle": "ordinary PC member",
+    "link": ""
+  },
+  {
+    "name": "Sumit Ganguly",
+    "collegeName": "Indian Institute of Technology, Kanpur",
+    "conferenceTitle": "ordinary PC member",
+    "link": ""
+  },
+  {
+    "name": "Alda Abiad",
+    "collegeName": "Eindhoven University of Technology",
+    "conferenceTitle": "ordinary PC member",
+    "link": ""
+  },
+  {
+    "name": "Mark de Berg",
+    "collegeName": "Eindhoven University of Technology",
+    "conferenceTitle": "ordinary PC member",
+    "link": ""
+  },
+  {
+    "name": "Ragesh Jalswal",
+    "collegeName": "Indian Institute of Technology Delhi",
+    "conferenceTitle": "ordinary PC member",
+    "link": ""
+  },
+  {
+    "name": "Sagnik Sen",
+    "collegeName": "Bordeaux University, LaBRI",
+    "conferenceTitle": "ordinary PC member",
+    "link": ""
   }
 ]
