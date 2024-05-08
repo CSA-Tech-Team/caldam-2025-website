@@ -252,8 +252,7 @@ export default function Page() {
           be read at the discretion of the program committee. Only electronic
           submission is allowed. Submitted papers must describe previously
           unpublished work and may not be submitted concurrently to another
-          conference with refereed proceedings or to a refereed journal. Please
-          find the guidelines for authors on Springer website.
+          conference with refereed proceedings or to a refereed journal.
           `}
         />
       </div>
