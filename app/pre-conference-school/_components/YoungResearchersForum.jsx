@@ -42,7 +42,7 @@ export default function YoungResearchersForum() {
         minutes.
       </p>
       <button className="rounded-2xl bg-[#FCA311] px-5  py-3 font-semibold text-black  ">
-        <Link href={"/pre-conference-school/youngResearchersforum"} prefetch>
+        <Link href={"/pre-conference-school/young-researchers-forum"} prefetch>
           Learn More
         </Link>
       </button>

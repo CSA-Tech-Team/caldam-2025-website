@@ -35,15 +35,17 @@
     "preConferenceSchoolEventName": "Indo-Spanish Pre-Conference School",
     "isOpen": false,
     "startMonth": "Feb",
-    "StartDate": "10th",
+    "StartDate": "10",
+    "EndDate": "11th",
     "year": "2025",
     "navigateTo": "/pre-conference-school"
   },
   {
-    "preConferenceSchoolEventName": "Indo-Spanish Conference",
+    "preConferenceSchoolEventName": "CALDAM Conference",
     "isOpen": false,
     "startMonth": "Feb",
-    "StartDate": "13th",
+    "StartDate": "13",
+    "EndDate": "15th",
     "navigateTo": "/",
     "year": "2025"
   }

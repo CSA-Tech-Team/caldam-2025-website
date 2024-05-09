@@ -13,15 +13,20 @@ export default function Proceedings() {
       <div className=" max-lg:text-md px-4 text-xl font-semibold ">
         Click on the banner below to access the proceedings of the conference.
       </div>
-      <div className=" w-full px-4 py-4  ">
+      <div className=" w-full px-4 py-4">
         <Link
           prefetch
           target="_blank"
           rel="external"
-          href="https://link.springer.com/book/10.1007/978-3-031-52213-0"
+          // href="https://link.springer.com/book/10.1007/978-3-031-52213-0"
+          href="/" //temporary
         >
           {/* <Image src={Banner} alt="Banner" className=" w-full  max-md:h-48" /> */}  
-          <div className=" aspect-square lg:h-[20vw] bg-bluecolor w-full " />
+          <div className="flex justify-center items-center aspect-square lg:h-[5vw] bg-bluecolor w-full " >
+            <div className="font-semibold text-2xl text-white">
+              TBA
+            </div>
+          </div>
         </Link>
       </div>
     </div>

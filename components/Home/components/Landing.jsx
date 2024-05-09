@@ -26,91 +26,93 @@ function Landing() {
                 initial: {},
                 animate: {
                   transition: {
-                    staggerChildren: 0.3,
-                  },
-                },
+                    staggerChildren: 0.3
+                  }
+                }
               }}
               initial="initial"
               animate="animate"
               className="mb-8 lg:flex lg:flex-row lg:items-stretch lg:justify-start lg:space-x-14"
             >
-              <div className="overflow-hidden pr-4">
-                <motion.h1
-                  variants={{
-                    initial: { translateX: 1000, opacity: "0%" },
-                    animate: {
-                      translateX: 0,
-                      opacity: "100%",
-                      transition: {
-                        duration: 0.1,
-                      },
-                    },
-                  }}
-                  className="text-6xl font-semibold italic max-lg:mr-6 lg:text-7xl xl:text-8xl 2xl:text-9xl"
-                >
-                  CALDAM 2025
-                </motion.h1>
-              </div>
-              <motion.div
-                initial={{ opacity: 0 }}
-                animate={{ opacity: 1 }}
-                className="hidden w-2 -skew-x-[16deg] bg-black lg:block"
-              ></motion.div>
+
               <div className="my-auto hidden overflow-hidden text-lg font-medium lg:block xl:text-xl 2xl:text-2xl">
                 <motion.div
                   variants={{
                     initial: {},
                     animate: {
                       transition: {
-                        staggerChildren: 0.1,
-                      },
-                    },
+                        staggerChildren: 0.1
+                      }
+                    }
                   }}
                 >
                   <motion.p
                     variants={{
-                      initial: { translateX: -500 },
+                      initial: { translateX: 500 },
                       animate: {
                         translateX: 0,
                         transition: {
-                          ease: [0.47, 0.0, 0.745, 0.715],
-                        },
-                      },
+                          ease: [0.47, 0.0, 0.745, 0.715]
+                        }
+                      }
                     }}
                   >
                     11th Annual International
                   </motion.p>
                   <motion.p
                     variants={{
-                      initial: { translateX: -500 },
+                      initial: { translateX: 500 },
                       animate: {
                         translateX: 0,
                         transition: {
-                          ease: [0.47, 0.0, 0.745, 0.715],
-                        },
-                      },
+                          ease: [0.47, 0.0, 0.745, 0.715]
+                        }
+                      }
                     }}
                   >
                     Conference on Algorithms and
                   </motion.p>
                   <motion.p
                     variants={{
-                      initial: { translateX: -500 },
+                      initial: { translateX: 500 },
                       animate: {
                         translateX: 0,
                         transition: {
-                          ease: [0.47, 0.0, 0.745, 0.715],
-                        },
-                      },
+                          ease: [0.47, 0.0, 0.745, 0.715]
+                        }
+                      }
                     }}
                   >
                     Discrete Applied Mathematics{" "}
                   </motion.p>
                 </motion.div>
               </div>
+              <motion.div
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                className="hidden w-2 -skew-x-[16deg] bg-bluevariants-300 lg:block"
+              ></motion.div>
+              <div className="overflow-hidden pr-4">
+                <motion.h1
+                  variants={{
+                    initial: { translateX: -1000, opacity: "0%" },
+                    animate: {
+                      translateX: 0,
+                      opacity: "100%",
+                      transition: {
+                        duration: 0.1
+                      }
+                    }
+                  }}
+                  className="text-6xl font-semibold italic max-lg:mr-6 lg:text-7xl xl:text-8xl 2xl:text-9xl"
+                >
+                  CALDAM 2025
+                </motion.h1>
+              </div>
             </motion.div>
             <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }}>
-              <p className="relative inline before:absolute before:-top-[100%] before:bottom-0 before:h-1 before:w-full before:bg-orange">
+              <p
+                className="relative inline before:absolute before:-top-[100%] before:bottom-0 before:h-1 before:w-full before:bg-orange">
                 [ siː-eɪ-ɛl-diː-eɪ-ɛm ]
                 <button
                   className="ml-2"
@@ -148,7 +150,7 @@ function Landing() {
             <div className="flex flex-row items-center text-2xl">
               <FaCalendar className="mr-4 inline text-2xl lg:text-4xl" />
               <div className="inline">
-                <p> 13-15 February </p>
+              <p> 13-15 February </p>
                 <p className="text-sm">2025</p>
               </div>
             </div>

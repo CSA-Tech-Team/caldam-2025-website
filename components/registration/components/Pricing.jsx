@@ -20,7 +20,7 @@ const Pricing = ({
         {!isEarlyBird && (
           <div className="flex items-center space-x-2">
             <p className="line-through">{earlyBirdPrice}</p>
-            <span className="rounded-full bg-bluecolor px-3 py-1 text-xs text-white line-through">
+            <span className="rounded-full bg-bluevariants-300 px-3 py-1 text-xs text-white line-through">
               EARLY BIRD
             </span>
           </div>
@@ -30,7 +30,7 @@ const Pricing = ({
             <p>{isEarlyBird ? earlyBirdPrice : regularPrice}</p>
           </div>
           {isEarlyBird && (
-            <span className="rounded-full bg-bluecolor px-3 py-1 text-xs text-white">
+            <span className="rounded-full bg-bluevariants-300 px-3 py-1 text-xs text-white">
               EARLY BIRD
             </span>
           )}
