@@ -11,7 +11,7 @@ function Footer() {
   const path = usePathname();
 
   return (
-    <div className="bg-black p-8 text-white">
+    <div className="bg-bluevariants-300 p-8 text-white">
       <div
         className={`relative mb-8 flex justify-between max-lg:flex-col max-lg:space-y-10`}
       >

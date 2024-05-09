@@ -14,13 +14,13 @@ export default function PeopleCard({
       <div>
         <div className="mb-4">
           <h1
-            className={`text-2xl font-bold lg:text-3xl ${darkVariant ? "text-black" : "text-bluecolor"}`}
+            className={`text-2xl font-bold lg:text-3xl ${darkVariant ? "text-bluevariants-300" : "text-bluevariants-300"}`}
           >
             {name}
           </h1>
           {conferenceTitle && <p className="text-lg">{conferenceTitle}</p>}
         </div>
-        <p className="text-lg lg:h-[100px] lg:text-xl">{institute}</p>
+        <p className="text-lg lg:h-[100px] text-bluevariants-300 lg:text-xl">{institute}</p>
       </div>
       {link && (
         <div className="absolute bottom-0 right-0">

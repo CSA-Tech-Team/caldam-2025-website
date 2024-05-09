@@ -4,7 +4,7 @@ import React from "react";
 import { BiSolidNavigation } from "react-icons/bi";
 import { FaCalendar } from "react-icons/fa";
 import { AnimatePresence, motion } from "framer-motion";
-import BackgroundImage from "@/public/image.png";
+import BackgroundImage from "@/public/image2.png";
 import TextContraction from "./TextContraction";
 import { HiSpeakerWave } from "react-icons/hi2";
 import speak from "@/components/actions/speak";

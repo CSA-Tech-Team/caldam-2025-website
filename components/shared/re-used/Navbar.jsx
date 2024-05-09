@@ -23,7 +23,7 @@ export default function Navbar() {
   const [openNavbar, setOpenNavbar] = useState(false);
 
   return (
-    <div className="sticky left-0 top-0 z-30 bg-black text-white">
+    <div className="sticky left-0 top-0 z-30 bg-bluevariants-200 text-white">
       <div className="relative flex items-center justify-between px-5 py-2">
         <h1
           onClick={(e) => {

@@ -6,6 +6,12 @@
   scrollbar-width: thin;
 }
 
+body {
+  /*color: #102133;*/
+  /*color: #192946;*/
+  color: #22305A;
+}
+
 #scrollbar-none {
   scrollbar-width: none;
 }
