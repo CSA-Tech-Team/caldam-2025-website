@@ -10,7 +10,7 @@ function Acceptedpapers() {
           <h1>ACCEPTED PAPERS</h1>
         </div>
       </div>
-      <div className=" grid grid-cols-2 gap-5 px-10 max-md:grid-cols-1 lg:px-20">
+      {/* } <div className=" grid grid-cols-2 gap-5 px-10 max-md:grid-cols-1 lg:px-20">
         {Acceptedpaper.map((item, index) => (
           <div key={index} className="w-full">
             <PeopleCard
@@ -20,6 +20,9 @@ function Acceptedpapers() {
             />
           </div>
         ))}
+      </div> //use for prod */}
+      <div className="flex justify-center items-center">
+        <h1 className="text-2xl font-semibold">TBA</h1>
       </div>
     </div>
   );

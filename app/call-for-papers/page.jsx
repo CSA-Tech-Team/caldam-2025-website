@@ -6,6 +6,11 @@ import Linker from "@/components/shared/re-used/Linker";
 import CaldamTopics from "@/constants/caldamTopics.json";
 import Link from "next/link";
 import TextContraction from "@/components/Home/components/TextContraction";
+
+export const metadata = {
+  title: "CALDAM 2025 | Call For Papers",
+  description: "Call For Papers for CALDAM 2025."
+}
 export default function Page() {
   return (
     <main>
