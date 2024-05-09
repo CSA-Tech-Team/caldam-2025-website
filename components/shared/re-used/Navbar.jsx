@@ -59,7 +59,7 @@ export default function Navbar() {
               initial="initial"
               animate="animate"
               exit="exit"
-              className="absolute left-0 top-full flex w-full  origin-top flex-col items-end justify-between bg-black  p-5 lg:hidden"
+              className="absolute left-0 top-full flex w-full  origin-top flex-col items-end justify-between bg-bluecolor  p-5 lg:hidden"
             >
               {NavbarElements.map((elem, index) => {
                 return (
