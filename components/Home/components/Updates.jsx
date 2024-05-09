@@ -84,11 +84,11 @@ export default function Updates() {
                   className="flex flex-row items-center -space-x-2"
                 >
                   <div className="z-10 rounded-md bg-orange p-5 text-center text-xl lg:text-2xl">
-                    <p>
+                    <div>
                       <span className="font-semibold">{update.StartDate}</span>{" "}
-                      {update.startMonth}
+                      <p>{update.startMonth}</p>
                       <p>{update.year}</p>
-                    </p>
+                    </div>
                   </div>
                   <div className="flex w-full flex-row items-center justify-between rounded-lg border border-black px-8 py-4">
                     <p className="text-base lg:text-xl">

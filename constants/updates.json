@@ -1,42 +1,50 @@
 [
-    {
-        "preConferenceSchoolEventName": "Last date for Paper Submission",
-        "isOpen": true,
-        "startMonth": "Sep",
-        "StartDate": "27th",
-        "year":"2024",
-        "navigateTo": "/call-for-papers"
-    },
-    {
-        "preConferenceSchoolEventName": "Notification of Acceptance",
-        "isOpen": true,
-        "startMonth": "Nov",
-        "StartDate": "12th",
-        "year":"2024",
-        "navigateTo": "/call-for-papers"
-    },
-    {
-        "preConferenceSchoolEventName": "Camera-ready Version",
-        "isOpen": false,
-        "startMonth": "Nov",
-        "StartDate": "22nd",
-        "year":"2024",
-        "navigateTo": "/call-for-papers"
-    },
-    {
-        "preConferenceSchoolEventName": " Last Date For Early Bird Registration",
-        "isOpen": true,
-        "startMonth": "Dec",
-        "StartDate": "31st",
-        "year":"2024",
-        "navigateTo": "/registration"
-    },
-    {
-        "preConferenceSchoolEventName": "Indo-Spanish Pre-Conference School",
-        "isOpen": false,
-        "startMonth": "Feb",
-        "StartDate": "10th",
-        "year":"2025",
-        "navigateTo": "/pre-conference-school"
-    }
+  {
+    "preConferenceSchoolEventName": "Last date for Paper Submission",
+    "isOpen": true,
+    "startMonth": "Sep",
+    "StartDate": "27th",
+    "year": "2024",
+    "navigateTo": "/call-for-papers"
+  },
+  {
+    "preConferenceSchoolEventName": "Notification of Acceptance",
+    "isOpen": true,
+    "startMonth": "Nov",
+    "StartDate": "12th",
+    "year": "2024",
+    "navigateTo": "/call-for-papers"
+  },
+  {
+    "preConferenceSchoolEventName": "Camera-ready Version",
+    "isOpen": false,
+    "startMonth": "Nov",
+    "StartDate": "22nd",
+    "year": "2024",
+    "navigateTo": "/call-for-papers"
+  },
+  {
+    "preConferenceSchoolEventName": " Last Date For Early Bird Registration",
+    "isOpen": true,
+    "startMonth": "Dec",
+    "StartDate": "31st",
+    "year": "2024",
+    "navigateTo": "/registration"
+  },
+  {
+    "preConferenceSchoolEventName": "Indo-Spanish Pre-Conference School",
+    "isOpen": false,
+    "startMonth": "Feb",
+    "StartDate": "10th",
+    "year": "2025",
+    "navigateTo": "/pre-conference-school"
+  },
+  {
+    "preConferenceSchoolEventName": "Indo-Spanish Conference",
+    "isOpen": false,
+    "startMonth": "Feb",
+    "StartDate": "13th",
+    "navigateTo": "/",
+    "year": "2025"
+  }
 ]
