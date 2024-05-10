@@ -1,5 +1,6 @@
 import organizersData from "@/constants/organizers";
 import Image from "next/image";
+import Link from "next/link";
 import Marquee from "react-fast-marquee";
 
 const Organizers = () => {
@@ -30,25 +31,26 @@ const Organizers = () => {
           </div>
         ))}
       </Marquee> */}
-      <div
-      className=" flex items-center max-lg:flex-col max-lg:space-y-4 justify-evenly "
-      >
-      {organizersData.map((org, i) => {
-        return (
-          <div key={i}
-          className="mx-2 aspect-square w-64 rounded-lg bg-white p-8 max-lg:w-60"
-          >
-            <Image
-              src={org.imageURL}
-              alt={org.organizationName}
-              width={0}
-              height={0}
-              sizes="1vw"
-              className="h-full w-full object-contain"
-            />
-          </div>
-        );
-      })}
+      <div className=" flex items-center justify-evenly max-lg:flex-col max-lg:space-y-4 ">
+        {organizersData.map((org, i) => {
+          return (
+            <div
+              key={i}
+              className="mx-2 aspect-square w-64 rounded-lg bg-white p-8 max-lg:w-60"
+            >
+              <Link href={org.companyPageURL} target="_blank">
+                <Image
+                  src={org.imageURL}
+                  alt={org.organizationName}
+                  width={0}
+                  height={0}
+                  sizes="1vw"
+                  className="h-full w-full object-contain"
+                />
+              </Link>
+            </div>
+          );
+        })}
       </div>
     </div>
   );

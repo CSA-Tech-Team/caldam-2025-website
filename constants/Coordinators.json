@@ -1,24 +1,24 @@
 [
     {
         "name":"Aida Abiad",
-        "institute":"Eindhoven University of Technology, The Netherlands ",
-        "position":"(Co-Convenor)"
+        "collegeName":"Eindhoven University of Technology, The Netherlands ",
+        "conferenceTitle":"(Co-Convenor)"
     },
     {
         "name":"R. S. Lekshmi",
-        "institute":"PSG College of Technology, India",
-        "position":"(Co-Convenor)"
+        "collegeName":"PSG College of Technology, India",
+        "conferenceTitle":"(Co-Convenor)"
     },
     {
         "name":"Rishi Ranjan Singh",
-        "institute":"Indian Institute of Technology Bhilai, India"
+        "collegeName":"Indian Institute of Technology Bhilai, India"
     },
     {
         "name":"Florent Foucaud",
-        "institute":"LIMOS - Université Clermont Auvergne, France"
+        "collegeName":"LIMOS - Université Clermont Auvergne, France"
     },
     {
         "name":"S. Jeevadoss",
-        "institute":"PSG College of Technology, India"
+        "collegeName":"PSG College of Technology, India"
     }
 ]

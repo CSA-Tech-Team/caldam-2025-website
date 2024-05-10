@@ -19,115 +19,70 @@ function Landing() {
     >
       <AnimatePresence>
         <div className="min-h-fit w-full bg-gradient-to-r from-white to-transparent p-8 transition-all max-lg:from-20% lg:via-white lg:p-14">
-          <div className="mb-8 space-y-4 overflow-hidden lg:mb-14">
-            <motion.div
-              variants={{
-                initial: {},
-                animate: {
-                  transition: {
-                    staggerChildren: 0.3,
+          <motion.div
+            variants={{
+              initial: {},
+              animate: {
+                transition: {
+                  staggerChildren: 0.3,
+                },
+              },
+            }}
+            initial="initial"
+            animate="animate"
+            className="  mb-8 lg:flex lg:flex-row lg:items-stretch lg:justify-start lg:space-x-14"
+          >
+            <div className=" overflow-hidden lg:flex text-5xl lg:text-6xl lg:space-x-4 ">
+              <motion.h1
+                variants={{
+                  initial: { translateX: -500, opacity: 0 },
+                  animate: {
+                    translateX: 0,
+                    opacity: 1,
+                    transition: {
+                      ease: [0.47, 0.0, 0.745, 0.715],
+                    },
+                    transitionDuration: 0.1,
                   },
+                }}
+              >
+                Indo-Spanish
+              </motion.h1>
+              <motion.h1
+              variants={{
+                initial:{
+                  translateY:-400,opacity:0
+                },
+                animate: {
+                  translateY: 0,
+                  opacity: 1,
+                  transition: {
+                    ease: [0.47, 0.0, 0.745, 0.715],
+                  },
+                  transitionDuration: 0.1,
                 },
               }}
-              initial="initial"
-              animate="animate"
-              className="mb-8 lg:flex lg:flex-row lg:items-stretch lg:justify-start lg:space-x-10"
-            >
-              <div className="overflow-hidden ">
-                <motion.h1
-                  variants={{
-                    initial: { translateX: 1000, opacity: "0%" },
-                    animate: {
-                      translateX: 0,
-                      opacity: "100%",
-                      transition: {
-                        duration: 0.1,
-                      },
+              >
+                CALDAM
+              </motion.h1>
+              <motion.h1
+                variants={{
+                  initial: { translateX: 500, opacity: 0 },
+                  animate: {
+                    translateX: 0,
+                    opacity: 1,
+                    transition: {
+                      ease: [0.47, 0.0, 0.745, 0.715],
                     },
-                  }}
-                  className=" text-left text-6xl max-lg:text-4xl  font-semibold italic max-lg:mr-6 lg:text-6xl "
-                >
-                  PRE-CONFERENCE SCHOOL 2025
-                </motion.h1>
-              </div>
-              <motion.div
-                initial={{ opacity: 0 }}
-                animate={{ opacity: 1 }}
-                className="hidden w-2 -skew-x-[16deg] bg-black lg:block"
-              ></motion.div>
-              <div className="my-auto hidden overflow-hidden text-balance text-lg font-medium lg:block xl:text-xl 2xl:text-3xl">
-                <motion.div
-                  variants={{
-                    initial: {},
-                    animate: {
-                      transition: {
-                        staggerChildren: 0.1,
-                      },
-                    },
-                  }}
-                >
-                  <motion.p
-                    variants={{
-                      initial: { translateX: -500 },
-                      animate: {
-                        translateX: 0,
-                        transition: {
-                          ease: [0.47, 0.0, 0.745, 0.715],
-                        },
-                      },
-                    }}
-                  >
-                    Indo-Spanish Pre-Conference
-                  </motion.p>
-                  <motion.p
-                    variants={{
-                      initial: { translateX: -500 },
-                      animate: {
-                        translateX: 0,
-                        transition: {
-                          ease: [0.47, 0.0, 0.745, 0.715],
-                        },
-                      },
-                    }}
-                  >
-                    School on Algorithms and{" "}
-                  </motion.p>
-                  <motion.p
-                    variants={{
-                      initial: { translateX: -500 },
-                      animate: {
-                        translateX: 0,
-                        transition: {
-                          ease: [0.47, 0.0, 0.745, 0.715],
-                        },
-                      },
-                    }}
-                  >
-                    Combinatorics{" "}
-                  </motion.p>
-                </motion.div>
-              </div>
-            </motion.div>
-
-            <motion.p
-              initial={{ opacity: 0 }}
-              whileInView={{ opacity: 1 }}
-              className="text-xl font-medium md:text-2xl lg:hidden"
-            >
-              Indo-Spanish Pre-Conference School on Algorithms and
-              Combinatorics { " "}
-            </motion.p>
-          </div>
-          <motion.div
-            initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1 }}
-            className="mb-14 hidden max-w-[65%] font-medium lg:block lg:text-base xl:text-xl"
-          >
-            <TextContraction
-              className="mb-8 font-medium max-lg:hidden"
-              contentStart="The school is being organized for PhD students and teachers in computer science and discrete mathematics during February 10 - 11, 2025 by Department of Applied Mathematics and Computational Sciences, PSG College of Technology, India. The school is aimed at fulfilling two purposes"
-              contentRemaining="(i) as a pre-conference school for CALDAM 2025, (ii) as an Indo-Spanish School"
-            />
+                    transitionDuration: 0.3,
+                  },
+                }}
+                className=" lg:ml-3 "
+              >
+                {" "}
+                Pre-Conference School
+              </motion.h1>
+            </div>
           </motion.div>
           <motion.div
             initial={{ opacity: 0 }}
@@ -150,7 +105,18 @@ function Landing() {
               </div>
             </div>
           </motion.div>
-          
+          <motion.div
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            className="mb-14 hidden max-w-[65%] font-medium lg:block lg:text-base xl:text-xl"
+          >
+            <TextContraction
+              className="mb-8 font-medium max-lg:hidden"
+              contentStart="The school is being organized for PhD students and teachers in computer science and discrete mathematics during February 10 - 11, 2025 by Department of Applied Mathematics and Computational Sciences, PSG College of Technology, India. The school is aimed at fulfilling two purposes"
+              contentRemaining="(i) as a pre-conference school for CALDAM 2025, (ii) as an Indo-Spanish School"
+            />
+          </motion.div>
+
           <TextContraction
             className="mb-8 font-medium lg:hidden"
             contentStart="The school is being organized for PhD students and teachers in computer science and discrete mathematics during February 10 - 11, 2025 by Department of Applied Mathematics and Computational Sciences, PSG College of Technology, India. The school is aimed at fulfilling two purposes"

@@ -16,7 +16,7 @@ const Pricing = ({
         <p className="font-light opacity-70 lg:text-lg">{subTitle}</p>
       </div>
       <div className="space-y-2">
-        {isEarlyBird && <p className="line-through">{regularPrice}</p>}
+        {/* {isEarlyBird && <p className="line-through">{regularPrice}</p>} */}
         {!isEarlyBird && (
           <div className="flex items-center space-x-2">
             <p className="line-through">{earlyBirdPrice}</p>

@@ -1,6 +1,6 @@
-import PeopleCard from "@/components/shared/re-used/PeopleCard";
 import organizingCommitee from "@/constants/organizingcommitee.json";
 import organizingPatrons from "@/constants/organizingpatrons.json";
+import orgChair from "@/constants/organizingChair.json";
 import CardGrid from "./CardGrid";
 
 export default function OrganizingCommitee() {
@@ -10,6 +10,7 @@ export default function OrganizingCommitee() {
         Organizing Committee
       </p>
       <div className="space-y-10">
+        <CardGrid data={orgChair} />
         <CardGrid data={organizingPatrons} />
         <CardGrid data={organizingCommitee} />
       </div>

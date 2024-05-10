@@ -2,11 +2,11 @@
     {
         "organizationName": "PSG College of Technology",
         "imageURL": "psg-tech-logo.png",
-        "companyPageURL": ""
+        "companyPageURL": "https://www.psgtech.edu/"
     },
     {
         "organizationName": "Association for Computer Science and Discrete Mathematics",
         "imageURL": "Frame 1.png",
-        "companyPageURL": ""
+        "companyPageURL": "http://acsdm.in/acsdm/index.html"
     }
 ]

@@ -21,7 +21,7 @@ export default function Page() {
                     subTitle="with proceedings"
                     isEarlyBird={true}
                     regularPrice="₹ 8500"
-                    earlyBirdPrice="₹ 7500"
+                    earlyBirdPrice="₹ 8000"
                   />
                   <Pricing
                     className="flex-1 max-xl:px-5 max-lg:py-8 lg:py-5 xl:p-8"
@@ -46,15 +46,15 @@ export default function Page() {
                     subTitle="with proceedings"
                     isEarlyBird={true}
                     regularPrice="$450"
-                    earlyBirdPrice="$425"
+                    earlyBirdPrice="$300"
                   />
                   <Pricing
                     className="flex-1 max-xl:px-5 max-lg:py-8 lg:py-5 xl:p-8"
                     title="Student"
-                    subTitle="without proceedings"
+                    subTitle="with proceedings"
                     isEarlyBird={true}
                     regularPrice="$250"
-                    earlyBirdPrice="$225"
+                    earlyBirdPrice="$150"
                   />
                 </div>
               </div>
@@ -83,24 +83,6 @@ export default function Page() {
           <h1 className="mb-8 text-4xl font-semibold uppercase text-white lg:text-4xl">
             Steps for registration
           </h1>
-          <div className="mb-10 text-white">
-            <ul className="space-y-2 text-lg font-light leading-tight text-white lg:text-xl">
-              <li className="before:content-[' '] relative pl-6 before:absolute before:left-0 before:top-[5px] before:m-auto before:h-2 before:w-2 before:rounded-full before:bg-orange">
-                The registration fee includes 18% GST.
-              </li>
-              <li className="before:content-[' '] relative pl-6 before:absolute before:left-0 before:top-[5px] before:m-auto before:h-2 before:w-2 before:rounded-full before:bg-orange">
-                At least one author of each accepted paper must register (by the
-                deadline of the camera ready version) in the appropriate
-                category in order for the paper to be included in the conference
-                proceedings. If an author has two papers, then one different
-                author for every paper must register.
-              </li>
-              <li className="before:content-[' '] relative pl-6 before:absolute before:left-0 before:top-[5px] before:m-auto before:h-2 before:w-2 before:rounded-full before:bg-orange">
-                Registration (regular or student) includes admission to all
-                technical sessions, lunches, tea/coffee and banquet dinner.
-              </li>
-            </ul>
-          </div>
           <div className="flex items-center gap-x-3 text-2xl font-medium text-white">
             <div>
               <svg
@@ -123,7 +105,7 @@ export default function Page() {
             <ul className="space-y-2 text-lg font-light leading-tight text-white lg:text-xl">
               <li className="before:content-[' '] relative pl-6 before:absolute before:left-0 before:top-[5px] before:m-auto before:h-2 before:w-2 before:rounded-full before:bg-orange">
                 Transfer the respective registration fee as per the above table
-                using the steps mentioned below (will be updated with the steps)
+                using the steps mentioned below 
               </li>
               <li className="before:content-[' '] relative pl-6 before:absolute before:left-0 before:top-[5px] before:m-auto before:h-2 before:w-2 before:rounded-full before:bg-orange">
                 After payment, please send the transaction receipt and details

@@ -2,8 +2,15 @@
 import { useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { IoMdArrowDroprightCircle } from "react-icons/io";
+import Link from "next/link";
 
-const TextContraction = ({ className, contentStart, contentRemaining }) => {
+const TextContraction = ({
+  className,
+  contentStart,
+  contentRemaining,
+  contentLinks,
+  contentAfterLink,
+}) => {
   const [expand, setExpand] = useState(false);
   const [removeExpandButton, setRemoveExpandButton] = useState(false);
 
@@ -18,7 +25,6 @@ const TextContraction = ({ className, contentStart, contentRemaining }) => {
       opacity: 0,
     },
   };
-
   return (
     <motion.div
       initial={{ opacity: 0 }}
@@ -26,6 +32,15 @@ const TextContraction = ({ className, contentStart, contentRemaining }) => {
       className={`${className}`}
     >
       {contentStart}{" "}
+      <Link
+        className=" max-lg:hidden "
+        target="_blank"
+        prefetch
+        href={"http://acsdm.in/acsdm/index.html"}
+      >
+        {contentLinks}
+      </Link>{" "}
+      <span className=" max-lg:hidden ">{contentAfterLink} </span>
       {!removeExpandButton && (
         <>
           <button
@@ -53,6 +68,15 @@ const TextContraction = ({ className, contentStart, contentRemaining }) => {
             animate="animate"
             exit="exit"
           >
+            <span className=" lg:hidden ">{contentAfterLink} </span>
+            <Link
+              className=" lg:hidden "
+              target="_blank"
+              prefetch
+              href={"http://acsdm.in/acsdm/index.html"}
+            >
+              {contentLinks}
+            </Link>{" "}
             {contentRemaining}
           </motion.span>
         )}

@@ -230,8 +230,8 @@ export default function Page() {
             CALDAM 2025 {"  "}
           </span>
           <span className=" text-lg leading-6 max-lg:hidden ">
-            invites papers describing original research in the areas of design,
-            analysis and experimental evaluation of algorithms and in discrete
+            invites papers describing original research in the areas of design and
+            analysis of algorithms and in discrete
             applied mathematics. An indicative list of sub-areas are given
             below. Papers must be typeset using LaTeX/LaTeX2e and may not exceed
             12 pages in LNCS style, including bibliographic references. Further

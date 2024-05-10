@@ -26,61 +26,63 @@ function Landing() {
                 initial: {},
                 animate: {
                   transition: {
-                    staggerChildren: 0.3
-                  }
-                }
+                    staggerChildren: 0.3,
+                  },
+                },
               }}
               initial="initial"
               animate="animate"
               className="mb-8 lg:flex lg:flex-row lg:items-stretch lg:justify-start lg:space-x-14"
             >
-
-              <div className="my-auto hidden overflow-hidden text-lg font-medium lg:block xl:text-xl 2xl:text-2xl">
+              <div className="my-auto hidden overflow-hidden text-lg font-medium lg:block xl:text-xl 2xl:text-5xl">
                 <motion.div
                   variants={{
                     initial: {},
                     animate: {
                       transition: {
-                        staggerChildren: 0.1
-                      }
-                    }
+                        staggerChildren: 0.1,
+                      },
+                    },
                   }}
                 >
                   <motion.p
                     variants={{
-                      initial: { translateX: 500 },
+                      initial: { translateX: -500, opacity: 0 },
                       animate: {
                         translateX: 0,
+                        opacity: 1,
                         transition: {
-                          ease: [0.47, 0.0, 0.745, 0.715]
-                        }
-                      }
+                          ease: [0.47, 0.0, 0.745, 0.715],
+                        },
+                      },
                     }}
                   >
                     11th Annual International
                   </motion.p>
                   <motion.p
                     variants={{
-                      initial: { translateX: 500 },
+                      initial: { translateX: 500, opacity: 0 },
                       animate: {
                         translateX: 0,
+                        opacity: 1,
                         transition: {
-                          ease: [0.47, 0.0, 0.745, 0.715]
-                        }
-                      }
+                          ease: [0.47, 0.0, 0.745, 0.715],
+                        },
+                      },
                     }}
                   >
                     Conference on Algorithms and
                   </motion.p>
                   <motion.p
                     variants={{
-                      initial: { translateX: 500 },
+                      initial: { translateX: -500, opacity: 0 },
                       animate: {
                         translateX: 0,
+                        opacity: 1,
                         transition: {
-                          ease: [0.47, 0.0, 0.745, 0.715]
-                        }
-                      }
+                          ease: [0.47, 0.0, 0.745, 0.715],
+                        },
+                      },
                     }}
                   >
                     Discrete Applied Mathematics{" "}
@@ -92,7 +94,7 @@ function Landing() {
                 animate={{ opacity: 1 }}
                 className="hidden w-2 -skew-x-[16deg] bg-bluevariants-300 lg:block"
               ></motion.div>
-              <div className="overflow-hidden pr-4">
+              <div className="flex items-center justify-center overflow-hidden pr-4">
                 <motion.h1
                   variants={{
                     initial: { translateX: -1000, opacity: "0%" },
@@ -100,19 +102,18 @@ function Landing() {
                       translateX: 0,
                       opacity: "100%",
                       transition: {
-                        duration: 0.1
-                      }
-                    }
+                        duration: 0.1,
+                      },
+                    },
                   }}
-                  className="text-6xl font-semibold italic max-lg:mr-6 lg:text-7xl xl:text-8xl 2xl:text-9xl"
+                  className="text-6xl font-semibold italic max-lg:mr-6 lg:text-7xl xl:text-8xl 2xl:text-7xl"
                 >
                   CALDAM 2025
                 </motion.h1>
               </div>
             </motion.div>
             <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }}>
-              <p
-                className="relative inline before:absolute before:-top-[100%] before:bottom-0 before:h-1 before:w-full before:bg-orange">
+              <p className="relative inline before:absolute before:-top-[100%] before:bottom-0 before:h-1 before:w-full before:bg-orange">
                 [ siː-eɪ-ɛl-diː-eɪ-ɛm ]
                 <button
                   className="ml-2"
@@ -150,7 +151,7 @@ function Landing() {
             <div className="flex flex-row items-center text-2xl">
               <FaCalendar className="mr-4 inline text-2xl lg:text-4xl" />
               <div className="inline">
-              <p> 13-15 February </p>
+                <p> 13-15 February </p>
                 <p className="text-sm">2025</p>
               </div>
             </div>
@@ -163,7 +164,11 @@ function Landing() {
             <TextContraction
               className="mb-8 font-medium max-lg:hidden"
               contentStart="The International Conference on Algorithms and Discrete Applied
-          Mathematics (CALDAM), held under the aegis of the Association of Computer Science and Discrete Mathematics (ACSDM), is intended to bring together researchers working in the areas of Algorithms and Applied Discrete Mathematics and provide a high-quality forum for the dissemination and discussion of research results in these broad areas."
+          Mathematics (CALDAM), held under the aegis of the "
+              contentLinks={
+                "Association of Computer Science and Discrete Mathematics (ACSDM),"
+              }
+              contentAfterLink={`is intended to bring together researchers working in the areas of Algorithms and Applied Discrete Mathematics and provide a high-quality forum for the dissemination and discussion of research results in these broad areas.`}
               contentRemaining=" CALDAM has originated from the ongoing efforts to promote research in Algorithms and Discrete Mathematics. As in the previous editions of CALDAM, the proceedings of accepted papers of this edition will be published in Lecture Notes in Computer Science by Springer. Also, selected papers are being published as a special issue of the journal Discrete Applied Mathematics (DAM). In all the previous CALDAMs, Springer has sponsored awards for the best student presentations."
             />
           </motion.div>
@@ -188,12 +193,14 @@ function Landing() {
             className="mb-8 font-medium lg:hidden"
             contentStart="The International Conference on Algorithms and Discrete Applied
           Mathematics (CALDAM)"
-            contentRemaining=",held under aegis of the Association of Computer
-          Science and Discrete Mathematics (ACSDM) is intended to bring together researchers working in the areas
+          contentAfterLink={`,held under aegis of the `}
+          contentLinks={`Association of Computer
+          Science and Discrete Mathematics (ACSDM) `}
+            contentRemaining={`is intended to bring together researchers working in the areas
           of algorithms and applied discrete mathematics and provide a
           high-quality forum for the dissemination and discussion of research
           results in these broad areas. CALDAM has originated from the ongoing
-          efforts for promoting research in Algorithms and Discrete Mathematics."
+          efforts for promoting research in Algorithms and Discrete Mathematics.`}
           />
         </div>
       </AnimatePresence>

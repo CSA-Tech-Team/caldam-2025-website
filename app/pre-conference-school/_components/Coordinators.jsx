@@ -1,25 +1,14 @@
 import React from "react";
 import coordinators from "@/constants/Coordinators.json";
+import CardGrid from "@/components/commitees/components/CardGrid";
 function Coordinators() {
   return (
     <div>
       <h1 className=" px-10 py-5 text-3xl font-bold text-bluecolor lg:text-4xl ">
         COORDINATORS
       </h1>
-      <div className=" grid grid-cols-3 gap-5 px-10 lg:px-20 py-5 lg:py-10 text-white max-lg:grid-cols-2 max-md:grid-cols-1 ">
-        {coordinators.map((coordinator, index) => {
-          return (
-            <div
-              key={index}
-              className=" px-5  flex flex-col items-center justify-center space-y-5 rounded-lg bg-bluecolor py-4 "
-            >
-              <div className=" h-24 w-24 rounded-full bg-gray-300 " />
-              <h1 className=" text-lg lg:text-2xl ">{coordinator.name}</h1>
-              <p className=" text-md lg:text-xl ">{coordinator.position}</p>
-              <h1 className=" text-md lg:text-xl ">{coordinator.institute}</h1>
-            </div>
-          );
-        })}
+      <div className=" px-10 lg:px-12 py-7  ">
+        <CardGrid data={coordinators} />
       </div>
     </div>
   );

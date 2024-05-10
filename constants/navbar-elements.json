@@ -1,34 +1,34 @@
 [
-    {
-        "name": "Home",
-        "link": "/"
-    },
-    {
-        "name": "Committees",
-        "link": "/commitees"
-    },
-    {
-        "name": "Registration",
-        "link": "/registration"
-    },
-    {
-        "name": "Call For Papers",
-        "link": "/call-for-papers"
-    },
-    {
-        "name": "Accepted Papers",
-        "link": "/accepted-papers"
-    },
-    {
-        "name": "Pre-Conference School",
-        "link": "/pre-conference-school"
-    },
-    {
-        "name":"Young Researchers Forum",
-        "link":"/pre-conference-school/young-researchers-forum"
-    },
-    {
-        "name": "Special Issue of CALDAM 2024",
-        "link": "/Special Issue 2025.pdf"
-    }
+  {
+    "name": "Home",
+    "link": "/"
+  },
+  {
+    "name": "Committees",
+    "link": "/commitees"
+  },
+  {
+    "name": "Registration",
+    "link": "/registration"
+  },
+  {
+    "name": "Call For Papers",
+    "link": "/call-for-papers"
+  },
+  {
+    "name": "Invited Speakers",
+    "link": "/invitedspeakers"
+  },
+  {
+    "name": "Accepted Papers",
+    "link": "/accepted-papers"
+  },
+  {
+    "name": "Pre-Conference School",
+    "link": "/pre-conference-school"
+  },
+  {
+    "name": "Venue",
+    "link": "/venue"
+  }
 ]
