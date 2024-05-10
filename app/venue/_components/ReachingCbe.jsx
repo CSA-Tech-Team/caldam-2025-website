@@ -5,7 +5,7 @@ export default function ReachingCbe() {
   return (
     <div>
       <div className=" space-y-4 ">
-        <h1 className=" text-3xl lg:text-5xl  font-bold ">By Air</h1>
+        <h1 className=" text-3xl font-bold  lg:text-5xl ">By Air</h1>
         <div className=" p-3 lg:text-lg ">
           <TextContraction
             className={` max-lg:hidden`}
@@ -18,18 +18,12 @@ export default function ReachingCbe() {
           available from the airport to the college and its vicinity.`}
             contentRemaining={`For a
           hassle-free and safe journey, consider utilizing pre-paid taxi
-          services or ride-sharing platforms such as Sky cabs and Meru, in
+          services in
           addition to traditional options like Uber and Ola. Taxi fares
           typically range between 300 to 500 INR, depending on the vehicle type
-          and service provider. Alternatively, the Coimbatore Airport provides a
-          convenient Pushpak Airport bus service from the arrivals area, with
-          fares around 100 INR. Upon reaching PSG College of Technology, you can
-          easily find auto-rickshaws or taxis to cover the short distance.
-          Guests staying at nearby hotels can arrange pick-up services through
-          their accommodations for added convenience, though charges may apply.
-          With these transportation options readily available, your journey from
-          Coimbatore Airport to PSG College of Technology promises to be smooth
-          and efficient.`}
+          and service provider.Additionally, travelers can opt for the airport shuttle service, which operates from the arrivals area. The shuttle fare is around 150 INR, and you can disembark near PSG College of Technology. Guests staying at nearby hotels can arrange pick-up services through their accommodations for added convenience.
+
+          `}
           />
           <TextContraction
             className={`lg:hidden`}
@@ -42,23 +36,16 @@ export default function ReachingCbe() {
             contentRemaining={`Various transportation options are
           available from the airport to the college and its vicinity.For a
           hassle-free and safe journey, consider utilizing pre-paid taxi
-          services or ride-sharing platforms such as Sky cabs and Meru, in
+          services  in
           addition to traditional options like Uber and Ola. Taxi fares
           typically range between 300 to 500 INR, depending on the vehicle type
-          and service provider. Alternatively, the Coimbatore Airport provides a
-          convenient Pushpak Airport bus service from the arrivals area, with
-          fares around 100 INR. Upon reaching PSG College of Technology, you can
-          easily find auto-rickshaws or taxis to cover the short distance.
-          Guests staying at nearby hotels can arrange pick-up services through
-          their accommodations for added convenience, though charges may apply.
-          With these transportation options readily available, your journey from
-          Coimbatore Airport to PSG College of Technology promises to be smooth
-          and efficient.`}
+          and service provider.Additionally, travelers can opt for the airport shuttle service, which operates from the arrivals area. The shuttle fare is around 150 INR, and you can disembark near PSG College of Technology. Guests staying at nearby hotels can arrange pick-up services through their accommodations for added convenience.
+          `}
           />
         </div>
       </div>
       <div className=" space-y-4 ">
-        <h1 className=" text-3xl lg:text-5xl  font-bold ">By Train</h1>
+        <h1 className=" text-3xl font-bold  lg:text-5xl ">By Train</h1>
         <div className=" p-3 lg:text-lg ">
           <p>
             Peelamedu, the location of PSG College of Technology in Coimbatore,
@@ -82,11 +69,9 @@ export default function ReachingCbe() {
             })}
           </ul>
         </div>
-        <div className=" lg:text-lg space-y-4">
-          <h1 className=" text-3xl lg:text-5xl  font-bold ">By Road</h1>
-          <p
-          className=" p-2 "
-          >
+        <div className=" space-y-4 lg:text-lg">
+          <h1 className=" text-3xl font-bold  lg:text-5xl ">By Road</h1>
+          <p className=" p-2 ">
             For travelers arriving at Coimbatore by bus and stepping off at the
             Gandhipuram Bus Stand, navigating to PSG College of Technology is
             straightforward. Situated in Peelamedu, the college is conveniently
