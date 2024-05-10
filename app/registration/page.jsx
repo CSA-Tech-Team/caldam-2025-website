@@ -3,6 +3,11 @@ import Link from "next/link";
 import React from "react";
 import Accomdation from "./_components/Accomdation";
 
+export const metadata = {
+  title: "CALDAM 2025 | Registration",
+  description: "Committees for CALDAM 2025."
+}
+
 export default function Page() {
   return (
     <main>
