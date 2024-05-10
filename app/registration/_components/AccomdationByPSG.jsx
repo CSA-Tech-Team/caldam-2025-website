@@ -50,7 +50,7 @@ export default function AccomdationByPSG() {
                   "https://imgs.search.brave.com/4SDIYqnEA4DtU2GpSKd1Y6HFY37dpSK7kN3Mr1llm4A/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9jb250/ZW50LmpkbWFnaWNi/b3guY29tL2NvbXAv/Y29pbWJhdG9yZS92/Mi8wNDIycHg0MjIu/eDQyMi4yMjAzMTAw/MTQ1MTguZzV2Mi9j/YXRhbG9ndWUvcHNn/LWl0ZWNoLWd1ZXN0/LWhvdXNlLW5lZWxh/bWJ1ci1jb2ltYmF0/b3JlLWd1ZXN0LWhv/dXNlLWUweXV3dTh4/dzAuanBnP2Nscj0j/MzkyZDM5P2ZpdD1h/cm91bmR8MjcwOjEz/MCZjcm9wPTI3MDox/MzA7Kiwq"
                 }
               >
-                <GoLocation className="mr-1" />
+                <GoLocation className="mr-1 lg:size-[4rem] " />
                 <span>0.1km from the Conference Venue</span>
               </Link>
             </div>

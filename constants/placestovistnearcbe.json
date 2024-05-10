@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Nilgris",
+    "image": "https://imgs.search.brave.com/g0ru2cOF_iVyPQs30YY6Gz3ufKLN6UkeYVcR68SojBo/rs:fit:860:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJjYXZlLmNv/bS93cC93cDM0OTU2/NDAuanBn",
+    "maploc": "https://maps.app.goo.gl/aihetPuSgDCfNTm48"
+  },
+  {
+    "name": "Marudhamalai Temple",
+    "maploc": "https://www.google.com/maps/d/u/0/viewer?mid=1OEgoy-vEwaL-CX_lnQgl3kJBUxU&hl=en&ll=11.046301000000017%2C76.85191900000001&z=17",
+    "image": "https://media1.thrillophilia.com/filestore/qapajlr9b73ssh0pg4f45vmgff7j_1584529596_shutterstock_1670613079.jpg?w=753&h=450&dpr=1.0"
+  },
+  {
+    "name": "Adiyogi Shiva Statue",
+    "image": "https://media1.thrillophilia.com/filestore/5n7lwig8xfs21ovmpelmc27q73zk_1584530999_shutterstock_1594400185.jpg?w=753&h=450&dpr=1.0",
+    "maploc": "https://maps.app.goo.gl/gB2UiCHPiRkuhoPz8"
+  },
+  {
+    "name": "Gedee Car Museum",
+    "image": "https://media1.thrillophilia.com/filestore/gy2gefn71sq9x8qnwkc6whdqs0mo_1588056413_gedee_car_museum.jpg?w=753&h=450&dpr=1.0",
+    "maploc": "https://maps.app.goo.gl/hCX1eZcoWuKdLBCt6"
+  },
+  {
+    "name": "Parambikulam Wildlife Sanctuary",
+    "image": "https://media1.thrillophilia.com/filestore/14zps2qrpuluy4ou7s6hzpujncgf_shutterstock_1576884364.jpg?w=753&h=450&dpr=1.0",
+    "maploc": "https://maps.app.goo.gl/aq7yzJU5Ztr6Hj5V9"
+  }
+]

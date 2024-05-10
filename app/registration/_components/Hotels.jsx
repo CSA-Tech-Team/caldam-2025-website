@@ -7,7 +7,7 @@ export default function Hotels() {
   return (
     <>
       {" "}
-      <h1 className=" py-4 text-2xl font-semibold lg:text-5xl ">
+      <h1 className=" py-4 text-2xl font-semibold lg:text-4xl ">
         Best Hotels Around The Conference Venue
       </h1>
       <div className=" mx-3 grid text-lg lg:text-2xl grid-cols-2 max-md:grid-cols-1  ">
