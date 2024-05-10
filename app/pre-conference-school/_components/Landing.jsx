@@ -32,7 +32,7 @@ function Landing() {
             animate="animate"
             className="  mb-8 lg:flex lg:flex-row lg:items-stretch lg:justify-start lg:space-x-14"
           >
-            <div className=" overflow-hidden lg:flex text-5xl lg:text-6xl lg:space-x-4 ">
+            <div className=" pb-2 font-semibold overflow-hidden lg:flex text-5xl lg:text-6xl lg:space-x-4 ">
               <motion.h1
                 variants={{
                   initial: { translateX: -500, opacity: 0 },

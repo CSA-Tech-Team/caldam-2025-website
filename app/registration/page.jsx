@@ -1,6 +1,7 @@
 import Pricing from "@/components/registration/components/Pricing";
 import Link from "next/link";
 import React from "react";
+import Accomdation from "./_components/Accomdation";
 
 export default function Page() {
   return (
@@ -204,6 +205,7 @@ export default function Page() {
           </div>
         </div>
       </div>
+      <Accomdation />
     </main>
   );
 }
