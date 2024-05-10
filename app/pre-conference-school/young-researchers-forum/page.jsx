@@ -1,8 +1,8 @@
 import Benifits from "./_components/Benifits";
-import Eligiblity from "./_components/Eligiblity";
 import ListOfSpeakers from "./_components/ListOfSpeakers";
 import TextContraction from "@/components/Home/components/TextContraction";
 import Link from "next/link";
+import eligiblities from "@/constants/yrfeligiblity.json";
 
 export const metadata = {
   title: "CALDAM 2025 | Young Researchers' Forum",
@@ -45,6 +45,18 @@ export default function YoungResearchersForum() {
       the Pre-Conference School. YRF will be taking place on Day 1 of CALDAM
       Pre-Conference School.`}
         />
+        <ul className="space-y-3 px-3 py-5 leading-tight ">
+          {eligiblities.map((eligiblity, i) => {
+            return (
+              <li
+                key={i}
+                className="before:content-[' '] relative pl-6 text-lg before:absolute before:left-0 before:top-[5px] before:m-auto before:h-4 before:w-4 before:rounded-full before:bg-orange"
+              >
+                {eligiblity.eligiblity}
+              </li>
+            );
+          })}
+        </ul>
         <p className=" text-lg font-semibold ">
           All selected participants of the School are expected to do a short
           presentation for 5 minutes on any research topic related to CALDAM
@@ -52,7 +64,6 @@ export default function YoungResearchersForum() {
         </p>
       </div>
       <Benifits />
-      <Eligiblity />
     </div>
   );
 }
