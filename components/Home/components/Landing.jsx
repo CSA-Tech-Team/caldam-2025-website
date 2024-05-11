@@ -35,7 +35,7 @@ function Landing() {
               animate="animate"
               className="mb-8 lg:flex lg:flex-row lg:items-stretch lg:justify-start lg:space-x-14"
             >
-              <div className="my-auto overflow-hidden text-lg font-medium lg:block xl:text-xl 2xl:text-5xl">
+              <div className="my-auto overflow-hidden text-xl font-bold pb-3  lg:block xl:text-xl 2xl:text-5xl">
                 <motion.div
                   variants={{
                     initial: {},
@@ -95,7 +95,7 @@ function Landing() {
                 animate={{ opacity: 1 }}
                 className="w-2 -skew-x-[16deg] bg-bluevariants-300 lg:block"
               ></motion.div>
-              <div className="flex items-center justify-center overflow-hidden pr-4">
+              {/* <div className="flex items-center justify-start overflow-hidden lg:pr-4">
                 <motion.h1
                   variants={{
                     initial: { translateX: -1000, opacity: "0%" },
@@ -107,11 +107,11 @@ function Landing() {
                       },
                     },
                   }}
-                  className="hidden text-6xl font-semibold italic max-lg:mr-6 lg:text-7xl xl:text-8xl 2xl:text-7xl lg:block"
+                  className="text-3xl font-semibold italic max-lg:mr-6 lg:text-7xl xl:text-8xl 2xl:text-7xl lg:block"
                 >
                   CALDAM 2025
                 </motion.h1>
-              </div>
+              </div> */}
             </motion.div>
             <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }}>
               <p className="relative inline before:absolute before:-top-[100%] before:bottom-0 before:h-1 before:w-full before:bg-orange">
@@ -146,7 +146,7 @@ function Landing() {
               <div className="inline">
                 <div className="flex justify-center align-middle relative hover:-translate-y-1 transition-all group">
                 <Link href="https://www.psgtech.edu/" target="_blank"><p className="underline">PSG College of Technology </p></Link>
-                  <RiArrowRightUpFill className="top-2 -right-8 absolute group-hover:scale-110" />
+                  <RiArrowRightUpFill className="top-2 max-lg:hidden -right-8 absolute group-hover:scale-110" />
                 </div>
                 <p className="text-sm">Coimbatore, Tamilnadu, India</p>
               </div>
