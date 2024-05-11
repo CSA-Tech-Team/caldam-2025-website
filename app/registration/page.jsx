@@ -16,8 +16,8 @@ export default function Page() {
           <h1 className="mb-8 text-4xl font-semibold">REGISTRATION</h1>
           <div className="mb-8 flex max-lg:flex-col max-lg:space-y-4 lg:items-stretch lg:space-x-4">
             <div className="flex-1">
-              <div className="rounded-lg border border-bluecolor">
-                <div className="rounded-t-md bg-bluecolor px-4 py-3 text-lg text-white">
+              <div className="rounded-lg border border-bluevariants-300">
+                <div className="rounded-t-md bg-bluevariants-300 px-4 py-3 text-lg text-white">
                   <h1>Indian Participants</h1>
                 </div>
                 <div className="flex justify-stretch max-md:flex-col">
@@ -41,8 +41,8 @@ export default function Page() {
               </div>
             </div>
             <div className="flex-1">
-              <div className="rounded-lg border border-bluecolor">
-                <div className="rounded-t-md bg-bluecolor px-4 py-3 text-lg text-white">
+              <div className="rounded-lg border border-bluevariants-300">
+                <div className="rounded-t-md bg-bluevariants-300 px-4 py-3 text-lg text-white">
                   <h1>Foreign Participants</h1>
                 </div>
                 <div className="flex justify-stretch max-md:flex-col">
@@ -66,7 +66,7 @@ export default function Page() {
               </div>
             </div>
           </div>
-          <div className="space-y-3 text-sm font-light italic xl:text-base">
+          <div className="space-y-3 text-lg font-normal italic xl:text-lg">
             <p>
               * Early bird registration is till 31 December 2024. Registration
               done on or after 1 January 2025 will be considered late.
@@ -153,8 +153,7 @@ export default function Page() {
                 After transferring the registration fee, please fill the{" "}
                 <span className=" text-orange">
                   <Link
-                    target="_blank"
-                    href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=caldam2025@psgtech.ac.in"
+                    href="/registration/register"
                     className=" lg:text-lg "
                     prefetch
                   >

@@ -32,6 +32,7 @@ const TextContraction = ({
       className={`${className}`}
     >
       {contentStart}{" "}
+      <span className="underline">
       <Link
         className=" max-lg:hidden "
         target="_blank"
@@ -39,7 +40,7 @@ const TextContraction = ({
         href={"http://acsdm.in/acsdm/index.html"}
       >
         {contentLinks}
-      </Link>{" "}
+      </Link></span>
       <span className=" max-lg:hidden ">{contentAfterLink} </span>
       {!removeExpandButton && (
         <>

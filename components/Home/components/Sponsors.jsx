@@ -8,14 +8,15 @@ const Sponsors = () => {
       <h1 className="mb-10 text-4xl font-bold uppercase text-bluecolor">
         Sponsors
       </h1>
-      {/* <>
-        <Marquee
-          className="flex flex-row overflow-x-auto text-white"
-          autoFill={true}
-          pauseOnClick={true}
-          pauseOnHover={true}
-          direction="right"
-        >
+       <>
+        {/*<Marquee*/}
+        {/*  className="flex flex-row overflow-x-auto text-white"*/}
+        {/*  autoFill={true}*/}
+        {/*  pauseOnClick={true}*/}
+        {/*  pauseOnHover={true}*/}
+        {/*  direction="right"*/}
+        {/*>*/}
+         <div className="flex justify-center">
           {sponsorsData.map((d, index) => (
             <div
               key={index}
@@ -29,13 +30,11 @@ const Sponsors = () => {
               sizes="100vw"
               className="h-full w-full object-contain"
             />
-              <h1 className=" text-center text-xl font-semibold text-black lg:text-2xl ">
-                TBA
-              </h1>
             </div>
           ))}
-        </Marquee>
-      </> */}
+        {/*</Marquee>*/}
+         </div>
+      </>
       <div
       className=" flex items-center justify-evenly max-lg:flex-col max-lg:space-y-4 "
       >
@@ -49,7 +48,7 @@ const Sponsors = () => {
           </h1>
         </div>
       ))} */}
-        <p className="text-2xl font-semibold">TBA</p>
+        {/*<p className="text-2xl font-semibold">TBA</p>*/}
       </div>
     </div>
   );

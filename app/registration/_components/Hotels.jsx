@@ -3,14 +3,15 @@ import hoteldata from "@/constants/accomdationhotes.json";
 import { GoLocation } from "react-icons/go";
 import Image from "next/image";
 import Link from "next/link";
+import { BiCurrentLocation } from "react-icons/bi";
 export default function Hotels() {
   return (
     <>
       {" "}
-      <h1 className=" py-4 text-2xl font-semibold lg:text-4xl ">
+      <h3 className=" py-4 text-2xl font-semibold lg:text-3xl ">
         Best Hotels Around The Conference Venue
-      </h1>
-      <div className=" mx-3 grid text-lg lg:text-2xl grid-cols-3 max-lg:grid-cols-2 max-md:grid-cols-1  ">
+      </h3>
+      <div className=" mx-3 grid text-lg lg:text-2xl grid-cols-3 max-lg:grid-cols-2 max-md:grid-cols-1 ">
         {hoteldata.map((hotel, i) => {
           return (
             <div
@@ -28,21 +29,21 @@ export default function Hotels() {
                   alt={hotel.hotelName}
                 />
               </div>
-              <div className=" py-4 ">
+              <div className=" py-4">
                 <h2 className=" font-bold">{hotel.hotelName}</h2>
-                <div className="mb-2 ">
+                <div className="mb-2">
                   <Link
                     className="flex items-center"
                     target="_blank"
                     prefetch
                     href={hotel.link}
                   >
-                    <GoLocation className="mr-1" />
+                    <BiCurrentLocation className="mr-1" />
                     <span>{hotel.distance}</span>
                   </Link>
                 </div>
-                <span>Price:</span>
-                <span className="mb-2">{hotel.price}</span>
+                <span className="text-xl">Price: </span>
+                <span className="mb-2 text-xl">{hotel.price}</span>
               </div>
             </div>
           );

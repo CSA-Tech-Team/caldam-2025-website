@@ -9,6 +9,7 @@ import TextContraction from "./TextContraction";
 import { HiSpeakerWave } from "react-icons/hi2";
 import speak from "@/components/actions/speak";
 import Link from "next/link";
+import { RiArrowRightUpFill } from "react-icons/ri";
 
 function Landing() {
   return (
@@ -34,7 +35,7 @@ function Landing() {
               animate="animate"
               className="mb-8 lg:flex lg:flex-row lg:items-stretch lg:justify-start lg:space-x-14"
             >
-              <div className="my-auto hidden overflow-hidden text-lg font-medium lg:block xl:text-xl 2xl:text-5xl">
+              <div className="my-auto overflow-hidden text-lg font-medium lg:block xl:text-xl 2xl:text-5xl">
                 <motion.div
                   variants={{
                     initial: {},
@@ -92,7 +93,7 @@ function Landing() {
               <motion.div
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
-                className="hidden w-2 -skew-x-[16deg] bg-bluevariants-300 lg:block"
+                className="w-2 -skew-x-[16deg] bg-bluevariants-300 lg:block"
               ></motion.div>
               <div className="flex items-center justify-center overflow-hidden pr-4">
                 <motion.h1
@@ -106,7 +107,7 @@ function Landing() {
                       },
                     },
                   }}
-                  className="text-6xl font-semibold italic max-lg:mr-6 lg:text-7xl xl:text-8xl 2xl:text-7xl"
+                  className="hidden text-6xl font-semibold italic max-lg:mr-6 lg:text-7xl xl:text-8xl 2xl:text-7xl lg:block"
                 >
                   CALDAM 2025
                 </motion.h1>
@@ -129,7 +130,7 @@ function Landing() {
             <motion.p
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}
-              className="text-xl font-medium md:text-2xl lg:hidden"
+              className="text-xl font-medium md:text-2xl hidden" //deprecated
             >
               11th Annual International Conference on Algorithms and Discrete
               Applied Mathematics
@@ -143,7 +144,10 @@ function Landing() {
             <div className="flex flex-row items-center text-2xl">
               <BiSolidNavigation className="mr-4 inline text-2xl lg:text-4xl" />
               <div className="inline">
-                <p>PSG College of Technology </p>
+                <div className="flex justify-center align-middle relative hover:-translate-y-1 transition-all group">
+                <Link href="https://www.psgtech.edu/" target="_blank"><p className="underline">PSG College of Technology </p></Link>
+                  <RiArrowRightUpFill className="top-2 -right-8 absolute group-hover:scale-110" />
+                </div>
                 <p className="text-sm">Coimbatore, Tamilnadu, India</p>
               </div>
             </div>

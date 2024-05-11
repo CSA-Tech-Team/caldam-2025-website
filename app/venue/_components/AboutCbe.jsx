@@ -4,7 +4,7 @@ import React from "react";
 export default function AboutCbe() {
   return (
     <div className=" space-y-4 text-lg ">
-      <h1 className=" text-3xl font-bold  lg:text-5xl  ">About Coimbatore</h1>
+      <h2 className=" text-3xl font-bold  lg:text-4xl mt-5 ">About Coimbatore</h2>
       <div className=" p-2 ">
         <TextContraction
           contentStart={`Coimbatore, dubbed the "Manchester of South India," seamlessly blends

@@ -8,6 +8,8 @@ import BackgroundImage from "@/public/image2.png";
 import TextContraction from "@/components/Home/components/TextContraction";
 import { HiSpeakerWave } from "react-icons/hi2";
 import speak from "@/components/actions/speak";
+import Link from "next/link";
+import { RiArrowRightUpFill } from "react-icons/ri";
 
 function Landing() {
   return (
@@ -100,7 +102,11 @@ function Landing() {
             <div className="flex flex-row items-center text-2xl">
               <BiSolidNavigation className="mr-4 inline text-2xl lg:text-4xl" />
               <div className="inline">
-                <p>PSG College of Technology </p>
+                <div className="flex justify-center align-middle relative hover:-translate-y-1 transition-all group">
+                  <Link href="https://www.psgtech.edu/" target="_blank"><p className="underline">PSG College of
+                    Technology </p></Link>
+                  <RiArrowRightUpFill className="top-2 -right-8 absolute group-hover:scale-110" />
+                </div>
                 <p className="text-sm">Coimbatore, Tamilnadu, India</p>
               </div>
             </div>

@@ -5,8 +5,9 @@ export default function ReachingCbe() {
   return (
     <div>
       <div className=" space-y-4 ">
-        <h1 className=" text-3xl font-bold  lg:text-5xl ">By Air</h1>
-        <div className=" p-3 lg:text-lg ">
+        <h1 className="text-4xl font-bold mb-2 block"> Reaching Coimbatore</h1>
+        <h1 className=" text-3xl font-semibold ">By Air</h1>
+        <div className=" p-3 lg:text-lg mb-4">
           <TextContraction
             className={` max-lg:hidden`}
             contentStart={` Ensure your flight is booked to Coimbatore, Tamil Nadu, India (IATA
@@ -45,7 +46,7 @@ export default function ReachingCbe() {
         </div>
       </div>
       <div className=" space-y-4 ">
-        <h1 className=" text-3xl font-bold  lg:text-5xl ">By Train</h1>
+        <h1 className=" text-3xl font-semibold mt-4 ">By Train</h1>
         <div className=" p-3 lg:text-lg ">
           <p>
             Peelamedu, the location of PSG College of Technology in Coimbatore,
@@ -70,7 +71,7 @@ export default function ReachingCbe() {
           </ul>
         </div>
         <div className=" space-y-4 lg:text-lg">
-          <h1 className=" text-3xl font-bold  lg:text-5xl ">By Road</h1>
+          <h1 className=" text-3xl font-semibold ">By Road</h1>
           <p className=" p-2 ">
             For travelers arriving at Coimbatore by bus and stepping off at the
             Gandhipuram Bus Stand, navigating to PSG College of Technology is

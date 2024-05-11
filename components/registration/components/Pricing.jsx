@@ -36,7 +36,7 @@ const Pricing = ({
           )}
         </div>
       </div>
-      <div className="w-full rounded-lg bg-bluecolor px-4 py-3 text-center text-lg font-medium text-white">
+      <div className="w-full rounded-lg bg-bluevariants-300 px-4 py-3 text-center text-lg font-medium text-white">
         <Link href={registerUrl ?? ""}>Register</Link>
       </div>
     </div>
