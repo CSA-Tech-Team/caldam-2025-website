@@ -2,7 +2,7 @@ import benifits from "@/constants/yrfbenifits.json";
 
 export default function Benifits() {
   return (
-    <div className='px-10 py-6 lg:px-16'>
+    <div className='px-10 py-6 '>
       <h2 className='text-2xl lg:text-3xl 2xl:text-4xl font-bold'>
         Benefits
       </h2>

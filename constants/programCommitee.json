@@ -1,125 +1,145 @@
 [
   {
     "name": "Daya Gaur",
-    "collegeName": "University of Lethbridge, Canada",
+    "collegeName": "University of Lethbridge",
     "link": "http://www.cs.uleth.ca/~gaur/",
-    "conferenceTitle": "PC Co-Chair"
+    "conferenceTitle": "PC Co-Chair",
+    "country":"Canada"
   },
   {
     "name": "Rogers Mathew",
-    "collegeName": "Indian Institute of Technology Hyderabad, India",
+    "collegeName": "Indian Institute of Technology Hyderabad",
     "link": "https://iith.ac.in/~rogers/",
-    "conferenceTitle": "PC Co-Chair"
+    "conferenceTitle": "PC Co-Chair",
+    "country":"India"
   },
   {
     "name": "Sandip Das",
-    "collegeName": "Indian Statistical Institute Kolkata, India",
-    "link": "https://www.isical.ac.in/~sandipdas/"
+    "collegeName": "Indian Statistical Institute Kolkata",
+    "link": "https://www.isical.ac.in/~sandipdas/",
+    "country":"India"
   },
   {
     "name": "Anil Maheshwari",
-    "collegeName": "Carleton University, Canada",
-    "link": "http://people.scs.carleton.ca/~maheshwa/"
+    "collegeName": "Carleton University",
+    "link": "http://people.scs.carleton.ca/~maheshwa/",
+    "country":"Canada"
   },
   {
     "name": "Subrahmanyam Kalyanasundaram",
-    "collegeName": "Indian Institute of Technology Hyderabad, India",
-    "link": "https://people.iith.ac.in/subruk/"
+    "collegeName": "Indian Institute of Technology Hyderabad",
+    "link": "https://people.iith.ac.in/subruk/",
+    "country":"India"
   },
   {
     "name": "Manoj Changat",
-    "collegeName": "University of Kerala, India",
-    "link": "http://www.keralauniversity.ac.in/future/faculty_details.html?id=83"
+    "collegeName": "University of Kerala",
+    "link": "http://www.keralauniversity.ac.in/future/faculty_details.html?id=83",
+    "country":"India"
   },
   {
     "name": "Arti Pandey",
-    "collegeName": "IIT Ropar",
+    "collegeName": "Indian Institute of Technology Ropar",
     "conferenceTitle": "",
-    "link": "https://www.iitrpr.ac.in/mathematics/arti"
+    "link": "https://www.iitrpr.ac.in/mathematics/arti",
+    "country":"India"
   },
   {
     "name": "Sayan Bandyapadhyay",
-    "collegeName": "Department of Computer Science, Portland State University",
+    "collegeName": "Portland State University",
     "conferenceTitle": "",
-    "link": "https://sites.google.com/view/sayan-bandyapadhyay/home"
+    "link": "https://sites.google.com/view/sayan-bandyapadhyay/home",
+    "country":"USA"
   },
   {
     "name": "Sathish Govindarajan",
-    "collegeName": "Indian Institute of Science",
+    "collegeName": "Indian Institute of Science,Bengaluru",
     "conferenceTitle": "",
-    "link": "https://eecs.iisc.ac.in/people/sathish-govindarajan/"
+    "link": "https://eecs.iisc.ac.in/people/sathish-govindarajan/",
+    "country":"India"
   },
   {
     "name": "Palash Dey",
     "collegeName": "Indian Institute of Technology Kharagpur",
     "conferenceTitle": "",
-
-    "link": "https://cse.iitkgp.ac.in/~palash/"
+    "link": "https://cse.iitkgp.ac.in/~palash/",
+    "country":"India"
   },
   {
     "name": "Rishi Ranjan Singh",
     "collegeName": "Indian Institute of Technology Bhilai",
     "conferenceTitle": "",
-    "link": "https://www.iitbhilai.ac.in/index.php?pid=rishi"
+    "link": "https://www.iitbhilai.ac.in/index.php?pid=rishi",
+    "country":"India"
   },
   {
     "name": "Aritra Banik",
     "collegeName": "National Institute of Science Education and Research Bhubaneswar",
     "conferenceTitle": "",
-    "link": "https://niser.irins.org/profile/235263"
+    "link": "https://niser.irins.org/profile/235263",
+    "country":"India"
   },
   {
     "name": "Niranjan Balachandran",
     "collegeName": "Indian Institute of Technology Bombay",
     "conferenceTitle": "",
-    "link": "https://iitb.irins.org/profile/51771"
+    "link": "https://iitb.irins.org/profile/51771",
+    "country":"India"
   },
   {
     "name": "Akanksha Agrawal",
     "collegeName": "Indian Institute of Technology Madras",
     "conferenceTitle": "",
-    "link": "http://www.cse.iitm.ac.in/profile.php?arg=MjIwOA%3D%3D"
+    "link": "http://www.cse.iitm.ac.in/profile.php?arg=MjIwOA%3D%3D",
+    "country":"India"
   },
   {
     "name": "Iztok Peterin",
-    "collegeName": "University of Maribor, FEECS",
+    "collegeName": "University of Maribor",
     "conferenceTitle": "",
-    "link": "https://mp.feri.um.si/en/staff/iztok-peterin/"
+    "link": "https://mp.feri.um.si/en/staff/iztok-peterin/",
+    "country":"Slovenia"
   },
   {
     "name": "Monika Pilśniak",
     "collegeName": "AGH University",
     "conferenceTitle": "",
-    "link": "https://home.agh.edu.pl/~pilsniak/index.html"
+    "link": "https://home.agh.edu.pl/~pilsniak/index.html",
+    "country":"Poland"
   },
   {
     "name": "Sumit Ganguly",
     "collegeName": "Indian Institute of Technology, Kanpur",
     "conferenceTitle": "",
-    "link": "https://iitk.ac.in/new/dr-sumit-ganguly"
+    "link": "https://iitk.ac.in/new/dr-sumit-ganguly",
+    "country":"India"
   },
   {
     "name": "Alda Abiad",
     "collegeName": "Eindhoven University of Technology",
     "conferenceTitle": "",
-    "link": "https://aidaabiad.win.tue.nl/"
+    "link": "https://aidaabiad.win.tue.nl/",
+    "country":"Netherlands"
   },
   {
     "name": "Mark de Berg",
     "collegeName": "Eindhoven University of Technology",
     "conferenceTitle": "",
-    "link": "https://research.tue.nl/en/persons/mark-t-de-berg"
+    "link": "https://research.tue.nl/en/persons/mark-t-de-berg",
+    "country":"Netherlands"
   },
   {
     "name": "Ragesh Jalswal",
     "collegeName": "Indian Institute of Technology Delhi",
     "conferenceTitle": "",
-    "link": "https://www.cse.iitd.ac.in/~rjaiswal/"
+    "link": "https://www.cse.iitd.ac.in/~rjaiswal/",
+    "country":"India"
   },
   {
     "name": "Sagnik Sen",
-    "collegeName": "Bordeaux University, LaBRI",
+    "collegeName": "IIT Dharwad",
     "conferenceTitle": "",
-    "link": "https://homepages.iitdh.ac.in/~sen/"
+    "link": "https://homepages.iitdh.ac.in/~sen/",
+    "country":"India"
   }
 ]

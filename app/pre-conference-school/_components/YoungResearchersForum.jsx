@@ -18,7 +18,7 @@ export default function YoungResearchersForum() {
         researchers to foster research. An interactive session of this kind
         enables students, researchers, and teachers to engage in the exchange of
         knowledge, ideas, and research methods that benefit all participants of
-        the Pre-Conference School. YRF will be taking place on Day 1 of CALDAM
+        the Pre-Conference School. YRF will be taking place on Day 1 (10th Feb,2025) of CALDAM
         Pre-Conference School.
       </p>
       <TextContraction
@@ -36,11 +36,11 @@ export default function YoungResearchersForum() {
       the Pre-Conference School. YRF will be taking place on Day 1 (10th Feb,2025) of CALDAM
       Pre-Conference School.`}
       />
-      <p className=" text-lg font-semibold ">
+      {/* <p className=" text-lg font-semibold ">
         All selected participants of the School are expected to do a short
         presentation for 5 minutes on any research topic related to CALDAM theme
         based on his/her interest.
-      </p>
+      </p> */}
       <button className="rounded-2xl bg-[#FCA311] px-5  py-3 font-semibold text-black  ">
         <Link href={"/pre-conference-school/young-researchers-forum"} prefetch>
           Learn More

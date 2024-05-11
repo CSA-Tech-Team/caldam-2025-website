@@ -3,12 +3,12 @@ import React from "react";
 export default function AccomdationNotes() {
   return (
     <div>
-      <i
-      className="text-lg "
+      <h1
+      className="text-xl  "
       >
-        * For all speakers and students,the lunch will be provided with no cost
+        * For all speakers and participants,the lunch will be provided with no cost
         at the conference venue
-      </i>
+      </h1>
     </div>
   );
 }
