@@ -95,7 +95,7 @@ function Landing() {
                 animate={{ opacity: 1 }}
                 className="w-2 -skew-x-[16deg] bg-bluevariants-300 lg:block"
               ></motion.div>
-              {/* <div className="flex items-center justify-start overflow-hidden lg:pr-4">
+              <div className="flex items-center justify-start overflow-hidden lg:pr-4">
                 <motion.h1
                   variants={{
                     initial: { translateX: -1000, opacity: "0%" },
@@ -107,11 +107,11 @@ function Landing() {
                       },
                     },
                   }}
-                  className="text-3xl font-semibold italic max-lg:mr-6 lg:text-7xl xl:text-8xl 2xl:text-7xl lg:block"
+                  className=" hidden font-semibold italic max-lg:mr-6 lg:text-7xl xl:text-8xl 2xl:text-7xl lg:block"
                 >
                   CALDAM 2025
                 </motion.h1>
-              </div> */}
+              </div>
             </motion.div>
             <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }}>
               <p className="relative inline before:absolute before:-top-[100%] before:bottom-0 before:h-1 before:w-full before:bg-orange">

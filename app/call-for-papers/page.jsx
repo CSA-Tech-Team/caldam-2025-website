@@ -9,8 +9,8 @@ import TextContraction from "@/components/Home/components/TextContraction";
 
 export const metadata = {
   title: "CALDAM 2025 | Call For Papers",
-  description: "Call For Papers for CALDAM 2025."
-}
+  description: "Call For Papers for CALDAM 2025.",
+};
 export default function Page() {
   return (
     <main>
@@ -230,16 +230,16 @@ export default function Page() {
             CALDAM 2025 {"  "}
           </span>
           <span className=" text-lg leading-6 max-lg:hidden ">
-            invites papers describing original research in the areas of design and
-            analysis of algorithms and in discrete
-            applied mathematics. An indicative list of sub-areas are given
-            below. Papers must be typeset using LaTeX/LaTeX2e and may not exceed
-            12 pages in LNCS style, including bibliographic references. Further
-            details may be included in a clearly marked appendix that will be
-            read at the discretion of the program committee. Only electronic
-            submission is allowed. Submitted papers must describe previously
-            unpublished work and may not be submitted concurrently to another
-            conference with refereed proceedings or to a refereed journal.
+            invites papers describing original research in the areas of design
+            and analysis of algorithms and in discrete applied mathematics. An
+            indicative list of sub-areas are given below. Papers must be typeset
+            using LaTeX/LaTeX2e and may not exceed 12 pages in LNCS style,
+            including bibliographic references. Further details may be included
+            in a clearly marked appendix that will be read at the discretion of
+            the program committee. Only electronic submission is allowed.
+            Submitted papers must describe previously unpublished work and may
+            not be submitted concurrently to another conference with refereed
+            proceedings or to a refereed journal.
             {/*Please find the guidelines for authors on Springer website.*/}
             {/* Hide above text until further intimation. */}
           </span>
@@ -266,8 +266,39 @@ export default function Page() {
           CALDAM TOPICS
         </h1>
         <div className=" text-white">
-          <ul className="flex flex-col gap-y-3 overflow-y-auto text-black  max-lg:h-[50vh] max-lg:rounded-xl">
-             {CaldamTopics.map((val, index) =>
+          <ul className=" flex flex-col gap-y-3 overflow-y-auto p-5 text-black max-lg:hidden max-lg:h-[50vh] max-lg:rounded-xl">
+            {CaldamTopics.map((val, index) =>
+              index % 7 === 0 ? (
+                <div
+                  key={index}
+                  className=" min-md:flex-col justify-center gap-x-4 gap-y-3 overflow-y-auto p-3 text-center text-black lg:flex "
+                >
+                  {CaldamTopics.slice(index, index + 4).map((topic, i) => (
+                    <div
+                      key={i}
+                      className="flex justify-center rounded-3xl bg-white p-3 font-semibold"
+                      style={{ flex: 1 }}
+                    >
+                      <span>{topic}</span>
+                    </div>
+                  ))}
+                </div>
+              ) : index % 7 === 4 ? (
+                <div className="justify-center gap-x-4 text-center max-md:flex max-sm:flex-col max-sm:items-center max-sm:gap-y-3 md:flex lg:flex">
+                  {CaldamTopics.slice(index, index + 3).map((topic, i) => (
+                    <div
+                      key={i}
+                      className=" flex flex-1 items-center justify-center rounded-3xl bg-white p-3 font-semibold"
+                    >
+                      <span>{topic}</span>
+                    </div>
+                  ))}
+                </div>
+              ) : null,
+            )}
+          </ul>
+          <ul className="flex flex-col gap-y-3 overflow-y-auto text-black max-lg:h-[50vh]  max-lg:rounded-xl lg:hidden">
+            {CaldamTopics.map((val, index) =>
               index % 7 === 0 ? (
                 <div
                   key={index}
@@ -299,19 +330,7 @@ export default function Page() {
                   </div>
                 </div>
               ) : null,
-            )}
-            {/*<div className="grid grid-cols-2 max-md:grid-cols-1 lg:grid-cols-4 p-4 ">*/}
-            {/*  {CaldamTopics.map((topic, i) => {*/}
-            {/*    return i % 3 === 0 && (*/}
-            {/*      <div*/}
-            {/*        key={i}*/}
-            {/*        className={`rounded-full mx-5 my-3 flex items-center justify-center text-center bg-white p-4 text-lg font-semibold lg:text-xl `}*/}
-            {/*      >*/}
-            {/*        <p value={topic}>{topic}</p>*/}
-            {/*      </div>*/}
-            {/*    );*/}
-            {/*  })}*/}
-            {/*</div>*/}
+            )}{" "}
           </ul>
         </div>
       </div>

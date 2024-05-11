@@ -24,10 +24,10 @@ export default function PeopleCard({
         </div>
         {deptname && (
           <span
-          className=" text-[16px] lg:font-semibold "
+          className={` text-[16px] lg:font-semibold `}
           >{deptname},</span>
         )}
-        <div className={`text-[16px] text-bluevariants-300 lg:h-[65px] ${link && "lg:h-[100px]"} lg:font-semibold `}>
+        <div className={`text-[16px]  ${!deptname && "text-lg"} text-bluevariants-300 lg:h-[65px] ${link && "lg:h-[100px]"} lg:font-semibold `}>
           {institute}{country?.length > 0 && <span>,</span>} <p>{country}</p>
         </div>
       </div>
