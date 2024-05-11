@@ -7,6 +7,8 @@ export default function PeopleCard({
   institute,
   link,
   conferenceTitle,
+  country,
+  deptname,
   darkVariant = false,
 }) {
   return (
@@ -18,9 +20,16 @@ export default function PeopleCard({
           >
             {name}
           </h1>
-          {conferenceTitle && <p className="text-lg">{conferenceTitle}</p>}
+          {conferenceTitle && <p className="text-lg font-semibold">{conferenceTitle}</p>}
         </div>
-        <p className="text-lg lg:h-[100px] text-bluevariants-300 lg:text-xl">{institute}</p>
+        {deptname && (
+          <span
+          className=" text-lg lg:font-semibold "
+          >{deptname},</span>
+        )}
+        <div className={`text-lg text-bluevariants-300 lg:h-[65px] ${link && "lg:h-[100px]"} lg:font-semibold `}>
+          {institute}{country?.length > 0 && <span>,</span>} <p>{country}</p>
+        </div>
       </div>
       {link && (
         <div className="absolute bottom-0 right-0">

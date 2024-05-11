@@ -2,37 +2,51 @@
   
   {
     "name": "A. Muthusamy",
-    "collegeName": "Applied Mathematics and Computational Sciences, PSG Tech",
-    "link": ""
+    "deptname": "Applied Mathematics and Computational Sciences",
+    "link": "",
+    "collegeName":"PSG College of Technology",
+    "country":"India"
   },
   {
     "name": "M. Sasikumar",
-    "collegeName": "Applied Mathematics and Computational Sciences, PSG Tech",
-    "link": ""
+    "collegeName": "PSG College of Technology",
+    "link": "",
+    "country":"India",
+    "deptname":"Applied Mathematics and Computational Sciences"
   },
   {
     "name": "S. Jeevadoss",
-    "collegeName": "Applied Mathematics and Computational Sciences, PSG Tech",
-    "link": ""
+    "collegeName": "PSG College of Technology",
+    "link": "",
+    "country":"India",
+    "deptname":"Applied Mathematics and Computational Sciences"
   },
   {
     "name": "K. Mohan",
-    "collegeName": "Applied Mathematics and Computational Sciences, PSG Tech",
-    "link": ""
+    "collegeName": "PSG College of Technology",
+    "link": "",
+    "country":"India",
+    "deptname":"Applied Mathematics and Computational Sciences"
   },
   {
     "name": "R. Krishnasamy",
-    "collegeName": "Applied Mathematics and Computational Sciences, PSG Tech",
-    "link": ""
+    "collegeName": "PSG College of Technology",
+    "link": "",
+    "country":"India",
+    "deptname":"Applied Mathematics and Computational Sciences"
   },
   {
     "name": "S. S. Sudha",
-    "collegeName": "Applied Mathematics and Computational Sciences, PSG Tech",
-    "link": ""
+    "collegeName": "PSG College of Technology",
+    "link": "",
+    "country":"India",
+    "deptname":"Applied Mathematics and Computational Sciences"
   },
   {
     "name": "P. B. Abilasha",
-    "collegeName": "Applied Mathematics and Computational Sciences, PSG Tech",
-    "link": ""
+    "collegeName": "PSG College of Technology",
+    "link": "",
+    "country":"India",
+    "deptname":"Applied Mathematics and Computational Sciences"
   }
 ]

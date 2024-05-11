@@ -7,10 +7,10 @@ export default function AccomdationByPSG() {
     <div>
       <h2
       className=" text-xl lg:text-4xl font-semibold py-3 "
-      >Accomdation At PSG College Of Technology</h2>
+      >Accomodation At PSG College Of Technology</h2>
       <div className=" flex flex-col px-7 space-y-3 text-xl ">
         <p>
-          PSG College Of Technology provides accommoodation to all participants on campus, in student hostels. Food for breakfast, lunch
+          PSG College Of Technology provides accomodation to all participants on campus, in student hostels. Food for breakfast, lunch
           and dinner can be availed at student dining halls at rates ₹43, ₹62 and ₹62 respectively.
         </p>
         <p>

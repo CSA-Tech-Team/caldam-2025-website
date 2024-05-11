@@ -9,6 +9,8 @@ const CardGrid = ({ data, darkVariant }) => {
             darkVariant={darkVariant}
             institute={item.collegeName}
             name={item.name}
+            country={item.country}
+            deptname={item?.deptname}
             link={item.link}
             conferenceTitle={item.conferenceTitle ?? null}
           />

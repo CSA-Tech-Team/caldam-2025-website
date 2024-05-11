@@ -16,7 +16,7 @@ export default function Page() {
           <h1 className="mb-8 text-4xl font-semibold">REGISTRATION</h1>
           <div className="mb-8 flex max-lg:flex-col max-lg:space-y-4 lg:items-stretch lg:space-x-4">
             <div className="flex-1">
-              <div className="rounded-lg border border-bluevariants-300">
+              <div className="rounded-lg border border-bluecolor ">
                 <div className="rounded-t-md bg-bluevariants-300 px-4 py-3 text-lg text-white">
                   <h1>Indian Participants</h1>
                 </div>
@@ -87,7 +87,7 @@ export default function Page() {
       <div className="bg-bluecolor p-8 lg:p-14">
         <div className=" flex max-h-fit flex-col  py-4 ">
           <h1 className="mb-8 text-4xl font-semibold uppercase text-white lg:text-4xl">
-            Steps for registration
+            Registration Details
           </h1>
           <div className="flex items-center gap-x-3 text-2xl font-medium text-white">
             <div>

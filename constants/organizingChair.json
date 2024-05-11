@@ -1,7 +1,9 @@
 [
   {
     "name": "R. S. Lekshmi",
-    "collegeName": "PSG College of Technology, India",
-    "conferenceTitle": "Conference-Chair"
+    "deptname": "Applied Mathematics and Computational Sciences",
+    "collegeName": "PSG College of Technology",
+    "conferenceTitle": "Conference Chair",
+    "country": "India"
   }
 ]

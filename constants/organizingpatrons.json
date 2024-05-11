@@ -3,18 +3,22 @@
     "name": "L. Gopalakrishnan",
     "collegeName": "Managing Trustee, PSG & Sons Charities Trust",
     "link": "https://www.psgtech.edu/trustees.php",
-    "conferenceTitle": "Chief Patron"
+    "conferenceTitle": "Chief Patron",
+    "country":"India"
   },
   {
     "name": "K. Prakasan",
     "collegeName": "Principal, PSG College of Technology",
     "link": "https://www.psgtech.edu/principal.php",
-    "conferenceTitle": "Patron"
+    "conferenceTitle": "Patron",
+    "country":"India"
   },
   {
     "name": "Shina Sheen",
-    "collegeName": "Applied Mathematics and Computational Sciences, PSG Tech",
+    "deptname":"Applied Mathematics and Computational Sciences",
+    "collegeName": "PSG College of Technology",
     "link": "https://psgtech.irins.org/profile/103372",
-    "conferenceTitle": "Convener"
+    "conferenceTitle": "Convener",
+    "country":"India"
   }
 ]
