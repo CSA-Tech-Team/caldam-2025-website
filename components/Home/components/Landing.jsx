@@ -21,7 +21,7 @@ function Landing() {
     >
       <AnimatePresence>
         <div className="min-h-fit w-full bg-gradient-to-r from-white to-transparent p-8 transition-all max-lg:from-20% lg:via-white lg:p-14">
-          <div className="mb-8 space-y-4 overflow-hidden lg:mb-14">
+          <div className="space-y-4 overflow-hidden lg:mb-14">
             <motion.div
               variants={{
                 initial: {},
@@ -113,7 +113,7 @@ function Landing() {
                 </motion.h1>
               </div>
             </motion.div>
-            <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }}>
+            <motion.div className=" max-lg:hidden " initial={{ opacity: 0 }} animate={{ opacity: 1 }}>
               <p className="relative inline before:absolute before:-top-[100%] before:bottom-0 before:h-1 before:w-full before:bg-orange">
                 [ siː-eɪ-ɛl-diː-eɪ-ɛm ]
                 <button
