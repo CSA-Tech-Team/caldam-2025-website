@@ -10,7 +10,7 @@ export default function Hotels() {
       <h1 className=" py-4 text-2xl font-semibold lg:text-4xl ">
         Best Hotels Around The Conference Venue
       </h1>
-      <div className=" mx-3 grid text-lg lg:text-2xl grid-cols-2 max-md:grid-cols-1  ">
+      <div className=" mx-3 grid text-lg lg:text-2xl grid-cols-3 max-lg:grid-cols-2 max-md:grid-cols-1  ">
         {hoteldata.map((hotel, i) => {
           return (
             <div
