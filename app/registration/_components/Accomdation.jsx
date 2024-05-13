@@ -18,11 +18,11 @@ export default function Accomdation() {
         </p>
         <p className="before:content-[' '] relative pl-6 before:absolute before:left-0 before:top-[5px] before:m-auto before:h-2 before:w-2 before:rounded-full before:bg-orange">
           Accomodation for all participants will be provided in student hostels
-          (in-campus).
+          (in-campus)
         </p>
         <p className="before:content-[' '] relative pl-6 before:absolute before:left-0 before:top-[5px] before:m-auto before:h-2 before:w-2 before:rounded-full before:bg-orange">
           Accommodation for speakers will be available in the guest house
-          (in-campus).
+          (in-campus)
         </p>
         <p className="before:content-[' '] relative pl-6 before:absolute before:left-0 before:top-[5px] before:m-auto before:h-2 before:w-2 before:rounded-full before:bg-orange">
           The hostels and the guest house are just 5 minute walk from the venue.
