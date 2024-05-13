@@ -5,9 +5,9 @@ export default function ReachingCbe() {
   return (
     <div>
       <div className=" space-y-4 ">
-        <h1 className="text-4xl font-bold mb-2 block"> Reaching Coimbatore</h1>
+        <h1 className="mb-2 block text-4xl font-bold"> Reaching Coimbatore</h1>
         <h1 className=" text-3xl font-semibold ">By Air</h1>
-        <div className=" p-3 lg:text-lg mb-4">
+        <div className=" mb-4 p-3 lg:text-lg">
           <TextContraction
             className={` max-lg:hidden`}
             contentStart={` Ensure your flight is booked to Coimbatore, Tamil Nadu, India (IATA
@@ -22,7 +22,7 @@ export default function ReachingCbe() {
           services in
           addition to traditional options like Uber and Ola. Taxi fares
           typically range between 300 to 500 INR, depending on the vehicle type
-          and service provider.Additionally, travelers can opt for the airport shuttle service, which operates from the arrivals area. The shuttle fare is around 150 INR, and you can disembark near PSG College of Technology. Guests staying at nearby hotels can arrange pick-up services through their accommodations for added convenience.
+          and service provider. Additionally, travelers can opt for the airport shuttle service, which operates from the arrivals area. The shuttle fare is around 150 INR, and you can disembark near PSG College of Technology. Guests staying at nearby hotels can arrange pick-up services through their accommodations for added convenience.
 
           `}
           />
@@ -40,13 +40,13 @@ export default function ReachingCbe() {
           services  in
           addition to traditional options like Uber and Ola. Taxi fares
           typically range between 300 to 500 INR, depending on the vehicle type
-          and service provider.Additionally, travelers can opt for the airport shuttle service, which operates from the arrivals area. The shuttle fare is around 150 INR, and you can disembark near PSG College of Technology. Guests staying at nearby hotels can arrange pick-up services through their accommodations for added convenience.
+          and service provider. Additionally, travelers can opt for the airport shuttle service, which operates from the arrivals area. The shuttle fare is around 150 INR, and you can disembark near PSG College of Technology. Guests staying at nearby hotels can arrange pick-up services through their accommodations for added convenience.
           `}
           />
         </div>
       </div>
       <div className=" space-y-4 ">
-        <h1 className=" text-3xl font-semibold mt-4 ">By Train</h1>
+        <h1 className=" mt-4 text-3xl font-semibold ">By Train</h1>
         <div className=" p-3 lg:text-lg ">
           <p>
             Peelamedu, the location of PSG College of Technology in Coimbatore,
@@ -62,7 +62,7 @@ export default function ReachingCbe() {
               return (
                 <li
                   key={i}
-                  className=" relative pl-6 before:absolute before:left-0 before:top-[5px] before:m-auto before:h-4 before:w-4 before:bg-orange "
+                  className=" before:content-[' '] relative pl-6 before:absolute before:left-0 before:top-[5px] before:m-auto before:h-2 before:w-2 before:rounded-full before:bg-orange "
                 >
                   {train.name}
                 </li>

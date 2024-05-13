@@ -14,7 +14,7 @@ export default function YoungResearchersForum() {
     <div>
       {/* <ListOfSpeakers /> */}
       <div className=" space-y-4 bg-bluecolor px-12 py-10 text-white  ">
-        <h1 className=" text-3xl font-bold capitalize xl:text-3xl 2xl:text-4xl ">
+        <h1 className=" text-3xl font-bold uppercase xl:text-3xl 2xl:text-4xl ">
           Young Researcher’s Forum{" "}
         </h1>
         <p className=" max-lg:hidden lg:text-lg ">

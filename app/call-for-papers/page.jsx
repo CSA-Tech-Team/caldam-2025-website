@@ -44,7 +44,9 @@ export default function Page() {
                     fill="#102133"
                   />
                 </svg>
-                <h1>Submission of Papers - EasyChair Smart CFP</h1>
+                <h1 className="font-medium text-bluecolor">
+                  Submission of Papers - EasyChair Smart CFP
+                </h1>
               </div>
               <Link
                 target="_blank"
@@ -232,14 +234,14 @@ export default function Page() {
           <span className=" text-lg leading-6 max-lg:hidden ">
             invites papers describing original research in the areas of design
             and analysis of algorithms and in discrete applied mathematics. An
-            indicative list of sub-areas are given below. Papers must be typeset
-            using LaTeX/LaTeX2e and may not exceed 12 pages in LNCS style,
-            including bibliographic references. Further details may be included
-            in a clearly marked appendix that will be read at the discretion of
-            the program committee. Only electronic submission is allowed.
-            Submitted papers must describe previously unpublished work and may
-            not be submitted concurrently to another conference with refereed
-            proceedings or to a refereed journal.
+            indicative list of sub-areas (but not limited to) are given below.
+            Papers must be typeset using LaTeX/LaTeX2e and may not exceed 12
+            pages in LNCS style, including bibliographic references. Further
+            details may be included in a clearly marked appendix that will be
+            read at the discretion of the program committee. Only electronic
+            submission is allowed. Submitted papers must describe previously
+            unpublished work and may not be submitted concurrently to another
+            conference with refereed proceedings or to a refereed journal.
             {/*Please find the guidelines for authors on Springer website.*/}
             {/* Hide above text until further intimation. */}
           </span>
@@ -262,18 +264,21 @@ export default function Page() {
         />
       </div>
       <div className=" h-fit w-auto space-y-5 bg-bluecolor py-5 ">
-        <h1 className=" text-center font-semibold text-white max-md:text-[30px] max-sm:flex max-sm:justify-center max-sm:text-[30px] lg:text-[36px] ">
-          CALDAM TOPICS
-        </h1>
+        <div className="text-center">
+          <h1 className="font-semibold text-white max-md:text-[30px] max-sm:flex max-sm:justify-center max-sm:text-[30px] lg:text-[36px] ">
+            CALDAM TOPICS
+          </h1>
+          <p className="font-light italic text-white">but not limited to</p>
+        </div>
         <div className=" text-white">
           <ul className=" flex flex-col gap-y-3 overflow-y-auto p-5 text-black max-lg:hidden max-lg:h-[50vh] max-lg:rounded-xl">
             {CaldamTopics.map((val, index) =>
-              index % 7 === 0 ? (
+              index % 5 === 0 ? (
                 <div
                   key={index}
                   className=" min-md:flex-col justify-center gap-x-4 gap-y-3 overflow-y-auto p-3 text-center text-black lg:flex "
                 >
-                  {CaldamTopics.slice(index, index + 4).map((topic, i) => (
+                  {CaldamTopics.slice(index, index + 3).map((topic, i) => (
                     <div
                       key={i}
                       className="flex justify-center rounded-3xl bg-white p-3 font-semibold"
@@ -283,9 +288,9 @@ export default function Page() {
                     </div>
                   ))}
                 </div>
-              ) : index % 7 === 4 ? (
+              ) : index % 5 === 3 ? (
                 <div className="justify-center gap-x-4 text-center max-md:flex max-sm:flex-col max-sm:items-center max-sm:gap-y-3 md:flex lg:flex">
-                  {CaldamTopics.slice(index, index + 3).map((topic, i) => (
+                  {CaldamTopics.slice(index, index + 2).map((topic, i) => (
                     <div
                       key={i}
                       className=" flex flex-1 items-center justify-center rounded-3xl bg-white p-3 font-semibold"
@@ -299,7 +304,7 @@ export default function Page() {
           </ul>
           <ul className="flex flex-col gap-y-3 overflow-y-auto text-black max-lg:h-[50vh]  max-lg:rounded-xl lg:hidden">
             {CaldamTopics.map((val, index) =>
-              index % 7 === 0 ? (
+              index % 5 === 0 ? (
                 <div
                   key={index}
                   className="min-md:flex-col justify-center gap-x-4 text-center max-md:flex max-sm:flex-col max-sm:items-center max-sm:gap-y-3 md:flex lg:flex"
@@ -313,11 +318,11 @@ export default function Page() {
                   <div className="flex w-[19vw] justify-center rounded-3xl bg-white p-3 font-semibold max-md:w-[40%] max-sm:w-[76vw]">
                     <span>{CaldamTopics[index + 2]}</span>
                   </div>
-                  <div className="flex w-[19vw] justify-center rounded-3xl bg-white p-3 font-semibold max-md:w-[40vw] max-sm:w-[76vw]">
+                  {/* <div className="flex w-[19vw] justify-center rounded-3xl bg-white p-3 font-semibold max-md:w-[40vw] max-sm:w-[76vw]">
                     <span>{CaldamTopics[index + 3]}</span>
-                  </div>
+                  </div> */}
                 </div>
-              ) : index % 7 === 4 ? (
+              ) : index % 5 === 3 ? (
                 <div className="justify-center gap-x-4 text-center max-md:flex max-sm:flex-col max-sm:items-center max-sm:gap-y-3 md:flex lg:flex">
                   <div className="flex items-center justify-center rounded-3xl bg-white  p-3 font-semibold max-md:w-[40vw] max-sm:w-[76vw]">
                     <span>{CaldamTopics[index]}</span>
@@ -325,9 +330,9 @@ export default function Page() {
                   <div className="flex w-[19vw] items-center justify-center rounded-3xl bg-white p-3 font-semibold max-md:w-[40vw]  max-sm:w-[76vw]">
                     <span>{CaldamTopics[index + 1]}</span>
                   </div>
-                  <div className="flex w-[19vw] items-center justify-center rounded-3xl bg-white p-3 font-semibold max-md:w-[40vw] max-sm:w-[76vw]">
+                  {/* <div className="flex w-[19vw] items-center justify-center rounded-3xl bg-white p-3 font-semibold max-md:w-[40vw] max-sm:w-[76vw]">
                     <span>{CaldamTopics[index + 2]}</span>
-                  </div>
+                  </div> */}
                 </div>
               ) : null,
             )}{" "}

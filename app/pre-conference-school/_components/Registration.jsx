@@ -4,16 +4,16 @@ import React from "react";
 export default function Registration() {
   return (
     <div className=" space-y-5 bg-bluecolor px-9 py-7 text-white lg:px-12 ">
-      <h1 className=" text-3xl font-bold xl:text-3xl 2xl:text-4xl ">
+      <h1 className="text-3xl font-bold uppercase xl:text-3xl 2xl:text-4xl ">
         Registration
       </h1>
       <p className=" pb-4 lg:text-xl ">
         There is no registration fee for the school. Arrangements will be made
         for all speakers and 35 selected participants to stay in PSG College of
-        Technology and they may be provided boarding and lodging free of cost.
-        3-tier Sleeper class train fare may be provided for selected
+        Technology and they may be provided with boarding and lodging at free of
+        cost. 3-tier Sleeper class train fare may be provided for selected
         participants subject to availability of funds. Online registration will
-        start on September 01,2024.
+        start on September 01, 2024.
         {/* end on November 01, 2024. */}
       </p>
       <button className=" space-x-5 rounded-2xl bg-[#FCA311] px-5  py-3 font-semibold text-black  ">
@@ -21,7 +21,7 @@ export default function Registration() {
           prefetch
           href={`/pre-conference-school/registration`}
           target="_blank"
-          className=" text-lg lg:text-xl  flex items-center gap-x-3 "
+          className=" flex items-center  gap-x-3 text-lg lg:text-xl "
         >
           Register
           <svg

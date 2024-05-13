@@ -5,8 +5,8 @@ import Accomdation from "./_components/Accomdation";
 
 export const metadata = {
   title: "CALDAM 2025 | Registration",
-  description: "Committees for CALDAM 2025."
-}
+  description: "Committees for CALDAM 2025.",
+};
 
 export default function Page() {
   return (
@@ -66,12 +66,12 @@ export default function Page() {
               </div>
             </div>
           </div>
-          <div className="space-y-3 text-lg font-normal italic xl:text-lg">
+          <div className="space-y-3 text-lg font-normal xl:text-lg">
             <p>
               * Early bird registration is till 31 December 2024. Registration
               done on or after 1 January 2025 will be considered late.
             </p>
-            <p>* All prices are inclusive of 18% GST.</p>
+            <p>* The registration fee is inclusive of 18% GST.</p>
             <p>
               * At least one author of each accepted paper must register (by the
               deadline of the camera ready version) in the appropriate category
@@ -111,21 +111,22 @@ export default function Page() {
             <ul className="space-y-2 text-lg font-light leading-tight text-white lg:text-xl">
               <li className="before:content-[' '] relative pl-6 before:absolute before:left-0 before:top-[5px] before:m-auto before:h-2 before:w-2 before:rounded-full before:bg-orange">
                 Transfer the respective registration fee as per the above table
-                using the steps mentioned below 
+                using the steps mentioned below.
               </li>
               <li className="before:content-[' '] relative pl-6 before:absolute before:left-0 before:top-[5px] before:m-auto before:h-2 before:w-2 before:rounded-full before:bg-orange">
                 After payment, please send the transaction receipt and details
                 to{" "}
                 <span className=" text-orange">
-                  <Link
+                  {/* <Link
                     target="_blank"
                     href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=caldam2025@psgtech.ac.in"
                     className=" lg:text-lg "
                     prefetch
-                  >
-                    caldam2025@psgtech.ac.in
-                  </Link>
+                  > */}
+                  caldam2025@psgtech.ac.in
+                  {/* </Link> */}
                 </span>
+                .
               </li>
             </ul>
           </div>
@@ -160,21 +161,23 @@ export default function Page() {
                     Conference Registration Form
                   </Link>
                 </span>
+                .
               </li>
               <li className="before:content-[' '] relative pl-6 before:absolute before:left-0 before:top-[5px] before:m-auto before:h-2 before:w-2 before:rounded-full before:bg-orange">
                 Those who register as students are directed to submit a soft
                 copy of a certificate stating that (s)he is a bonafide student,
                 from their respective supervising guide/HoD to{" "}
                 <span className=" text-orange">
-                  <Link
+                  {/* <Link
                     target="_blank"
                     href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=caldam2025@psgtech.ac.in"
                     className=" lg:text-lg "
                     prefetch
-                  >
-                    caldam2025@psgtech.ac.in
-                  </Link>
+                  > */}
+                  caldam2025@psgtech.ac.in
+                  {/* </Link> */}
                 </span>
+                .
               </li>
             </ul>
           </div>
@@ -199,11 +202,11 @@ export default function Page() {
           <div className="ml-6 py-4 pl-5">
             <ul className="space-y-2 text-lg font-light leading-tight text-white lg:text-xl">
               <li className="before:content-[' '] relative pl-6 before:absolute before:left-0 before:top-[5px] before:m-auto before:h-2 before:w-2 before:rounded-full before:bg-orange">
-                Thank you for registering for CALDAM 2025
+                Thank you for registering for CALDAM 2025.
               </li>
               <li className="before:content-[' '] relative pl-6 before:absolute before:left-0 before:top-[5px] before:m-auto before:h-2 before:w-2 before:rounded-full before:bg-orange">
                 You should be receiving a confirmation mail for the registration
-                shortly
+                shortly.
               </li>
             </ul>
           </div>

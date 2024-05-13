@@ -83,9 +83,13 @@ export default function Updates() {
                   }}
                   className="flex flex-row items-center -space-x-2"
                 >
-                  <div className="z-10 rounded-md bg-orange p-5 w-32 text-center text-xl lg:text-2xl">
+                  <div className="z-10 w-40 rounded-md bg-orange p-4 text-center text-xl lg:text-2xl">
                     <div>
-                      <span className="font-semibold">{update.StartDate}{update.EndDate ? "-" : ""}{update.EndDate}</span>{" "}
+                      <p className="font-semibold">
+                        {update.StartDate}
+                        {update.EndDate ? "-" : ""}
+                        {update.EndDate}
+                      </p>{" "}
                       <p>{update.startMonth}</p>
                       <p>{update.year}</p>
                     </div>

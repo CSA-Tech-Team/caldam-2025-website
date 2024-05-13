@@ -1,11 +1,27 @@
 [
   {
+    "preConferenceSchoolEventName": "Online registration for Indo-Spanish CALDAM Pre-Conference School starts",
+    "isOpen": true,
+    "startMonth": "Sep",
+    "StartDate": "1st",
+    "year": "2024",
+    "navigateTo": "/pre-conference-school"
+  },
+  {
     "preConferenceSchoolEventName": "Last date for Paper Submission",
     "isOpen": true,
     "startMonth": "Sep",
     "StartDate": "27th",
     "year": "2024",
     "navigateTo": "/call-for-papers"
+  },
+  {
+    "preConferenceSchoolEventName": "Online registration for Indo-Spanish CALDAM Pre-Conference School ends",
+    "isOpen": true,
+    "startMonth": "Nov",
+    "StartDate": "1st",
+    "year": "2024",
+    "navigateTo": "/pre-conference-school"
   },
   {
     "preConferenceSchoolEventName": "Notification of Acceptance",
@@ -24,7 +40,7 @@
     "navigateTo": "/call-for-papers"
   },
   {
-    "preConferenceSchoolEventName": " Last Date For Early Bird Registration",
+    "preConferenceSchoolEventName": " Last Date for Early Bird registration for the conference",
     "isOpen": true,
     "startMonth": "Dec",
     "StartDate": "31st",
@@ -32,7 +48,7 @@
     "navigateTo": "/registration"
   },
   {
-    "preConferenceSchoolEventName": "Indo-Spanish Pre-Conference School",
+    "preConferenceSchoolEventName": "Indo-Spanish CALDAM Pre-Conference School",
     "isOpen": false,
     "startMonth": "Feb",
     "StartDate": "10",

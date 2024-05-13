@@ -10,9 +10,9 @@ export default function Proceedings() {
           <h1>PROCEEDINGS</h1>
         </div>
       </div>
-      <div className=" max-lg:text-md px-4 text-xl font-semibold ">
+      {/* <div className=" max-lg:text-md px-4 text-xl font-semibold ">
         Click on the banner below to access the proceedings of the conference.
-      </div>
+      </div> */}
       <div className=" w-full px-4 py-4">
         <Link
           prefetch
@@ -21,11 +21,9 @@ export default function Proceedings() {
           // href="https://link.springer.com/book/10.1007/978-3-031-52213-0"
           href="/" //temporary
         >
-          {/* <Image src={Banner} alt="Banner" className=" w-full  max-md:h-48" /> */}  
-          <div className="flex justify-center items-center aspect-square lg:h-[5vw] bg-bluecolor w-full " >
-            <div className="font-semibold text-2xl text-white">
-              TBA
-            </div>
+          {/* <Image src={Banner} alt="Banner" className=" w-full  max-md:h-48" /> */}
+          <div className="flex aspect-square w-full items-center justify-center  lg:h-[5vw] ">
+            <div className="text-2xl font-semibold text-bluecolor">TBA</div>
           </div>
         </Link>
       </div>

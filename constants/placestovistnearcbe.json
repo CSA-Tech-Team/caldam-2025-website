@@ -1,18 +1,8 @@
 [
   {
-    "name": "Nilgris",
-    "image": "https://imgs.search.brave.com/g0ru2cOF_iVyPQs30YY6Gz3ufKLN6UkeYVcR68SojBo/rs:fit:860:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJjYXZlLmNv/bS93cC93cDM0OTU2/NDAuanBn",
-    "maploc": "https://maps.app.goo.gl/aihetPuSgDCfNTm48"
-  },
-  {
-    "name": "Marudhamalai Temple",
-    "maploc": "https://www.google.com/maps/d/u/0/viewer?mid=1OEgoy-vEwaL-CX_lnQgl3kJBUxU&hl=en&ll=11.046301000000017%2C76.85191900000001&z=17",
-    "image": "https://media1.thrillophilia.com/filestore/qapajlr9b73ssh0pg4f45vmgff7j_1584529596_shutterstock_1670613079.jpg?w=753&h=450&dpr=1.0"
-  },
-  {
-    "name": "Adiyogi Shiva Statue",
-    "image": "https://media1.thrillophilia.com/filestore/5n7lwig8xfs21ovmpelmc27q73zk_1584530999_shutterstock_1594400185.jpg?w=753&h=450&dpr=1.0",
-    "maploc": "https://maps.app.goo.gl/gB2UiCHPiRkuhoPz8"
+    "name": "Sims Park, Conoor",
+    "image": "https://cdn.s3waas.gov.in/s339461a19e9eddfb385ea76b26521ea48/uploads/2018/06/2018061482.jpg",
+    "maploc": "https://nilgiris.nic.in/tourist-place/sims-park-coonoor/"
   },
   {
     "name": "Gedee Car Museum",
@@ -20,8 +10,38 @@
     "maploc": "https://maps.app.goo.gl/hCX1eZcoWuKdLBCt6"
   },
   {
-    "name": "Parambikulam Wildlife Sanctuary",
-    "image": "https://media1.thrillophilia.com/filestore/14zps2qrpuluy4ou7s6hzpujncgf_shutterstock_1576884364.jpg?w=753&h=450&dpr=1.0",
-    "maploc": "https://maps.app.goo.gl/aq7yzJU5Ztr6Hj5V9"
+    "name": "Regional Science Centre",
+    "image": "https://tnstc.gov.in/Anna_Coim.jpg",
+    "maploc": "https://maps.app.goo.gl/LQWURB37Tz6ApDkY7"
+  },
+  {
+    "name": "Tamil Nadu Polic Museum",
+    "image": "https://tnpmcbe.in/images/museium-img.jpg",
+    "maploc": "https://maps.app.goo.gl/ZX6eA8mx3RWFFrMA7"
+  },
+  {
+    "name": "Gass Forest Museum",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Gauss_museum.jpg/1024px-Gauss_museum.jpg",
+    "maploc": "https://maps.app.goo.gl/9q4hpMGabFdvGgUo8"
+  },
+  {
+    "name": "Kovai Kuttralam",
+    "image": "https://cdn.s3waas.gov.in/s3d9fc5b73a8d78fad3d6dffe419384e70/uploads/2017/06/2018060538-1024x576.jpg",
+    "maploc": "https://coimbatore.nic.in/tourist-place/kovai-coutralam/"
+  },
+  {
+    "name": "Siruvani Dam",
+    "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/08/11/4e/65/siruvani-reservoir.jpg?w=1600&h=-1&s=1",
+    "maploc": "https://maps.app.goo.gl/pE9THyCvpDPm8U5d9"
+  },
+  {
+    "name": "Marudhamalai Hill Temple",
+    "maploc": "https://www.google.com/maps/d/u/0/viewer?mid=1OEgoy-vEwaL-CX_lnQgl3kJBUxU&hl=en&ll=11.046301000000017%2C76.85191900000001&z=17",
+    "image": "https://media1.thrillophilia.com/filestore/qapajlr9b73ssh0pg4f45vmgff7j_1584529596_shutterstock_1670613079.jpg?w=753&h=450&dpr=1.0"
+  },
+  {
+    "name": "Isha Yoga Center",
+    "image": "https://static.sadhguru.org/d/46272/1648639762-image3_3-38471.jpg",
+    "maploc": "https://isha.sadhguru.org/en/center/isha-yoga-center-coimbatore"
   }
 ]

@@ -5,24 +5,23 @@ import { GoLocation } from "react-icons/go";
 export default function AccomdationByPSG() {
   return (
     <div>
-      <h2
-      className=" text-xl lg:text-4xl font-semibold py-3 "
-      >Accomodation At PSG College Of Technology</h2>
-      <div className=" flex flex-col px-7 space-y-3 text-xl ">
+      <div className=" flex flex-col space-y-3 px-7 text-xl ">
         <p>
-          PSG College Of Technology provides accomodation to all participants on campus, in student hostels. Food for breakfast, lunch
-          and dinner can be availed at student dining halls at rates ₹43, ₹62 and ₹62 respectively.
+          PSG College Of Technology provides accomodation to all participants on
+          campus, in student hostels. Food for breakfast, lunch and dinner can
+          be availed at student dining halls at rates ₹43, ₹62 and ₹62
+          respectively.
         </p>
         <p>
-          Speakers can accomdate at the PSG College of Technology Guest House which is located at
-          5 minutes walking distance from the conference venue at the rate of
-          ₹2500.
+          Speakers can accomdate at the PSG College of Technology Guest House
+          which is located at 5 minutes walking distance from the conference
+          venue at the rate of ₹2500.
         </p>
       </div>
-      <h3 className="pb-3 text-2xl lg:text-3xl font-semibold py-2 mt-4 ">Guest House Image</h3>
-      <div
-      className=" px-3 flex items-center justify-around"
-      >
+      <h3 className="mt-4 py-2 pb-3 text-2xl font-semibold lg:text-3xl ">
+        Guest House Image
+      </h3>
+      <div className=" flex items-center justify-around px-3">
         <div className="mx-auto mb-4 flex w-[40%] items-center justify-center space-y-3 rounded-lg border border-black lg:ml-3 ">
           <div
             className="relative h-auto w-full max-w-full"
@@ -38,7 +37,7 @@ export default function AccomdationByPSG() {
             />
           </div>
           <div className="py-4 text-lg lg:text-2xl">
-            <h2 className="font-bold text-center">Guest House</h2>
+            <h2 className="text-center font-bold">Guest House</h2>
             <div className="mb-2">
               <Link
                 className="flex items-center"
@@ -52,11 +51,9 @@ export default function AccomdationByPSG() {
                 <span className="text-lg">0.1km from the Conference Venue</span>
               </Link>
             </div>
-            <div
-            className="text-center"
-            >
-            <span>Price:</span>
-            <span className="mb-2">₹2500</span>
+            <div className="text-center">
+              <span>Price:</span>
+              <span className="mb-2">₹2500</span>
             </div>
           </div>
         </div>

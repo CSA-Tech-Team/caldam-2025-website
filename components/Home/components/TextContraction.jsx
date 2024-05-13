@@ -32,15 +32,14 @@ const TextContraction = ({
       className={`${className}`}
     >
       {contentStart}{" "}
-      <span className="underline">
       <Link
-        className=" max-lg:hidden "
+        className="text-blue-700 max-lg:hidden"
         target="_blank"
         prefetch
         href={"http://acsdm.in/acsdm/index.html"}
       >
         {contentLinks}
-      </Link></span>
+      </Link>
       <span className=" max-lg:hidden ">{contentAfterLink} </span>
       {!removeExpandButton && (
         <>
@@ -71,7 +70,7 @@ const TextContraction = ({
           >
             <span className=" lg:hidden ">{contentAfterLink} </span>
             <Link
-              className=" lg:hidden "
+              className="text-blue-700 lg:hidden"
               target="_blank"
               prefetch
               href={"http://acsdm.in/acsdm/index.html"}

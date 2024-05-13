@@ -1,9 +1,8 @@
 [
-   
     {
-        "eligiblity":"The research problem must fit into the theme of the conference."
+        "eligiblity": "The research problem must fit into the theme of the conference."
     },
     {
-        "eligiblity":"Participant’s age should be under 35 years."
+        "eligiblity": "Participant's age must be under 35 years."
     }
 ]

@@ -4,7 +4,7 @@
     "Combinatorics",
     "Data Structures",
     "Parallel and Distributed Algorithms",
-    "Computational and Combinatorial Geometry",
+    "Combinatorial Geometry",
     "Graph Drawing",
     "Graph Theory",
     "Online Algorithms",
@@ -12,5 +12,6 @@
     "Network Optimization",
     "Randomized Algorithms",
     "Parameterized Complexity",
-    "Computational Geometry"
+    "Computational Geometry",
+    "Computational Learning Theory"
 ]
