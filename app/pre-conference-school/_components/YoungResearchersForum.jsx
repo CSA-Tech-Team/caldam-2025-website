@@ -6,7 +6,7 @@ export default function YoungResearchersForum() {
   return (
     <div className=" space-y-4 bg-bluecolor px-12 py-10 text-white  ">
       <h1 className="text-3xl font-bold uppercase xl:text-3xl 2xl:text-4xl ">
-        Young Researcher's Forum{" "}
+        Young Researcher&apos; Forum{" "}
       </h1>
       <p className=" max-lg:hidden lg:text-lg ">
         Young Researchers Forum (YRF 2025) is part of CALDAM Pre-Conference
