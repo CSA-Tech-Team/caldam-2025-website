@@ -13,16 +13,16 @@ export default function Accomdation() {
       </h1>
       <div className="space-y-3 text-xl leading-tight">
         <p className="before:content-[' '] relative pl-6 before:absolute before:left-0 before:top-[5px] before:m-auto before:h-2 before:w-2 before:rounded-full before:bg-orange">
-          For all speakers and participants, the lunch will be provided with no
-          cost at the conference venue
+          For all speakers and participants, Lunch and banquet will be provided
+          with no adiitional cost.
         </p>
         <p className="before:content-[' '] relative pl-6 before:absolute before:left-0 before:top-[5px] before:m-auto before:h-2 before:w-2 before:rounded-full before:bg-orange">
-          Accomodation for all participants will be provided in student hostels
-          (in-campus)
+          Accommodation for all participants will be provided in student hostels
+          (in-campus).
         </p>
         <p className="before:content-[' '] relative pl-6 before:absolute before:left-0 before:top-[5px] before:m-auto before:h-2 before:w-2 before:rounded-full before:bg-orange">
-          Accommodation for speakers will be available in the guest house
-          (in-campus)
+          Accommodation for invited speakers and faculty members will be
+          provided in the guest house (in-campus).
         </p>
         <p className="before:content-[' '] relative pl-6 before:absolute before:left-0 before:top-[5px] before:m-auto before:h-2 before:w-2 before:rounded-full before:bg-orange">
           The hostels and the guest house are just 5 minute walk from the venue.

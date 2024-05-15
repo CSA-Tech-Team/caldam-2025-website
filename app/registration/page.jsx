@@ -81,6 +81,10 @@ export default function Page() {
               student) includes admission to all technical sessions, lunches,
               tea/coffee and banquet dinner.
             </p>
+            <p>
+              * Registered student participants also have the option to attend
+              the pre-conference school without any additional charges.
+            </p>
           </div>
         </div>
       </div>
@@ -201,6 +205,10 @@ export default function Page() {
           </div>
           <div className="ml-6 py-4 pl-5">
             <ul className="space-y-2 text-lg font-light leading-tight text-white lg:text-xl">
+              <li className="before:content-[' '] relative pl-6 before:absolute before:left-0 before:top-[5px] before:m-auto before:h-2 before:w-2 before:rounded-full before:bg-orange">
+                A Student participant must send a e-mail to conference chair for
+                inclusion in the pre-conference school.
+              </li>
               <li className="before:content-[' '] relative pl-6 before:absolute before:left-0 before:top-[5px] before:m-auto before:h-2 before:w-2 before:rounded-full before:bg-orange">
                 Thank you for registering for CALDAM 2025.
               </li>

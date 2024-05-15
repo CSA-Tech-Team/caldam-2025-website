@@ -232,16 +232,17 @@ export default function Page() {
             CALDAM 2025 {"  "}
           </span>
           <span className=" text-lg leading-6 max-lg:hidden ">
-            invites papers describing original research in the areas of design
-            and analysis of algorithms and in discrete applied mathematics. An
-            indicative list of sub-areas (but not limited to) are given below.
-            Papers must be typeset using LaTeX/LaTeX2e and may not exceed 12
-            pages in LNCS style, including bibliographic references. Further
-            details may be included in a clearly marked appendix that will be
-            read at the discretion of the program committee. Only electronic
-            submission is allowed. Submitted papers must describe previously
-            unpublished work and may not be submitted concurrently to another
-            conference with refereed proceedings or to a refereed journal.
+            invites papers describing original research in the areas of (i)
+            Design and Analysis of Algorithms and in (ii) Discrete Applied
+            Mathematics. An indicative list of sub-areas (but not limited to)
+            are given below. Papers must be typeset using LaTeX/LaTeX2e and may
+            not exceed 12 pages in LNCS style, including bibliographic
+            references. Further details may be included in a clearly marked
+            appendix that will be read at the discretion of the program
+            committee. Only electronic submission is allowed. Submitted papers
+            must describe previously unpublished work and may not be submitted
+            concurrently to another conference with refereed proceedings or to a
+            refereed journal.
             {/*Please find the guidelines for authors on Springer website.*/}
             {/* Hide above text until further intimation. */}
           </span>

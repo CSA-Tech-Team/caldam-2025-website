@@ -10,10 +10,10 @@ export default function Registration() {
       <p className=" pb-4 lg:text-xl ">
         There is no registration fee for the school. Arrangements will be made
         for all speakers and 35 selected participants to stay in PSG College of
-        Technology and they may be provided with boarding and lodging at free of
-        cost. 3-tier Sleeper class train fare may be provided for selected
-        participants subject to availability of funds. Online registration will
-        start on September 01, 2024.
+        Technology Campus and they will be provided with free boarding and
+        lodging. Sleeper class (Non-AC) train fare may be provided for selected
+        Indian student participants subject to availability of funds. Online
+        registration will start on September 01, 2024.
         {/* end on November 01, 2024. */}
       </p>
       <button className=" space-x-5 rounded-2xl bg-[#FCA311] px-5  py-3 font-semibold text-black  ">

@@ -8,10 +8,6 @@
     "link": "/commitees"
   },
   {
-    "name": "Registration",
-    "link": "/registration"
-  },
-  {
     "name": "Call For Papers",
     "link": "/call-for-papers"
   },
@@ -20,8 +16,8 @@
     "link": "/invitedspeakers"
   },
   {
-    "name": "Accepted Papers",
-    "link": "/accepted-papers"
+    "name": "Registration",
+    "link": "/registration"
   },
   {
     "name": "Pre-Conference School",
