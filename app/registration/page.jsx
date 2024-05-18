@@ -14,59 +14,118 @@ export default function Page() {
       <div>
         <div className="p-8 lg:p-14">
           <h1 className="mb-8 text-4xl font-semibold">REGISTRATION</h1>
-          <div className="mb-8 flex max-lg:flex-col max-lg:space-y-4 lg:items-stretch lg:space-x-4">
+          <div className="mb-8 space-y-3 text-lg font-normal xl:text-lg">
+            <p>
+              <b>Developing country</b> refers a nation with a less developed
+              industrial base and a sovereign state with less human development
+              indicators (HDI) than other developed countries.
+            </p>
+            <p>
+              <b>A Developed country</b>—also called an industrialized
+              country—has a mature and sophisticated economy, usually measured
+              by gross domestic product (GDP) and/or average income per
+              resident.
+            </p>
+          </div>
+          <div className="flex max-lg:flex-col max-lg:space-y-4 lg:items-stretch lg:space-x-4">
             <div className="flex-1">
-              <div className="rounded-lg border border-bluecolor ">
+              <div className="rounded-t-lg border border-bluecolor ">
                 <div className="rounded-t-md bg-bluevariants-300 px-4 py-3 text-lg text-white">
-                  <h1>Indian Participants</h1>
+                  <h1>Developed Countries</h1>
                 </div>
                 <div className="flex justify-stretch max-md:flex-col">
                   <Pricing
                     className="flex-1 border max-xl:px-5 max-lg:py-8 max-md:border-b-bluecolor md:border-r-bluecolor lg:py-5 xl:p-8"
-                    title="Regular"
-                    subTitle="with proceedings"
-                    isEarlyBird={true}
-                    regularPrice="₹ 8500"
+                    title="Student (Early)"
+                    isEarlyBird={false}
+                    regularPrice="₹ 12000"
+                    earlyBirdPrice="₹ 12000"
+                  />
+                  <Pricing
+                    className="flex-1 max-xl:px-5 max-lg:py-8 lg:py-5 xl:p-8"
+                    title="Faculty (Early)"
+                    isEarlyBird={false}
+                    regularPrice="₹ 12000"
+                    earlyBirdPrice="₹ 12000"
+                  />
+                </div>
+              </div>
+            </div>
+            <div className="flex-1">
+              <div className="rounded-t-lg border border-bluevariants-300">
+                <div className="rounded-t-md bg-bluevariants-300 px-4 py-3 text-lg text-white">
+                  <h1>Developing Countries</h1>
+                </div>
+                <div className="flex justify-stretch max-md:flex-col">
+                  <Pricing
+                    className="flex-1 border max-xl:px-5 max-lg:py-8 max-md:border-b-bluecolor md:border-r-bluecolor lg:py-5 xl:p-8"
+                    title="Student (Early)"
+                    isEarlyBird={false}
+                    regularPrice="₹ 24000"
+                    earlyBirdPrice="₹ 24000"
+                  />
+                  <Pricing
+                    className="flex-1 max-xl:px-5 max-lg:py-8 lg:py-5 xl:p-8"
+                    title="Faculty (Early)"
+                    isEarlyBird={false}
+                    regularPrice="₹ 24000"
+                    earlyBirdPrice="₹ 24000"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="mb-8 flex max-lg:flex-col max-lg:space-y-4 lg:items-stretch lg:space-x-4">
+            <div className="flex-1">
+              <div className="rounded-b-lg border border-bluecolor ">
+                <div className="flex justify-stretch max-md:flex-col">
+                  <Pricing
+                    className="flex-1 border max-xl:px-5 max-lg:py-8 max-md:border-b-bluecolor md:border-r-bluecolor lg:py-5 xl:p-8"
+                    title="Student (Late)"
+                    isEarlyBird={false}
+                    regularPrice="-"
                     earlyBirdPrice="₹ 8000"
                   />
                   <Pricing
                     className="flex-1 max-xl:px-5 max-lg:py-8 lg:py-5 xl:p-8"
-                    title="Student"
-                    subTitle="without proceedings"
-                    isEarlyBird={true}
-                    regularPrice="₹ 4500"
+                    title="Faculty (Late)"
+                    isEarlyBird={false}
+                    regularPrice="-"
                     earlyBirdPrice="₹ 4000"
                   />
                 </div>
               </div>
             </div>
             <div className="flex-1">
-              <div className="rounded-lg border border-bluevariants-300">
-                <div className="rounded-t-md bg-bluevariants-300 px-4 py-3 text-lg text-white">
-                  <h1>Foreign Participants</h1>
-                </div>
+              <div className="rounded-b-lg border border-bluevariants-300">
                 <div className="flex justify-stretch max-md:flex-col">
                   <Pricing
                     className="flex-1 border max-xl:px-5 max-lg:py-8 max-md:border-b-bluecolor md:border-r-bluecolor lg:py-5 xl:p-8"
-                    title="Regular"
-                    subTitle="with proceedings"
-                    isEarlyBird={true}
-                    regularPrice="$450"
+                    title="Student (Late)"
+                    isEarlyBird={false}
+                    regularPrice="-"
                     earlyBirdPrice="$300"
                   />
                   <Pricing
                     className="flex-1 max-xl:px-5 max-lg:py-8 lg:py-5 xl:p-8"
-                    title="Student"
-                    subTitle="with proceedings"
-                    isEarlyBird={true}
-                    regularPrice="$250"
+                    title="Faculty (Late)"
+                    isEarlyBird={false}
+                    regularPrice="-"
                     earlyBirdPrice="$150"
                   />
                 </div>
               </div>
             </div>
           </div>
+          {/* <div className="mb-8 w-full rounded-lg bg-bluevariants-300 px-4 py-3 text-center text-lg font-medium text-white">
+            <Link href={""}>Register</Link>
+          </div> */}
           <div className="space-y-3 text-lg font-normal xl:text-lg">
+            <p>
+              * All Registered participants (except developing country student
+              participants) will be entitled to receive a copy of the
+              proceedings
+            </p>
             <p>
               * Early bird registration is till 31 December 2024. Registration
               done on or after 1 January 2025 will be considered late.

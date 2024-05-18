@@ -83,11 +83,11 @@ function Landing() {
                 Call for Papers
               </button>
             </Link>
-            <Link href={"/accepted-papers"}>
+            {/* <Link href={"/accepted-papers"}>
               <button className="rounded-lg bg-orange px-6 py-2">
                 Accepted Papers
               </button>
-            </Link>
+            </Link> */}
           </motion.div>
           <TextContraction
             className="mb-8 font-medium lg:hidden"
