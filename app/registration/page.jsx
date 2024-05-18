@@ -27,7 +27,7 @@ export default function Page() {
               resident.
             </p>
           </div>
-          <div className="flex max-lg:flex-col max-lg:space-y-4 lg:items-stretch lg:space-x-4">
+          {/* <div className="flex max-lg:flex-col max-lg:space-y-4 lg:items-stretch lg:space-x-4">
             <div className="flex-1">
               <div className="rounded-t-lg border border-bluecolor ">
                 <div className="rounded-t-md bg-bluevariants-300 px-4 py-3 text-lg text-white">
@@ -116,7 +116,7 @@ export default function Page() {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
           {/* <div className="mb-8 w-full rounded-lg bg-bluevariants-300 px-4 py-3 text-center text-lg font-medium text-white">
             <Link href={""}>Register</Link>
           </div> */}
@@ -124,7 +124,7 @@ export default function Page() {
             <p>
               * All Registered participants (except developing country student
               participants) will be entitled to receive a copy of the
-              proceedings
+              proceedings.
             </p>
             <p>
               * Early bird registration is till 31 December 2024. Registration
