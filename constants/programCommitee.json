@@ -1,10 +1,10 @@
 [
   {
     "name": "Rahul Muthu",
-    "collegeName": "Dhirubhai Ambani Institute of Information and Communication Technology",
+    "collegeName": "Dhirubhai Ambani Institute of Information and Communication Technology,India",
     "link": "https://www.daiict.ac.in/faculty-details/270",
     "conferenceTitle": "",
-    "country": "India"
+    "country": ""
   },
   {
     "name": "Swagato Sanyal",
@@ -29,8 +29,8 @@
   },
   {
     "name": "Bodhayan Roy",
-    "collegeName": "ISI Kolkata",
-    "link": "",
+    "collegeName": "IIT Kharagpur",
+    "link": "https://www.iitkgp.ac.in/department/MA/faculty/ma-broy",
     "conferenceTitle": "",
     "country": "India"
   },
