@@ -15,17 +15,18 @@ export default function Page() {
       <div>
         <div className="p-8 lg:p-14">
           <h1 className="mb-8 text-4xl font-semibold">REGISTRATION</h1>
-          <div className="mb-8 space-y-3 text-lg font-normal xl:text-lg">
+          <div className="mb-4 space-y-3 text-lg font-normal xl:text-lg">
             <p>
-              <b>Developing country</b> refers a nation with a less developed
-              industrial base and a sovereign state with less human development
-              indicators (HDI) than other developed countries.
-            </p>
-            <p>
-              <b>A Developed country</b>—also called an industrialized
-              country—has a mature and sophisticated economy, usually measured
-              by gross domestic product (GDP) and/or average income per
-              resident.
+              <b>Developed Country</b> is High Income country as defined in the
+              World Bank Classification 2022 (see:
+              <a
+                className="text-blue-700"
+                target="_blank"
+                href="https://datatopics.worldbank.org/world-development-indicators/the-world-by-income-and-region.html"
+              >
+                https://datatopics.worldbank.org/world-development-indicators/the-world-by-income-and-region.html
+              </a>
+              ). All other countries are considered Developing.
             </p>
           </div>
           {/* <div className="flex max-lg:flex-col max-lg:space-y-4 lg:items-stretch lg:space-x-4">
