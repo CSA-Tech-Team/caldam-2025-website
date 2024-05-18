@@ -16,18 +16,16 @@ export default function Page() {
         <div className="p-8 lg:p-14">
           <h1 className="mb-8 text-4xl font-semibold">REGISTRATION</h1>
           <div className="mb-4 space-y-3 text-lg font-normal xl:text-lg">
-            <p>
-              <b>Developed Country</b> is High Income country as defined in the
-              World Bank Classification 2022 (see:
-              <a
-                className="text-blue-700"
-                target="_blank"
-                href="https://datatopics.worldbank.org/world-development-indicators/the-world-by-income-and-region.html"
+            <h1 >
+              Developed Country is High Income country as defined in the World
+              Bank Classification 2022 (see:{" "}
+              <span
+              className=" text-blue-700 "
               >
                 https://datatopics.worldbank.org/world-development-indicators/the-world-by-income-and-region.html
-              </a>
+              </span>
               ). All other countries are considered Developing.
-            </p>
+            </h1>
           </div>
           {/* <div className="flex max-lg:flex-col max-lg:space-y-4 lg:items-stretch lg:space-x-4">
             <div className="flex-1">
