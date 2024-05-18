@@ -2,6 +2,7 @@ import Pricing from "@/components/registration/components/Pricing";
 import Link from "next/link";
 import React from "react";
 import Accomdation from "./_components/Accomdation";
+import RegistrationTable from "./_components/RegistrationTable";
 
 export const metadata = {
   title: "CALDAM 2025 | Registration",
@@ -120,6 +121,7 @@ export default function Page() {
           {/* <div className="mb-8 w-full rounded-lg bg-bluevariants-300 px-4 py-3 text-center text-lg font-medium text-white">
             <Link href={""}>Register</Link>
           </div> */}
+          <RegistrationTable />
           <div className="space-y-3 text-lg font-normal xl:text-lg">
             <p>
               * All Registered participants (except developing country student
