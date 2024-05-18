@@ -1,5 +1,61 @@
 [
   {
+    "name": "Rahul Muthu",
+    "collegeName": "Dhirubhai Ambani Institute of Information and Communication Technology",
+    "link": "https://www.daiict.ac.in/faculty-details/270",
+    "conferenceTitle": "",
+    "country": "India"
+  },
+  {
+    "name": "Swagato Sanyal",
+    "collegeName": "IIT Kharagpur",
+    "link": "http://cse.iitkgp.ac.in/~swagato",
+    "conferenceTitle": "",
+    "country": "India"
+  },
+  {
+    "name": "Daya Gaur",
+    "collegeName": "University of Lethbridge",
+    "link": "http://www.cs.uleth.ca/~gaur/",
+    "conferenceTitle": "PC Co-Chair",
+    "country": "Canada"
+  },
+  {
+    "name": "Neeldhara Misra",
+    "collegeName": "IIT Gandhinagar",
+    "link": "http://www.iitgn.ac.in/faculty/cse/neeldhara",
+    "conferenceTitle": "",
+    "country": "India"
+  },
+  {
+    "name": "Sandip Das",
+    "collegeName": "ISI Kolkata",
+    "link": "https://www.isical.ac.in/~sandipdas/",
+    "conferenceTitle": "",
+    "country": "India"
+  },
+  {
+    "name": "Bodhayan Roy",
+    "collegeName": "ISI Kolkata",
+    "link": "",
+    "conferenceTitle": "",
+    "country": "India"
+  },
+  {
+    "name": "Wolfgang Mulzer",
+    "collegeName": "Freie Universität Berlin",
+    "link": "http://page.mi.fu-berlin.de/mulzer/",
+    "conferenceTitle": "",
+    "country": "Germany"
+  },
+  {
+    "name": "Jean-Lou De-Carufel",
+    "collegeName": "University of Ottawa",
+    "link": "https://biography.omicsonline.org/canada/university-of-ottawa/jeanlou-de-carufel-559817",
+    "conferenceTitle": "",
+    "country": "Canada"
+  },
+  {
     "name": "Daya Gaur",
     "collegeName": "University of Lethbridge",
     "link": "http://www.cs.uleth.ca/~gaur/",
@@ -82,7 +138,7 @@
     "name": "Niranjan Balachandran",
     "collegeName": "Indian Institute of Technology Bombay",
     "conferenceTitle": "",
-    "link": "https://iitb.irins.org/profile/51771",
+    "link": "https://homepages.iitb.ac.in/~niranj/",
     "country": "India"
   },
   {
@@ -128,7 +184,7 @@
     "country": "Netherlands"
   },
   {
-    "name": "Ragesh Jalswal",
+    "name": "Ragesh Jaiswal",
     "collegeName": "Indian Institute of Technology Delhi",
     "conferenceTitle": "",
     "link": "https://www.cse.iitd.ac.in/~rjaiswal/",
