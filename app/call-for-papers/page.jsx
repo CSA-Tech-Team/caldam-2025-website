@@ -213,7 +213,7 @@ export default function Page() {
             </div>
             <div className="max-md:animate-marquee flex flex-col items-stretch justify-stretch text-left text-white lg:space-y-7 ">
               <h1 className="px-1">
-                Last date for Paper Submission - October 03, 2024, AoE{" "}
+                Last date for Paper Submission - September 27, 2024, AoE{" "}
               </h1>
               <h1 className="px-1">
                 Notification of Acceptance - November 12, 2024, AoE{" "}
