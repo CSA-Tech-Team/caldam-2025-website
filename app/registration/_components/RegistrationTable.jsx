@@ -27,7 +27,7 @@ const RegistrationTable = () => {
             >
               <td className="border border-gray-300 p-2 text-3xl font-semibold">Early</td>
               <td className="border border-gray-300 p-2 w-fit bg-gradient-to-r from-orange to-[#585aac] bg-clip-text text-3xl font-semibold text-transparent lg:text-2xl xl:text-4xl">₹ 12,000</td>
-              <td className="border border-gray-300 p-2 w-fit bg-gradient-to-r from-orange to-[#585aac] bg-clip-text text-3xl font-semibold text-transparent lg:text-2xl xl:text-4xl">₹ 21,000</td>
+              <td className="border border-gray-300 p-2 w-fit bg-gradient-to-r from-orange to-[#585aac] bg-clip-text text-3xl font-semibold text-transparent lg:text-2xl xl:text-4xl">₹ 12,000</td>
               <td className="border border-gray-300 p-2 w-fit bg-gradient-to-r from-orange to-[#585aac] bg-clip-text text-3xl font-semibold text-transparent lg:text-2xl xl:text-4xl">₹ 24,000</td>
               <td className="border border-gray-300 p-2 w-fit bg-gradient-to-r from-orange to-[#585aac] bg-clip-text text-3xl font-semibold text-transparent lg:text-2xl xl:text-4xl">₹ 21,000</td>
             </tr>
