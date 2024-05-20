@@ -12,6 +12,7 @@ const OrgCardGrid = ({ data, darkVariant }) => {
             country={item.country}
             deptname={item?.deptname}
             link={item.link}
+            position={item.position}
             conferenceTitle={item.conferenceTitle ?? null}
           />
         </div>
