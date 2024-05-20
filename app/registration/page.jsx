@@ -16,13 +16,16 @@ export default function Page() {
         <div className="p-8 lg:p-14">
           <h1 className="mb-8 text-4xl font-semibold">REGISTRATION</h1>
           <div className="mb-4 space-y-3 text-lg font-normal xl:text-lg">
-            <h1 >
+            <h1>
               Developed Country is High Income country as defined in the World
               Bank Classification 2022 (see:{" "}
-              <span
-              className=" text-blue-700 "
-              >
-                https://datatopics.worldbank.org/world-development-indicators/the-world-by-income-and-region.html
+              <span className=" text-blue-700 ">
+                <Link
+                target="_blank"
+                  href={`https://datatopics.worldbank.org/world-development-indicators/the-world-by-income-and-region.html`}
+                >
+                  https://datatopics.worldbank.org/world-development-indicators/the-world-by-income-and-region.html
+                </Link>
               </span>
               ). All other countries are considered Developing.
             </h1>
@@ -142,8 +145,9 @@ export default function Page() {
               tea/coffee and banquet dinner.
             </p>
             <p>
-              * Registered students of accepted papers participants also have the option to attend
-              the pre-conference school without any additional charges.
+              * Registered students of accepted papers participants also have
+              the option to attend the pre-conference school without any
+              additional charges.
             </p>
           </div>
         </div>
@@ -266,8 +270,8 @@ export default function Page() {
           <div className="ml-6 py-4 pl-5">
             <ul className="space-y-2 text-lg font-light leading-tight text-white lg:text-xl">
               <li className="before:content-[' '] relative pl-6 before:absolute before:left-0 before:top-[5px] before:m-auto before:h-2 before:w-2 before:rounded-full before:bg-orange">
-                A registered student of accepted paper must send a e-mail to the conference chair for
-                inclusion in the pre-conference school.
+                A registered student of accepted paper must send a e-mail to the
+                conference chair for inclusion in the pre-conference school.
               </li>
               <li className="before:content-[' '] relative pl-6 before:absolute before:left-0 before:top-[5px] before:m-auto before:h-2 before:w-2 before:rounded-full before:bg-orange">
                 Thank you for registering for CALDAM 2025.
