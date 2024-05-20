@@ -16,7 +16,7 @@ export default function OrgPeopleCard({
       <div>
         <div className="mb-4 space-y-2">
           <h1
-            className={`text-2xl font-bold lg:text-[27px] ${darkVariant ? "text-bluevariants-300" : "text-bluevariants-300"}`}
+            className={`text-2xl font-bold lg:text-[25px]  ${darkVariant ? "text-bluevariants-300" : "text-bluevariants-300"}`}
           >
             {name}
           </h1>
