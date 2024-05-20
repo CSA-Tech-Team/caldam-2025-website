@@ -142,7 +142,7 @@ export default function Page() {
               tea/coffee and banquet dinner.
             </p>
             <p>
-              * Registered student participants also have the option to attend
+              * Registered students of accepted papers participants also have the option to attend
               the pre-conference school without any additional charges.
             </p>
           </div>
@@ -266,7 +266,7 @@ export default function Page() {
           <div className="ml-6 py-4 pl-5">
             <ul className="space-y-2 text-lg font-light leading-tight text-white lg:text-xl">
               <li className="before:content-[' '] relative pl-6 before:absolute before:left-0 before:top-[5px] before:m-auto before:h-2 before:w-2 before:rounded-full before:bg-orange">
-                A Student participant must send a e-mail to conference chair for
+                A registered student of accepted paper must send a e-mail to the conference chair for
                 inclusion in the pre-conference school.
               </li>
               <li className="before:content-[' '] relative pl-6 before:absolute before:left-0 before:top-[5px] before:m-auto before:h-2 before:w-2 before:rounded-full before:bg-orange">

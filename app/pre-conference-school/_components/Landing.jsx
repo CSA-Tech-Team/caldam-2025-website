@@ -22,7 +22,7 @@ function Landing() {
       <AnimatePresence>
         <div className="min-h-fit w-full bg-gradient-to-r from-white to-transparent p-8 transition-all max-lg:from-20% lg:via-white lg:p-14">
           <h1 className="mb-8 text-2xl font-bold lg:text-6xl">
-            Indo-Spanish CALDAM Pre-Conference School
+            Indo-Spanish School  of Algorithms and Combinatorics
           </h1>
           <motion.div
             initial={{ opacity: 0 }}
@@ -58,14 +58,14 @@ function Landing() {
             <TextContraction
               className="mb-8 font-medium max-lg:hidden"
               contentStart="The school is being organized for PhD students and teachers in computer science and discrete mathematics during February 10 - 11, 2025 by the Department of Applied Mathematics and Computational Sciences, PSG College of Technology, India. The school is aimed at fulfilling two purposes"
-              contentRemaining="(i) as a pre-conference school for CALDAM 2025, (ii) as an Indo-Spanish School"
+              contentRemaining="(i) as a pre-conference school for CALDAM 2025, (ii) as an Indo-Spanish School of Algorithms and Combinatorics"
             />
           </motion.div>
 
           <TextContraction
             className="mb-8 font-medium lg:hidden"
             contentStart="The school is being organized for PhD students and teachers in computer science and discrete mathematics during February 10 - 11, 2025 by the Department of Applied Mathematics and Computational Sciences, PSG College of Technology, India. The school is aimed at fulfilling two purposes"
-            contentRemaining="(i) as a pre-conference school for CALDAM 2025, (ii) as an Indo-Spanish School"
+            contentRemaining="(i) as a pre-conference school for CALDAM 2025, (ii) as an Indo-Spanish School of Algorithms and Combinatorics"
           />
         </div>
       </AnimatePresence>

@@ -1,18 +1,24 @@
 import organizingCommitee from "@/constants/organizingcommitee.json";
 import organizingPatrons from "@/constants/organizingpatrons.json";
 import orgChair from "@/constants/organizingChair.json";
-import CardGrid from "./CardGrid";
+import OrgCardGrid from "./OrgCardGrid";
 
 export default function OrganizingCommitee() {
   return (
-    <div className="p-8 lg:p-14">
-      <p className="mb-10 text-4xl font-bold uppercase lg:text-5xl">
-        Organizing Committee
-      </p>
-      <div className="space-y-10">
-        <CardGrid data={orgChair} />
-        <CardGrid data={organizingPatrons} />
-        <CardGrid data={organizingCommitee} />
+    <div>
+      <div className="p-8 lg:p-14">
+        <p className="mb-10 text-4xl font-bold uppercase lg:text-5xl">
+          Organizing Committee
+        </p>
+        <div className="space-y-10">
+          <OrgCardGrid data={organizingPatrons} />
+          <OrgCardGrid data={orgChair} />
+        </div>
+      </div>
+      <div className=" bg-bluecolor ">
+        <div className=" p-8 lg:p-14 ">
+          <OrgCardGrid data={organizingCommitee} />
+        </div>
       </div>
     </div>
   );
