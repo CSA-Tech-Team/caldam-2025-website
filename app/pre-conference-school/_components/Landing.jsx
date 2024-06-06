@@ -22,7 +22,7 @@ function Landing() {
       <AnimatePresence>
         <div className="min-h-fit w-full bg-gradient-to-r from-white to-transparent p-8 transition-all max-lg:from-20% lg:via-white lg:p-14">
           <h1 className="mb-8 text-2xl font-bold lg:text-6xl">
-            Indo-Spanish School  of Algorithms and Combinatorics
+            Indo-Spanish Pre-Conference School on Algorithms and Combinatorics
           </h1>
           <motion.div
             initial={{ opacity: 0 }}
