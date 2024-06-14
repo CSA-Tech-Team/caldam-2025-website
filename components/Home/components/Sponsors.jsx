@@ -2,6 +2,7 @@ import sponsorsData from "@/constants/sponsors.json";
 import Image from "next/image";
 import Marquee from "react-fast-marquee";
 import Link from "next/link";
+
 const Sponsors = () => {
   return (
     <div className="bg-white p-8 lg:p-14">
@@ -17,15 +18,12 @@ const Sponsors = () => {
         {/*  direction="right"*/}
         {/*>*/}
         <div className="flex justify-center">
-          {/* {sponsorsData.map((d, index) => (
+          {sponsorsData.map((d, index) => (
             <div
               key={index}
               className="mx-2 aspect-square w-64 rounded-lg border-2 border-bluecolor p-8 max-lg:w-60"
             >
-              <Link
-              href={d.companyPageURL}
-              target="_blank"
-              >
+              <Link href={d.companyPageURL} target="_blank">
                 <Image
                   src={d.imageURL}
                   alt={d.organizationName}
@@ -36,11 +34,11 @@ const Sponsors = () => {
                 />
               </Link>
             </div>
-          ))} */}
+          ))}
           {/*</Marquee>*/}
-          <div className="flex items-center justify-center">
+          {/* <div className="flex items-center justify-center">
             <h1 className="text-2xl font-semibold">TBA</h1>
-          </div>
+          </div> */}
         </div>
       </>
       <div className=" flex items-center justify-evenly max-lg:flex-col max-lg:space-y-4 ">

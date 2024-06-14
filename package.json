@@ -4,7 +4,7 @@
   "private": true,
   "license": "MIT",
   "scripts": {
-    "dev": "PORT=5695 next dev",
+    "dev": "next dev -p 5695",
     "build": "next build",
     "start": "npx serve@latest -l 5695 out",
     "lint": "next lint",
