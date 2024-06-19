@@ -28,7 +28,7 @@ export default function OrgPeopleCard({
           )}
         </div>
         <p className=" text-lg lg:font-semibold ">
-          {position} <span>{position? ",":""}</span>{" "}
+          {position}<span>{position? ",":""}</span>
         </p>
         {deptname && (
           <span className={` text-lg lg:font-semibold `}>{deptname},</span>
