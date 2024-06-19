@@ -30,17 +30,26 @@ export default function Navbar() {
             e.preventDefault();
             router.push("/");
           }}
-          className="mr-10 text-2xl cursor-pointer "
+          className="mr-10 cursor-pointer text-2xl "
         >
           CALDAM <p className="text-center text-sm">2025</p>
         </h1>
         <div className="hidden items-center justify-between space-x-5 lg:flex">
           {NavbarElements.map((elem, index) => {
+            const newTextClasses = elem.new
+              ? "absolute -top-1 -right-4 px-2 py-1 rounded-lg text-xs font-bold text-white bg-blue-500 z-10" // Optimized classes
+              : "";
+
             return (
-              <div key={index} className="py-4 text-white">
-                <Link prefetch href={elem.link}>
+              <div key={index} className="relative py-4 text-white">
+                <Link
+                  prefetch
+                  href={elem.link}
+                  onClick={() => setOpenNavbar(!openNavbar)}
+                >
                   {elem.name}
                 </Link>
+                {elem.new && <span className={newTextClasses}>New</span>}
               </div>
             );
           })}
@@ -62,8 +71,12 @@ export default function Navbar() {
               className="absolute left-0 top-full flex w-full  origin-top flex-col items-end justify-between bg-bluecolor  p-5 lg:hidden"
             >
               {NavbarElements.map((elem, index) => {
+                const newTextClasses = elem.new
+                  ? "absolute -top-1 right-0 px-2 py-1 rounded-lg text-xs font-bold text-white bg-blue-500 z-10" // Optimized classes
+                  : "";
+
                 return (
-                  <div key={index} className="py-4 text-white">
+                  <div key={index} className="relative py-4 text-white">
                     <Link
                       prefetch
                       href={elem.link}
@@ -71,6 +84,7 @@ export default function Navbar() {
                     >
                       {elem.name}
                     </Link>
+                    {elem.new && <span className={newTextClasses}>New</span>}
                   </div>
                 );
               })}

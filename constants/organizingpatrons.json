@@ -17,18 +17,19 @@
   },
   {
     "name": " Dr. R. Nadarajan",
-    "deptname": "Director, Applied Mathematics and Computational Sciences",
-    "position":"Dean P&T",
+    "deptname": "Applied Mathematics and Computational Sciences",
+    "position":"Director",
     "collegeName": "PSG College of Technology",
     "link": "https://scholar.google.co.in/citations?user=nVjA7WMAAAAJ&hl=en",
     "country": "India"
   },
   {
     "name": "Dr. Shina Sheen",
+    "position":"Head",
     "deptname": "Applied Mathematics and Computational Sciences",
     "collegeName": "PSG College of Technology",
     "link": "https://psgtech.irins.org/profile/103372",
-    "conferenceTitle": "Convener",
+    "conferenceTitle": "Convenor",
     "country": "India"
   }
 ]

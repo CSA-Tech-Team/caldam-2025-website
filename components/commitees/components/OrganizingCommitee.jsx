@@ -12,11 +12,12 @@ export default function OrganizingCommitee() {
         </p>
         <div className="space-y-10">
           <OrgCardGrid data={organizingPatrons} />
-          <OrgCardGrid data={orgChair} />
         </div>
       </div>
       <div className=" bg-bluecolor ">
-        <div className=" p-8 lg:p-14 ">
+        <div className=" p-8 lg:p-14 space-y-10 ">
+          <OrgCardGrid data={orgChair} />
+
           <OrgCardGrid data={organizingCommitee} />
         </div>
       </div>

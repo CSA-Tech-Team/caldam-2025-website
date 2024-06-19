@@ -340,6 +340,14 @@ export default function Page() {
           </ul>
         </div>
       </div>
+      <div className="px-10 py-4 space-y-4">
+        <h1 className=" text-4xl max-lg:text-2xl font-semibold " >Proceedings</h1>
+        <p className="text-xl max-lg:text-lg">
+          As in earlier CALDAMs, the proceedings of accepted papers of CALDAM
+          2025 will be published in the Lecture Notes in Computer Science by
+          Springer.
+        </p>
+      </div>
     </main>
   );
 }
