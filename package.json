@@ -8,7 +8,8 @@
     "build": "next build",
     "start": "npx serve@latest -l 5695 out",
     "lint": "next lint",
-    "export": "next export"
+    "export": "next export",
+    "prod": "npm run build && npm run start"
   },
   "dependencies": {
     "@rive-app/react-canvas": "^4.8.3",
