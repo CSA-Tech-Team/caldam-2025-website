@@ -2,6 +2,8 @@ import organizingCommitee from "@/constants/organizingcommitee.json";
 import organizingPatrons from "@/constants/organizingpatrons.json";
 import orgChair from "@/constants/organizingChair.json";
 import OrgCardGrid from "./OrgCardGrid";
+import OrgCommitee from "./OrgCommitee";
+import OrgCardFromAMCS from "./OrgCardForAMCS";
 
 export default function OrganizingCommitee() {
   return (
@@ -15,10 +17,14 @@ export default function OrganizingCommitee() {
         </div>
       </div>
       <div className=" bg-bluecolor ">
-        <div className=" p-8 lg:p-14 space-y-10 ">
+        <div className=" space-y-10 p-8 lg:p-14 ">
           <OrgCardGrid data={orgChair} />
 
-          <OrgCardGrid data={organizingCommitee} />
+          <OrgCardGrid data={organizingCommitee} /> 
+
+          {/* <OrgCommitee data={organizingCommitee}/>  */}
+
+          {/* <OrgCardFromAMCS data={organizingCommitee} darkVariant={true} />  */}
         </div>
       </div>
     </div>
