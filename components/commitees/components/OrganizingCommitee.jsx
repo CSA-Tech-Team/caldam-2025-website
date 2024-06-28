@@ -22,7 +22,7 @@ export default function OrganizingCommitee() {
 
           {/* <OrgCardGrid data={organizingCommitee} />  */}
 
-          <OrgCommitee data={organizingCommitee}/> 
+          <OrgCommitee data={organizingCommitee} />
 
           {/* <OrgCardFromAMCS data={organizingCommitee} darkVariant={true} />  */}
         </div>
