@@ -347,7 +347,7 @@ export default function Page() {
         <p className="text-xl max-lg:text-lg">
           As in earlier CALDAMs, the proceedings of accepted papers of CALDAM
           2025 will be published in the Lecture Notes in Computer Science by
-          Springer. As with previous CALDAM conferences, this year's event
+          Springer. As with previous CALDAM conferences, this year&apos;s event
           continues the tradition of excellence with Springer
           sponsoring awards for the best student presentations.
         </p>
