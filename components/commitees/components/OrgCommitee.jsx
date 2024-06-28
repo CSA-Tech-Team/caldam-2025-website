@@ -11,10 +11,8 @@ const OrgCommitee = ({ data }) => {
 
   const handleTooltip = (name, event) => {
     // Example tooltip content
-    settooltipContent1(
-      `Applied Mathematics and Computational Sciences,`,
-    );
-    settooltipContent2(`PSG College of Technology`)
+    settooltipContent1(`Applied Mathematics and Computational Sciences,`);
+    settooltipContent2(`PSG College of Technology`);
     setTooltipPosition({ x: event.pageX, y: event.pageY });
     setShowTooltip(true);
   };
@@ -24,13 +22,13 @@ const OrgCommitee = ({ data }) => {
   };
 
   return (
-    <div className="  ">
-      <div className="mx-auto max-lg:h-[50vh] overflow-auto  max-w-7xl">
+    <div className="">
+      <div className="mx-auto max-w-7xl overflow-auto  max-lg:h-[50vh]">
         <ul className="mx-auto my-10 grid grid-cols-1 gap-6 border border-l-white border-r-white p-10 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5">
           {data.map((d, i) => (
             <li key={i} className="relative">
               <button
-                className="group text-bluecolor relative flex h-20 w-full items-center justify-center rounded-2xl bg-orange text-center text-xl font-semibold focus:outline-none"
+                className="group relative flex h-20 w-full items-center justify-center rounded-2xl bg-orange text-center text-xl font-semibold text-bluecolor focus:outline-none"
                 onMouseEnter={(e) => handleTooltip(d.name, e)}
                 onMouseLeave={hideTooltip}
                 onClick={(e) => handleTooltip(d.name, e)}

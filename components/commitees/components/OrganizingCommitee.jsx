@@ -17,7 +17,7 @@ export default function OrganizingCommitee() {
         </div>
       </div>
       <div className=" bg-bluecolor ">
-        <div className=" space-y-10 p-8 lg:p-14 ">
+        <div className=" p-8 lg:p-14 ">
           <OrgCardGrid data={orgChair} />
 
           {/* <OrgCardGrid data={organizingCommitee} />  */}
