@@ -17,12 +17,14 @@ export default function OrganizingCommitee() {
         </div>
       </div>
       <div className=" bg-bluecolor ">
-        <div className=" p-8 lg:p-14 ">
+        <div className=" p-8 max-lg:space-y-7 lg:p-14 ">
           <OrgCardGrid data={orgChair} />
 
           {/* <OrgCardGrid data={organizingCommitee} />  */}
 
-          <OrgCommitee data={organizingCommitee} />
+          <div className="max-lg:border max-lg:border-white">
+            <OrgCommitee data={organizingCommitee} />
+          </div>
 
           {/* <OrgCardFromAMCS data={organizingCommitee} darkVariant={true} />  */}
         </div>

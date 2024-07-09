@@ -189,5 +189,19 @@
     "conferenceTitle": "",
     "link": "https://homepages.iitdh.ac.in/~sen/",
     "country": "India"
+  },
+  {
+    "name": "Ahmad Biniaz",
+    "collegeName": "University of Windsor",
+    "country": "Canada",
+    "link": "https://www.uwindsor.ca/science/computerscience/1151/dr-ahmad-biniaz",
+    "conferenceTitle": ""
+  },
+  {
+    "name": "Florent Foucaud",
+    "collegeName": "Université Clermont Auvergne",
+    "country": "France",
+    "link": "https://perso.limos.fr/ffoucaud/",
+    "conferenceTitle": ""
   }
 ]

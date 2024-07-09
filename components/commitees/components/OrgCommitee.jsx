@@ -24,7 +24,7 @@ const OrgCommitee = ({ data }) => {
   return (
     <div className="">
       <div className="mx-auto max-w-7xl overflow-auto  max-lg:h-[50vh]">
-        <ul className="mx-auto my-10 grid grid-cols-1 gap-6 border border-l-white border-r-white p-10 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5">
+        <ul className="mx-auto lg:my-10 grid grid-cols-1 gap-6 lg:border border-l-white border-r-white p-10 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5">
           {data.map((d, i) => (
             <li key={i} className="relative">
               <button
