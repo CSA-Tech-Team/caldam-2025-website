@@ -5,7 +5,7 @@ import { BiLink } from "react-icons/bi";
 function InvitedSpeaker() {
   return (
     <div className="bg-bluecolor p-8 lg:p-14">
-      <h1 className="mb-10 text-4xl font-bold uppercase text-white">
+      <h1 className="mb-10 text-2xl lg:text-4xl font-bold uppercase text-white">
         Tentative List Of Invited Speakers
       </h1>
       {/* <div className="w-full flex justify-center items-center">
@@ -24,7 +24,7 @@ function InvitedSpeaker() {
                   {invitedSpeaker.name}
                 </h1>
               </Link>
-              <h1 className=" text-md lg:text-lg">
+              <h1 className=" text-lg lg:text-xl">
                 {invitedSpeaker.collegeName}
               </h1>
               {/* <div className=" h-0.5 w-full border border-b-2 border-black " />
