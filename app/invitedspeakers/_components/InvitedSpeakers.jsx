@@ -16,17 +16,21 @@ function InvitedSpeaker() {
           return (
             <div
               key={index}
-              className="flex flex-col items-center justify-center space-y-5 rounded-lg bg-white px-6 py-6 text-black"
+              className="flex flex-col items-center justify-start space-y-5 rounded-lg bg-white px-6 py-6 text-black"
             >
               <Link href={invitedSpeaker.link} className="flex items-center justify-center" >
                 <BiLink />
-                <h1 className="text-2xl font-bold lg:text-3xl">
+                <h1 className="text-2xl align-text-top font-bold lg:text-3xl">
                   {invitedSpeaker.name}
                 </h1>
               </Link>
-              <h1 className=" text-lg lg:text-xl">
+             <div
+             className="grid place-content-between"
+             >
+             <h1 className="text-lg lg:text-xl">
                 {invitedSpeaker.collegeName}
               </h1>
+             </div>
               {/* <div className=" h-0.5 w-full border border-b-2 border-black " />
               <h1 className="text-lg lg:text-2xl">
                 Topic:{invitedSpeaker.topic}
