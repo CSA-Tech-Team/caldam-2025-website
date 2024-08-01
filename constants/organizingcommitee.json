@@ -1,7 +1,7 @@
 [
   
   {
-    "name": "A. Muthusamy",
+    "name": "S. Deepa",
     "deptname": "Applied Mathematics and Computational Sciences",
     "link": "",
     "collegeName":"PSG College of Technology",
@@ -22,7 +22,14 @@
     "deptname":"Applied Mathematics and Computational Sciences"
   },
   {
-    "name": "K. Mohan",
+    "name": "M. Kasturi Bai",
+    "collegeName": "PSG College of Technology",
+    "link": "",
+    "country":"India",
+    "deptname":"Applied Mathematics and Computational Sciences"
+  },
+  {
+    "name": "V. Dinakar",
     "collegeName": "PSG College of Technology",
     "link": "",
     "country":"India",
@@ -30,6 +37,34 @@
   },
   {
     "name": "R. Krishnasamy",
+    "collegeName": "PSG College of Technology",
+    "link": "",
+    "country":"India",
+    "deptname":"Applied Mathematics and Computational Sciences"
+  },
+  {
+    "name": "K. Lakshmi Kalpana Roy",
+    "collegeName": "PSG College of Technology",
+    "link": "",
+    "country":"India",
+    "deptname":"Applied Mathematics and Computational Sciences"
+  },
+  {
+    "name": "S. Gowrisankar",
+    "collegeName": "PSG College of Technology",
+    "link": "",
+    "country":"India",
+    "deptname":"Applied Mathematics and Computational Sciences"
+  },
+  {
+    "name": "G. Uma Vetriselvi",
+    "collegeName": "PSG College of Technology",
+    "link": "",
+    "country":"India",
+    "deptname":"Applied Mathematics and Computational Sciences"
+  },
+  {
+    "name": "S. Sindhuja",
     "collegeName": "PSG College of Technology",
     "link": "",
     "country":"India",
@@ -44,6 +79,13 @@
   },
   {
     "name": "P. B. Abilasha",
+    "collegeName": "PSG College of Technology",
+    "link": "",
+    "country":"India",
+    "deptname":"Applied Mathematics and Computational Sciences"
+  },
+  {
+    "name": "C. Rithika",
     "collegeName": "PSG College of Technology",
     "link": "",
     "country":"India",
