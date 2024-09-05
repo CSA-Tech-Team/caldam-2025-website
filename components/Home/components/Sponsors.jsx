@@ -17,7 +17,7 @@ const Sponsors = () => {
         {/*  pauseOnHover={true}*/}
         {/*  direction="right"*/}
         {/*>*/}
-        <div className="flex justify-center">
+        <div className="flex justify-evenly items-center">
           {sponsorsData.map((d, index) => (
             <div
               key={index}

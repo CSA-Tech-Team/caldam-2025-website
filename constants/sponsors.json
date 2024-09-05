@@ -3,5 +3,10 @@
         "organizationName": "Springer",
         "imageURL": "springer-logo.svg",
         "companyPageURL": "https://www.springer.com/in"
+    },
+    {
+        "organizationName":"IIT Bhilai",
+        "imageURL":"Logo_of_IIT_Bhilai.png",
+        "companyPageURL":"https://www.iitbhilai.ac.in/"
     }
 ]
