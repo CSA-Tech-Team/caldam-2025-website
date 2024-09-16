@@ -2,7 +2,14 @@
     {
         "organizationName": "Springer",
         "imageURL": "springer-logo.svg",
-        "companyPageURL": "https://www.springer.com/in"
+        "companyPageURL": "https://www.springer.com/in",
+        "sponsoring":"Conference"
+    },
+    {
+        "organizationName": "Google",
+        "imageURL": "google-logo.svg",
+        "companyPageURL": "https://google.com",
+        "sponsoring":"Conference"
     },
     {
         "organizationName":"IIT Bhilai",
