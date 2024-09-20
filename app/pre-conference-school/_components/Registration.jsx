@@ -19,9 +19,10 @@ export default function Registration() {
       <button className=" space-x-5 rounded-2xl bg-[#FCA311] px-5  py-3 font-semibold text-black  ">
         <Link
           prefetch
-          href={`/pre-conference-school/registration`}
+          href={`https://forms.gle/bLQzsE6VPY1eLC666`}
           target="_blank"
           className=" flex items-center  gap-x-3 text-lg lg:text-xl "
+
         >
           Register
           <svg

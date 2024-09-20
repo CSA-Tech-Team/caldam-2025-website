@@ -5,11 +5,12 @@ import Registration from "./_components/Registration";
 import YoungResearchersForum from "./_components/YoungResearchersForum";
 import Sponsors from "@/components/Home/components/Sponsors";
 import SchedulesAndAbstract from "./_components/SchedulesAndAbstract";
+import Organizers from "@/components/Home/components/Organizers";
 
 export const metadata = {
   title: "CALDAM 2025 | Pre-Conference School",
-  description: "Information about the pre-conference school for CALDAM 2025."
-}
+  description: "Information about the pre-conference school for CALDAM 2025.",
+};
 
 export default function page() {
   return (
@@ -19,8 +20,9 @@ export default function page() {
       <ListOfSpeakers />
       <Registration />
       <Coordinators />
-      <YoungResearchersForum/>
-      <Sponsors/>
+      <YoungResearchersForum />
+      <Organizers />
+      <Sponsors />
     </div>
   );
 }

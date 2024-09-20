@@ -8,5 +8,10 @@
         "organizationName": "Association for Computer Science and Discrete Mathematics",
         "imageURL": "Frame 1.png",
         "companyPageURL": "http://acsdm.in/acsdm/index.html"
+    },
+    {
+        "organizationName":"IIT Bhilai",
+        "imageURL":"Logo_of_IIT_Bhilai.png",
+        "companyPageURL":"https://www.iitbhilai.ac.in/"
     }
 ]

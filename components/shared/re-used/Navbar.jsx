@@ -55,7 +55,7 @@ export default function Navbar() {
                     onClick={() => setOpenNavbar(false)}
                     className={newTextClasses}
                   >
-                    New
+                    {elem.new}
                   </Link>
                 )}
               </div>

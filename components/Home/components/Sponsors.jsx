@@ -4,7 +4,7 @@ import sponsorsData from "@/constants/sponsors.json";
 import Image from "next/image";
 import Link from "next/link";
 
-const Sponsors = () => {
+const Sponsors = ({bg}) => {
   const pathname = usePathname();
 
   const filteredSponsors =
@@ -13,7 +13,7 @@ const Sponsors = () => {
       : sponsorsData.filter((d) => d.organizationName !== "IIT Bhilai");
 
   return (
-    <div className="bg-white p-8 lg:p-14">
+    <div className={`${bg} p-8 lg:p-14`}>
       <h1 className="mb-10 text-4xl font-bold uppercase text-bluecolor">
         Sponsors
       </h1>

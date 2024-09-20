@@ -9,20 +9,20 @@
   },
   {
     "name": "Call For Papers",
-    "link": "/call-for-papers",
-    "new": "New"
+    "link": "/call-for-papers"
   },
   {
     "name": "Invited Speakers",
     "link": "/invitedspeakers"
   },
   {
-    "name": "Registration",
+    "name": "Conference Registration",
     "link": "/registration"
   },
   {
     "name": "Pre-Conference School",
-    "link": "/pre-conference-school"
+    "link": "/pre-conference-school",
+    "new":"Registration Opens"
   },
   {
     "name": "Venue",
