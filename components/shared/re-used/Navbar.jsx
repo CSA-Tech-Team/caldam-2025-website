@@ -51,7 +51,7 @@ export default function Navbar() {
                 </Link>
                 {elem.new && (
                   <Link
-                    href="/call-for-papers#proceedings"
+                    href={elem.link}
                     onClick={() => setOpenNavbar(false)}
                     className={newTextClasses}
                   >
