@@ -3,7 +3,7 @@ import React from "react";
 
 export default function Registration() {
   return (
-    <div className=" space-y-5 bg-bluecolor px-9 py-7 text-white lg:px-12 ">
+    <div id="new" className=" space-y-5 bg-bluecolor px-9 py-7 text-white lg:px-12 ">
       <h1 className="text-3xl font-bold uppercase xl:text-3xl 2xl:text-4xl ">
         Registration
       </h1>
@@ -16,13 +16,13 @@ export default function Registration() {
         registration will start on September 01, 2024.
         {/* end on November 01, 2024. */}
       </p>
-      <button className=" space-x-5 rounded-2xl bg-[#FCA311] px-5  py-3 font-semibold text-black  ">
+      <button  className=" space-x-5 rounded-2xl bg-[#FCA311] px-5  py-3 font-semibold text-black  ">
         <Link
           prefetch
           href={`https://forms.gle/bLQzsE6VPY1eLC666`}
           target="_blank"
           className=" flex items-center  gap-x-3 text-lg lg:text-xl "
-
+          id="new"
         >
           Register
           <svg

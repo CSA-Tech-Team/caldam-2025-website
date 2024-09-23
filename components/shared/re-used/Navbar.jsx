@@ -51,7 +51,7 @@ export default function Navbar() {
                 </Link>
                 {elem.new && (
                   <Link
-                    href={elem.link}
+                    href={elem.newlink}
                     onClick={() => setOpenNavbar(false)}
                     className={newTextClasses}
                   >
@@ -94,11 +94,11 @@ export default function Navbar() {
                     </Link>
                     {elem.new && (
                       <Link
-                        href="/call-for-papers#proceedings"
+                        href={elem.newlink}
                         onClick={() => setOpenNavbar(false)}
                         className={newTextClasses}
                       >
-                        New
+                        {elem.new}
                       </Link>
                     )}
                   </div>

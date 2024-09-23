@@ -22,7 +22,8 @@
   {
     "name": "Pre-Conference School",
     "link": "/pre-conference-school",
-    "new":"Registration Opens"
+    "new":"Registration Opens",
+    "newlink":"/pre-conference-school#new"
   },
   {
     "name": "Venue",
