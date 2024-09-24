@@ -6,11 +6,72 @@ import Linker from "@/components/shared/re-used/Linker";
 import CaldamTopics from "@/constants/caldamTopics.json";
 import Link from "next/link";
 import TextContraction from "@/components/Home/components/TextContraction";
+import { Square } from "lucide-react";
 
+function Component() {
+  return (
+    <div className="rounded-lg">
+      <div className="relative space-y-4">
+        <div className="absolute bottom-16 left-[11px] top-4 w-0.5 bg-white/55" />
+        <div className="absolute bottom-16 left-0 top-0 w-full rounded-lg " />
+        <TimelineItem
+          icon={<Square className="h-4 w-4 bg-yellow-500 text-yellow-500" />}
+          title="Last date for Paper Submission"
+          date=", 2024, AoE"
+          strikeoff="September 27"
+          content="September 30"
+        />
+        <TimelineItem
+          icon={<Square className="h-4 w-4 bg-white text-white" />}
+          title="Last date for Revision of Submission by Author(s)"
+          date="October 2, 2024, 6 pm IST"
+          // description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        />
+        <TimelineItem
+          icon={<Square className="h-4 w-4 bg-white text-white" />}
+          title="Notification of Acceptance"
+          date="November 12, 2024, AoE"
+        />
+        <TimelineItem
+          icon={<Square className="h-4 w-4 bg-white text-white" />}
+          title="Camera-ready Version"
+          date="November 22, 2024, AoE"
+        />
+      </div>
+    </div>
+  );
+}
+
+function TimelineItem({ icon, title, date, description, strikeoff, content }) {
+  return (
+    <div className="  relative z-10 flex ">
+      <div className="mr-4 flex flex-col items-center">
+        <div className="rounded-full  p-1">{icon}</div>
+      </div>
+      <div className="flex w-full items-start justify-between space-x-5 ">
+        <h3 className={`text-lg font-semibold  text-white`}>{title}</h3>
+        <p className="text-sm text-gray-300">
+          {" "}
+          <span className="text-sm text-gray-300 line-through">
+            {strikeoff}
+          </span>{" "}
+          <span className="absolute -top-5 right-3 lg:right-[76px] ">
+            {content}
+          </span>{" "}
+          {date}
+        </p>
+        {description && (
+          <p className="mt-2 text-sm text-gray-300">{description}</p>
+        )}
+      </div>
+    </div>
+  );
+}
 export const metadata = {
   title: "CALDAM 2025 | Call For Papers",
   description: "Call For Papers for CALDAM 2025.",
 };
+
 export default function Page() {
   return (
     <main>
@@ -18,7 +79,7 @@ export default function Page() {
         <h1 className="font-semibold text-white max-md:text-[30px] max-sm:text-[24px] lg:text-[36px] ">
           SUBMISSION DETAILS
         </h1>
-        <div className="w-full justify-between py-8 max-md:flex max-md:flex-col max-md:px-8 max-sm:px-0 lg:flex lg:px-12">
+        <div className="w-full justify-around py-8 max-md:flex max-md:flex-col max-md:px-8 max-sm:px-0 lg:flex lg:px-12">
           <div className="h-fit flex-col gap-y-5 py-3 max-md:flex max-sm:flex max-sm:gap-y-5 sm:w-[100%] md:flex md:w-[100%] md:gap-y-5 lg:flex lg:w-[45%]">
             <div className="flex w-[100%] items-center justify-between rounded-xl bg-white pr-3  text-sm font-extralight">
               <div className="flex items-center gap-x-5  ">
@@ -143,7 +204,7 @@ export default function Page() {
               </Link>
             </div> */}
           </div>
-          <div className="h-fit gap-x-4 py-3 max-md:flex max-md:w-[100%] max-sm:flex md:flex md:w-[100%] lg:flex lg:w-[45%]">
+          {/* <div className="h-fit gap-x-4 py-3 max-md:flex max-md:w-[100%] max-sm:flex md:flex md:w-[100%] lg:flex lg:w-[45%]">
             <div>
               <svg
                 width="32"
@@ -212,8 +273,11 @@ export default function Page() {
               </svg>
             </div>
             <div className="max-md:animate-marquee flex flex-col items-stretch justify-stretch text-left text-white lg:space-y-7 ">
-              <h1 className="px-1">
-                Last date for Paper Submission - September 27, 2024, AoE{" "}
+              <h1 className="relative px-1 ">
+                Last date for Paper Submission -
+                <span className=" absolute -top-5">September 30</span>
+                <span className="ml-2 line-through ">September 27</span>, 2024,
+                AoE{" "}
               </h1>
               <h1 className="px-1">
                 Notification of Acceptance - November 12, 2024, AoE{" "}
@@ -221,8 +285,9 @@ export default function Page() {
               <span className="px-1">
                 Camera-ready Version - November 22, 2024, AoE{" "}
               </span>
-            </div>
-          </div>
+            </div>{"1"}
+          </div> */}
+          <Component />
         </div>
       </div>
       <div className=" px-10 py-12 lg:px-14 lg:py-16 ">
@@ -348,8 +413,8 @@ export default function Page() {
           As in earlier CALDAMs, the proceedings of accepted papers of CALDAM
           2025 will be published in the Lecture Notes in Computer Science by
           Springer. As with previous CALDAM conferences, this year&apos;s event
-          continues the tradition of excellence with Springer
-          sponsoring awards for the best student presentations.
+          continues the tradition of excellence with Springer sponsoring awards
+          for the best student presentations.
         </p>
       </div>
     </main>

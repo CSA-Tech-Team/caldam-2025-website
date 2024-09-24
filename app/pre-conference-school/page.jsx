@@ -22,7 +22,7 @@ export default function page() {
       <Coordinators />
       <YoungResearchersForum />
       <Organizers />
-      <Sponsors />
+      {/* <Sponsors /> */}
     </div>
   );
 }

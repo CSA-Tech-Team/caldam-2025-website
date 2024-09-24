@@ -15,6 +15,15 @@
     "year": "2024",
     "navigateTo": "/call-for-papers"
   },
+
+  {
+    "preConferenceSchoolEventName": "Last date for Revision of Submission by Author(s)",
+    "isOpen": true,
+    "startMonth": "Oct",
+    "StartDate": "2nd",
+    "year": "2024",
+    "navigateTo": "/call-for-papers"
+  },
   {
     "preConferenceSchoolEventName": "Online registration for Indo-Spanish CALDAM Pre-Conference School ends",
     "isOpen": true,
@@ -24,7 +33,7 @@
     "navigateTo": "/pre-conference-school"
   },
   {
-    "preConferenceSchoolEventName": "Notification of Acceptance",
+    "preConferenceSchoolEventName": "Notification of Acceptance of Paper",
     "isOpen": true,
     "startMonth": "Nov",
     "StartDate": "12th",
@@ -32,7 +41,7 @@
     "navigateTo": "/call-for-papers"
   },
   {
-    "preConferenceSchoolEventName": "Camera-ready Version",
+    "preConferenceSchoolEventName": "Camera-ready Version of Paper",
     "isOpen": false,
     "startMonth": "Nov",
     "StartDate": "22nd",

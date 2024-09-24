@@ -85,11 +85,18 @@ export default function Updates() {
                 >
                   <div className="z-10 w-40 rounded-md bg-orange p-4 text-center text-xl lg:text-2xl">
                     <div>
-                      <p className="font-semibold">
-                        {update.StartDate}
+                      <div className="font-semibold">
+                        {update.StartDate !== "27th" ? (
+                          update.StartDate
+                        ) : (
+                          <div>
+                            <p>30th</p>
+                            <p className="line-through">{update.StartDate}</p>
+                          </div>
+                        )}
                         {update.EndDate ? "-" : ""}
                         {update.EndDate}
-                      </p>{" "}
+                      </div>{" "}
                       <p>{update.startMonth}</p>
                       <p>{update.year}</p>
                     </div>
