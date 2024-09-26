@@ -10,7 +10,8 @@ import { HiSpeakerWave } from "react-icons/hi2";
 import speak from "@/components/actions/speak";
 import Link from "next/link";
 import { RiArrowRightUpFill } from "react-icons/ri";
-
+import EnhancedSparkleButton from "./EnhancedButton";
+import Component from "./ButtonHome";
 function Landing() {
   return (
     <div
@@ -76,13 +77,17 @@ function Landing() {
           <motion.div
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
-            className="flex flex-col text-lg max-lg:mb-8 max-lg:justify-center max-lg:space-y-2 lg:flex-row lg:justify-start lg:space-x-4"
+            className="flex flex-col items-center text-lg  max-lg:mb-8 max-lg:justify-center max-lg:space-y-2 lg:flex-row lg:justify-start lg:space-x-4"
           >
             <Link href={"/call-for-papers"}>
               <button className="rounded-lg bg-orange px-6 py-2">
                 Call for Papers
               </button>
             </Link>
+            <div>
+              <Component /> 
+            </div>
+            {/* <EnhancedSparkleButton/> */}
             {/* <Link href={"/accepted-papers"}>
               <button className="rounded-lg bg-orange px-6 py-2">
                 Accepted Papers

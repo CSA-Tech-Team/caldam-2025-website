@@ -7,12 +7,12 @@ import CaldamTopics from "@/constants/caldamTopics.json";
 import Link from "next/link";
 import TextContraction from "@/components/Home/components/TextContraction";
 import { Square } from "lucide-react";
-
+// import Component from "./_components/Component";
 function Component() {
   return (
     <div className="rounded-lg">
       <div className="relative space-y-4">
-        <div className="absolute bottom-16 left-[11px] top-4 w-0.5 bg-white/55" />
+        <div className="absolute bottom-10 lg:bottom-5 left-[11px] top-4 w-0.5 bg-white/55" />
         <div className="absolute bottom-16 left-0 top-0 w-full rounded-lg " />
         <TimelineItem
           icon={<Square className="h-4 w-4 bg-yellow-500 text-yellow-500" />}
@@ -44,22 +44,27 @@ function Component() {
 
 function TimelineItem({ icon, title, date, description, strikeoff, content }) {
   return (
-    <div className="  relative z-10 flex ">
+    <div className="relative z-10 flex">
       <div className="mr-4 flex flex-col items-center">
-        <div className="rounded-full  p-1">{icon}</div>
+        <div className="rounded-full p-1">{icon}</div>
       </div>
-      <div className="flex w-full items-start justify-between space-x-5 ">
-        <h3 className={`text-lg font-semibold  text-white`}>{title}</h3>
-        <p className="text-sm text-gray-300">
-          {" "}
-          <span className="text-sm text-gray-300 line-through">
-            {strikeoff}
-          </span>{" "}
-          <span className="absolute -top-5 right-3 lg:right-[76px] ">
-            {content}
-          </span>{" "}
-          {date}
-        </p>
+      <div className="flex w-full items-start">
+        <div className="flex flex-col w-full lg:flex-row justify-between space-x-5">
+          <h3 className="text-lg font-semibold text-white min-w-[250px]">{title}</h3>
+          <div className="flex flex-col">
+            {strikeoff && (
+              <span className=" lg:absolute lg:-top-5 text-sm text-gray-300 line-through mb-1">
+                {strikeoff}
+              </span>
+            )}
+            <div className="flex space-x-2">
+              {content && (
+                <span className="text-sm text-gray-300">{content}</span>
+              )}
+              <span className="text-sm text-gray-300">{date}</span>
+            </div>
+          </div>
+        </div>
         {description && (
           <p className="mt-2 text-sm text-gray-300">{description}</p>
         )}
@@ -67,6 +72,9 @@ function TimelineItem({ icon, title, date, description, strikeoff, content }) {
     </div>
   );
 }
+
+
+
 export const metadata = {
   title: "CALDAM 2025 | Call For Papers",
   description: "Call For Papers for CALDAM 2025.",

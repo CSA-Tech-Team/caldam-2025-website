@@ -49,7 +49,7 @@ export default function Navbar() {
               <div key={index} className="relative py-4">
                 {/* New or animated element for desktop */}
                 {elem.new && (
-                  <div className={newTextClasses}>
+                  <div className="absolute -top-1 lg:-left-2 lg:w-[200px] px-2 py-1 rounded-lg text-xs font-bold text-white bg-blue-500 z-10">
                     <SparklingText content={elem} />
                   </div>
                 )}
@@ -91,7 +91,7 @@ export default function Navbar() {
             >
               {NavbarElements.map((elem, index) => {
                 const newTextClasses = elem.new
-                  ? "absolute -top-1 right-0 px-2 py-1 rounded-lg text-xs font-bold text-white bg-blue-500 z-10 hover:cursor-pointer"
+                  ? "absolute -top-1 px-2 py-1 rounded-lg text-xs font-bold text-white bg-blue-500 z-10 hover:cursor-pointer"
                   : "";
 
                 return (

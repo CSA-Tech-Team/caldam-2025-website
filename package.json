@@ -4,7 +4,7 @@
   "private": true,
   "license": "MIT",
   "scripts": {
-    "dev": "next dev -p 3001",
+    "dev": "next dev -p 5695",
     "build": "next build",
     "start": "npx serve@latest -l 5695 out",
     "lint": "next lint",
@@ -14,7 +14,7 @@
   "dependencies": {
     "@rive-app/react-canvas": "^4.8.3",
     "cssnano": "^7.0.0",
-    "framer-motion": "^11.0.15",
+    "framer-motion": "^11.7.0",
     "lucide-react": "^0.445.0",
     "next": "14.1.2",
     "react": "^18",
