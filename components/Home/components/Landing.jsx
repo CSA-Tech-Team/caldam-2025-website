@@ -84,9 +84,9 @@ function Landing() {
                 Call for Papers
               </button>
             </Link>
-            <div>
+            {/* <div>
               <Component /> 
-            </div>
+            </div> */}
             {/* <EnhancedSparkleButton/> */}
             {/* <Link href={"/accepted-papers"}>
               <button className="rounded-lg bg-orange px-6 py-2">
