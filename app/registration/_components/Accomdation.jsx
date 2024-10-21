@@ -14,7 +14,7 @@ export default function Accomdation() {
       <div className="space-y-3 text-xl leading-tight">
         <p className="before:content-[' '] relative pl-6 before:absolute before:left-0 before:top-[5px] before:m-auto before:h-2 before:w-2 before:rounded-full before:bg-orange">
           For all speakers and participants, Lunch and banquet will be provided
-          with no adiitional cost.
+          with no additional cost.
         </p>
         <p className="before:content-[' '] relative pl-6 before:absolute before:left-0 before:top-[5px] before:m-auto before:h-2 before:w-2 before:rounded-full before:bg-orange">
           Accommodation for all participants will be provided in student hostels
