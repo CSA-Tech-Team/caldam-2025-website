@@ -3,6 +3,7 @@ import Link from "next/link";
 import React from "react";
 import Accomdation from "./_components/Accomdation";
 import RegistrationTable from "./_components/RegistrationTable";
+import PaymentDetailsTable from "./_components/PaymentDetailsTable";
 
 export const metadata = {
   title: "CALDAM 2025 | Registration",
@@ -293,6 +294,7 @@ export default function Page() {
               </svg>
             </Link>
           </button>
+          <PaymentDetailsTable />
         </div>
       </div>
       <Accomdation />
