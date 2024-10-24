@@ -21,7 +21,7 @@ export default function Page() {
               Bank Classification 2022 (see:{" "}
               <span className=" text-blue-700 ">
                 <Link
-                target="_blank"
+                  target="_blank"
                   href={`https://datatopics.worldbank.org/world-development-indicators/the-world-by-income-and-region.html`}
                 >
                   https://datatopics.worldbank.org/world-development-indicators/the-world-by-income-and-region.html
@@ -145,9 +145,8 @@ export default function Page() {
               tea/coffee and banquet dinner.
             </p>
             <p>
-              * Registered students of accepted papers  also have
-              the option to attend the pre-conference school without any
-              additional charges.
+              * Registered students of accepted papers also have the option to
+              attend the pre-conference school without any additional charges.
             </p>
           </div>
         </div>
@@ -178,23 +177,10 @@ export default function Page() {
           <div className="ml-6 border-l-8 border-orange py-4 pl-5">
             <ul className="space-y-2 text-lg font-light leading-tight text-white lg:text-xl">
               <li className="before:content-[' '] relative pl-6 before:absolute before:left-0 before:top-[5px] before:m-auto before:h-2 before:w-2 before:rounded-full before:bg-orange">
-                Transfer the respective registration fee as per the above table
-                using the steps mentioned below.
+                Mode of Registration: NEFT /UPI
               </li>
               <li className="before:content-[' '] relative pl-6 before:absolute before:left-0 before:top-[5px] before:m-auto before:h-2 before:w-2 before:rounded-full before:bg-orange">
-                After payment, please send the transaction receipt and details
-                to{" "}
-                <span className=" text-orange">
-                  {/* <Link
-                    target="_blank"
-                    href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=caldam2025@psgtech.ac.in"
-                    className=" lg:text-lg "
-                    prefetch
-                  > */}
-                  caldam2025@psgtech.ac.in
-                  {/* </Link> */}
-                </span>
-                .
+                Transfer the respective registration fee as per the above table
               </li>
             </ul>
           </div>
@@ -214,38 +200,24 @@ export default function Page() {
                 />
               </svg>
             </div>
-            <div>REGISTRATION</div>
+            <div>SOFT COPIES/DETAILS REQUIRED TO REGISTER</div>
           </div>
           <div className="ml-6 border-l-8 border-orange py-4 pl-5">
             <ul className="space-y-2 text-lg font-light leading-tight text-white lg:text-xl">
               <li className="before:content-[' '] relative pl-6 before:absolute before:left-0 before:top-[5px] before:m-auto before:h-2 before:w-2 before:rounded-full before:bg-orange">
-                After transferring the registration fee, please fill the{" "}
-                <span className=" text-orange">
-                  <Link
-                    href="/registration/register"
-                    className=" lg:text-lg "
-                    prefetch
-                  >
-                    Conference Registration Form
-                  </Link>
-                </span>
-                .
+                Payment proof - screenshot/pdf file
               </li>
               <li className="before:content-[' '] relative pl-6 before:absolute before:left-0 before:top-[5px] before:m-auto before:h-2 before:w-2 before:rounded-full before:bg-orange">
-                Those who register as students are directed to submit a soft
-                copy of a certificate stating that (s)he is a bonafide student,
-                from their respective supervising guide/HoD to{" "}
-                <span className=" text-orange">
-                  {/* <Link
-                    target="_blank"
-                    href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=caldam2025@psgtech.ac.in"
-                    className=" lg:text-lg "
-                    prefetch
-                  > */}
-                  caldam2025@psgtech.ac.in
-                  {/* </Link> */}
-                </span>
-                .
+                Registration Fee - Transaction Reference Number/ID
+              </li>
+              <li className="before:content-[' '] relative pl-6 before:absolute before:left-0 before:top-[5px] before:m-auto before:h-2 before:w-2 before:rounded-full before:bg-orange">
+                If registering under student Category (both Indian and Foreign)
+                an e-copy of a certification from your supervising Guide/HoD
+                stating that you are a bonafide student{" "}
+              </li>
+              <li className="before:content-[' '] relative pl-6 before:absolute before:left-0 before:top-[5px] before:m-auto before:h-2 before:w-2 before:rounded-full before:bg-orange">
+                If you are presenting a paper during CALDAM2025 then the title
+                of the paper along with paper id{" "}
               </li>
             </ul>
           </div>
@@ -270,11 +242,19 @@ export default function Page() {
           <div className="ml-6 py-4 pl-5">
             <ul className="space-y-2 text-lg font-light leading-tight text-white lg:text-xl">
               <li className="before:content-[' '] relative pl-6 before:absolute before:left-0 before:top-[5px] before:m-auto before:h-2 before:w-2 before:rounded-full before:bg-orange">
-                A registered student of accepted paper must send an e-mail to the
-                conference chair for inclusion in the pre-conference school.
+                A registered student of accepted paper must send an e-mail to
+                the conference chair for inclusion in the pre-conference school{" "}
+                <a
+                  href="https://mail.google.com/mail/?view=cm&fs=1&to=caldam2025@psgtech.ac.in"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-orange"
+                >
+                  caldam2025@psgtech.ac.in
+                </a>
               </li>
               <li className="before:content-[' '] relative pl-6 before:absolute before:left-0 before:top-[5px] before:m-auto before:h-2 before:w-2 before:rounded-full before:bg-orange">
-                Thank you for registering for CALDAM 2025.
+                Thank you for CALDAM 2025 conference registration.
               </li>
               <li className="before:content-[' '] relative pl-6 before:absolute before:left-0 before:top-[5px] before:m-auto before:h-2 before:w-2 before:rounded-full before:bg-orange">
                 You should be receiving a confirmation mail for the registration
@@ -282,6 +262,37 @@ export default function Page() {
               </li>
             </ul>
           </div>
+          <button className=" ml-10 w-[150px] space-x-5 rounded-2xl bg-[#FCA311] px-5  py-3 font-semibold text-black  ">
+            <Link
+              prefetch
+              href={`https://forms.gle/52W1hqM7yqZFbaBLA`}
+              target="_blank"
+              className=" flex items-center  gap-x-3 text-lg lg:text-xl "
+              id="new"
+            >
+              Register
+              <svg
+                width="19"
+                height="19"
+                viewBox="0 0 19 19"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M2.87695 0.864496C2.87695 0.387048 3.264 0 3.74145 0H18.9982V1.72899H3.74145C3.264 1.72899 2.87695 1.34194 2.87695 0.864496Z"
+                  fill="#102133"
+                />
+                <path
+                  d="M18.1349 16.1373C17.6579 16.1373 17.2712 15.7507 17.2712 15.2737V8.01086e-05H18.9985V15.2737C18.9985 15.7507 18.6118 16.1373 18.1349 16.1373Z"
+                  fill="#102133"
+                />
+                <path
+                  d="M0.534466 18.4649C0.239289 18.1695 0.239289 17.6904 0.534466 17.3949L17.9122 -7.11603e-05L18.9811 1.06993L1.6034 18.4649C1.30822 18.7604 0.829644 18.7604 0.534466 18.4649Z"
+                  fill="#102133"
+                />
+              </svg>
+            </Link>
+          </button>
         </div>
       </div>
       <Accomdation />
