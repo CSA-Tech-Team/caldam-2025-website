@@ -49,7 +49,7 @@ export default function Navbar() {
               <div key={index} className="relative py-4">
                 {/* New or animated element for desktop */}
                 {elem.new && (
-                  <div className="absolute -top-1 lg:-left-2 lg:w-[200px] px-2 py-1 rounded-lg text-xs font-bold text-white bg-blue-500 z-10">
+                  <div className="absolute -top-1 lg:-left-1 lg:w-[130px] px-2 py-1 rounded-lg text-xs font-bold text-white bg-blue-500 z-10">
                     <SparklingText content={elem} />
                   </div>
                 )}
