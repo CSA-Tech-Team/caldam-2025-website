@@ -9,11 +9,11 @@ function InvitedSpeaker() {
       <h1 className="mb-10 text-2xl lg:text-4xl font-bold uppercase text-white">
         Tentative List Of Invited Speakers
       </h1>
-      <div className="grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3 text-white">
+      <div className="grid grid-cols-1 gap-5 md:grid-cols-2  lg:grid-cols-3 text-white">
         {invitedspeakers.map((invitedSpeaker, index) => (
           <div
             key={index}
-            className="flex flex-col items-center space-y-3 rounded-lg bg-white p-6 text-black"
+            className="flex flex-col items-center justify-evenly space-y-3 rounded-lg bg-white p-6 text-black"
           >
             <Link href={invitedSpeaker.link} className="flex items-center space-x-2">
               <BiLink className="text-xl lg:text-2xl" />
@@ -24,6 +24,14 @@ function InvitedSpeaker() {
             <h1 className="text-lg lg:text-xl text-center">
               {invitedSpeaker.collegeName}
             </h1>
+            {invitedSpeaker.topic ? (
+              <div>
+                <div className=" h-0.5 w-full border border-b-2 border-black mb-3 " />
+
+                <h1 className="text-2xl lg:text-3xl font-bold text-headingColor">Title of Talk:</h1>
+                <h1 className="p-3 text-xl font-semibold text-bluecolor ">{invitedSpeaker?.topic}</h1>
+              </div>
+            ) : ""}
           </div>
         ))}
       </div>
