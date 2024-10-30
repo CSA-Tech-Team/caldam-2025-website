@@ -1,6 +1,6 @@
 import React from "react";
 import AccomdationPrice from "./AccomdationPrice";
-
+import Link from "next/link"
 export default function Accomdation() {
   return (
     <div className=" p-6 lg:p-10 ">
@@ -52,6 +52,14 @@ export default function Accomdation() {
         </Link>
       </p> */}
       <AccomdationPrice />
+      <p className="before:content-[' '] text-2xl relative pl-6 font-semibold before:absolute before:left-0 before:top-[5px] before:m-auto before:h-4 before:w-4 before:rounded-full before:bg-orange">
+        <Link
+          href="https://www.makemytrip.com/hotels/hotel-listing/?checkin=02092025&city=CTCJB&mmPoiTag=LPOI%7CPSG%20College%20Of%20Technology%7CCTCJB%7C11.0242544%7C77.00282279999999&checkout=02152025&roomStayQualifier=2e0e&locusId=CTCJB&country=IN&locusType=city&searchText=PSG%20College%20Of%20Technology,%20Avinashi%20Road,%20Peelamedu,%20Coimbatore,%20Tamil%20Nadu,%20India&regionNearByExp=3&rsc=1e2e0e"
+          target="_blank"
+        >
+          Hotels around the Conference Venue (Click here)
+        </Link>
+      </p>
     </div>
   );
 }
