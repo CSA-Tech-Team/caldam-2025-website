@@ -1,8 +1,7 @@
 import Link from "next/link";
 import Marquee from "react-fast-marquee";
-import links from "@/constants/links-marquee.json";
 
-const LinksMarquee = () => {
+const LinksMarquee = ({ links }) => {
   return (
     <Marquee
       className="mb-2 bg-bluecolor text-sm text-white lg:text-xl"
@@ -18,10 +17,17 @@ const LinksMarquee = () => {
               <Link prefetch target="_blank" href={link.weblink}>
                 {link.name}
               </Link>
-              <div className="w-px bg-white"></div>
-              <Link prefetch target="_blank" href={link.proceedingsLink}>
-                {link.name.slice(6,link.name.length)} Proceedings
-              </Link>
+              {
+                link.proceedingsLink ? <>
+                  <div className="w-px bg-white"></div>
+                  <Link prefetch target="_blank" href={link.proceedingsLink}>
+                    {link.name.slice(6, link.name.length)} Proceedings
+                  </Link>
+                </>
+                  : (
+                    ""
+                  )
+              }
             </div>
           );
         })}

@@ -1,16 +1,16 @@
 import Sponsors from "./components/Sponsors";
 import Landing from "./components/Landing";
-import LinksMarquee from "./components/LinksMarquee";
 import Organizers from "./components/Organizers";
 import Timeline from "./components/Timeline";
 import Timer from "./components/Timer";
 import Updates from "./components/Updates";
-
+import links from "@/constants/links-marquee.json";
+import LinksMarquee from "./components/LinksMarquee";
 const HomePage = () => {
   return (
     <>
       <Landing />
-      <LinksMarquee />
+      <LinksMarquee links={links} />
       <Timer endTime={"2025-02-17"} />
       <Updates />
       {/*<Timeline /> //use timeline for final version */}

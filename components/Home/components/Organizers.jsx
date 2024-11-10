@@ -42,6 +42,7 @@ const Organizers = () => {
           </div>
         ))}
       </Marquee> */}
+      
       <div className=" flex items-center justify-evenly max-lg:flex-col max-lg:space-y-4 ">
         {filteredorganizersData.map((org, i) => {
           return (
