@@ -12,6 +12,11 @@
     "link": "/call-for-papers"
   },
   {
+    "name":"Accepted Papers",
+    "link":"/accepted-papers",
+    "item":"CALDAM 2025 - Accepted Papers.pdf"
+  },
+  {
     "name": "Invited Speakers",
     "link": "/invitedspeakers"
   },
