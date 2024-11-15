@@ -59,7 +59,7 @@ export default function Navbar() {
                   <Link
                     prefetch
                     target={elem?.item ? "_blank" : ""}
-                    href={elem?.item ? elem.item : elem.name}
+                    href={elem?.item ? elem.item : elem.link}
                     onClick={() => setOpenNavbar(false)}
                     className="inline-block text-white"
                   >
@@ -107,7 +107,7 @@ export default function Navbar() {
                       <Link
                         prefetch
                         target={elem?.item ? "_blank" : ""}
-                        href={elem?.item ? elem.item : elem.name}
+                        href={elem?.item ? elem.item : elem.link}
                         onClick={() => setOpenNavbar(false)}
                         className="block w-full text-left text-white"
                       >
