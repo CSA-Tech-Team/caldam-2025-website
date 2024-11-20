@@ -431,7 +431,9 @@ export default function Page() {
           <a className="text-blue-700" href="https://link.springer.com/book/10.1007/978-3-030-67899-9">CALDAM 2021</a>,{" "}
           <a className="text-blue-700" href="https://link.springer.com/book/10.1007/978-3-030-95018-7">CALDAM 2022</a>,{" "}
           <a className="text-blue-700" href="https://link.springer.com/book/10.1007/978-3-031-25211-2">CALDAM 2023</a>,{" "}
-          <a className="text-blue-700" href="https://link.springer.com/book/10.1007/978-3-031-52213-0">CALDAM 2024</a>), were published in the Lecture Notes in Computer Science by Springer. Also, selected papers are being published as a special issue of Discrete Applied Mathematics (DAM).  As in earlier CALDAMs, the proceedings of accepted papers of CALDAM 2025 will be published in the Lecture Notes in Computer Science by Springer. As with previous CALDAM conferences, this year's event continues the tradition of excellence with Springer sponsoring awards for the best student presentations.        </h1>
+          <a className="text-blue-700" href="https://link.springer.com/book/10.1007/978-3-031-52213-0">CALDAM 2024</a>), 
+          were published in the Lecture Notes in Computer Science by Springer. Also, selected papers are being published as a special issue of Discrete Applied Mathematics (DAM).  As in earlier CALDAMs, the proceedings of accepted papers of CALDAM 2025 will be published in the Lecture Notes in Computer Science by Springer. As with previous CALDAM conferences, this year&apos;s event continues the tradition of excellence with Springer sponsoring awards for the best student presentations.        
+          </h1>
       </div>
       {/* <LinksMarquee links={data} /> */}
     </main>
