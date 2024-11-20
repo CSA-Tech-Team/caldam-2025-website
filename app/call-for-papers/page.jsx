@@ -8,6 +8,9 @@ import Link from "next/link";
 import TextContraction from "@/components/Home/components/TextContraction";
 import { Square } from "lucide-react";
 // import Component from "./_components/Component";
+import data from "@/constants/proceedingslink.json"
+import LinksMarquee from "@/components/Home/components/LinksMarquee";
+
 function Component() {
   return (
     <div className="rounded-lg">
@@ -25,7 +28,7 @@ function Component() {
           icon={<Square className="h-4 w-4 bg-white text-white" />}
           title="Last date for Revision of Submission by Author(s)"
           date="October 2, 2024, 6 pm IST"
-          // description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        // description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
         />
         <TimelineItem
           icon={<Square className="h-4 w-4 bg-white text-white" />}
@@ -417,14 +420,20 @@ export default function Page() {
         <h1 className=" text-4xl font-semibold max-lg:text-2xl ">
           Proceedings
         </h1>
-        <p className="text-xl max-lg:text-lg">
-          As in earlier CALDAMs, the proceedings of accepted papers of CALDAM
-          2025 will be published in the Lecture Notes in Computer Science by
-          Springer. As with previous CALDAM conferences, this year&apos;s event
-          continues the tradition of excellence with Springer sponsoring awards
-          for the best student presentations.
-        </p>
+        <h1 className="text-xl max-lg:text-lg">
+          The proceedings of accepted papers
+          (<a className="text-blue-700" href="http://www.springer.com/in/book/9783319149738">CALDAM 2015</a>,{" "}
+          <a className="text-blue-700" href="http://www.springer.com/in/book/9783319292205/">CALDAM 2016</a>,{" "}
+          <a className="text-blue-700" href="http://www.springer.com/in/book/9783319530062/"> CALDAM 2017</a>,{" "}
+          <a className="text-blue-700" href="https://link.springer.com/book/10.1007/978-3-319-74180-2">CALDAM 2018</a>,{" "}
+          <a className="text-blue-700" href="https://link.springer.com/book/10.1007/978-3-030-11509-8">CALDAM 2019</a>,{" "}
+          <a className="text-blue-700" href="https://link.springer.com/book/10.1007/978-3-030-39219-2">CALDAM 2020</a>,{" "}
+          <a className="text-blue-700" href="https://link.springer.com/book/10.1007/978-3-030-67899-9">CALDAM 2021</a>,{" "}
+          <a className="text-blue-700" href="https://link.springer.com/book/10.1007/978-3-030-95018-7">CALDAM 2022</a>,{" "}
+          <a className="text-blue-700" href="https://link.springer.com/book/10.1007/978-3-031-25211-2">CALDAM 2023</a>,{" "}
+          <a className="text-blue-700" href="https://link.springer.com/book/10.1007/978-3-031-52213-0">CALDAM 2024</a>), were published in the Lecture Notes in Computer Science by Springer. Also, selected papers are being published as a special issue of Discrete Applied Mathematics (DAM).  As in earlier CALDAMs, the proceedings of accepted papers of CALDAM 2025 will be published in the Lecture Notes in Computer Science by Springer. As with previous CALDAM conferences, this year's event continues the tradition of excellence with Springer sponsoring awards for the best student presentations.        </h1>
       </div>
+      {/* <LinksMarquee links={data} /> */}
     </main>
   );
 }
