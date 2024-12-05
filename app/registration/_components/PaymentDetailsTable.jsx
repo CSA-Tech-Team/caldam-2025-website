@@ -33,11 +33,12 @@ const PaymentDetailsTable = () => {
           </tr>
           <tr>
             <td className="px-4 py-2 border ">IFSC Code</td>
-            <td className="px-4 py-2 border ">CBIN0280913</td>
+            <td className="px-4 py-2 border ">CBIN0280913</td>  
           </tr>
           <tr>
             <td className="px-4 py-2 border ">SWIFT Code</td>
-            <td className="px-4 py-2 border ">CBININBBOSB</td>
+            <td className="px-4 py-2 border ">CBININBBCOB</td>{"old CBININBBOSB"}
+            {" updated swift code"}
           </tr>
         </tbody>
       </table>

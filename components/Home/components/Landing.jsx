@@ -67,7 +67,7 @@ function Landing() {
               contentStart="The International Conference on Algorithms and Discrete Applied
           Mathematics (CALDAM), held under the aegis of the "
               contentLinks={
-                "Association of Computer Science and Discrete Mathematics (ACSDM)"
+                "Association for Computer Science and Discrete Mathematics (ACSDM)"
               }
               contentAfterLink={`, is intended to bring together researchers working in the areas of Algorithms and Applied Discrete Mathematics and provide a high-quality forum for the dissemination and discussion of research results in these broad areas.`}
               contentRemaining=" CALDAM has originated from the ongoing efforts to promote research in Algorithms and Discrete Mathematics. As in the previous editions of CALDAM, the proceedings of accepted papers of this edition will be published in Lecture Notes in Computer Science by Springer. Also, selected papers are being published as a special issue of the journal Discrete Applied Mathematics (DAM). As with previous CALDAM conferences, this year's event continues the tradition of excellence with Springer sponsoring awards for the best student presentations. Google sponsors CALDAM 2025 as in the previous editions of CALDAM."
@@ -99,7 +99,7 @@ function Landing() {
             contentStart="The International Conference on Algorithms and Discrete Applied
           Mathematics (CALDAM),"
             contentAfterLink={`held under aegis of the `}
-            contentLinks={`Association of Computer
+            contentLinks={`Association for Computer
           Science and Discrete Mathematics (ACSDM) `}
             contentRemaining={`is intended to bring together researchers working in the areas of Algorithms and Applied Discrete Mathematics and provide a high-quality forum for the dissemination and discussion of research results in these broad areas. CALDAM has originated from the ongoing efforts to promote research in Algorithms and Discrete Mathematics. As in the previous editions of CALDAM, the proceedings of accepted papers of this edition will be published  in Lecture Notes in Computer Science by Springer. Also, selected papers are being published as a special issue of the journal Discrete Applied Mathematics (DAM). As with previous CALDAM conferences, this year's event continues the tradition of excellence with Springer sponsoring awards for the best student presentations. Google sponsors CALDAM 2025 as in the previous editions of CALDAM.`}
           />
