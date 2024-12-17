@@ -37,8 +37,9 @@ const PaymentDetailsTable = () => {
           </tr>
           <tr>
             <td className="px-4 py-2 border ">SWIFT Code</td>
-            <td className="px-4 py-2 border ">CBININBBCOB</td>{"old CBININBBOSB"}
-            {" updated swift code"}
+            <td className="px-4 py-2 border ">CBININBBCOB</td>
+            {/* {"old CBININBBOSB"}
+            {" updated swift code"} */}
           </tr>
         </tbody>
       </table>
