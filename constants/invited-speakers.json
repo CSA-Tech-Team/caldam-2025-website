@@ -8,6 +8,7 @@
     {
       "name": "Manoj Changat",
       "collegeName": "University of Kerala",
+      "topic":"Convex Geometries etermined by betweenness axioms",
       "link": "http://www.keralauniversity.ac.in/future/faculty_details.html?id=83",
       "country": "India"
     },
@@ -16,6 +17,7 @@
         "collegeName": "Freie Universität Berlin",
         "link": "http://page.mi.fu-berlin.de/mulzer/",
         "conferenceTitle": "",
-        "country": "Germany"
+        "country": "Germany",
+        "topic":"Disk Graphs and Transmission Graphs -- Recent Developments"
       }
 ]
