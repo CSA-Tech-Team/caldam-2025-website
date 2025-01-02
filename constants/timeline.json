@@ -1,111 +1,184 @@
 [
     {
-        "time": "TBA",
-        "title": "TBA",
+        "time": "08:00 AM",
+        "title": "Registration",
+        "isExpandable": false
+    },
+    {
+        "time": "08:45 AM",
+        "title": "Inauguration",
+        "triggerDay":0,
+        "isExpandable": false
+    },
+    {
+        "time": "09:15 AM",
+        "title": "Invited Talk – I",
         "isExpandable": true,
-        "expandHTMLContent": "TBA",
+        "expandHTMLContent": "Graph products, prime factorization, unique roots and cancellation - Wilfried Imrich",
         "isTrigger": true,
-        "triggerDay": 0
+        "triggerDay":0
     },
     {
-        "time": "TBA",
-        "title": "TBA",
+        "time": "10:30 AM",
+        "title": "Tea Break",
         "isExpandable": false
     },
     {
-        "time": "TBA",
-        "title": "TBA",
-        "isExpandable": false
-    },
-    {
-        "time": "TBA",
-        "title": "TBA",
-        "isExpandable": false
-    },
-    {
-        "time": "TBA",
-        "title": "TBA",
-        "isExpandable": false
-    },
-    {
-        "time": "TBA",
-        "title": "TBA",
-        "isExpandable": false
-    },
-    {
-        "time": "TBA",
-        "title": "TBA",
-        "isExpandable": false
-    },
-    {
-        "time": "TBA",
-        "title": "TBA",
-        "isExpandable": false
-    },
-    {
-        "time": "TBA",
-        "title": "TBA",
-        "isExpandable": false
-    },
-    {
-        "time": "TBA",
-        "title": "TBA",
+        "time": "11:00 AM",
+        "title": "Graph Theory - I",
         "isExpandable": true,
-        "expandHTMLContent": "TBA",
+        "expandHTMLContent": "Session Chair: TBD\n- On full-separating sets in graphs (Dipayan Chakraborty, Annegret Wagler)\n- On a Tight Bound for the Maximum Number of Vertices that Belong to Every Metric Basis (Anni Hakanen et al.)\n- An algebraic characterization of strong graphs (Pablo Romero)\n- Generalized Lettericity of Graphs (Zhidan Feng et al.)\n- There are finitely many uniformly most reliable graphs of corank 5 (Pablo Romero)",
         "isTrigger": true,
-        "triggerDay": 1
+        "triggerDay":0
     },
     {
-        "time": "TBA",
-        "title": "TBA",
+        "time": "01:05 PM",
+        "title": "Lunch",
         "isExpandable": false
     },
     {
-        "time": "TBA",
-        "title": "TBA",
-        "isExpandable": false
-    },
-    {
-        "time": "TBA",
-        "title": "TBA",
-        "isExpandable": false
-    },
-    {
-        "time": "TBA",
-        "title": "TBA",
-        "isExpandable": false
-    },
-    {
-        "time": "TBA",
-        "title": "TBA",
-        "isExpandable": false
-    },
-    {
-        "time": "TBA",
-        "title": "TBA",
-        "isExpandable": false
-    },
-    {
-        "time": "TBA",
-        "title": "TBA",
-        "isExpandable": false
-    },
-    {
-        "time": "TBA",
-        "title": "TBA",
-        "isExpandable": false
-    },
-    {
-        "time": "TBA",
-        "title": "TBA",
-        "isExpandable": false
-    },
-    {
-        "time": "TBA",
-        "title": "TBA",
+        "time": "02:15 PM",
+        "title": "Graph Algorithms - I",
         "isExpandable": true,
-        "expandHTMLContent": "TBA",
+        "expandHTMLContent": "Session Chair: TBD\n- Extension Perfect Roman Domination (Kevin Mann, Henning Fernau)\n- Packing sets of paths, stars and triangles: tractability and approximability (Santiago Ravelo, Flavio K. Miyazawa)\n- Polynomial-time algorithms for PATH COVER on trees and graphs of bounded treewidth (Florent Foucaud et al.)\n- Structural Parameterization of Minus Domination (Sangam Balchandar Reddy, Anjeneya Swami Kare)",
+        "isTrigger": true,
+        "triggerDay":0
+    },
+    {
+        "time": "03:55 PM",
+        "title": "Tea Break",
+        "isExpandable": false
+    },
+    {
+        "time": "04:25 PM",
+        "title": "Algorithms and Complexity - I",
+        "isExpandable": true,
+        "expandHTMLContent": "Session Chair: TBD\n- The MASEMPR problem and its applications in logistics (Anand Subramani et al.)\n- A sub-quadratic algorithm for the minsum one sink location problem on balanced binary tree networks (Jannatul Maowa, Robert Benkoczi)\n- Addressing Bias in Algorithmic Solutions: Exploring Vertex Cover and Feedback Vertex Set (Sheikh Shakil Akhtar et al.)\n- Partial Domination in Some Geometric Intersection Graphs (Madhura Dutta et al.)",
+        "isTrigger": true,
+        "triggerDay":0
+    },
+    {
+        "time": "06:05 PM",
+        "title": "Business Meeting",
+        "isExpandable": true,
+        "expandHTMLContent": "CALDAM Business Meeting\nChair: Subir Kumar Ghosh",
+        "isTrigger": true,
+        "triggerDay":0
+    },
+    {
+        "time": "09:15 AM",
+        "title": "Invited Talk - II",
+        "isExpandable": true,
+        "expandHTMLContent": "Disk Graphs and Transmission Graphs -- Recent Developments - Wolfgang Mulzer",
+        "isTrigger": true,
+        "triggerDay":1
+    },
+    {
+        "time": "10:30 AM",
+        "title": "Tea Break",
+        "isExpandable": false
+    },
+    {
+        "time": "11:00 AM",
+        "title": "Graph Theory - II",
+        "isExpandable": true,
+        "expandHTMLContent": "Session Chair: TBD\n- Graceful coloring is computationally hard (Cyriac Antony et al.)\n- Broadcast Graph Is NP-complete (Jinghan Xu, Zhiyuan Li)",
+        "isTrigger": true,
+        "triggerDay":1
+    },
+    {
+        "time": "11:50 AM",
+        "title": "Computational Geometry",
+        "isExpandable": true,
+        "expandHTMLContent": "Session Chair: TBD\n- Maximizing the Maximum Degree in Ordered Nearest Neighbor Graphs (Péter Ágoston et al.)\n- Multipacking in Euclidean Plane (Arun Kumar Das et al.)\n- Almost Empty Monochromatic Polygons in Planar Point Sets (Bhaswar Bhattacharya et al.)",
+        "isTrigger": true,
+        "triggerDay":1
+    },
+    {
+        "time": "01:05 PM",
+        "title": "Lunch",
+        "isExpandable": false
+    },
+    {
+        "time": "02:15 PM",
+        "title": "Graph Algorithms - II",
+        "isExpandable": true,
+        "expandHTMLContent": "Session Chair: TBD\n- Parameterized Complexity of Coupon Coloring of Graphs (Pradeesha Ashok et al.)\n- On the parameterized Complexity of Odd Coloring (Sriram Bhyravarapu et al.)",
+        "isTrigger": true,
+        "triggerDay":1
+    },
+    {
+        "time": "03:05 PM",
+        "title": "Graph Theory - III",
+        "isExpandable": true,
+        "expandHTMLContent": "Session Chair: TBD\n- Total Domination and Open Packing in Two Subclasses of Triangle-free Graphs (M A Shalu, V K Kirubakaran)\n- Helly Number, Radon Number and Rank in $\\Delta$-Convexity on Graphs (Bijo S. Anand et al.)",
+        "isTrigger": true,
+        "triggerDay":1
+    },
+    {
+        "time": "03:55 PM",
+        "title": "Tea Break",
+        "isExpandable": false
+    },
+    {
+        "time": "04:25 PM",
+        "title": "Invited Talk III",
+        "isExpandable": true,
+        "expandHTMLContent": "Convex Geometries determined by betweenness axioms - Manoj Changat",
+        "isTrigger": true,
+        "triggerDay":1
+    },
+    {
+        "time": "05:40 PM",
+        "title": "Felicitation Ceremony",
+        "isExpandable": true,
+        "expandHTMLContent": "Felicitation of Prof. Manoj Changat on his retirement",
+        "isTrigger": true,
+        "triggerDay":1
+    },
+    {
+        "time": "07:30 PM",
+        "title": "Banquet Dinner",
+        "isExpandable": false
+    },
+    {
+        "time": "09:15 AM",
+        "title": "Algorithms and Complexity - II",
+        "isExpandable": true,
+        "expandHTMLContent": "Session Chair: TBD\n- Algorithms and hardness results for the $(3,1)$-cover problem (Amirali Madani et al.)\n- Two Step Graph Protection Game (Saraswati Girish Nanoti, Aakash Ghosh)\n- Polynomial time algorithms for Hop domination (Karthika D et al.)",
         "isTrigger": true,
         "triggerDay": 2
+    },
+    {
+        "time": "10:30 AM",
+        "title": "Tea Break",
+        "isExpandable": false
+    },
+    {
+        "time": "11:00 AM",
+        "title": "Graph Algorithms - III",
+        "isExpandable": true,
+        "expandHTMLContent": "Session Chair: TBD\n- Fast FPT Algorithms for Grundy Number on Dense Graphs (Sina Ghasemi Nezhad et al.)\n- Polynomial time algorithms for Hop domination (Karthika D et al.)",
+        "isTrigger": true,
+        "triggerDay": 2
+    },
+    {
+        "time": "11:50 AM",
+        "title": "Graph Theory - IV",
+        "isExpandable": true,
+        "expandHTMLContent": "Session Chair: TBD\n- Spectra of eccentricity matrices of product of graphs (S. Balamoorthy, T. Kavaskar)\n- Bipartite Domination in Graphs: Complexity and Algorithms (Bhawani Sankar Panda et al.)\n- Forbidden induced subgraphs in iterative higher order line graphs (Aryan Sanghi et al.)",
+        "isTrigger": true,
+        "triggerDay": 2
+    },
+    {
+        "time": "01:05 PM",
+        "title": "Conclusion",
+        "isExpandable": false,
+        "triggerDay":2
+    },
+    {
+        "time": "01:20 PM",
+        "title": "Lunch",
+        "isExpandable": false
     }
 ]

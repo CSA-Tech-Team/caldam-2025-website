@@ -9,7 +9,7 @@ import TimelineCard from "./TimelineCard";
 
 const Timeline = () => {
   const TIMELINE_LETTERS = "TIMELINE".split("").reverse();
-  const DAYS = ["DAY-0", "DAY-1", "DAY-2"];
+  const DAYS = ["DAY-1", "DAY-2", "DAY-3"];
   const DAYS_DESKTOP = DAYS.map((t) => t.split(""));
 
   const [currentDay, setCurrentDay] = useState(0);

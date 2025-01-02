@@ -18,10 +18,10 @@ const TimelineCard = ({
   const [expanded, setExpanded] = useState(false);
 
   const element = useRef(null);
-  const isVisible = useIntersection(element, "0px");
+  const isVisible = useIntersection(element, "10px");
 
   useEffect(() => {
-    if (isVisible && isTrigger) {
+    if (isVisible && isTrigger && typeof triggerCallback === "function") {
       triggerCallback();
     }
   }, [isVisible, isTrigger, triggerCallback]);
