@@ -27,7 +27,7 @@
         "time": "11:00 AM",
         "title": "Graph Theory - I",
         "isExpandable": true,
-        "expandHTMLContent": "Session Chair: TBD\n- On full-separating sets in graphs (Dipayan Chakraborty, Annegret Wagler)\n- On a Tight Bound for the Maximum Number of Vertices that Belong to Every Metric Basis (Anni Hakanen et al.)\n- An algebraic characterization of strong graphs (Pablo Romero)\n- Generalized Lettericity of Graphs (Zhidan Feng et al.)\n- There are finitely many uniformly most reliable graphs of corank 5 (Pablo Romero)",
+        "expandHTMLContent": "Session Chair: TBD\n- On full-separating sets in graphs (Dipayan Chakraborty, Annegret Wagler)\n- On a Tight Bound for the Maximum Number of Vertices that Belong to Every Metric Basis (Anni Hakanen, Ville Junnila, Tero Laihonen, Havu Miikonen and Ismael G. Yero)\n- An algebraic characterization of strong graphs (Pablo Romero)\n- Generalized Lettericity of Graphs (Zhidan Feng, Henning Fernau, Kevin Mann, Indhumathi Raman and Silas Cato Sacher)\n- There are finitely many uniformly most reliable graphs of corank 5 (Pablo Romero)",
         "isTrigger": true,
         "triggerDay":0
     },
@@ -40,7 +40,7 @@
         "time": "02:15 PM",
         "title": "Graph Algorithms - I",
         "isExpandable": true,
-        "expandHTMLContent": "Session Chair: TBD\n- Extension Perfect Roman Domination (Kevin Mann, Henning Fernau)\n- Packing sets of paths, stars and triangles: tractability and approximability (Santiago Ravelo, Flavio K. Miyazawa)\n- Polynomial-time algorithms for PATH COVER on trees and graphs of bounded treewidth (Florent Foucaud et al.)\n- Structural Parameterization of Minus Domination (Sangam Balchandar Reddy, Anjeneya Swami Kare)",
+        "expandHTMLContent": "Session Chair: TBD\n- Extension Perfect Roman Domination (Kevin Mann, Henning Fernau)\n- Packing sets of paths, stars and triangles: tractability and approximability (Santiago Ravelo, Flavio K. Miyazawa)\n- Polynomial-time algorithms for PATH COVER on trees and graphs of bounded treewidth (Florent Foucaud, Atrayee Majumder, Tobias Mömke and Aida Roshany-Tabrizi)\n- Structural Parameterization of Minus Domination (Sangam Balchandar Reddy, Anjeneya Swami Kare)",
         "isTrigger": true,
         "triggerDay":0
     },
@@ -53,7 +53,7 @@
         "time": "04:25 PM",
         "title": "Algorithms and Complexity - I",
         "isExpandable": true,
-        "expandHTMLContent": "Session Chair: TBD\n- The MASEMPR problem and its applications in logistics (Anand Subramani et al.)\n- A sub-quadratic algorithm for the minsum one sink location problem on balanced binary tree networks (Jannatul Maowa, Robert Benkoczi)\n- Addressing Bias in Algorithmic Solutions: Exploring Vertex Cover and Feedback Vertex Set (Sheikh Shakil Akhtar et al.)\n- Partial Domination in Some Geometric Intersection Graphs (Madhura Dutta et al.)",
+        "expandHTMLContent": "Session Chair: TBD\n- The MASEMPR problem and its applications in logistics (Anand Subramani, K. Subramani, Piotr Wojciechowski and Sangram Kishor Jena)\n- A sub-quadratic algorithm for the minsum one sink location problem on balanced binary tree networks (Jannatul Maowa, Robert Benkoczi)\n- Addressing Bias in Algorithmic Solutions: Exploring Vertex Cover and Feedback Vertex Set (Sheikh Shakil Akhtar, Jayakrishnan Madathil, Pranabendu Misra and Geevarghese Philip)\n- Partial Domination in Some Geometric Intersection Graphs (Madhura Dutta, Anil Maheshwari and Subhas C. Nandy)",
         "isTrigger": true,
         "triggerDay":0
     },
@@ -82,7 +82,7 @@
         "time": "11:00 AM",
         "title": "Graph Theory - II",
         "isExpandable": true,
-        "expandHTMLContent": "Session Chair: TBD\n- Graceful coloring is computationally hard (Cyriac Antony et al.)\n- Broadcast Graph Is NP-complete (Jinghan Xu, Zhiyuan Li)",
+        "expandHTMLContent": "Session Chair: TBD\n- Graceful coloring is computationally hard (Cyriac Antony, Jacob Antony, Laavanya D and Devi Yamini S)\n- Broadcast Graph Is NP-complete (Jinghan Xu, Zhiyuan Li)",
         "isTrigger": true,
         "triggerDay":1
     },
@@ -90,7 +90,7 @@
         "time": "11:50 AM",
         "title": "Computational Geometry",
         "isExpandable": true,
-        "expandHTMLContent": "Session Chair: TBD\n- Maximizing the Maximum Degree in Ordered Nearest Neighbor Graphs (Péter Ágoston et al.)\n- Multipacking in Euclidean Plane (Arun Kumar Das et al.)\n- Almost Empty Monochromatic Polygons in Planar Point Sets (Bhaswar Bhattacharya et al.)",
+        "expandHTMLContent": "Session Chair: TBD\n- Maximizing the Maximum Degree in Ordered Nearest Neighbor Graphs (Péter Ágoston, Adrian Dumitrescu, Arsenii Sagdeev, Karamjeet Singh and Ji Zeng)\n- Multipacking in Euclidean Plane (Arun Kumar Das, Sandip Das, Sk Samim Islam, Ritam M Mitra and Bodhayan Roy)\n- Almost Empty Monochromatic Polygons in Planar Point Sets (Bhaswar Bhattacharya, Sandip Das, Sk Samim Islam and Saumya Sen)",
         "isTrigger": true,
         "triggerDay":1
     },
@@ -103,7 +103,7 @@
         "time": "02:15 PM",
         "title": "Graph Algorithms - II",
         "isExpandable": true,
-        "expandHTMLContent": "Session Chair: TBD\n- Parameterized Complexity of Coupon Coloring of Graphs (Pradeesha Ashok et al.)\n- On the parameterized Complexity of Odd Coloring (Sriram Bhyravarapu et al.)",
+        "expandHTMLContent": "Session Chair: TBD\n- Parameterized Complexity of Coupon Coloring of Graphs (Pradeesha Ashok, Pradyun Devarakonda, Shiven Phogat, Swaroop A Ram Rayala and J A Sherin)\n- On the parameterized Complexity of Odd Coloring (Sriram Bhyravarapu, Vinod Reddy and Swati Kumari)",
         "isTrigger": true,
         "triggerDay":1
     },
@@ -111,7 +111,7 @@
         "time": "03:05 PM",
         "title": "Graph Theory - III",
         "isExpandable": true,
-        "expandHTMLContent": "Session Chair: TBD\n- Total Domination and Open Packing in Two Subclasses of Triangle-free Graphs (M A Shalu, V K Kirubakaran)\n- Helly Number, Radon Number and Rank in $\\Delta$-Convexity on Graphs (Bijo S. Anand et al.)",
+        "expandHTMLContent": "Session Chair: TBD\n- Total Domination and Open Packing in Two Subclasses of Triangle-free Graphs (M A Shalu, V K Kirubakaran)\n- Helly Number, Radon Number and Rank in $\\Delta$-Convexity on Graphs (Bijo S. Anand, Arun Anil, Manoj Changat, Revathy S. Nair and Prasanth G. Narasimha-Shenoi)",
         "isTrigger": true,
         "triggerDay":1
     },
@@ -158,7 +158,7 @@
         "time": "11:00 AM",
         "title": "Graph Algorithms - III",
         "isExpandable": true,
-        "expandHTMLContent": "Session Chair: TBD\n- Fast FPT Algorithms for Grundy Number on Dense Graphs (Sina Ghasemi Nezhad et al.)\n- Polynomial time algorithms for Hop domination (Karthika D et al.)",
+        "expandHTMLContent": "Session Chair: TBD\n- Fast FPT Algorithms for Grundy Number on Dense Graphs (Sina Ghasemi Nezhad, Maryam Moghaddas and Fahad Panolan)\n- Polynomial time algorithms for Hop domination (Karthika D, Muthucumaraswamy R, Sriram Bhyravarapu and Pritesh Kumar )",
         "isTrigger": true,
         "triggerDay": 2
     },
@@ -166,7 +166,7 @@
         "time": "11:50 AM",
         "title": "Graph Theory - IV",
         "isExpandable": true,
-        "expandHTMLContent": "Session Chair: TBD\n- Spectra of eccentricity matrices of product of graphs (S. Balamoorthy, T. Kavaskar)\n- Bipartite Domination in Graphs: Complexity and Algorithms (Bhawani Sankar Panda et al.)\n- Forbidden induced subgraphs in iterative higher order line graphs (Aryan Sanghi et al.)",
+        "expandHTMLContent": "Session Chair: TBD\n- Spectra of eccentricity matrices of product of graphs (S. Balamoorthy, T. Kavaskar)\n- Bipartite Domination in Graphs: Complexity and Algorithms (Bhawani Sankar Panda, Subhasmita Joshi and Dalu Jacob)\n- Forbidden induced subgraphs in iterative higher order line graphs (Aryan Sanghi, Devsi Bantva and Sudebkumar Prasant Pal)",
         "isTrigger": true,
         "triggerDay": 2
     },
