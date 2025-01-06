@@ -21,6 +21,11 @@
     "link": "/invitedspeakers"
   },
   {
+    "name":"Conference Schedule",
+    "link":"/conference-schedule",
+    "item":"CALDAM 2025 Conference Schedule.pdf"
+  },  
+  {
     "name": "Conference Registration",
     "link": "/registration",
     "new":"Registration Opens",
@@ -37,9 +42,5 @@
     "name":"DAM Special Issue of CALDAM 2024",
     "link":"/damspecialissue",
     "item":"CALDAM 2024 DAM special issue writeup.docx.pdf"
-  },{
-    "name":"Conference Schedule",
-    "link":"/conference-schedule",
-    "item":"CALDAM 2025 Conference Schedule.pdf"
   }
 ]
