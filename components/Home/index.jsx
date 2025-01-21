@@ -6,6 +6,7 @@ import Timer from "./components/Timer";
 import Updates from "./components/Updates";
 import links from "@/constants/links-marquee.json";
 import LinksMarquee from "./components/LinksMarquee";
+import Condolense from "./components/Condolense";
 const HomePage = () => {
   return (
     <>
@@ -22,6 +23,7 @@ const HomePage = () => {
           <p className="text-2xl"> TBA </p>
         </div>
       </div> */}
+      <Condolense />
       <Organizers />
       <Sponsors />
     </>
