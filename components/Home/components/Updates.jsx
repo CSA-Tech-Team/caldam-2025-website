@@ -99,6 +99,7 @@ export default function Updates() {
                       </div>{" "}
                       <p>{update.startMonth}</p>
                       <p>{update.year}</p>
+                      <p>{update.time}</p>
                     </div>
                   </div>
                   <div className="flex w-full flex-row items-center justify-between rounded-lg border border-black px-8 py-4">

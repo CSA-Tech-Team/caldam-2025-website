@@ -15,7 +15,6 @@
     "year": "2024",
     "navigateTo": "/call-for-papers"
   },
-
   {
     "preConferenceSchoolEventName": "Last date for Revision of Submission by Author(s)",
     "isOpen": true,
@@ -73,5 +72,15 @@
     "EndDate": "15th",
     "navigateTo": "/",
     "year": "2025"
+  },
+  {
+    "preConferenceSchoolEventName": "Condolence Meeting in Memory of Professor Ajit Arvind Diwan",
+    "isOpen": false,
+    "startMonth": "Feb",
+    "StartDate": "13th",
+    "EndDate": "",
+    "navigateTo": " https://meet.google.com/fbh-fiqj-xfb",
+    "year": "2025",
+    "time":"6:45pm"
   }
 ]

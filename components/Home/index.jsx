@@ -23,7 +23,7 @@ const HomePage = () => {
           <p className="text-2xl"> TBA </p>
         </div>
       </div> */}
-      <Condolense />
+      {/* <Condolense /> */}
       <Organizers />
       <Sponsors />
     </>
