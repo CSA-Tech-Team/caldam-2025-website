@@ -36,6 +36,11 @@
     "link": "/pre-conference-school"
   },
   {
+    "name":"Pre-Conference School Schedule",
+    "link":"/pre-conf-schedule",
+    "item":"Pre-Conference School Schedule.pdf"
+  },
+  {
     "name": "Venue",
     "link": "/venue"
   },
