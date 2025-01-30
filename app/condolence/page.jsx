@@ -9,13 +9,13 @@ const CondolenceMeeting = () => {
             <div className="w-full max-w-4xl bg-white shadow-lg rounded-lg overflow-hidden sm:p-8 p-4">
                 <div className="flex flex-col md:flex-row md:items-center">
                     <div className="md:w-1/3 flex justify-center mb-6 md:mb-0">
-                        <div className="relative w-40 h-40 md:w-48 md:h-48 rounded-full overflow-hidden border-4 border-gray-200">
-                            <Image src="/ajit-diwan.webp" alt="Ajit Arvind Diwan" layout="fill" objectFit="cover" />
+                        <div className="relative w-40 h-40 md:w-48 md:h-48 overflow-hidden border-4 border-gray-200">
+                            <Image src="/ajit-diwan.png" alt="Ajit Arvind Diwan" layout="fill" objectFit="cover" />
                         </div>
                     </div>
                     <div className="md:w-2/3 md:pl-8">
                         <header className="text-center md:text-left border-b pb-4 md:border-none md:pb-0">
-                            <div className="flex justify-center md:justify-start mb-4">
+                            {/* <div className="flex justify-center md:justify-start mb-4">
                                 <svg
                                     xmlns="http://www.w3.org/2000/svg"
                                     width="24"
@@ -32,7 +32,7 @@ const CondolenceMeeting = () => {
                                     <path d="M12 2a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h0a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2Z" />
                                     <path d="M12 12a3 3 0 0 0 0 6" />
                                 </svg>
-                            </div>
+                            </div> */}
                             <h1 className="text-3xl font-serif text-gray-800 mb-2">Condolence Meeting</h1>
                             <p className="text-lg text-gray-600 mb-1">In Memory of</p>
                             <h2 className="text-2xl font-serif text-gray-800">Ajit Arvind Diwan</h2>

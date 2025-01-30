@@ -72,7 +72,7 @@ export default function Navbar() {
         </div>
 
         {/* Mobile View Hamburger */}
-        <div className="lg:hidden">
+        <div className="lg:hidden z-10">
           <Hamburger
             onClick={() => {
               setOpenNavbar(!openNavbar);
@@ -88,8 +88,23 @@ export default function Navbar() {
               initial="initial"
               animate="animate"
               exit="exit"
-              className="absolute left-0 top-full flex w-full origin-top flex-col items-end justify-between bg-bluecolor p-5 lg:hidden"
+              className="fixed top-0 left-0 w-full h-screen bg-bluecolor p-5 lg:hidden flex flex-col items-start justify-start overflow-y-auto"
             >
+              {/* Title Section */}
+              <div className="w-full">
+                <h1
+                  onClick={(e) => {
+                    e.preventDefault();
+                    router.push("/");
+                  }}
+                  className="cursor-pointer text-xl mb-4"
+                >
+                  CALDAM
+                  <p className="text-sm">2025</p>
+                </h1>
+              </div>
+
+              {/* Navbar Elements */}
               {NavbarElements.map((elem, index) => {
                 const newTextClasses = elem.new
                   ? "absolute -top-1 px-2 py-1 rounded-lg text-xs font-bold text-white bg-blue-500 z-10 hover:cursor-pointer"
@@ -131,6 +146,7 @@ export default function Navbar() {
             </motion.div>
           )}
         </AnimatePresence>
+
       </div>
     </div>
   );

@@ -12,45 +12,45 @@
     "link": "/call-for-papers"
   },
   {
-    "name":"Accepted Papers",
-    "link":"/accepted-papers",
-    "item":"CALDAM 2025 - Accepted Papers.pdf"
+    "name": "Accepted Papers",
+    "link": "/accepted-papers",
+    "item": "CALDAM 2025 - Accepted Papers.pdf"
   },
   {
     "name": "Invited Speakers",
     "link": "/invitedspeakers"
   },
   {
-    "name":"Conference Schedule",
-    "link":"/conference-schedule",
-    "item":"CALDAM 2025 Conference Schedule.pdf"
-  },  
+    "name": "Conference Schedule",
+    "link": "/conference-schedule",
+    "item": "CALDAM 2025 Conference Schedule.pdf"
+  },
   {
     "name": "Conference Registration",
     "link": "/registration",
-    "new":"Registration Opens",
-    "newlink":"/registration"
+    "new": "Registration Opens",
+    "newlink": "/registration"
   },
   {
     "name": "Pre-Conference School",
     "link": "/pre-conference-school"
   },
   {
-    "name":"Pre-Conference School Schedule",
-    "link":"/pre-conf-schedule",
-    "item":"Pre-Conference School Schedule.pdf"
+    "name": "Pre-Conference School Schedule",
+    "link": "/pre-conf-schedule",
+    "item": "Pre-Conference School Schedule.pdf"
   },
   {
     "name": "Venue",
     "link": "/venue"
   },
   {
-    "name":"Condolence meeting in memory of Ajit Arvind Diwan",
-    "link":"/condolence"
+    "name": "DAM Special Issue of CALDAM 2024",
+    "link": "/damspecialissue",
+    "item": "CALDAM 2024 DAM special issue writeup.docx.pdf"
   },
   {
-    "name":"DAM Special Issue of CALDAM 2024",
-    "link":"/damspecialissue",
-    "item":"CALDAM 2024 DAM special issue writeup.docx.pdf"
+    "name": "Condolence meeting in memory of Ajit Arvind Diwan",
+    "link": "/condolence"
   }
 ]
