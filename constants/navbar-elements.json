@@ -50,6 +50,11 @@
     "item": "CALDAM 2024 DAM special issue writeup.docx.pdf"
   },
   {
+    "name":"Proceedings",
+    "link":"/proceedings",
+    "item":"proceedings.pdf"
+  },
+  {
     "name": "Condolence meeting in memory of Ajit Arvind Diwan",
     "link": "/condolence"
   }
