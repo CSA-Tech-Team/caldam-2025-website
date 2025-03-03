@@ -18,7 +18,9 @@
   },
   {
     "name": "Invited Speakers",
-    "link": "/invitedspeakers"
+    "link": "/invitedspeakers",
+    "new": "Slides of Talk",
+    "newlink":"/invitedspeakers"
   },
   {
     "name": "Conference Schedule",
@@ -27,13 +29,13 @@
   },
   {
     "name": "Conference Registration",
-    "link": "/registration",
-    "new": "Registration Opens",
-    "newlink": "/registration"
+    "link": "/registration"
   },
   {
     "name": "Pre-Conference School",
-    "link": "/pre-conference-school"
+    "link": "/pre-conference-school",
+    "new": "Slides of Talk",
+    "newlink": "/pre-conference-school"
   },
   {
     "name": "Pre-Conference School Schedule",
@@ -53,6 +55,11 @@
     "name":"Proceedings",
     "link":"/proceedings",
     "item":"proceedings.pdf"
+  },
+  {
+    "name":"Photos",
+    "link":"photos",
+    "item":"https://drive.google.com/drive/folders/1kbwsjY0EulOmKASoldrZQ1IHulwIB2p6?usp=sharing"
   },
   {
     "name": "Condolence meeting in memory of Ajit Arvind Diwan",

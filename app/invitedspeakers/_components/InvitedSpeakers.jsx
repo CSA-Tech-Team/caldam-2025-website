@@ -7,7 +7,7 @@ function InvitedSpeaker() {
   return (
     <div className="bg-bluecolor p-8 lg:p-14">
       <h1 className="mb-10 text-2xl lg:text-4xl font-bold uppercase text-white">
-        Tentative List Of Invited Speakers
+        Invited Speakers
       </h1>
       <div className="grid grid-cols-1 gap-5 md:grid-cols-2  lg:grid-cols-3 text-white">
         {invitedspeakers.map((invitedSpeaker, index) => (
@@ -30,9 +30,19 @@ function InvitedSpeaker() {
 
                 <h1 className="text-2xl lg:text-3xl font-bold text-headingColor">Title of Talk:</h1>
                 <h1 className="p-3 text-xl font-semibold text-bluecolor ">{invitedSpeaker?.topic}</h1>
+                <div className=" h-0.5 w-full border border-b-2 border-black " />
+                {
+                  invitedSpeaker?.slideLink ? (
+                    <Link href={invitedSpeaker.slideLink} target="_blank" >
+                      <button className=" mt-3 rounded-md bg-orange px-8 py-3 font-semibold text-black ">
+                        Go to Slides {"> >"}</button>
+                    </Link>
+                  ) : ""
+                }
               </div>
             ) : ""}
           </div>
+
         ))}
       </div>
     </div>

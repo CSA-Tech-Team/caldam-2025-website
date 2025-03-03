@@ -9,6 +9,7 @@ export default function PeopleCard({
   conferenceTitle,
   country,
   deptname,
+  slides,
   darkVariant = false,
 }) {
   return (
@@ -24,7 +25,7 @@ export default function PeopleCard({
         </div>
         {deptname && (
           <span
-          className={` text-[16px] lg:font-semibold `}
+            className={` text-[16px] lg:font-semibold `}
           >{deptname},</span>
         )}
         <div className={`text-[16px]  ${!deptname && "text-lg"} text-bluevariants-300 lg:h-[65px] ${link && "lg:h-[100px]"} lg:font-semibold `}>
@@ -40,6 +41,14 @@ export default function PeopleCard({
           </Link>
         </div>
       )}
+      {
+        slides ? (
+          <Link href={slides} target="_blank" >
+            <button className="rounded-md bg-bluecolor px-8 py-3 font-semibold text-white ">
+              Go to Slides {"> >"}</button>
+          </Link>
+        ) : ""
+      }
     </div>
   );
 }

@@ -2,27 +2,32 @@
     {
         "name": "Aida Abiad",
         "collegeName": "Eindhoven University of Technology, The Netherlands",
-        "link": "https://aidaabiad.win.tue.nl/"
+        "link": "https://aidaabiad.win.tue.nl/",
+        "slideLink":"Aida Abiad.pdf"
     },
     {
         "name": "Sergio Cabello",
         "collegeName": "University of Ljubljana, Slovenia",
-        "link": "https://users.fmf.uni-lj.si/cabello/"
+        "link": "https://users.fmf.uni-lj.si/cabello/",
+        "slideLink":"Sergio.pdf"
     },
     {
         "name": "Kolja Knauer",
         "collegeName": "Universitat de Barcelona, Spain",
-        "link": "https://pageperso.lis-lab.fr/~kolja.knauer/"
+        "link": "https://pageperso.lis-lab.fr/~kolja.knauer/",
+        "slideLink":"Kolja.pdf"
     },
     {
         "name": "Abhranil Chatterjee",
         "collegeName": "Indian Institute of Technology Kanpur, India",
-        "link": "https://cabhranil.bitbucket.io/"
+        "link": "https://cabhranil.bitbucket.io/",
+        "slideLink":"Abhranil Chatterjee.pdf"
     },
     {
         "name": "Prajakta Nimbhorkar",
         "collegeName": "Chennai Mathematical Institute, Chennai, India",
-        "link": "https://www.cmi.ac.in/~prajakta/"
+        "link": "https://www.cmi.ac.in/~prajakta/",
+        "slideLink":"Prajakta.pdf"
     },
     {
         "name": "Harmender Gahlawat",
@@ -32,7 +37,8 @@
     {
         "name": "Venkatesh Raman",
         "collegeName": "Indian Institute of Technology Palakkad, India",
-        "link": "https://www.imsc.res.in/~vraman/"
+        "link": "https://www.imsc.res.in/~vraman/",
+        "slideLink":"Venkatesh.pdf"
     },
     {
         "name":"Rahul Saladi",

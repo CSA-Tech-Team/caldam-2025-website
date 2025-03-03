@@ -63,14 +63,14 @@ const CondolenceMeeting = () => {
                         </a>
                     </div>
                 </main>
-                <footer className="flex justify-center border-t mt-6 pt-4 pb-6">
+                {/* <footer className="flex justify-center border-t mt-6 pt-4 pb-6">
                     <button
                         className="px-4 py-2 border border-gray-300 rounded-md text-gray-700 hover:bg-gray-50 transition-colors duration-200"
                         onClick={() => window.open("https://meet.google.com/fbh-fiqj-xfb", "_blank")}
                     >
                         Join Virtual Meeting
                     </button>
-                </footer>
+                </footer> */}
             </div>
         </div>
     )
