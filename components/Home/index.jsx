@@ -12,7 +12,7 @@ const HomePage = () => {
     <>
       <Landing />
       <LinksMarquee links={links} />
-      <Timer endTime={"2025-02-17"} />
+      {/* <Timer endTime={"2025-02-17"} /> */}
       <Updates />
       {/*<Timeline /> //use timeline for final version */}
       {/* <div className="h-[300px] p-8 max-lg:flex-col lg:h-[400px] lg:p-14">
